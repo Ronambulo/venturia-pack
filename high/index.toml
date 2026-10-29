@@ -2617,6 +2617,10 @@ file = "config/defaultoptions/options.txt"
 hash = "86e2694598ffa22bc816366012583a897591f03b8167bcbd2d7c603bd348468c"
 
 [[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "6ab8b51a43a6ec7e379848ee7e69faa640236b5c0231ce66c9566959daad7bde"
+
+[[files]]
 file = "config/delighto_flight-common.toml"
 hash = "695986b75071275553a0aef9e1b801843196a43164e2d9832482bbd7946c1db4"
 
@@ -2826,7 +2830,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/fm_venturia.txt"
-hash = "3cc5d846797c1333a572cff909bbc68b4575ab8585a93810fc2cfe316af2601f"
+hash = "cbf3c81471ed6a39ffab7f47f2cd6f57b17669471b74304eb3ea4d11dcf0c52a"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -4221,7 +4225,7 @@ hash = "1f09ddeb7043f4c0517dcb353ca4a808576c2cddde277c1bbbf9bf52235383bf"
 
 [[files]]
 file = "config/venturia-version.txt"
-hash = "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+hash = "44e161e4495cac2cf7858043e9e6418e9579f0ddcfae826f9a372622968ce066"
 
 [[files]]
 file = "config/venturia_aracnofobia.txt"
@@ -6414,6 +6418,11 @@ metafile = true
 [[files]]
 file = "mods/sable-neoforge-1.21.1-2.0.6.pw.toml"
 hash = "a482f51197595969016d60dfa16193d66c29dcbab0f93cf2176e5ad2fb72ab96"
+metafile = true
+
+[[files]]
+file = "mods/sablecollisiondamage-1.0.8.pw.toml"
+hash = "d318635b4fae2beda5e56b563edad1c4e26551a25ad6ce9028036b235c76e86a"
 metafile = true
 
 [[files]]

@@ -2617,6 +2617,10 @@ file = "config/defaultoptions/options.txt"
 hash = "ee5663d57a01b057dee97c801512190bb58858609682fdbafd37efc118c5be7f"
 
 [[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "6ab8b51a43a6ec7e379848ee7e69faa640236b5c0231ce66c9566959daad7bde"
+
+[[files]]
 file = "config/delighto_flight-common.toml"
 hash = "695986b75071275553a0aef9e1b801843196a43164e2d9832482bbd7946c1db4"
 
@@ -4101,7 +4105,7 @@ hash = "1f09ddeb7043f4c0517dcb353ca4a808576c2cddde277c1bbbf9bf52235383bf"
 
 [[files]]
 file = "config/venturia-version.txt"
-hash = "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+hash = "44e161e4495cac2cf7858043e9e6418e9579f0ddcfae826f9a372622968ce066"
 
 [[files]]
 file = "config/venturia_aracnofobia.txt"
@@ -6128,7 +6132,7 @@ metafile = true
 
 [[files]]
 file = "mods/sablecollisiondamage-1.0.8.pw.toml"
-hash = "3967e4a11e177d1189e7560a2a64879b493489113efe37815cda853500767393"
+hash = "d318635b4fae2beda5e56b563edad1c4e26551a25ad6ce9028036b235c76e86a"
 metafile = true
 
 [[files]]

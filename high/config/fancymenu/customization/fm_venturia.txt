@@ -355,7 +355,7 @@ layout_action_executable_blocks {
 
 element {
   button_element_executable_block_identifier = db1a8810-fa33-412c-ae50-00ad1eea462e-1779797700842
-  [executable_action_instance:e4007bd9-44a2-41b6-81ce-1cb0aa14abe7-1791651956539][action_type:joinserver] = REEMPLAZA_ESTA_IP:25565
+  [executable_action_instance:e4007bd9-44a2-41b6-81ce-1cb0aa14abe7-1791651956539][action_type:joinserver] = play.rodriguezdelreal.com:25567
   [executable_block:db1a8810-fa33-412c-ae50-00ad1eea462e-1779797700842][type:generic] = [executables:e4007bd9-44a2-41b6-81ce-1cb0aa14abe7-1791651956539;]
   underline_label_on_hover = false
   transparent_background = true
@@ -502,7 +502,7 @@ element {
 
 element {
   interactable = true
-  source = v1.0.0
+  source = v1.0.1
   source_mode = direct
   shadow = true
   enable_scrolling = false

@@ -1,6 +1,6 @@
 name = "sablecollisiondamage-1.0.8.jar"
 filename = "sablecollisiondamage-1.0.8.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Jm4nvDTr/versions/snRIIWNz/sablecollisiondamage-1.0.8.jar"
