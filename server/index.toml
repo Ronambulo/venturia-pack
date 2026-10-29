@@ -4100,6 +4100,10 @@ file = "config/veinmining-server.toml"
 hash = "1f09ddeb7043f4c0517dcb353ca4a808576c2cddde277c1bbbf9bf52235383bf"
 
 [[files]]
+file = "config/venturia-version.txt"
+hash = "f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2"
+
+[[files]]
 file = "config/venturia_aracnofobia.txt"
 hash = "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
 

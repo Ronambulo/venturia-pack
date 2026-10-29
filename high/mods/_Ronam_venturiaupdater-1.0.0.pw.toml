@@ -1,0 +1,8 @@
+name = "[Ronam]venturiaupdater-1.0.0.jar"
+filename = "[Ronam]venturiaupdater-1.0.0.jar"
+side = "client"
+
+[download]
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/5551db0b3c168e7461044ecbd99688f0b7c104cf.jar"
+hash-format = "sha1"
+hash = "5551db0b3c168e7461044ecbd99688f0b7c104cf"
