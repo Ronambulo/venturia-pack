@@ -3,7 +3,13 @@
 Packs [packwiz](https://packwiz.infra.link/) generados con `config/ftbquests_build/mk_packwiz.py` a partir de los `.mrpack`.
 Se sirven desde raw.githubusercontent (GitHub Pages no vale: el dominio de Ronambulo.github.io apunta a Vercel): `https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/<tier>/pack.toml` (`high`, `mid`, `low`, `server`).
 
-## Jugadores (Modrinth App, una sola vez)
+## Jugadores
+
+No hace falta configurar nada: el mod **[Ronam] Venturia Updater** (solo cliente) compara `config/venturia-version.txt`
+con la versión de `pack.toml` y, si hay una nueva, avisa en el menú principal. "Actualizar y cerrar" cierra el juego,
+`venturia-update.bat <pid>` espera a que termine, instala con packwiz y avisa para volver a darle a Jugar.
+
+Opcional, para que se actualice solo antes de cada arranque (Modrinth App, una sola vez):
 
 1. Importa el `.mrpack` de tu versión (High / Mid / Low).
 2. En la instancia: **Ajustes → Launch hooks → Pre-launch** escribe:
