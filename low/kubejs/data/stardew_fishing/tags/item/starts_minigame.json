@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "eternal_starlight:rookfish",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:luminofish",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:luminaris",
+      "required": false
+    }
+  ]
+}

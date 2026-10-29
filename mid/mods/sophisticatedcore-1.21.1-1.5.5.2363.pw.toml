@@ -1,0 +1,8 @@
+name = "sophisticatedcore-1.21.1-1.5.5.2363.jar"
+filename = "sophisticatedcore-1.21.1-1.5.5.2363.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/7e259873d606a5aed91472f7a9818f941b6a8f75.jar"
+hash-format = "sha1"
+hash = "7e259873d606a5aed91472f7a9818f941b6a8f75"

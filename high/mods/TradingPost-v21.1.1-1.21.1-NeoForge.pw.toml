@@ -1,0 +1,8 @@
+name = "TradingPost-v21.1.1-1.21.1-NeoForge.jar"
+filename = "TradingPost-v21.1.1-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8pcjMDgj/versions/iAzPpBdI/TradingPost-v21.1.1-1.21.1-NeoForge.jar"
+hash-format = "sha1"
+hash = "030a4f9fb5be80db3f982ded814fbc36e5101a7e"

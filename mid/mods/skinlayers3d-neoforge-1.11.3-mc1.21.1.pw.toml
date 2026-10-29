@@ -1,0 +1,8 @@
+name = "skinlayers3d-neoforge-1.11.3-mc1.21.1.jar"
+filename = "skinlayers3d-neoforge-1.11.3-mc1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zV5r3pPn/versions/5s6lxsQW/skinlayers3d-neoforge-1.11.3-mc1.21.1.jar"
+hash-format = "sha1"
+hash = "c3ca1000cf0e82608bc4a96067e15a20ecdbec1b"

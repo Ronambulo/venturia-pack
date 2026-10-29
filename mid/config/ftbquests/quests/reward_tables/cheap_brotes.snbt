@@ -1,0 +1,96 @@
+{
+	id: "43D8DE120B36F01C"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			count: 8
+			id: "3B5BEE61397B9679"
+			item: {
+				count: 1
+				id: "minecraft:oak_sapling"
+			}
+			weight: 18.0f
+		}
+		{
+			count: 8
+			id: "330E27EC540F5F5E"
+			item: {
+				count: 1
+				id: "minecraft:birch_sapling"
+			}
+			weight: 16.0f
+		}
+		{
+			count: 8
+			id: "55A2A77AB0A2C7C0"
+			item: {
+				count: 1
+				id: "minecraft:spruce_sapling"
+			}
+			weight: 16.0f
+		}
+		{
+			count: 8
+			id: "59B5E7232BE2C6C1"
+			item: {
+				count: 1
+				id: "minecraft:jungle_sapling"
+			}
+			weight: 12.0f
+		}
+		{
+			count: 8
+			id: "1D3395FC2C45B9AE"
+			item: {
+				count: 1
+				id: "minecraft:acacia_sapling"
+			}
+			weight: 12.0f
+		}
+		{
+			count: 8
+			id: "0B66B7CAAF42C4FF"
+			item: {
+				count: 1
+				id: "minecraft:dark_oak_sapling"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "2AA0DA6E6291418E"
+			item: {
+				count: 1
+				id: "minecraft:cherry_sapling"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "4833271716311EAD"
+			item: {
+				count: 1
+				id: "minecraft:mangrove_propagule"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 8
+			id: "0B615601CAB91482"
+			item: {
+				count: 1
+				id: "minecraft:flowering_azalea"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 8
+			id: "71E949FBD17A8F55"
+			item: {
+				count: 1
+				id: "cookscollection:lemon_sapling"
+			}
+		}
+	]
+}

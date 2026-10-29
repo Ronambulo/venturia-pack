@@ -1,0 +1,519 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "espacio"
+	group: "034687D5B1FA5FDB"
+	icon: {
+		id: "creatingspace:rocket_engine"
+	}
+	id: "70928CC542FFDFD9"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5ED560445C6D6799"]
+			icon: {
+				id: "creatingspace:nickel_ingot"
+			}
+			id: "163249402B930F75"
+			rewards: [{
+				count: 8
+				id: "5EE43028B21F7DF3"
+				item: {
+					count: 1
+					id: "creatingspace:nickel_ingot"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				count: 8L
+				id: "4FB6E84DB0B154CE"
+				item: { count: 1, id: "creatingspace:nickel_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["163249402B930F75"]
+			icon: {
+				id: "creatingspace:copronickel_ingot"
+			}
+			id: "0BF7B5EC8DA2E270"
+			rewards: [{
+				id: "7FEC5D14BD31ABFB"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 4L
+				icon: {
+					id: "creatingspace:copronickel_ingot"
+				}
+				id: "65AC39EE3BFAC5AC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(creatingspace:copronickel_ingot)item(creatingspace:reinforced_copper_ingot)item(creatingspace:monel_ingot)item(creatingspace:inconel_ingot)item(creatingspace:hastelloy_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["163249402B930F75"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "creatingspace:liquid_oxygen_bucket"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "025088ED5226218B"
+			rewards: [{
+				count: 4
+				id: "1C00BE5396B1F672"
+				item: {
+					count: 1
+					id: "create:fluid_tank"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: {
+						id: "creatingspace:air_liquefier"
+					}
+					id: "74DD38A05AD0C525"
+					item: { components: { "ftbfiltersystem:filter": "or(item(creatingspace:air_liquefier)item(creatingspace:mechanical_electrolyzer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "66CF61228BC9D2E8"
+					item: { components: { "ftbquests:missing_item": "creatingspace:liquid_oxygen_bucket" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:missing_item": "creatingspace:liquid_hydrogen_bucket"
+						}
+						id: "ftbquests:missing_item"
+					}
+					id: "3D49857CD608B233"
+					item: { components: { "ftbfiltersystem:filter": "or(item(creatingspace:liquid_hydrogen_bucket)item(creatingspace:liquid_methane_bucket))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0BF7B5EC8DA2E270"]
+			icon: {
+				id: "creatingspace:rocket_engine"
+			}
+			id: "498F5E34B398FE8E"
+			rewards: [{
+				id: "1B1141AAD59DE904"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "151586F12AAF8D47"
+					item: { count: 1, id: "creatingspace:rocket_engineer_table" }
+					type: "item"
+				}
+				{
+					id: "6386031260331212"
+					item: { count: 1, id: "creatingspace:rocket_engine" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["163249402B930F75"]
+			icon: {
+				id: "creatingspace:basic_spacesuit_helmet"
+			}
+			id: "57D208313B2413BE"
+			rewards: [{
+				count: 16
+				id: "6323B2CD07C490C9"
+				item: {
+					count: 1
+					id: "creatingspace:space_food"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4F99113094187240"
+					item: { count: 1, id: "creatingspace:basic_spacesuit_helmet" }
+					type: "item"
+				}
+				{
+					id: "21FA8B82DE91F070"
+					item: { count: 1, id: "creatingspace:copper_oxygen_backtank" }
+					type: "item"
+				}
+				{
+					id: "3CCBBB1682E00B41"
+					item: { count: 1, id: "creatingspace:basic_spacesuit_leggings" }
+					type: "item"
+				}
+				{
+					id: "2EBF611213AB1BAD"
+					item: { count: 1, id: "creatingspace:basic_spacesuit_boots" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"498F5E34B398FE8E"
+				"025088ED5226218B"
+			]
+			icon: {
+				id: "creatingspace:rocket_controls"
+			}
+			id: "681D4A7D4FDB769D"
+			rewards: [{
+				id: "213BE9C3CFA18259"
+				item: {
+					count: 1
+					id: "creatingspace:flight_recorder"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "79BBD25942EF0B65"
+				item: { count: 1, id: "creatingspace:rocket_controls" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"681D4A7D4FDB769D"
+				"57D208313B2413BE"
+			]
+			icon: {
+				id: "minecraft:firework_rocket"
+			}
+			id: "1D19C3319E8C50A0"
+			rewards: [
+				{
+					id: "39891B81DE15DBAE"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "23FC89ECD531D2B5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "creatingspace:earth_orbit"
+				id: "5D30DB2A90247962"
+				type: "dimension"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D19C3319E8C50A0"]
+			icon: {
+				id: "creatingspace:moon_stone"
+			}
+			id: "54A6DC2DB6BFE7DA"
+			rewards: [{
+				id: "4CAF1125A8707EAC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "creatingspace:the_moon"
+				id: "35ACAF8D96C06D54"
+				type: "dimension"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54A6DC2DB6BFE7DA"]
+			icon: {
+				id: "creatingspace:moon_regolith"
+			}
+			id: "47EACFAF9FCD44DD"
+			optional: true
+			rewards: [{
+				id: "397837CDF31310BD"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "79EBEAAE9A55745B"
+				structure: "creatingspace:moon/abandoned_outpost"
+				type: "structure"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54A6DC2DB6BFE7DA"]
+			icon: {
+				id: "creatingspace:cobalt_ingot"
+			}
+			id: "1A900E9B768B6519"
+			optional: true
+			rewards: [{
+				id: "4BF4CD3A15DC085A"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "276BC510EA6DB8F1"
+					item: { count: 1, id: "creatingspace:aluminum_ingot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3D9A7E9A13952FDC"
+					item: { count: 1, id: "creatingspace:cobalt_ingot" }
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54A6DC2DB6BFE7DA"]
+			icon: {
+				id: "creatingspace:oxygen_sealer"
+			}
+			id: "0CFB174A658B1BDC"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "0A7B4E7B8EDF231A"
+				item: {
+					components: {
+						"ftbquests:missing_item": "creatingspace:liquid_oxygen_bucket"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "270D513B5C71ABB0"
+				item: { count: 1, id: "creatingspace:oxygen_sealer" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54A6DC2DB6BFE7DA"]
+			icon: {
+				id: "creatingspace:mars_stone"
+			}
+			id: "4600A1D7940CDC2B"
+			rewards: [
+				{
+					id: "18890A0A5980C32D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "37617A7B98912198"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "creatingspace:mars"
+				id: "00DF04D88CD4FE63"
+				type: "dimension"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4600A1D7940CDC2B"]
+			icon: {
+				id: "creatingspace:mars_regolith"
+			}
+			id: "2905D4B378D97E50"
+			optional: true
+			rewards: [{
+				id: "4C605D847C62832A"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "27943D8DD6AA9D57"
+				structure: "creatingspace:mars/underground_outpost_1"
+				type: "structure"
+			}]
+			x: 17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54A6DC2DB6BFE7DA"]
+			icon: {
+				id: "creatingspace:advanced_spacesuit_helmet"
+			}
+			id: "1534861E9F671A4A"
+			rewards: [{
+				id: "24B6566DB30C6245"
+				item: {
+					count: 1
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7BC310B7DC1602BB"
+					item: { count: 1, id: "creatingspace:advanced_spacesuit_helmet" }
+					type: "item"
+				}
+				{
+					id: "390D2A63D3A9B2B5"
+					item: { count: 1, id: "creatingspace:netherite_oxygen_backtank" }
+					type: "item"
+				}
+				{
+					id: "3A8AD116D66622DF"
+					item: { count: 1, id: "creatingspace:advanced_spacesuit_leggings" }
+					type: "item"
+				}
+				{
+					id: "095E5E7C4775EFC6"
+					item: { count: 1, id: "creatingspace:advanced_spacesuit_boots" }
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4600A1D7940CDC2B"
+				"1534861E9F671A4A"
+			]
+			icon: {
+				id: "minecraft:magma_block"
+			}
+			id: "19F91B0B26B2BE58"
+			rewards: [{
+				id: "7A2ADB309D3D7982"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "creatingspace:venus"
+				id: "021F9635EB35F29A"
+				type: "dimension"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19F91B0B26B2BE58"]
+			icon: {
+				id: "creatingspace:rocket_engine"
+			}
+			id: "2CCC02C367720216"
+			rewards: [
+				{
+					count: 4
+					id: "603D2CF725A906A1"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "10C572F2686AC2CC"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CCC02C367720216"]
+			icon: {
+				id: "creatingspace:moon_surface_regolith"
+			}
+			id: "44300F6CD8F19409"
+			invisible: true
+			optional: true
+			rewards: [{
+				count: 4
+				id: "0AA6E5C3335AFE88"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "creatingspace:moon_orbit"
+					id: "4400AADC0D4B3FAB"
+					type: "dimension"
+				}
+				{
+					dimension: "creatingspace:mars_orbit"
+					id: "4B9538D1677ED510"
+					type: "dimension"
+				}
+			]
+			x: 25.0d
+			y: 0.0d
+		}
+	]
+}

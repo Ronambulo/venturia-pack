@@ -1,0 +1,13 @@
+name = "Venturia (High)"
+author = "Ronam"
+version = "test"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ba143fa08889b04aa37f3de2bdef14ae919dfcdfa49d4d0bc06ff4bae3c36f64"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.256"

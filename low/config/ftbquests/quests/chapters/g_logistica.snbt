@@ -1,0 +1,261 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "g_logistica"
+	group: "094E0F2FCF1D26FE"
+	icon: {
+		id: "create_aeronautics_automated_logistics:ship_transponder"
+	}
+	id: "2AA1D8A1336D45CC"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["77E27265DE515B6E"]
+			icon: {
+				id: "create_aeronautics_automated_logistics:ship_transponder"
+			}
+			id: "2DDD77CCFEE53729"
+			shape: "hexagon"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DDD77CCFEE53729"]
+			icon: {
+				id: "trading_floor:trading_depot"
+			}
+			id: "3F995CE0A0354D2B"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "5033C59B1144CF94"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "5CE1ECECFD5E0048"
+				item: { count: 1, id: "trading_floor:trading_depot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2DDD77CCFEE53729"]
+			icon: {
+				id: "create_aeronautics_automated_logistics:ship_transponder"
+			}
+			id: "5BADA7CD4DA2D045"
+			rewards: [{
+				id: "0ED9CF493B5FDE0A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "121BDCBDE8F8C318"
+					item: { count: 1, id: "create_aeronautics_automated_logistics:ship_transponder" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "553719B05612660E"
+					item: { count: 1, id: "create_aeronautics_automated_logistics:airship_station" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BADA7CD4DA2D045"]
+			icon: {
+				id: "create_aeronautics_automated_logistics:logistics_terminal"
+			}
+			id: "31005FC533B0799D"
+			rewards: [{
+				id: "3C53412F15E97BEE"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "14EEE3C01BDEFC71"
+				item: { count: 1, id: "create_aeronautics_automated_logistics:logistics_terminal" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BADA7CD4DA2D045"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "create_aeronautics_automated_logistics:advanced_transponder"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "2C22F01AA0F88774"
+			optional: true
+			rewards: [{
+				id: "19633D0CABDA0D3C"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "3E99F383B8BDAD90"
+				item: { components: { "ftbquests:missing_item": "create_aeronautics_automated_logistics:advanced_transponder" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2DDD77CCFEE53729"]
+			icon: {
+				id: "create_hypertube:hypertube_entrance"
+			}
+			id: "2704D838F6BBDF4F"
+			rewards: [{
+				id: "5E742B5F2F1945FA"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "50512D50E375CC2C"
+					item: { count: 1, id: "create_hypertube:hypertube_entrance" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7F28473708A178F8"
+					item: { count: 1, id: "create_hypertube:hypertube" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2704D838F6BBDF4F"]
+			icon: {
+				id: "simulatedcoasters:coaster_cart"
+			}
+			id: "5605C9D366B4FD28"
+			optional: true
+			rewards: [{
+				id: "6233A94029AA5FCA"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 16L
+					id: "2968A4C50418AFA1"
+					item: { count: 1, id: "simulatedcoasters:coaster_track" }
+					type: "item"
+				}
+				{
+					id: "48E715C646E6C749"
+					item: { count: 1, id: "simulatedcoasters:coaster_cart" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2DDD77CCFEE53729"]
+			icon: {
+				id: "toms_storage:storage_terminal"
+			}
+			id: "757A8BFB7A6D9127"
+			rewards: [{
+				count: 16
+				id: "76BD10D49108F5EC"
+				item: {
+					count: 1
+					id: "toms_storage:inventory_cable"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "78D15A715FB15A14"
+					item: { count: 1, id: "toms_storage:inventory_connector" }
+					type: "item"
+				}
+				{
+					id: "50AF18CE6569A0BE"
+					item: { count: 1, id: "toms_storage:storage_terminal" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["757A8BFB7A6D9127"]
+			icon: {
+				id: "toms_storage:crafting_terminal"
+			}
+			id: "30651EA06B2BE434"
+			optional: true
+			rewards: [{
+				id: "6B4D380D1F99665F"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "0976E205F432DE78"
+				item: { count: 1, id: "toms_storage:crafting_terminal" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"31005FC533B0799D"
+				"2704D838F6BBDF4F"
+				"757A8BFB7A6D9127"
+			]
+			icon: {
+				id: "create:stock_ticker"
+			}
+			id: "5D281D716CA53107"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					count: 2
+					id: "2A92948E5C88F84B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "45B31861BD45D611"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

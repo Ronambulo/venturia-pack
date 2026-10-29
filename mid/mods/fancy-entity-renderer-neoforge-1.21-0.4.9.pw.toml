@@ -1,0 +1,8 @@
+name = "fancy-entity-renderer-neoforge-1.21-0.4.9.jar"
+filename = "fancy-entity-renderer-neoforge-1.21-0.4.9.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/RQ6INv2n/versions/rxYHELTJ/fancy-entity-renderer-neoforge-1.21-0.4.9.jar"
+hash-format = "sha1"
+hash = "427df4a943f0b52430235cd610688e589870de2f"

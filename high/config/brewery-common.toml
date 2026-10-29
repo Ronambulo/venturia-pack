@@ -1,0 +1,160 @@
+#Fine-tuning of the drink effects.
+[Effects]
+
+	[Effects."Combustion Effect"]
+		#Radius in blocks in which monsters can catch fire.
+		# Default: 4
+		# Range: 1 ~ 16
+		combustionEffectRadius = 4
+		#Chance in percent per tick that a monster nearby catches fire.
+		# Default: 2
+		# Range: 0 ~ 100
+		combustionEffectIgniteChance = 2
+
+	[Effects."Repulsion Effect"]
+		#Radius in blocks in which entities are pushed away.
+		# Default: 4
+		# Range: 1 ~ 16
+		repulsionEffectRadius = 4
+		#How hard entities are pushed away. Grows with the effect level.
+		# Default: 0.2
+		# Range: 0.0 ~ 2.0
+		repulsionEffectStrength = 0.2
+
+	[Effects."Stoutheart Effect"]
+		#Up to how many percent of your max health the effect heals.
+		# Default: 75
+		# Range: 1 ~ 100
+		stoutHeartEffectHealthCap = 75
+		#Health points healed every half second. Grows with the effect level. 2 points = 1 heart.
+		# Default: 0.2
+		# Range: 0.0 ~ 5.0
+		stoutHeartEffectHealAmount = 0.2
+
+	[Effects."Mining Effect"]
+		#From this height up you get Haste I.
+		# Default: 50
+		# Range: -64 ~ 320
+		miningEffectHasteOneHeight = 50
+		#From this height up you get Haste II.
+		# Default: 30
+		# Range: -64 ~ 320
+		miningEffectHasteTwoHeight = 30
+		#From this height up you get Haste III.
+		# Default: 0
+		# Range: -64 ~ 320
+		miningEffectHasteThreeHeight = 0
+		#From this height up you get Haste IV. Below it you get Haste V.
+		# Default: -20
+		# Range: -64 ~ 320
+		miningEffectHasteFourHeight = -20
+
+	[Effects."Pacify Effect"]
+		#Radius in blocks in which endermen stop attacking you.
+		# Default: 32
+		# Range: 1 ~ 64
+		pacifyEffectRange = 32
+
+	[Effects."Haley Effect"]
+		#Amorous Glide lets you fly.
+		haleyEffectFlight = true
+
+#Brewing Station, brew events and Beer Elementals.
+[Brewing]
+	#How many seconds brewing takes.
+	# Default: 60
+	# Range: 5 ~ 600
+	brewTime = 60
+	#The kettle, oven, timer and whistle need your attention while brewing. Without events, beer has no quality.
+	enableBrewEvents = true
+	#Shortest time in seconds between two brew events.
+	# Default: 5
+	# Range: 1 ~ 120
+	minBrewEventInterval = 5
+	#Longest time in seconds between two brew events.
+	# Default: 15
+	# Range: 1 ~ 120
+	maxBrewEventInterval = 15
+	#Badly brewed beer can spawn Beer Elementals.
+	enableBeerElementals = true
+	#Blocks of this mod are animated.
+	animations = true
+
+#Drunk effects of beer and whiskey.
+[Drunkenness]
+	#Beer and whiskey make you drunk. Turns off all drunk effects below.
+	enableDrunkenness = true
+	#The camera sways and you stagger while drunk.
+	enableDrunkSway = true
+	#You walk slower the more drunk you are.
+	enableDrunkSlowness = true
+	#Very drunk players can black out and wake up somewhere else.
+	enableBlackout = true
+	#Chance in percent per tick that a very drunk player blacks out.
+	# Default: 0.15
+	# Range: 0.0 ~ 5.0
+	blackoutChance = 0.15
+	#After a blackout you wake up a few blocks away.
+	enableBlackoutTeleport = true
+	#How many blocks away you can wake up after a blackout.
+	# Default: 30
+	# Range: 1 ~ 128
+	blackoutTeleportRange = 30
+
+#Info tooltips that appear when looking at a block. Only affects your own screen.
+["Info Tooltips"]
+	#Shows an info tooltip when looking at the kettle of a Brewing Station.
+	showBrewingstationInfo = true
+	#Info tooltips only show while wearing Dungarees from Farm & Charm.
+	needDungarees = false
+
+#Hunger and saturation of the food items. Changes need a game restart.
+[Food]
+	# Default: 6
+	# Range: > 0
+	sausageNutrition = 6
+	# Default: 0.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	sausageSaturationMod = 0.5
+	# Default: 3
+	# Range: > 0
+	pretzelNutrition = 3
+	# Default: 0.4
+	# Range: 0.0 ~ 1.7976931348623157E308
+	pretzelSaturationMod = 0.4
+	# Default: 6
+	# Range: > 0
+	porkKnuckleNutrition = 6
+	# Default: 0.6
+	# Range: 0.0 ~ 1.7976931348623157E308
+	porkKnuckleSaturationMod = 0.6
+	# Default: 6
+	# Range: > 0
+	friedChickenNutrition = 6
+	# Default: 0.6
+	# Range: 0.0 ~ 1.7976931348623157E308
+	friedChickenSaturationMod = 0.6
+	# Default: 6
+	# Range: > 0
+	halfChickenNutrition = 6
+	# Default: 0.6
+	# Range: 0.0 ~ 1.7976931348623157E308
+	halfChickenSaturationMod = 0.6
+	# Default: 3
+	# Range: > 0
+	mashedPotatoesNutrition = 3
+	# Default: 0.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	mashedPotatoesSaturationMod = 0.5
+	# Default: 6
+	# Range: > 0
+	potatoSaladNutrition = 6
+	# Default: 0.7
+	# Range: 0.0 ~ 1.7976931348623157E308
+	potatoSaladSaturationMod = 0.7
+	# Default: 6
+	# Range: > 0
+	dumplingsNutrition = 6
+	# Default: 0.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	dumplingsSaturationMod = 0.5

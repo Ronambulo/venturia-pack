@@ -1,0 +1,8 @@
+name = "naturalist-2.0.5-neoforge-1.21.1.jar"
+filename = "naturalist-2.0.5-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/F8BQNPWX/versions/ETgOvHHS/naturalist-2.0.5-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "ea9ebf082eb978dcf583255e8fca1004a8114ab6"

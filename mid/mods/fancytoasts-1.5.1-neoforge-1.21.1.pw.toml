@@ -1,0 +1,8 @@
+name = "fancytoasts-1.5.1-neoforge-1.21.1.jar"
+filename = "fancytoasts-1.5.1-neoforge-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/eUziWqPC/versions/X2GAO9kB/fancytoasts-1.5.1-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "ea6d91fa5bc3398cf73fb4e2d614eff8ad40a83e"

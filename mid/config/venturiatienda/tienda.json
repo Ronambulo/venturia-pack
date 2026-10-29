@@ -1,0 +1,2435 @@
+{
+  "version": 1,
+  "secciones": [
+    {
+      "id": "nivel0",
+      "nombre": "Nivel 0: Puesto de novato",
+      "icono": "minecraft:cookie",
+      "mision": "shop/tienda",
+      "bloqueo": "Termina el acto 1"
+    },
+    {
+      "id": "nivel1",
+      "nombre": "Nivel 1: Mercadillo",
+      "icono": "minecraft:bread",
+      "mision": "shop/tienda",
+      "bloqueo": "Termina el acto 1"
+    },
+    {
+      "id": "nivel2",
+      "nombre": "Nivel 2: Taller",
+      "icono": "create:brass_ingot",
+      "mision": "shop/nivel2",
+      "bloqueo": "Fabrica latón (misión Taller de la Tienda)"
+    },
+    {
+      "id": "nivel3",
+      "nombre": "Nivel 3: Lonja de lujo",
+      "icono": "create:precision_mechanism",
+      "mision": "shop/nivel3",
+      "bloqueo": "Fabrica un mecanismo de precisión (misión Lonja de lujo)"
+    },
+    {
+      "id": "comida",
+      "nombre": "Mercado: comida y bebida",
+      "icono": "candlelight:cooking_pan",
+      "mision": "shop/tienda",
+      "bloqueo": "Termina el acto 1"
+    },
+    {
+      "id": "botin",
+      "nombre": "Mercado: botín de jefes",
+      "icono": "cataclysm:ignitium_ingot",
+      "mision": "shop/tienda",
+      "bloqueo": "Termina el acto 1"
+    },
+    {
+      "id": "baratas",
+      "nombre": "Cajas baratas",
+      "icono": "minecraft:chest",
+      "mision": "shop/tienda",
+      "bloqueo": "Termina el acto 1"
+    }
+  ],
+  "ofertas": [
+    {
+      "id": "s09",
+      "seccion": "nivel0",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:rotten_flesh"
+      ],
+      "cantidad": 16,
+      "precio": 2,
+      "espera": 600
+    },
+    {
+      "id": "s10",
+      "seccion": "nivel0",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:bone"
+      ],
+      "cantidad": 8,
+      "precio": 2,
+      "espera": 600
+    },
+    {
+      "id": "s11",
+      "seccion": "nivel0",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:string"
+      ],
+      "cantidad": 8,
+      "precio": 2,
+      "espera": 600
+    },
+    {
+      "id": "s12",
+      "seccion": "nivel0",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:spider_eye"
+      ],
+      "cantidad": 4,
+      "precio": 2,
+      "espera": 600
+    },
+    {
+      "id": "s13",
+      "seccion": "nivel0",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:cobblestone"
+      ],
+      "cantidad": 64,
+      "precio": 1,
+      "espera": 600
+    },
+    {
+      "id": "s14",
+      "seccion": "nivel0",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:oak_log"
+      ],
+      "cantidad": 16,
+      "precio": 2,
+      "espera": 600
+    },
+    {
+      "id": "s15",
+      "seccion": "nivel0",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:egg"
+      ],
+      "cantidad": 8,
+      "precio": 1,
+      "espera": 600
+    },
+    {
+      "id": "s16",
+      "seccion": "nivel0",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:dandelion"
+      ],
+      "cantidad": 8,
+      "precio": 1,
+      "espera": 600
+    },
+    {
+      "id": "s17",
+      "seccion": "nivel0",
+      "tipo": "comprar",
+      "objeto": "minecraft:cookie",
+      "cantidad": 4,
+      "precio": 1
+    },
+    {
+      "id": "s18",
+      "seccion": "nivel0",
+      "tipo": "comprar",
+      "objeto": "minecraft:torch",
+      "cantidad": 16,
+      "precio": 2
+    },
+    {
+      "id": "s19",
+      "seccion": "nivel0",
+      "tipo": "comprar",
+      "objeto": "minecraft:cake",
+      "cantidad": 1,
+      "precio": 3
+    },
+    {
+      "id": "s20",
+      "seccion": "nivel0",
+      "tipo": "comprar",
+      "objeto": "minecraft:glow_ink_sac",
+      "cantidad": 2,
+      "precio": 3
+    },
+    {
+      "id": "s21",
+      "seccion": "nivel0",
+      "tipo": "comprar",
+      "objeto": "minecraft:name_tag",
+      "cantidad": 1,
+      "precio": 4
+    },
+    {
+      "id": "s22",
+      "seccion": "nivel0",
+      "tipo": "comprar",
+      "objeto": "minecraft:lead",
+      "cantidad": 2,
+      "precio": 4
+    },
+    {
+      "id": "s23",
+      "seccion": "nivel0",
+      "tipo": "comprar",
+      "objeto": "minecraft:pufferfish_bucket",
+      "cantidad": 1,
+      "precio": 5
+    },
+    {
+      "id": "s24",
+      "seccion": "nivel0",
+      "tipo": "comprar",
+      "objeto": "minecraft:firework_rocket",
+      "cantidad": 8,
+      "precio": 6
+    },
+    {
+      "id": "s25",
+      "seccion": "nivel0",
+      "tipo": "comprar",
+      "objeto": "minecraft:bell",
+      "cantidad": 1,
+      "precio": 8
+    },
+    {
+      "id": "s26",
+      "seccion": "nivel0",
+      "tipo": "comprar",
+      "objeto": "minecraft:saddle",
+      "cantidad": 1,
+      "precio": 8
+    },
+    {
+      "id": "s27",
+      "seccion": "nivel0",
+      "tipo": "comprar",
+      "objeto": "minecraft:music_disc_cat",
+      "cantidad": 1,
+      "precio": 12
+    },
+    {
+      "id": "s28",
+      "seccion": "nivel0",
+      "tipo": "comprar",
+      "objeto": "create:goggles",
+      "cantidad": 1,
+      "precio": 8
+    },
+    {
+      "id": "s29",
+      "seccion": "nivel0",
+      "tipo": "comprar",
+      "objeto": "create:wrench",
+      "cantidad": 1,
+      "precio": 8
+    },
+    {
+      "id": "s30",
+      "seccion": "nivel1",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:iron_ingot"
+      ],
+      "cantidad": 512,
+      "precio": 16,
+      "espera": 3600
+    },
+    {
+      "id": "s31",
+      "seccion": "nivel1",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:copper_ingot"
+      ],
+      "cantidad": 512,
+      "precio": 16,
+      "espera": 3600
+    },
+    {
+      "id": "s32",
+      "seccion": "nivel1",
+      "tipo": "vender",
+      "objetos": [
+        "create:zinc_ingot"
+      ],
+      "cantidad": 512,
+      "precio": 16,
+      "espera": 3600
+    },
+    {
+      "id": "s33",
+      "seccion": "nivel1",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:gold_ingot"
+      ],
+      "cantidad": 256,
+      "precio": 16,
+      "espera": 3600
+    },
+    {
+      "id": "s34",
+      "seccion": "nivel1",
+      "tipo": "vender",
+      "objetos": [
+        "create:andesite_alloy"
+      ],
+      "cantidad": 512,
+      "precio": 16,
+      "espera": 3600
+    },
+    {
+      "id": "s35",
+      "seccion": "nivel1",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:bread"
+      ],
+      "cantidad": 256,
+      "precio": 16,
+      "espera": 3600
+    },
+    {
+      "id": "s36",
+      "seccion": "nivel1",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:cooked_beef"
+      ],
+      "cantidad": 256,
+      "precio": 16,
+      "espera": 1800
+    },
+    {
+      "id": "s37",
+      "seccion": "nivel1",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:leather"
+      ],
+      "cantidad": 128,
+      "precio": 16,
+      "espera": 1800
+    },
+    {
+      "id": "s38",
+      "seccion": "nivel1",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:echo_shard"
+      ],
+      "cantidad": 4,
+      "precio": 64,
+      "espera": 7200
+    },
+    {
+      "id": "s39",
+      "seccion": "nivel1",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:heart_of_the_sea"
+      ],
+      "cantidad": 1,
+      "precio": 64,
+      "espera": 7200
+    },
+    {
+      "id": "s40",
+      "seccion": "nivel1",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:trident"
+      ],
+      "cantidad": 1,
+      "precio": 64,
+      "espera": 7200
+    },
+    {
+      "id": "s41",
+      "seccion": "nivel1",
+      "tipo": "comprar",
+      "objeto": "minecraft:golden_carrot",
+      "cantidad": 32,
+      "precio": 16
+    },
+    {
+      "id": "s42",
+      "seccion": "nivel1",
+      "tipo": "comprar",
+      "objeto": "waystones:warp_scroll",
+      "cantidad": 4,
+      "precio": 32,
+      "escala": 0.1
+    },
+    {
+      "id": "s43",
+      "seccion": "nivel1",
+      "tipo": "comprar",
+      "objeto": "sophisticatedbackpacks:backpack",
+      "cantidad": 1,
+      "precio": 64
+    },
+    {
+      "id": "s44",
+      "seccion": "nivel1",
+      "tipo": "comprar",
+      "objeto": "aeronautics:white_envelope",
+      "cantidad": 16,
+      "precio": 32
+    },
+    {
+      "id": "s45",
+      "seccion": "nivel1",
+      "tipo": "comprar",
+      "objeto": "aeronautics:andesite_propeller",
+      "cantidad": 1,
+      "precio": 32
+    },
+    {
+      "id": "s46",
+      "seccion": "nivel1",
+      "tipo": "caja",
+      "caja": "create_base_tier_1",
+      "precio": 32
+    },
+    {
+      "id": "s47",
+      "seccion": "nivel2",
+      "tipo": "vender",
+      "objetos": [
+        "create:brass_ingot"
+      ],
+      "cantidad": 256,
+      "precio": 32,
+      "espera": 3600
+    },
+    {
+      "id": "s48",
+      "seccion": "nivel2",
+      "tipo": "vender",
+      "objetos": [
+        "create:electron_tube"
+      ],
+      "cantidad": 32,
+      "precio": 48,
+      "espera": 1800
+    },
+    {
+      "id": "s49",
+      "seccion": "nivel2",
+      "tipo": "vender",
+      "objetos": [
+        "create:sturdy_sheet"
+      ],
+      "cantidad": 32,
+      "precio": 64,
+      "espera": 1800
+    },
+    {
+      "id": "s50",
+      "seccion": "nivel2",
+      "tipo": "vender",
+      "objetos": [
+        "create:track"
+      ],
+      "cantidad": 128,
+      "precio": 32,
+      "espera": 1800
+    },
+    {
+      "id": "s51",
+      "seccion": "nivel2",
+      "tipo": "vender",
+      "objetos": [
+        "createbigcannons:steel_ingot"
+      ],
+      "cantidad": 32,
+      "precio": 64,
+      "espera": 1800
+    },
+    {
+      "id": "s52",
+      "seccion": "nivel2",
+      "tipo": "vender",
+      "objetos": [
+        "createdieselgenerators:diesel_bucket"
+      ],
+      "cantidad": 16,
+      "precio": 48,
+      "espera": 1800
+    },
+    {
+      "id": "s53",
+      "seccion": "nivel2",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:blaze_rod"
+      ],
+      "cantidad": 32,
+      "precio": 32,
+      "espera": 1800
+    },
+    {
+      "id": "s54",
+      "seccion": "nivel2",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:ender_pearl"
+      ],
+      "cantidad": 16,
+      "precio": 32,
+      "espera": 1800
+    },
+    {
+      "id": "s55",
+      "seccion": "nivel2",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:diamond"
+      ],
+      "cantidad": 16,
+      "precio": 64,
+      "espera": 1800
+    },
+    {
+      "id": "s56",
+      "seccion": "nivel2",
+      "tipo": "comprar",
+      "objeto": "waystones:waystone",
+      "cantidad": 1,
+      "precio": 128,
+      "escala": 0.1
+    },
+    {
+      "id": "s57",
+      "seccion": "nivel2",
+      "tipo": "comprar",
+      "objeto": "aeronautics:smart_propeller",
+      "cantidad": 1,
+      "precio": 128,
+      "escala": 0.1
+    },
+    {
+      "id": "s58",
+      "seccion": "nivel2",
+      "tipo": "comprar",
+      "objeto": "aeronautics:levitite",
+      "cantidad": 16,
+      "precio": 128,
+      "escala": 0.1
+    },
+    {
+      "id": "s59",
+      "seccion": "nivel2",
+      "tipo": "comprar",
+      "objeto": "ars_nouveau:source_gem",
+      "cantidad": 16,
+      "precio": 64,
+      "escala": 0.1
+    },
+    {
+      "id": "s60",
+      "seccion": "nivel2",
+      "tipo": "comprar",
+      "objeto": "minecraft:ender_pearl",
+      "cantidad": 4,
+      "precio": 64,
+      "escala": 0.1
+    },
+    {
+      "id": "s61",
+      "seccion": "nivel2",
+      "tipo": "comprar",
+      "objeto": "minecraft:diamond",
+      "cantidad": 4,
+      "precio": 64,
+      "escala": 0.1
+    },
+    {
+      "id": "s62",
+      "seccion": "nivel2",
+      "tipo": "comprar",
+      "objeto": "minecraft:experience_bottle",
+      "cantidad": 16,
+      "precio": 64,
+      "escala": 0.1
+    },
+    {
+      "id": "s63",
+      "seccion": "nivel2",
+      "tipo": "comprar",
+      "objeto": "createbigcannons:powder_charge",
+      "cantidad": 8,
+      "precio": 32,
+      "escala": 0.1
+    },
+    {
+      "id": "s64",
+      "seccion": "nivel2",
+      "tipo": "comprar",
+      "objeto": "createbigcannons:solid_shot",
+      "cantidad": 8,
+      "precio": 32,
+      "escala": 0.1
+    },
+    {
+      "id": "s65",
+      "seccion": "nivel2",
+      "tipo": "comprar",
+      "objeto": "createbigcannons:he_shell",
+      "cantidad": 4,
+      "precio": 128,
+      "escala": 0.1
+    },
+    {
+      "id": "s66",
+      "seccion": "nivel2",
+      "tipo": "caja",
+      "caja": "create_tier_1",
+      "precio": 64
+    },
+    {
+      "id": "s67",
+      "seccion": "nivel2",
+      "tipo": "caja",
+      "caja": "aero1",
+      "precio": 64
+    },
+    {
+      "id": "s68",
+      "seccion": "nivel2",
+      "tipo": "caja",
+      "caja": "create_cannon_cartidge",
+      "precio": 64
+    },
+    {
+      "id": "s69",
+      "seccion": "nivel3",
+      "tipo": "vender",
+      "objetos": [
+        "create:precision_mechanism"
+      ],
+      "cantidad": 16,
+      "precio": 128,
+      "espera": 1800
+    },
+    {
+      "id": "s70",
+      "seccion": "nivel3",
+      "tipo": "vender",
+      "objetos": [
+        "create:mechanical_arm"
+      ],
+      "cantidad": 4,
+      "precio": 96,
+      "espera": 1800
+    },
+    {
+      "id": "s71",
+      "seccion": "nivel3",
+      "tipo": "vender",
+      "objetos": [
+        "create:rotation_speed_controller"
+      ],
+      "cantidad": 4,
+      "precio": 96,
+      "espera": 1800
+    },
+    {
+      "id": "s72",
+      "seccion": "nivel3",
+      "tipo": "vender",
+      "objetos": [
+        "createbigcannons:nethersteel_ingot"
+      ],
+      "cantidad": 16,
+      "precio": 128,
+      "espera": 1800
+    },
+    {
+      "id": "s73",
+      "seccion": "nivel3",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:ancient_debris"
+      ],
+      "cantidad": 4,
+      "precio": 128,
+      "espera": 1800
+    },
+    {
+      "id": "s74",
+      "seccion": "nivel3",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:totem_of_undying"
+      ],
+      "cantidad": 1,
+      "precio": 64,
+      "espera": 1800
+    },
+    {
+      "id": "s75",
+      "seccion": "nivel3",
+      "tipo": "vender",
+      "objetos": [
+        "minecraft:nether_star"
+      ],
+      "cantidad": 1,
+      "precio": 512,
+      "espera": 7200
+    },
+    {
+      "id": "s76",
+      "seccion": "nivel3",
+      "tipo": "vender",
+      "objetos": [
+        "mowziesmobs:sol_visage"
+      ],
+      "cantidad": 1,
+      "precio": 512,
+      "espera": 7200
+    },
+    {
+      "id": "s77",
+      "seccion": "nivel3",
+      "tipo": "vender",
+      "objetos": [
+        "mowziesmobs:wrought_helmet"
+      ],
+      "cantidad": 1,
+      "precio": 512,
+      "espera": 7200
+    },
+    {
+      "id": "s78",
+      "seccion": "nivel3",
+      "tipo": "vender",
+      "objetos": [
+        "mutantmonsters:endersoul_hand"
+      ],
+      "cantidad": 1,
+      "precio": 512,
+      "espera": 7200
+    },
+    {
+      "id": "s79",
+      "seccion": "nivel3",
+      "tipo": "comprar",
+      "objeto": "minecraft:netherite_ingot",
+      "cantidad": 1,
+      "precio": 512,
+      "escala": 0.1
+    },
+    {
+      "id": "s80",
+      "seccion": "nivel3",
+      "tipo": "comprar",
+      "objeto": "minecraft:shulker_shell",
+      "cantidad": 2,
+      "precio": 192,
+      "escala": 0.1
+    },
+    {
+      "id": "s81",
+      "seccion": "nivel3",
+      "tipo": "comprar",
+      "objeto": "minecraft:totem_of_undying",
+      "cantidad": 1,
+      "precio": 256,
+      "escala": 0.1
+    },
+    {
+      "id": "s82",
+      "seccion": "nivel3",
+      "tipo": "comprar",
+      "objeto": "minecraft:enchanted_book[minecraft:stored_enchantments={levels:{\"minecraft:mending\":1}}]",
+      "cantidad": 1,
+      "precio": 512,
+      "escala": 0.1,
+      "nombre": "Libro: Reparación"
+    },
+    {
+      "id": "s83",
+      "seccion": "nivel3",
+      "tipo": "comprar",
+      "objeto": "minecraft:elytra",
+      "cantidad": 1,
+      "precio": 1536,
+      "escala": 0.1
+    },
+    {
+      "id": "s84",
+      "seccion": "nivel3",
+      "tipo": "comprar",
+      "objeto": "minecraft:nether_star",
+      "cantidad": 1,
+      "precio": 1536,
+      "escala": 0.1
+    },
+    {
+      "id": "s85",
+      "seccion": "nivel3",
+      "tipo": "caja",
+      "caja": "create_tier_2",
+      "precio": 192
+    },
+    {
+      "id": "s86",
+      "seccion": "nivel3",
+      "tipo": "caja",
+      "caja": "create_tier_3",
+      "precio": 512
+    },
+    {
+      "id": "s87",
+      "seccion": "nivel3",
+      "tipo": "caja",
+      "caja": "aero2",
+      "precio": 192
+    },
+    {
+      "id": "apuesta1",
+      "seccion": "nivel1",
+      "tipo": "caja",
+      "caja": "gamble_suerte",
+      "precio": 16,
+      "nombre": "Caja de la suerte"
+    },
+    {
+      "id": "apuesta2",
+      "seccion": "nivel2",
+      "tipo": "caja",
+      "caja": "gamble_apostador",
+      "precio": 64,
+      "nombre": "Caja del apostador"
+    },
+    {
+      "id": "apuesta3",
+      "seccion": "nivel3",
+      "tipo": "caja",
+      "caja": "gamble_todo_o_nada",
+      "precio": 512,
+      "nombre": "Caja todo o nada"
+    },
+    {
+      "id": "m01",
+      "seccion": "comida",
+      "tipo": "vender",
+      "cantidad": 16,
+      "precio": 16,
+      "espera": 1800,
+      "objetos": [
+        "farm_and_charm:farmers_breakfast"
+      ]
+    },
+    {
+      "id": "m02",
+      "seccion": "comida",
+      "tipo": "vender",
+      "cantidad": 16,
+      "precio": 16,
+      "espera": 1800,
+      "objetos": [
+        "farm_and_charm:goulash"
+      ]
+    },
+    {
+      "id": "m03",
+      "seccion": "comida",
+      "tipo": "vender",
+      "cantidad": 32,
+      "precio": 16,
+      "espera": 1800,
+      "objetos": [
+        "bakery:baguette"
+      ]
+    },
+    {
+      "id": "m04",
+      "seccion": "comida",
+      "tipo": "vender",
+      "cantidad": 4,
+      "precio": 16,
+      "espera": 1800,
+      "objetos": [
+        "bakery:chocolate_cake",
+        "bakery:strawberry_cake",
+        "bakery:sweetberry_cake",
+        "bakery:bundt_cake",
+        "bakery:chocolate_gateau"
+      ],
+      "nombre": "Pasteles de bakery",
+      "icono": "bakery:chocolate_cake"
+    },
+    {
+      "id": "m05",
+      "seccion": "comida",
+      "tipo": "vender",
+      "cantidad": 8,
+      "precio": 32,
+      "espera": 3600,
+      "objetos": [
+        "candlelight:beef_wellington"
+      ]
+    },
+    {
+      "id": "m06",
+      "seccion": "comida",
+      "tipo": "vender",
+      "cantidad": 8,
+      "precio": 32,
+      "espera": 3600,
+      "objetos": [
+        "candlelight:lasagne"
+      ]
+    },
+    {
+      "id": "m07",
+      "seccion": "comida",
+      "tipo": "vender",
+      "cantidad": 4,
+      "precio": 16,
+      "espera": 1800,
+      "objetos": [
+        "brewinandchewin:pizza"
+      ]
+    },
+    {
+      "id": "m08",
+      "seccion": "comida",
+      "tipo": "vender",
+      "cantidad": 2,
+      "precio": 32,
+      "espera": 3600,
+      "objetos": [
+        "brewinandchewin:flaxen_cheese_wheel",
+        "brewinandchewin:scarlet_cheese_wheel"
+      ],
+      "nombre": "Ruedas de queso",
+      "icono": "brewinandchewin:flaxen_cheese_wheel"
+    },
+    {
+      "id": "m09",
+      "seccion": "comida",
+      "tipo": "vender",
+      "cantidad": 16,
+      "precio": 16,
+      "espera": 1800,
+      "objetos": [
+        "brewery:beer_wheat",
+        "brewery:beer_barley",
+        "brewery:beer_hops",
+        "brewery:beer_oat",
+        "brewery:beer_nettle",
+        "brewery:beer_haley"
+      ],
+      "nombre": "Cervezas de brewery",
+      "icono": "brewery:beer_wheat"
+    },
+    {
+      "id": "m10",
+      "seccion": "comida",
+      "tipo": "vender",
+      "cantidad": 4,
+      "precio": 64,
+      "espera": 7200,
+      "objetos": [
+        "brewery:whiskey_jojannik",
+        "brewery:whiskey_lilitusinglemalt",
+        "brewery:whiskey_cristelwalker",
+        "brewery:whiskey_maggoallan",
+        "brewery:whiskey_carrasconlabel",
+        "brewery:whiskey_ak",
+        "brewery:whiskey_highland_hearth",
+        "brewery:whiskey_smokey_reverie",
+        "brewery:whiskey_jamesons_malt"
+      ],
+      "nombre": "Whiskies",
+      "icono": "brewery:whiskey_jojannik"
+    },
+    {
+      "id": "m11",
+      "seccion": "comida",
+      "tipo": "vender",
+      "cantidad": 16,
+      "precio": 16,
+      "espera": 1800,
+      "objetos": [
+        "farmersrespite:green_tea",
+        "farmersrespite:black_tea",
+        "farmersrespite:yellow_tea",
+        "farmersrespite:rose_hip_tea",
+        "farmersrespite:dandelion_tea"
+      ],
+      "nombre": "Tés",
+      "icono": "farmersrespite:green_tea"
+    },
+    {
+      "id": "m12",
+      "seccion": "comida",
+      "tipo": "vender",
+      "cantidad": 8,
+      "precio": 16,
+      "espera": 1800,
+      "objetos": [
+        "brewinandchewin:mead"
+      ]
+    },
+    {
+      "id": "m13",
+      "seccion": "comida",
+      "tipo": "vender",
+      "cantidad": 64,
+      "precio": 8,
+      "espera": 1800,
+      "objetos": [
+        "#c:foods/raw_fish"
+      ]
+    },
+    {
+      "id": "m14",
+      "seccion": "comida",
+      "tipo": "vender",
+      "cantidad": 1,
+      "precio": 128,
+      "espera": 7200,
+      "objetos": [
+        "#stardew_fishing:legendary_fish"
+      ]
+    },
+    {
+      "id": "m21",
+      "seccion": "botin",
+      "tipo": "vender",
+      "cantidad": 1,
+      "precio": 192,
+      "espera": 14400,
+      "objetos": [
+        "cataclysm:ignitium_ingot"
+      ]
+    },
+    {
+      "id": "m22",
+      "seccion": "botin",
+      "tipo": "vender",
+      "cantidad": 1,
+      "precio": 192,
+      "espera": 14400,
+      "objetos": [
+        "cataclysm:monstrous_horn"
+      ]
+    },
+    {
+      "id": "m23",
+      "seccion": "botin",
+      "tipo": "vender",
+      "cantidad": 1,
+      "precio": 192,
+      "espera": 14400,
+      "objetos": [
+        "cataclysm:void_core"
+      ]
+    },
+    {
+      "id": "m24",
+      "seccion": "botin",
+      "tipo": "vender",
+      "cantidad": 4,
+      "precio": 128,
+      "espera": 14400,
+      "objetos": [
+        "cataclysm:witherite_ingot"
+      ]
+    },
+    {
+      "id": "m25",
+      "seccion": "botin",
+      "tipo": "vender",
+      "cantidad": 4,
+      "precio": 128,
+      "espera": 14400,
+      "objetos": [
+        "cataclysm:ancient_metal_ingot"
+      ]
+    },
+    {
+      "id": "m26",
+      "seccion": "botin",
+      "tipo": "vender",
+      "cantidad": 2,
+      "precio": 192,
+      "espera": 14400,
+      "objetos": [
+        "cataclysm:cursium_ingot"
+      ]
+    },
+    {
+      "id": "m27",
+      "seccion": "botin",
+      "tipo": "vender",
+      "cantidad": 2,
+      "precio": 512,
+      "espera": 28800,
+      "objetos": [
+        "cataclysm:essence_of_the_storm"
+      ]
+    },
+    {
+      "id": "m28",
+      "seccion": "botin",
+      "tipo": "vender",
+      "cantidad": 16,
+      "precio": 64,
+      "espera": 7200,
+      "objetos": [
+        "cataclysm:lava_power_cell"
+      ]
+    },
+    {
+      "id": "m29",
+      "seccion": "botin",
+      "tipo": "vender",
+      "cantidad": 8,
+      "precio": 64,
+      "espera": 7200,
+      "objetos": [
+        "cataclysm:lacrima"
+      ]
+    },
+    {
+      "id": "c01",
+      "seccion": "baratas",
+      "tipo": "caja",
+      "caja": "cheap_brotes",
+      "precio": 4
+    },
+    {
+      "id": "c02",
+      "seccion": "baratas",
+      "tipo": "caja",
+      "caja": "cheap_granja",
+      "precio": 8
+    },
+    {
+      "id": "c03",
+      "seccion": "baratas",
+      "tipo": "caja",
+      "caja": "cheap_comida",
+      "precio": 4
+    },
+    {
+      "id": "c04",
+      "seccion": "baratas",
+      "tipo": "caja",
+      "caja": "cheap_semillas",
+      "precio": 8
+    },
+    {
+      "id": "c05",
+      "seccion": "baratas",
+      "tipo": "caja",
+      "caja": "cheap_mascotas",
+      "precio": 16
+    },
+    {
+      "id": "c06",
+      "seccion": "baratas",
+      "tipo": "caja",
+      "caja": "cheap_cultivos",
+      "precio": 4
+    },
+    {
+      "id": "c07",
+      "seccion": "baratas",
+      "tipo": "caja",
+      "caja": "cheap_abejas",
+      "precio": 8
+    },
+    {
+      "id": "c08",
+      "seccion": "baratas",
+      "tipo": "caja",
+      "caja": "cheap_combustible",
+      "precio": 8
+    },
+    {
+      "id": "c09",
+      "seccion": "baratas",
+      "tipo": "caja",
+      "caja": "cheap_explorador",
+      "precio": 8
+    }
+  ],
+  "cajas": {
+    "create_base_tier_1": {
+      "nombre": "Caja de Create básica",
+      "icono": "minecraft:chest",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "minecraft:andesite",
+          "cantidad": 8,
+          "peso": 1.0
+        },
+        {
+          "objeto": "minecraft:andesite",
+          "cantidad": 16,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:andesite_alloy",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:andesite_alloy",
+          "cantidad": 8,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:andesite_alloy",
+          "cantidad": 32,
+          "peso": 0.75
+        },
+        {
+          "objeto": "create:shaft",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:shaft",
+          "cantidad": 8,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:cogwheel",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:cogwheel",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:large_cogwheel",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:large_cogwheel",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:andesite_casing",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:andesite_casing",
+          "cantidad": 4,
+          "peso": 1.0
+        }
+      ],
+      "estilo": "madera"
+    },
+    "create_tier_1": {
+      "nombre": "Caja de Create I",
+      "icono": "minecraft:chest",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "create:iron_sheet",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:golden_sheet",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:copper_sheet",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:iron_sheet",
+          "cantidad": 8,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:golden_sheet",
+          "cantidad": 8,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:copper_sheet",
+          "cantidad": 8,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:clutch",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:clutch",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:gearshift",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:gearshift",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:andesite_funnel",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:andesite_tunnel",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "minecraft:copper_block",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "minecraft:copper_block",
+          "cantidad": 4,
+          "peso": 0.75
+        },
+        {
+          "objeto": "minecraft:copper_block",
+          "cantidad": 16,
+          "peso": 0.05
+        },
+        {
+          "objeto": "create:fluid_pipe",
+          "cantidad": 4,
+          "peso": 0.825
+        },
+        {
+          "objeto": "create:fluid_pipe",
+          "cantidad": 8,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:fluid_pipe",
+          "cantidad": 16,
+          "peso": 0.825
+        },
+        {
+          "objeto": "create:fluid_tank",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:redstone_link",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:speedometer",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:stressometer",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:chain_conveyor",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:cardboard",
+          "cantidad": 16,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createaddition:spool",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createaddition:copper_spool",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:copper_backtank",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:casting_sand",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:andesite_alloy",
+          "cantidad": 16,
+          "peso": 1.0
+        }
+      ],
+      "estilo": "hierro"
+    },
+    "aero1": {
+      "nombre": "Caja de aeronáutica",
+      "icono": "minecraft:chest",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "simulated:physics_assembler",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "simulated:contraption_diagram",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "simulated:honey_glue",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "aeronautics:white_envelope",
+          "cantidad": 2,
+          "peso": 1.0,
+          "extra": 2
+        },
+        {
+          "objeto": "aeronautics:white_envelope",
+          "cantidad": 4,
+          "peso": 0.65,
+          "extra": 4
+        },
+        {
+          "objeto": "aeronautics:adjustable_burner",
+          "cantidad": 1,
+          "peso": 0.75
+        },
+        {
+          "objeto": "simulated:white_symmetric_sail",
+          "cantidad": 4,
+          "peso": 1.0,
+          "extra": 4
+        },
+        {
+          "objeto": "aeronautics:levitite_blend_bucket",
+          "cantidad": 1,
+          "peso": 0.6,
+          "extra": 1
+        },
+        {
+          "objeto": "simulated:red_portable_engine",
+          "cantidad": 1,
+          "peso": 0.5
+        }
+      ],
+      "estilo": "aero"
+    },
+    "create_cannon_cartidge": {
+      "nombre": "Caja de munición",
+      "icono": "minecraft:chest",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "createbigcannons:filled_autocannon_cartridge",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:machine_gun_round",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:autocannon_ammo_container",
+          "cantidad": 1,
+          "peso": 1.25
+        },
+        {
+          "objeto": "createbigcannons:solid_shot",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:ap_shot",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:bag_of_grapeshot",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:he_shell",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:ap_shell",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:shrapnel_shell",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:fluid_shell",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:smoke_shell",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:drop_mortar_shell",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:mortar_stone",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:powder_charge",
+          "cantidad": 2,
+          "peso": 1.75
+        },
+        {
+          "objeto": "createbigcannons:powder_charge",
+          "cantidad": 1,
+          "peso": 2.5
+        }
+      ],
+      "estilo": "municion"
+    },
+    "create_tier_2": {
+      "nombre": "Caja de Create II",
+      "icono": "minecraft:chest",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "create:brass_ingot",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:brass_ingot",
+          "cantidad": 8,
+          "peso": 0.825
+        },
+        {
+          "objeto": "create:brass_ingot",
+          "cantidad": 64,
+          "peso": 0.125
+        },
+        {
+          "objeto": "create:brass_casing",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:brass_casing",
+          "cantidad": 8,
+          "peso": 0.825
+        },
+        {
+          "objeto": "create:andesite_alloy",
+          "cantidad": 16,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:super_glue",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:andesite_funnel",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:andesite_tunnel",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:brass_funnel",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:brass_tunnel",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:pulse_repeater",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:pulse_extender",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:pulse_timer",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:item_vault",
+          "cantidad": 8,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:stock_link",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:packager",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:blaze_cake",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:casting_sand",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:big_cartridge",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:solid_shot",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createbigcannons:powder_charge",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createaddition:alternator",
+          "cantidad": 1,
+          "peso": 1.0
+        }
+      ],
+      "estilo": "laton"
+    },
+    "create_tier_3": {
+      "nombre": "Caja de Create III",
+      "icono": "minecraft:chest",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "createaddition:alternator",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "createaddition:electric_motor",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "minecraft:netherite_ingot",
+          "cantidad": 4,
+          "peso": 1.0
+        }
+      ],
+      "estilo": "oro"
+    },
+    "aero2": {
+      "nombre": "Caja de aeronáutica rara",
+      "icono": "minecraft:chest",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "offroad:tire",
+          "cantidad": 2,
+          "peso": 1.0,
+          "extra": 2
+        },
+        {
+          "objeto": "simulated:physics_assembler",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "simulated:honey_glue",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "aeronautics:levitite",
+          "cantidad": 2,
+          "peso": 1.0,
+          "extra": 4
+        },
+        {
+          "objeto": "aeronautics:white_envelope",
+          "cantidad": 8,
+          "peso": 1.0,
+          "extra": 4
+        },
+        {
+          "objeto": "createpropulsion:copycat_wing",
+          "cantidad": 8,
+          "peso": 1.0
+        },
+        {
+          "objeto": "simulated:rope_coupling",
+          "cantidad": 8,
+          "peso": 1.0
+        },
+        {
+          "objeto": "simulated:redstone_magnet",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "simulated:red_portable_engine",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "simulated:laser_pointer",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "simulated:laser_sensor",
+          "cantidad": 1,
+          "peso": 1.0
+        }
+      ],
+      "estilo": "aero"
+    },
+    "gamble_suerte": {
+      "nombre": "Caja de la suerte",
+      "icono": "minecraft:dirt",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "minecraft:dirt",
+          "cantidad": 1,
+          "peso": 52
+        },
+        {
+          "objeto": "minecraft:rotten_flesh",
+          "cantidad": 8,
+          "peso": 15
+        },
+        {
+          "objeto": "minecraft:iron_ingot",
+          "cantidad": 16,
+          "peso": 10
+        },
+        {
+          "objeto": "create:andesite_alloy",
+          "cantidad": 32,
+          "peso": 8
+        },
+        {
+          "objeto": "create:zinc_ingot",
+          "cantidad": 16,
+          "peso": 6
+        },
+        {
+          "objeto": "create:brass_ingot",
+          "cantidad": 8,
+          "peso": 4
+        },
+        {
+          "objeto": "create:precision_mechanism",
+          "cantidad": 2,
+          "peso": 1.5
+        },
+        {
+          "objeto": "minecraft:blaze_spawn_egg",
+          "cantidad": 1,
+          "peso": 3
+        },
+        {
+          "objeto": "numismatics:cog",
+          "cantidad": 2,
+          "peso": 0.5
+        }
+      ],
+      "estilo": "suerte"
+    },
+    "gamble_apostador": {
+      "nombre": "Caja del apostador",
+      "icono": "minecraft:coarse_dirt",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "minecraft:dirt",
+          "cantidad": 1,
+          "peso": 47
+        },
+        {
+          "objeto": "minecraft:poisonous_potato",
+          "cantidad": 1,
+          "peso": 13
+        },
+        {
+          "objeto": "create:brass_ingot",
+          "cantidad": 16,
+          "peso": 12
+        },
+        {
+          "objeto": "create:electron_tube",
+          "cantidad": 8,
+          "peso": 10
+        },
+        {
+          "objeto": "create:precision_mechanism",
+          "cantidad": 4,
+          "peso": 7
+        },
+        {
+          "objeto": "voidtotem:totem_of_void_undying",
+          "cantidad": 1,
+          "peso": 5
+        },
+        {
+          "objeto": "aeronautics:propeller_bearing",
+          "cantidad": 2,
+          "peso": 4
+        },
+        {
+          "objeto": "aeronautics:levitite",
+          "cantidad": 32,
+          "peso": 1.5
+        },
+        {
+          "objeto": "numismatics:crown",
+          "cantidad": 1,
+          "peso": 0.5
+        }
+      ],
+      "estilo": "apostador"
+    },
+    "gamble_todo_o_nada": {
+      "nombre": "Caja todo o nada",
+      "icono": "minecraft:rooted_dirt",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "minecraft:dirt",
+          "cantidad": 1,
+          "peso": 70
+        },
+        {
+          "objeto": "minecraft:diamond",
+          "cantidad": 8,
+          "peso": 12
+        },
+        {
+          "objeto": "aeronautics:levitite",
+          "cantidad": 64,
+          "peso": 8
+        },
+        {
+          "objeto": "minecraft:netherite_ingot",
+          "cantidad": 2,
+          "peso": 6
+        },
+        {
+          "objeto": "minecraft:elytra",
+          "cantidad": 1,
+          "peso": 3
+        },
+        {
+          "objeto": "numismatics:crown",
+          "cantidad": 8,
+          "peso": 1
+        }
+      ],
+      "estilo": "oro"
+    },
+    "cheap_brotes": {
+      "nombre": "Caja de brotes",
+      "icono": "minecraft:oak_sapling",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "minecraft:oak_sapling",
+          "cantidad": 8,
+          "peso": 18
+        },
+        {
+          "objeto": "minecraft:birch_sapling",
+          "cantidad": 8,
+          "peso": 16
+        },
+        {
+          "objeto": "minecraft:spruce_sapling",
+          "cantidad": 8,
+          "peso": 16
+        },
+        {
+          "objeto": "minecraft:jungle_sapling",
+          "cantidad": 8,
+          "peso": 12
+        },
+        {
+          "objeto": "minecraft:acacia_sapling",
+          "cantidad": 8,
+          "peso": 12
+        },
+        {
+          "objeto": "minecraft:dark_oak_sapling",
+          "cantidad": 8,
+          "peso": 10
+        },
+        {
+          "objeto": "minecraft:cherry_sapling",
+          "cantidad": 8,
+          "peso": 8
+        },
+        {
+          "objeto": "minecraft:mangrove_propagule",
+          "cantidad": 8,
+          "peso": 5
+        },
+        {
+          "objeto": "minecraft:flowering_azalea",
+          "cantidad": 8,
+          "peso": 2
+        },
+        {
+          "objeto": "cookscollection:lemon_sapling",
+          "cantidad": 8,
+          "peso": 1
+        }
+      ],
+      "desc": "8 brotes de un árbol al azar.",
+      "estilo": "madera"
+    },
+    "cheap_granja": {
+      "nombre": "Caja de granja",
+      "icono": "minecraft:cow_spawn_egg",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "minecraft:cow_spawn_egg",
+          "cantidad": 2,
+          "peso": 30
+        },
+        {
+          "objeto": "minecraft:pig_spawn_egg",
+          "cantidad": 2,
+          "peso": 30
+        },
+        {
+          "objeto": "minecraft:chicken_spawn_egg",
+          "cantidad": 2,
+          "peso": 25
+        },
+        {
+          "objeto": "minecraft:sheep_spawn_egg",
+          "cantidad": 2,
+          "peso": 15
+        }
+      ],
+      "desc": "2 huevos generadores de un animal de granja al azar (dos, para que puedas criar).",
+      "estilo": "madera"
+    },
+    "cheap_comida": {
+      "nombre": "Caja de comida",
+      "icono": "minecraft:bread",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "minecraft:bread",
+          "cantidad": 16,
+          "peso": 25
+        },
+        {
+          "objeto": "minecraft:baked_potato",
+          "cantidad": 16,
+          "peso": 15
+        },
+        {
+          "objeto": "minecraft:cooked_beef",
+          "cantidad": 8,
+          "peso": 15
+        },
+        {
+          "objeto": "minecraft:cooked_porkchop",
+          "cantidad": 8,
+          "peso": 15
+        },
+        {
+          "objeto": "minecraft:cooked_chicken",
+          "cantidad": 8,
+          "peso": 10
+        },
+        {
+          "objeto": "minecraft:cooked_salmon",
+          "cantidad": 8,
+          "peso": 8
+        },
+        {
+          "objeto": "minecraft:pumpkin_pie",
+          "cantidad": 4,
+          "peso": 6
+        },
+        {
+          "objeto": "minecraft:golden_carrot",
+          "cantidad": 8,
+          "peso": 4
+        },
+        {
+          "objeto": "minecraft:golden_apple",
+          "cantidad": 1,
+          "peso": 2
+        }
+      ],
+      "desc": "Comida básica de Minecraft para salir a explorar.",
+      "estilo": "madera"
+    },
+    "cheap_semillas": {
+      "nombre": "Caja de semillas de cocina",
+      "icono": "farmersdelight:tomato_seeds",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "farmersdelight:tomato_seeds",
+          "cantidad": 8,
+          "peso": 8
+        },
+        {
+          "objeto": "farmersdelight:cabbage_seeds",
+          "cantidad": 8,
+          "peso": 8
+        },
+        {
+          "objeto": "farmersdelight:rice",
+          "cantidad": 8,
+          "peso": 8
+        },
+        {
+          "objeto": "farmersdelight:onion",
+          "cantidad": 8,
+          "peso": 8
+        },
+        {
+          "objeto": "farm_and_charm:barley_seeds",
+          "cantidad": 8,
+          "peso": 6
+        },
+        {
+          "objeto": "farm_and_charm:oat_seeds",
+          "cantidad": 8,
+          "peso": 6
+        },
+        {
+          "objeto": "farm_and_charm:lettuce_seeds",
+          "cantidad": 8,
+          "peso": 6
+        },
+        {
+          "objeto": "farm_and_charm:strawberry_seeds",
+          "cantidad": 8,
+          "peso": 6
+        },
+        {
+          "objeto": "culturaldelights:cucumber_seeds",
+          "cantidad": 8,
+          "peso": 6
+        },
+        {
+          "objeto": "culturaldelights:eggplant_seeds",
+          "cantidad": 8,
+          "peso": 6
+        },
+        {
+          "objeto": "culturaldelights:corn_kernels",
+          "cantidad": 8,
+          "peso": 6
+        },
+        {
+          "objeto": "rusticdelight:bell_pepper_seeds",
+          "cantidad": 8,
+          "peso": 6
+        },
+        {
+          "objeto": "rusticdelight:cotton_seeds",
+          "cantidad": 8,
+          "peso": 4
+        },
+        {
+          "objeto": "farmersrespite:tea_seeds",
+          "cantidad": 8,
+          "peso": 4
+        },
+        {
+          "objeto": "farmersrespite:coffee_beans",
+          "cantidad": 8,
+          "peso": 4
+        },
+        {
+          "objeto": "vinery:red_grape_seeds",
+          "cantidad": 8,
+          "peso": 4
+        },
+        {
+          "objeto": "vinery:white_grape_seeds",
+          "cantidad": 8,
+          "peso": 4
+        }
+      ],
+      "desc": "8 semillas de un cultivo de cocina al azar.",
+      "estilo": "madera"
+    },
+    "cheap_mascotas": {
+      "nombre": "Caja de animales de compañía",
+      "icono": "minecraft:wolf_spawn_egg",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "minecraft:horse_spawn_egg",
+          "cantidad": 1,
+          "peso": 14
+        },
+        {
+          "objeto": "minecraft:wolf_spawn_egg",
+          "cantidad": 1,
+          "peso": 14
+        },
+        {
+          "objeto": "minecraft:cat_spawn_egg",
+          "cantidad": 1,
+          "peso": 14
+        },
+        {
+          "objeto": "minecraft:bee_spawn_egg",
+          "cantidad": 1,
+          "peso": 12
+        },
+        {
+          "objeto": "minecraft:llama_spawn_egg",
+          "cantidad": 1,
+          "peso": 10
+        },
+        {
+          "objeto": "minecraft:donkey_spawn_egg",
+          "cantidad": 1,
+          "peso": 10
+        },
+        {
+          "objeto": "minecraft:fox_spawn_egg",
+          "cantidad": 1,
+          "peso": 8
+        },
+        {
+          "objeto": "minecraft:goat_spawn_egg",
+          "cantidad": 1,
+          "peso": 6
+        },
+        {
+          "objeto": "minecraft:frog_spawn_egg",
+          "cantidad": 1,
+          "peso": 5
+        },
+        {
+          "objeto": "minecraft:turtle_spawn_egg",
+          "cantidad": 1,
+          "peso": 4
+        },
+        {
+          "objeto": "minecraft:parrot_spawn_egg",
+          "cantidad": 1,
+          "peso": 2
+        },
+        {
+          "objeto": "minecraft:axolotl_spawn_egg",
+          "cantidad": 1,
+          "peso": 1
+        }
+      ],
+      "desc": "1 huevo generador de un animal al azar. Los raros salen poco.",
+      "estilo": "madera"
+    },
+    "cheap_cultivos": {
+      "nombre": "Caja de cultivos",
+      "icono": "minecraft:wheat_seeds",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "minecraft:wheat_seeds",
+          "cantidad": 16,
+          "peso": 16
+        },
+        {
+          "objeto": "minecraft:carrot",
+          "cantidad": 8,
+          "peso": 14
+        },
+        {
+          "objeto": "minecraft:potato",
+          "cantidad": 8,
+          "peso": 14
+        },
+        {
+          "objeto": "minecraft:beetroot_seeds",
+          "cantidad": 16,
+          "peso": 10
+        },
+        {
+          "objeto": "minecraft:sugar_cane",
+          "cantidad": 8,
+          "peso": 10
+        },
+        {
+          "objeto": "minecraft:melon_seeds",
+          "cantidad": 8,
+          "peso": 8
+        },
+        {
+          "objeto": "minecraft:pumpkin_seeds",
+          "cantidad": 8,
+          "peso": 8
+        },
+        {
+          "objeto": "minecraft:sweet_berries",
+          "cantidad": 8,
+          "peso": 7
+        },
+        {
+          "objeto": "minecraft:cocoa_beans",
+          "cantidad": 8,
+          "peso": 6
+        },
+        {
+          "objeto": "minecraft:bamboo",
+          "cantidad": 8,
+          "peso": 5
+        },
+        {
+          "objeto": "minecraft:nether_wart",
+          "cantidad": 8,
+          "peso": 2
+        }
+      ],
+      "desc": "Semillas y cultivos de Minecraft para empezar una granja.",
+      "estilo": "madera"
+    },
+    "cheap_abejas": {
+      "nombre": "Caja de abejas",
+      "icono": "minecraft:honeycomb",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "minecraft:honeycomb",
+          "cantidad": 6,
+          "peso": 30
+        },
+        {
+          "objeto": "minecraft:honey_bottle",
+          "cantidad": 4,
+          "peso": 25
+        },
+        {
+          "objeto": "minecraft:honey_block",
+          "cantidad": 2,
+          "peso": 15
+        },
+        {
+          "objeto": "minecraft:beehive",
+          "cantidad": 1,
+          "peso": 12
+        },
+        {
+          "objeto": "minecraft:candle",
+          "cantidad": 8,
+          "peso": 8
+        },
+        {
+          "objeto": "minecraft:bee_spawn_egg",
+          "cantidad": 1,
+          "peso": 7
+        },
+        {
+          "objeto": "minecraft:bee_nest",
+          "cantidad": 1,
+          "peso": 3
+        }
+      ],
+      "desc": "Todo lo de las abejas: miel, panales, colmenas y alguna abeja.",
+      "estilo": "madera"
+    },
+    "cheap_combustible": {
+      "nombre": "Caja de pólvora y combustible",
+      "icono": "minecraft:gunpowder",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "minecraft:coal",
+          "cantidad": 32,
+          "peso": 25
+        },
+        {
+          "objeto": "minecraft:charcoal",
+          "cantidad": 32,
+          "peso": 18
+        },
+        {
+          "objeto": "minecraft:gunpowder",
+          "cantidad": 16,
+          "peso": 18
+        },
+        {
+          "objeto": "minecraft:lava_bucket",
+          "cantidad": 1,
+          "peso": 12
+        },
+        {
+          "objeto": "minecraft:blaze_rod",
+          "cantidad": 4,
+          "peso": 10
+        },
+        {
+          "objeto": "minecraft:coal_block",
+          "cantidad": 4,
+          "peso": 8
+        },
+        {
+          "objeto": "minecraft:tnt",
+          "cantidad": 4,
+          "peso": 6
+        },
+        {
+          "objeto": "minecraft:fire_charge",
+          "cantidad": 8,
+          "peso": 3
+        }
+      ],
+      "desc": "Combustible para hornos y motores, y pólvora para explosivos.",
+      "estilo": "madera"
+    },
+    "cheap_explorador": {
+      "nombre": "Caja de explorador",
+      "icono": "minecraft:compass",
+      "tiradas": 1,
+      "filas": [
+        {
+          "objeto": "minecraft:torch",
+          "cantidad": 64,
+          "peso": 20
+        },
+        {
+          "objeto": "minecraft:arrow",
+          "cantidad": 32,
+          "peso": 18
+        },
+        {
+          "objeto": "minecraft:cooked_beef",
+          "cantidad": 16,
+          "peso": 15
+        },
+        {
+          "objeto": "minecraft:map",
+          "cantidad": 4,
+          "peso": 10
+        },
+        {
+          "objeto": "minecraft:compass",
+          "cantidad": 1,
+          "peso": 9
+        },
+        {
+          "objeto": "minecraft:ender_pearl",
+          "cantidad": 4,
+          "peso": 8
+        },
+        {
+          "objeto": "minecraft:spyglass",
+          "cantidad": 1,
+          "peso": 7
+        },
+        {
+          "objeto": "minecraft:saddle",
+          "cantidad": 1,
+          "peso": 6
+        },
+        {
+          "objeto": "minecraft:name_tag",
+          "cantidad": 2,
+          "peso": 4
+        },
+        {
+          "objeto": "minecraft:recovery_compass",
+          "cantidad": 1,
+          "peso": 2
+        },
+        {
+          "objeto": "minecraft:totem_of_undying",
+          "cantidad": 1,
+          "peso": 1
+        }
+      ],
+      "desc": "Lo básico para salir de viaje. Muy de vez en cuando, un tótem.",
+      "estilo": "madera"
+    }
+  }
+}

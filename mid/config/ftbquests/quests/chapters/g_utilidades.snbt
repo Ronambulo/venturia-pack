@@ -1,0 +1,337 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "g_utilidades"
+	group: "094E0F2FCF1D26FE"
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+	}
+	id: "747F5EF5FF7CEB0E"
+	images: [ ]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28EA2861CD8155A0"]
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "0DF22BF6A6900FF8"
+			shape: "hexagon"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DF22BF6A6900FF8"]
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "567D5940A424D0EA"
+			rewards: [{
+				id: "416641F51D227008"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: {
+					id: "sophisticatedbackpacks:backpack"
+				}
+				id: "68279E063CA288CD"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:backpack)item(sophisticatedbackpacks:copper_backpack)item(sophisticatedbackpacks:iron_backpack)item(sophisticatedbackpacks:gold_backpack)item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["567D5940A424D0EA"]
+			icon: {
+				id: "sophisticatedbackpacks:magnet_upgrade"
+			}
+			id: "2B950CD9769832D5"
+			rewards: [{
+				id: "6E36D3CBC0AED68D"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				icon: {
+					id: "sophisticatedbackpacks:pickup_upgrade"
+				}
+				id: "4DD0E94D89CA3C15"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:pickup_upgrade)item(sophisticatedbackpacks:advanced_pickup_upgrade)item(sophisticatedbackpacks:magnet_upgrade)item(sophisticatedbackpacks:advanced_magnet_upgrade)item(sophisticatedbackpacks:feeding_upgrade)item(sophisticatedbackpacks:advanced_feeding_upgrade)item(sophisticatedbackpacks:crafting_upgrade)item(sophisticatedbackpacks:restock_upgrade)item(sophisticatedbackpacks:advanced_restock_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["567D5940A424D0EA"]
+			icon: {
+				id: "sophisticatedstorage:controller"
+			}
+			id: "7DC7CFBC91803874"
+			optional: true
+			rewards: [{
+				id: "44DDB2697C8AD91C"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					count: 2L
+					icon: {
+						id: "sophisticatedstorage:chest"
+					}
+					id: "4F5DFD78AE0A40E6"
+					item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedstorage:chest)item(sophisticatedstorage:barrel)item(sophisticatedstorage:copper_chest)item(sophisticatedstorage:iron_chest)item(sophisticatedstorage:gold_chest)item(sophisticatedstorage:copper_barrel)item(sophisticatedstorage:iron_barrel)item(sophisticatedstorage:gold_barrel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "6F02CCE485518967"
+					item: { count: 1, id: "sophisticatedstorage:controller" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DF22BF6A6900FF8"]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "4A41B811C5F73CA6"
+			rewards: [{
+				count: 8
+				id: "0AC0157961569D2E"
+				item: {
+					count: 1
+					id: "waystones:warp_dust"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "waystones:waystone"
+				}
+				id: "04D663AE6452B15B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(waystones:waystone)item(waystones:mossy_waystone)item(waystones:sandy_waystone)item(waystones:deepslate_waystone)item(waystones:blackstone_waystone)item(waystones:end_stone_waystone)item(waystones:prismarine_waystone)item(waystones:purpur_waystone)item(waystones:mud_bricks_waystone)item(waystones:red_nether_bricks_waystone))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A41B811C5F73CA6"]
+			icon: {
+				id: "waystones:warp_stone"
+			}
+			id: "4C180DF27C1FECAD"
+			rewards: [{
+				id: "7FF287DDC946FBB9"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				icon: {
+					id: "waystones:warp_stone"
+				}
+				id: "57A50DE5F1FB754E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(waystones:warp_stone)item(waystones:return_scroll)item(waystones:warp_scroll)item(waystones:bound_scroll))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DF22BF6A6900FF8"]
+			icon: {
+				id: "paraglider:paraglider"
+			}
+			id: "6704A996E2B5DC78"
+			rewards: [{
+				id: "16E1154A40F4C374"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "373BB6BB5C65B660"
+				item: { count: 1, id: "paraglider:paraglider" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6704A996E2B5DC78"]
+			icon: {
+				id: "voidtotem:totem_of_void_undying"
+			}
+			id: "7E3746A224B525D0"
+			rewards: [{
+				id: "4C7EAE56C93F7FC2"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "3A63F6BE0602ACFE"
+				item: { count: 1, id: "voidtotem:totem_of_void_undying" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4C180DF27C1FECAD"]
+			icon: {
+				id: "explorerscompass:explorerscompass"
+			}
+			id: "76A57F850AE59F14"
+			optional: true
+			rewards: [{
+				id: "670712A5EEE51656"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "explorerscompass:explorerscompass"
+				}
+				id: "7D934F213871A486"
+				item: { components: { "ftbfiltersystem:filter": "or(item(explorerscompass:explorerscompass)item(naturescompass:naturescompass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DF22BF6A6900FF8"]
+			icon: {
+				id: "supplementaries:altimeter"
+			}
+			id: "6B79F0AEAAE8C02E"
+			rewards: [{
+				count: 32
+				id: "786B60AE635E89CB"
+				item: {
+					count: 1
+					id: "supplementaries:rope"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					id: "supplementaries:altimeter"
+				}
+				id: "2B79527EE5B2B669"
+				item: { components: { "ftbfiltersystem:filter": "or(item(supplementaries:altimeter)item(supplementaries:slingshot)item(supplementaries:quiver)item(supplementaries:sack)item(supplementaries:key)item(supplementaries:safe)item(supplementaries:jar))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B79F0AEAAE8C02E"]
+			icon: {
+				id: "torchmaster:megatorch"
+			}
+			id: "696B6BF428C46074"
+			optional: true
+			rewards: [{
+				id: "7B03D5FFFD79FD7E"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "50B41943EB6FAD64"
+				item: { count: 1, id: "torchmaster:megatorch" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B79F0AEAAE8C02E"]
+			icon: {
+				id: "crafting_on_a_stick:crafting_table"
+			}
+			id: "68AC755FE2C83179"
+			optional: true
+			rewards: [{
+				id: "4378663F784CFE2B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "crafting_on_a_stick:crafting_table"
+				}
+				id: "30405B901658FC0F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(crafting_on_a_stick:crafting_table)item(crafting_on_a_stick:stonecutter)item(crafting_on_a_stick:anvil)item(crafting_on_a_stick:smithing_table)item(crafting_on_a_stick:loom)item(crafting_on_a_stick:grindstone))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0DF22BF6A6900FF8"]
+			icon: {
+				id: "minecraft:spawner"
+			}
+			id: "6114DCB362384DB1"
+			rewards: [{
+				count: 16
+				id: "75EAC6DEE2EF27AF"
+				item: {
+					count: 1
+					id: "minecraft:sugar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B1BE2846DC6A1C9"
+				item: { count: 1, id: "minecraft:spawner" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2B950CD9769832D5"
+				"4C180DF27C1FECAD"
+				"7E3746A224B525D0"
+			]
+			icon: {
+				id: "waystones:waystone"
+			}
+			id: "61D40C8098C03A0A"
+			rewards: [
+				{
+					id: "70E933E324569AD6"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1646A2A324676ADB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

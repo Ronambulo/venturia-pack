@@ -1,0 +1,8 @@
+name = "ComplementaryUnbound_r5.9.3.zip"
+filename = "ComplementaryUnbound_r5.9.3.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/R6NEzAwj/versions/B1kyfoUZ/ComplementaryUnbound_r5.9.3.zip"
+hash-format = "sha1"
+hash = "2ee08300e1d6f039e63eae8484dddf57b3aaaf67"

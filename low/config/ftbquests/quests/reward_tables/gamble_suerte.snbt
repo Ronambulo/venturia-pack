@@ -1,0 +1,79 @@
+{
+	id: "283834967AD9ACDF"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			id: "154C5C859DFE68B6"
+			item: {
+				count: 1
+				id: "minecraft:dirt"
+			}
+			weight: 54.0f
+		}
+		{
+			count: 8
+			id: "3AB1E780DC13A897"
+			item: {
+				count: 1
+				id: "minecraft:rotten_flesh"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 16
+			id: "07D394578EB805D0"
+			item: {
+				count: 1
+				id: "minecraft:iron_ingot"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 32
+			id: "1457CFA7F5E2110E"
+			item: {
+				count: 1
+				id: "create:andesite_alloy"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 16
+			id: "2053F08B04E019BF"
+			item: {
+				count: 1
+				id: "create:zinc_ingot"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "5644F036E1CA03B6"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 2
+			id: "6F11E5483935F43B"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+			weight: 1.5f
+		}
+		{ id: "659602AE981579A8", item: { count: 1, id: "minecraft:blaze_spawn_egg" } }
+		{
+			count: 2
+			id: "0A59D0E0E292C15D"
+			item: {
+				count: 1
+				id: "numismatics:cog"
+			}
+			weight: 0.5f
+		}
+	]
+}

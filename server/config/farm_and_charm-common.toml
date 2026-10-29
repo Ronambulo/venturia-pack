@@ -1,0 +1,360 @@
+#Everything about growing crops.
+[Farming]
+	#Crops grow faster while it is raining on them.
+	enableRainGrowthEffect = true
+	#Shows fireflies at night above wild rice and around lit lanterns outdoors.
+	enableFireflies = true
+	#How much faster crops grow in rain. 0.5 = 50% faster, 1.0 = twice as fast.
+	# Default: 0.5
+	# Range: 0.0 ~ 2.0
+	rainGrowthMultiplier = 0.5
+	#Chance in percent that a fully grown lettuce or onion turns into a giant crop during rain.
+	# Default: 3
+	# Range: 0 ~ 100
+	bigCropChance = 3
+	#Fertilized farmland occasionally acts like bone meal on the crop above it.
+	enableBonemealEffect = true
+	#Allows using fertilizer on blocks.
+	enableFertilizer = true
+	#Radius in blocks in which fertilized soil helps nearby plants grow.
+	# Default: 5
+	# Range: 1 ~ 16
+	fertilizedSoilRange = 5
+	#Every how many seconds a scarecrow helps the crops around it grow.
+	# Default: 25
+	# Range: 1 ~ 600
+	scarecrowGrowthInterval = 25
+	#Radius in blocks around the scarecrow.
+	# Default: 8
+	# Range: 1 ~ 16
+	scarecrowRange = 8
+	#Chance in percent that bone meal on a wild crop drops another wild crop.
+	# Default: 60
+	# Range: 0 ~ 100
+	wildCropDropChance = 60
+
+#Sprinklers and the timber well.
+[Water]
+	#Radius in blocks that a water sprinkler keeps watered.
+	# Default: 8
+	# Range: 1 ~ 16
+	waterSprinklerRange = 8
+	#How many blocks below the well it searches for a water source.
+	# Default: 6
+	# Range: 1 ~ 32
+	wellGroundwaterDepth = 6
+	#Chance in percent per random tick that rain fills the well a bit.
+	# Default: 17
+	# Range: 0 ~ 100
+	wellRainFillChance = 17
+
+#Feeding, taming and animal behaviour.
+[Animals]
+	#How far animals walk to eat from a feeding trough or drink from a water trough.
+	# Default: 8
+	# Range: 1 ~ 16
+	feedingTroughRange = 8
+	#Wolves can be tamed with dog food.
+	enableDogFoodTaming = true
+	#Cats can be tamed with cat food.
+	enableCatTamingChance = true
+	#Horses can be tamed with horse fodder.
+	enableHorseTaming = true
+	#Horse fodder heals horses and gives them a temporary boost.
+	enableHorseEffects = true
+	#Chicken feed makes chickens lay eggs and drop feathers more often.
+	enableChickenEffects = true
+	#How many chickens fit into one chicken coop.
+	# Default: 3
+	# Range: 1 ~ 16
+	chickenCoopMaxChickens = 3
+	#How many eggs a chicken coop can hold before you collect them.
+	# Default: 9
+	# Range: 1 ~ 64
+	chickenCoopMaxEggs = 9
+	#Tamed dogs sit at their empty pet bowl at feeding time and whine.
+	enableDogBegging = true
+	#Tamed cats sit at their empty pet bowl at feeding time and meow.
+	enableCatBegging = true
+	#How far pets look for their bowl at feeding time. Higher values cost more performance.
+	# Default: 16
+	# Range: 4 ~ 32
+	petBowlSearchRange = 16
+	#Time of day in ticks. 0 = sunrise, 6000 = noon, 12000 = sunset, 18000 = midnight.
+	# Default: 5800
+	# Range: 0 ~ 23999
+	feedingTimeMiddayStart = 5800
+	#Time of day in ticks. 0 = sunrise, 6000 = noon, 12000 = sunset, 18000 = midnight.
+	# Default: 6200
+	# Range: 0 ~ 23999
+	feedingTimeMiddayEnd = 6200
+	#Time of day in ticks. 0 = sunrise, 6000 = noon, 12000 = sunset, 18000 = midnight.
+	# Default: 11500
+	# Range: 0 ~ 23999
+	feedingTimeEveningStart = 11500
+	#Time of day in ticks. 0 = sunrise, 6000 = noon, 12000 = sunset, 18000 = midnight.
+	# Default: 12500
+	# Range: 0 ~ 23999
+	feedingTimeEveningEnd = 12500
+
+#Cutting board and cleavers.
+[Kitchen]
+	#How many chops an iron cleaver needs per ingredient.
+	# Default: 5
+	# Range: 1 ~ 20
+	ironCleaverChops = 5
+	#How many chops a diamond cleaver needs per ingredient.
+	# Default: 3
+	# Range: 1 ~ 20
+	diamondCleaverChops = 3
+	#How many chops a netherite cleaver needs per ingredient.
+	# Default: 1
+	# Range: 1 ~ 20
+	netheriteCleaverChops = 1
+	#Mobs killed with a cleaver can drop their head.
+	cleaverHeadDrops = true
+	#Cooking, mincing, cutting, stripping and whisking give experience. The amount per recipe is set in the recipe files.
+	cookingExperience = true
+	#Multiplies all experience from cooking and food processing. 1.0 = as set in the recipes.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	cookingExperienceMultiplier = 1.0
+	#Blocks of this mod are animated.
+	animations = true
+
+#Info tooltips that appear when looking at a block. Only affects your own screen.
+["Info Tooltips"]
+	#Shows an info tooltip when looking at the cutting board.
+	showCuttingBoardInfo = true
+	#Shows an info tooltip when looking at the mincer.
+	showMincerInfo = true
+	#Shows an info tooltip when looking at the crafting bowl.
+	showCraftingBowlInfo = true
+	#Shows an info tooltip when looking at the silo.
+	showSiloInfo = true
+	#Shows an info tooltip when looking at the water sprinkler.
+	showWaterSprinklerInfo = true
+	#Shows an info tooltip when looking at the scarecrow.
+	showScarecrowInfo = true
+	#Info tooltips only show while wearing Dungarees.
+	needDungarees = false
+
+#Fine-tuning of the food effects.
+[Effects]
+
+	[Effects."Chicken Effect"]
+		#Every how many ticks the effect tries to drop an egg or feather. 20 ticks = 1 second.
+		# Default: 120
+		# Range: 10 ~ 600
+		chickenEffectTickInterval = 120
+		#Chance in percent to drop an egg.
+		# Default: 20
+		# Range: 0 ~ 100
+		chickenEffectEggChance = 20
+		#Chance in percent to drop a feather.
+		# Default: 20
+		# Range: 0 ~ 100
+		chickenEffectFeatherChance = 20
+
+	[Effects."Feast Effect"]
+		#Every how many ticks you heal while full. 20 ticks = 1 second.
+		# Default: 40
+		# Range: 10 ~ 200
+		feastEffectSatiationInterval = 40
+		#Every how many ticks one hunger point is restored. 20 ticks = 1 second.
+		# Default: 200
+		# Range: 50 ~ 600
+		feastEffectSustenanceInterval = 200
+		#Health points healed each time. 2 points = 1 heart.
+		# Default: 1
+		# Range: 1 ~ 5
+		feastEffectHealAmount = 1
+
+	[Effects."Sustenance Effect"]
+		#Every how many ticks the effect kicks in. 20 ticks = 1 second.
+		# Default: 200
+		# Range: 50 ~ 600
+		sustenanceEffectInterval = 200
+		#Health points healed when your hunger bar is full. 2 points = 1 heart.
+		# Default: 1
+		# Range: 1 ~ 5
+		sustenanceEffectHealAmount = 1
+		#Hunger points restored when you are not full.
+		# Default: 1
+		# Range: 1 ~ 20
+		sustenanceEffectFoodIncrement = 1
+
+	[Effects."Satiation Effect"]
+		#Every how many ticks you heal while full. 20 ticks = 1 second.
+		# Default: 40
+		# Range: 10 ~ 200
+		satiationEffectInterval = 40
+		#Health points healed each time. 2 points = 1 heart.
+		# Default: 1
+		# Range: 1 ~ 5
+		satiationEffectHealAmount = 1
+
+#Hunger and saturation of the food items. Changes need a game restart.
+[Food]
+	# Default: 5
+	# Range: > 0
+	oatPancakeNutrition = 5
+	# Default: 0.6
+	# Range: 0.0 ~ 1.7976931348623157E308
+	oatPancakeSaturationMod = 0.6
+	# Default: 5
+	# Range: > 0
+	roastedCornNutrition = 5
+	# Default: 0.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	roastedCornSaturationMod = 0.5
+	# Default: 7
+	# Range: > 0
+	potatoWithRoastMeatNutrition = 7
+	# Default: 0.7
+	# Range: 0.0 ~ 1.7976931348623157E308
+	potatoWithRoastMeatSaturationMod = 0.7
+	# Default: 8
+	# Range: > 0
+	bakedLambHamNutrition = 8
+	# Default: 0.9
+	# Range: 0.0 ~ 1.7976931348623157E308
+	bakedLambHamSaturationMod = 0.9
+	# Default: 12
+	# Range: > 0
+	farmersBreakfastNutrition = 12
+	# Default: 1.2
+	# Range: 0.0 ~ 1.7976931348623157E308
+	farmersBreakfastSaturationMod = 1.2
+	# Default: 8
+	# Range: > 0
+	stuffedChickenNutrition = 8
+	# Default: 0.8
+	# Range: 0.0 ~ 1.7976931348623157E308
+	stuffedChickenSaturationMod = 0.8
+	# Default: 9
+	# Range: > 0
+	stuffedRabbitNutrition = 9
+	# Default: 0.9
+	# Range: 0.0 ~ 1.7976931348623157E308
+	stuffedRabbitSaturationMod = 0.9
+	# Default: 4
+	# Range: > 0
+	grandmothersStrawberryCakeNutrition = 4
+	# Default: 0.7
+	# Range: 0.0 ~ 1.7976931348623157E308
+	grandmothersStrawberryCakeSaturationMod = 0.7
+	# Default: 6
+	# Range: > 0
+	farmersBreadNutrition = 6
+	# Default: 0.8
+	# Range: 0.0 ~ 1.7976931348623157E308
+	farmersBreadSaturationMod = 0.8
+	# Default: 7
+	# Range: > 0
+	farmerSaladNutrition = 7
+	# Default: 0.6
+	# Range: 0.0 ~ 1.7976931348623157E308
+	farmerSaladSaturationMod = 0.6
+	# Default: 8
+	# Range: > 0
+	goulashNutrition = 8
+	# Default: 0.9
+	# Range: 0.0 ~ 1.7976931348623157E308
+	goulashSaturationMod = 0.9
+	# Default: 6
+	# Range: > 0
+	simpleTomatoSoupNutrition = 6
+	# Default: 0.6
+	# Range: 0.0 ~ 1.7976931348623157E308
+	simpleTomatoSoupSaturationMod = 0.6
+	# Default: 5
+	# Range: > 0
+	barleySoupNutrition = 5
+	# Default: 0.8
+	# Range: 0.0 ~ 1.7976931348623157E308
+	barleySoupSaturationMod = 0.8
+	# Default: 7
+	# Range: > 0
+	onionSoupNutrition = 7
+	# Default: 0.6
+	# Range: 0.0 ~ 1.7976931348623157E308
+	onionSoupSaturationMod = 0.6
+	# Default: 5
+	# Range: > 0
+	potatoSoupNutrition = 5
+	# Default: 0.6
+	# Range: 0.0 ~ 1.7976931348623157E308
+	potatoSoupSaturationMod = 0.6
+	# Default: 6
+	# Range: > 0
+	pastaWithOnionSauceNutrition = 6
+	# Default: 0.7
+	# Range: 0.0 ~ 1.7976931348623157E308
+	pastaWithOnionSauceSaturationMod = 0.7
+	# Default: 6
+	# Range: > 0
+	cornGritsNutrition = 6
+	# Default: 0.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	cornGritsSaturationMod = 0.5
+	# Default: 4
+	# Range: > 0
+	oatmealWithStrawberriesNutrition = 4
+	# Default: 0.8
+	# Range: 0.0 ~ 1.7976931348623157E308
+	oatmealWithStrawberriesSaturationMod = 0.8
+	# Default: 8
+	# Range: > 0
+	sausageWithOatPattyNutrition = 8
+	# Default: 0.9
+	# Range: 0.0 ~ 1.7976931348623157E308
+	sausageWithOatPattySaturationMod = 0.9
+	# Default: 8
+	# Range: > 0
+	lambWithCornNutrition = 8
+	# Default: 0.8
+	# Range: 0.0 ~ 1.7976931348623157E308
+	lambWithCornSaturationMod = 0.8
+	# Default: 6
+	# Range: > 0
+	beefPattyWithVegetablesNutrition = 6
+	# Default: 0.8
+	# Range: 0.0 ~ 1.7976931348623157E308
+	beefPattyWithVegetablesSaturationMod = 0.8
+	# Default: 5
+	# Range: > 0
+	barleyPattiesWithPotatoesNutrition = 5
+	# Default: 0.9
+	# Range: 0.0 ~ 1.7976931348623157E308
+	barleyPattiesWithPotatoesSaturationMod = 0.9
+	# Default: 6
+	# Range: > 0
+	baconWithEggsNutrition = 6
+	# Default: 0.7
+	# Range: 0.0 ~ 1.7976931348623157E308
+	baconWithEggsSaturationMod = 0.7
+	# Default: 9
+	# Range: > 0
+	chickenWrappedInBaconNutrition = 9
+	# Default: 0.9
+	# Range: 0.0 ~ 1.7976931348623157E308
+	chickenWrappedInBaconSaturationMod = 0.9
+	# Default: 7
+	# Range: > 0
+	cookedSalmonNutrition = 7
+	# Default: 0.9
+	# Range: 0.0 ~ 1.7976931348623157E308
+	cookedSalmonSaturationMod = 0.9
+	# Default: 7
+	# Range: > 0
+	cookedCodNutrition = 7
+	# Default: 0.9
+	# Range: 0.0 ~ 1.7976931348623157E308
+	cookedCodSaturationMod = 0.9
+	# Default: 5
+	# Range: > 0
+	roastedChickenNutrition = 5
+	# Default: 0.8
+	# Range: 0.0 ~ 1.7976931348623157E308
+	roastedChickenSaturationMod = 0.8

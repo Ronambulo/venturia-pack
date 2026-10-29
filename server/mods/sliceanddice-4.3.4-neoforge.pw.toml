@@ -1,0 +1,8 @@
+name = "sliceanddice-4.3.4-neoforge.jar"
+filename = "sliceanddice-4.3.4-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GmjmRQ0A/versions/D6mQaFRW/sliceanddice-4.3.4-neoforge.jar"
+hash-format = "sha1"
+hash = "bfcb12d13465caf6743f200fbd755b72705011e4"

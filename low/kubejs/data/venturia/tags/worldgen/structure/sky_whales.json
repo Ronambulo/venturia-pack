@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "sky_whale_ship:whale", "required": false },
+    { "id": "sky_whale_ship:frozen_whale", "required": false },
+    { "id": "sky_whale_ship:whaleship", "required": false },
+    { "id": "sky_whale_ship:whalelight", "required": false },
+    { "id": "sky_whale_ship:whalearena", "required": false }
+  ]
+}

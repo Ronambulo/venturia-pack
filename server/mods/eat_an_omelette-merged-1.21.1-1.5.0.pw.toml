@@ -1,0 +1,8 @@
+name = "eat_an_omelette-merged-1.21.1-1.5.0.jar"
+filename = "eat_an_omelette-merged-1.21.1-1.5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VqI5EAmI/versions/knhxTkVP/eat_an_omelette-merged-1.21.1-1.5.0.jar"
+hash-format = "sha1"
+hash = "bf597d43e6b15050f531c4a2158d495ce718cdbd"

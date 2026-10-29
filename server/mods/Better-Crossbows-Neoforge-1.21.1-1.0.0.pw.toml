@@ -1,0 +1,8 @@
+name = "Better-Crossbows-Neoforge-1.21.1-1.0.0.jar"
+filename = "Better-Crossbows-Neoforge-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7jh4pFKK/versions/7qGRJBM7/Better-Crossbows-Neoforge-1.21.1-1.0.0.jar"
+hash-format = "sha1"
+hash = "56e09b4633f76cb0e71fcf15986d7bb3cef329f8"

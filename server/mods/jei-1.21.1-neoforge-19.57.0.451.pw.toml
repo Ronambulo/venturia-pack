@@ -1,0 +1,8 @@
+name = "jei-1.21.1-neoforge-19.57.0.451.jar"
+filename = "jei-1.21.1-neoforge-19.57.0.451.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/u6dRKJwZ/versions/RI8WCow6/jei-1.21.1-neoforge-19.57.0.451.jar"
+hash-format = "sha1"
+hash = "d639d83bf108b258e722a53f40a41a69e83f8ca6"

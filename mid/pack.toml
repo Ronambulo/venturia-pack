@@ -1,0 +1,13 @@
+name = "Venturia (Mid)"
+author = "Ronam"
+version = "test"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "c101c6a6dab056e9520089ca3d56cc830ce7b36432b0d5351a6fcd726ce57acf"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.256"

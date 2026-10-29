@@ -1,0 +1,8 @@
+name = "healthy_water-merged-1.21.1-1.0.1.jar"
+filename = "healthy_water-merged-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DcxOJQkT/versions/XpLpBjUF/healthy_water-merged-1.21.1-1.0.1.jar"
+hash-format = "sha1"
+hash = "af31301d3de5bd93d1861053f54975bd3f47e4fc"

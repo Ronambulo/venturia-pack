@@ -1,0 +1,59 @@
+[harpoons]
+	#Harpoon gravity per tick. Higher values make harpoons drop sooner.
+	# Default: 0.05
+	# Range: 0.0 ~ 0.25
+	harpoonGravity = 0.05
+	#Base damage dealt by regular harpoons.
+	# Default: 8.0
+	# Range: 0.0 ~ 40.0
+	harpoonDamage = 8.0
+	#Launch velocity of harpoons thrown by hand.
+	# Default: 2.5
+	# Range: 0.25 ~ 6.0
+	thrownVelocity = 2.5
+	#Launch velocity of the mounted harpoon cannon.
+	# Default: 2.25
+	# Range: 0.25 ~ 8.0
+	mountedCannonPower = 2.25
+	#Launch velocity of the handheld harpoon cannon.
+	# Default: 2.25
+	# Range: 0.25 ~ 6.0
+	handheldCannonPower = 2.25
+
+[explosiveHarpoons]
+	#Explosion strength of explosive harpoons. TNT is 4.
+	# Default: 4.0
+	# Range: 0.0 ~ 20.0
+	explosionPower = 4.0
+	#Whether explosive harpoons can destroy blocks.
+	explosionDamagesBlocks = true
+
+[ascender]
+	#Powered ascender movement speed in blocks per tick.
+	# Default: 0.18
+	# Range: 0.03 ~ 0.6
+	movementSpeed = 0.18
+	#Approximate powered movement time from a full copper backtank.
+	# Default: 90
+	# Range: 15 ~ 600
+	fullTankSeconds = 90
+	#Overall strength of jumping away from a rope.
+	# Default: 0.42
+	# Range: 0.1 ~ 1.5
+	jumpPower = 0.42
+
+[fatigue]
+	#Whether regular harpoons accumulate hidden fatigue.
+	enabled = true
+	#Earliest successful use at which critical fatigue can begin.
+	# Default: 15
+	# Range: 1 ~ 500
+	minimumUses = 15
+	#Latest successful use at which critical fatigue begins.
+	# Default: 25
+	# Range: 1 ~ 500
+	maximumUses = 25
+	#Critical failure chance. 0 is never and 1 is always.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	criticalFailureChance = 0.25

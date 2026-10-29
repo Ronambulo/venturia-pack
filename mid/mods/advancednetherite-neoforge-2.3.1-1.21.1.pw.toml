@@ -1,0 +1,8 @@
+name = "advancednetherite-neoforge-2.3.1-1.21.1.jar"
+filename = "advancednetherite-neoforge-2.3.1-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CFX9ftUJ/versions/tsu9b2K9/advancednetherite-neoforge-2.3.1-1.21.1.jar"
+hash-format = "sha1"
+hash = "99003aafa635f316bdcf2db4a70989890a4d944d"

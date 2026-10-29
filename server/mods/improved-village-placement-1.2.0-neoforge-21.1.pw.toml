@@ -1,0 +1,8 @@
+name = "improved-village-placement-1.2.0-neoforge-21.1.jar"
+filename = "improved-village-placement-1.2.0-neoforge-21.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/KA0MllEw/versions/IcUlcX5J/improved-village-placement-1.2.0-neoforge-21.1.jar"
+hash-format = "sha1"
+hash = "d0b9a0bdcf1ca993df47818076aeaa53aa19b878"

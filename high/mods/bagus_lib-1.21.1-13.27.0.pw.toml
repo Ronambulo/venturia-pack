@@ -1,0 +1,8 @@
+name = "bagus_lib-1.21.1-13.27.0.jar"
+filename = "bagus_lib-1.21.1-13.27.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/95nSN4Rd/versions/VPif9tbA/bagus_lib-1.21.1-13.27.0.jar"
+hash-format = "sha1"
+hash = "878f74e9b95784da5996e470597bc223a6fd5d42"

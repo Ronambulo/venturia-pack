@@ -1,0 +1,8 @@
+name = "doubledoors-1.21.1-7.3.jar"
+filename = "doubledoors-1.21.1-7.3.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/JrvR9OHr/versions/NpxJrc1m/doubledoors-1.21.1-7.3.jar"
+hash-format = "sha1"
+hash = "836156ce6fb7836a8627c574de0ce3789a010a12"

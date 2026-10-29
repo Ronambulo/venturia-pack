@@ -1,0 +1,8 @@
+name = "AutoFeedAnimals-Neoforge-1.21.1-1.0.0.jar"
+filename = "AutoFeedAnimals-Neoforge-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qQAETE6z/versions/tSljysQl/AutoFeedAnimals-Neoforge-1.21.1-1.0.0.jar"
+hash-format = "sha1"
+hash = "7f694f3d9d7e850addb7f2d9f986856128c9de46"

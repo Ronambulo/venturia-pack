@@ -1,0 +1,38 @@
+#Villager- and guard-operated Create Big Cannons firing stations.
+[stations]
+	#Ticks between firing-solution evaluations for each operator.
+	# Default: 10
+	# Range: 1 ~ 200
+	evaluationIntervalTicks = 10
+	#Maximum Manned Cannons operators allowed to perform a full station/ballistic evaluation in one server tick.
+	# Default: 8
+	# Range: 1 ~ 128
+	operatorEvaluationBudgetPerTick = 8
+	#Ticks for which AMBUSH/Sable vessel discovery snapshots are reused.
+	# Default: 5
+	# Range: 1 ~ 40
+	vesselSnapshotCacheTicks = 5
+	#Allow AMBUSH-owned ship crew to independently operate Manned Cannons stations. Disabled by default because AMBUSH already controls its ship weapons and large crew counts can cause excessive station scans.
+	allowAmbushShipCrewOperators = false
+	#Minimum ticks between two button presses at the same station.
+	# Default: 60
+	# Range: 1 ~ 1200
+	firingCooldownTicks = 60
+	#Horizontal radius, in blocks, searched around an operator for a firing button.
+	# Default: 5
+	# Range: 1 ~ 12
+	buttonSearchRadius = 5
+	#Estimated hit probability a solution must reach before the operator fires. This is a real
+	#probability derived from Create Big Cannons' spread and the target's motion, not an
+	#arbitrary score, so 0.6 means roughly 'take shots that land more often than not'.
+	# Default: 0.6
+	# Range: 0.1 ~ 1.0
+	minimumHitConfidence = 0.6
+	#Hard ceiling on how many ticks of flight are simulated per evaluation. This is a cost
+	#guard, not a range setting: a cannon's real reach comes from Create Big Cannons itself.
+	#Big cannon rounds have no age limit and fly until they hit something, so their range is
+	#wherever the arc lands; autocannon rounds expire on their material's projectile lifetime.
+	#Only raise this if a very slow, very long-ranged shot is being cut off mid-flight.
+	# Default: 300
+	# Range: 20 ~ 1200
+	simulationTickCeiling = 300

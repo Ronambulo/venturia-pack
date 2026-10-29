@@ -1,0 +1,106 @@
+{
+	id: "345325F4E46C521E"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			count: 16
+			id: "04C6D5AD8861208F"
+			item: {
+				count: 1
+				id: "minecraft:wheat_seeds"
+			}
+			weight: 16.0f
+		}
+		{
+			count: 8
+			id: "3F33B5F9ACE2ACB4"
+			item: {
+				count: 1
+				id: "minecraft:carrot"
+			}
+			weight: 14.0f
+		}
+		{
+			count: 8
+			id: "4699B07F142831CE"
+			item: {
+				count: 1
+				id: "minecraft:potato"
+			}
+			weight: 14.0f
+		}
+		{
+			count: 16
+			id: "6340BEDC868A8D59"
+			item: {
+				count: 1
+				id: "minecraft:beetroot_seeds"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "21E611BAA3D579D9"
+			item: {
+				count: 1
+				id: "minecraft:sugar_cane"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "24656D6CADD1FDBA"
+			item: {
+				count: 1
+				id: "minecraft:melon_seeds"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "3970FDA699F876BB"
+			item: {
+				count: 1
+				id: "minecraft:pumpkin_seeds"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "35C0409021DEDC7D"
+			item: {
+				count: 1
+				id: "minecraft:sweet_berries"
+			}
+			weight: 7.0f
+		}
+		{
+			count: 8
+			id: "4B6262C138E44365"
+			item: {
+				count: 1
+				id: "minecraft:cocoa_beans"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "6B4A1FEADF647724"
+			item: {
+				count: 1
+				id: "minecraft:bamboo"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 8
+			id: "29FCA6383C423ED5"
+			item: {
+				count: 1
+				id: "minecraft:nether_wart"
+			}
+			weight: 2.0f
+		}
+	]
+}

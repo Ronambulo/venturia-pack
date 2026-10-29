@@ -1,0 +1,43 @@
+{
+	id: "2E5677CC7ABA4D40"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			count: 2
+			id: "217D21E764AA817F"
+			item: {
+				count: 1
+				id: "minecraft:cow_spawn_egg"
+			}
+			weight: 30.0f
+		}
+		{
+			count: 2
+			id: "79997284527B10F3"
+			item: {
+				count: 1
+				id: "minecraft:pig_spawn_egg"
+			}
+			weight: 30.0f
+		}
+		{
+			count: 2
+			id: "002D408529B49092"
+			item: {
+				count: 1
+				id: "minecraft:chicken_spawn_egg"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 2
+			id: "67268D31586CE9F3"
+			item: {
+				count: 1
+				id: "minecraft:sheep_spawn_egg"
+			}
+			weight: 15.0f
+		}
+	]
+}

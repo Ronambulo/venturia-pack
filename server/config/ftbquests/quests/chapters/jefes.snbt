@@ -1,0 +1,824 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jefes"
+	group: "034687D5B1FA5FDB"
+	icon: {
+		id: "minecraft:netherite_sword"
+	}
+	id: "5D26994344D0F5D8"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5ED560445C6D6799"]
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "2B1D7D0FCDF1A23A"
+			rewards: [{
+				count: 4
+				id: "7E7C9FD4A17FF6D5"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B1D7D0FCDF1A23A"]
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "1CA9056CFB7D71C3"
+			shape: "rsquare"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2B1D7D0FCDF1A23A"]
+			icon: {
+				id: "mowziesmobs:wrought_helmet"
+			}
+			id: "1531B6BBAA987454"
+			shape: "rsquare"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B1D7D0FCDF1A23A"]
+			icon: {
+				id: "block_factorys_bosses:dragon_bones_chestplate"
+			}
+			id: "5B8E34D8451135A2"
+			shape: "rsquare"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B1D7D0FCDF1A23A"]
+			icon: {
+				id: "cataclysm:mech_eye"
+			}
+			id: "44CA3753096058C2"
+			shape: "rsquare"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2B1D7D0FCDF1A23A"]
+			icon: {
+				id: "cataclysm:void_core"
+			}
+			id: "09B00B77B5CAEA01"
+			shape: "rsquare"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1CA9056CFB7D71C3"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "3467DDFFCBEEEC50"
+			rewards: [
+				{
+					count: 2
+					id: "37D098CCCD0DC174"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "036256289A15B601"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "4E604E4554B0F002"
+				type: "advancement"
+			}]
+			x: 7.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1CA9056CFB7D71C3"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "3E275F67AF2D0E86"
+			rewards: [
+				{
+					count: 2
+					id: "2146F5BE0B1F64D2"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7D7E7B840768FAD7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "748501162AAB7CF9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1531B6BBAA987454"]
+			icon: {
+				id: "mowziesmobs:wrought_helmet"
+			}
+			id: "3A9DABA5F00DA290"
+			rewards: [{
+				count: 2
+				id: "0BC24F2E80FF285F"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
+				criterion: ""
+				id: "54335A56CBA0268D"
+				type: "advancement"
+			}]
+			x: 7.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1531B6BBAA987454"]
+			icon: {
+				id: "mowziesmobs:ice_crystal"
+			}
+			id: "67C867B3ADCB1A45"
+			rewards: [{
+				count: 2
+				id: "6CCB69CB0B3DD4A6"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_frostmaw"
+				criterion: ""
+				id: "458B757BB55A6B20"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1531B6BBAA987454"]
+			icon: {
+				id: "mowziesmobs:sol_visage"
+			}
+			id: "642EF3D2733328D1"
+			rewards: [{
+				count: 2
+				id: "179788C6DB9F2057"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				id: "595E2232037223AB"
+				type: "advancement"
+			}]
+			x: 11.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1531B6BBAA987454"]
+			icon: {
+				id: "mowziesmobs:naga_fang"
+			}
+			id: "604969AD51F08667"
+			optional: true
+			rewards: [{
+				id: "4B34B767ACEB1F37"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "mowziesmobs:kill_naga"
+				criterion: ""
+				id: "5C716D32E959BB97"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B8E34D8451135A2"]
+			icon: {
+				id: "block_factorys_bosses:dragon_bones_chestplate"
+			}
+			id: "28118086FB052F8B"
+			rewards: [{
+				count: 2
+				id: "79042AD9A587F89C"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "block_factorys_bosses:kill_dragon"
+				criterion: ""
+				id: "07196FB29B3C30F0"
+				type: "advancement"
+			}]
+			x: 11.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B8E34D8451135A2"]
+			icon: {
+				id: "block_factorys_bosses:kraken_trident"
+			}
+			id: "07053E52E9327F0A"
+			rewards: [{
+				count: 2
+				id: "1BEECBF61BFB7415"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "block_factorys_bosses:kill_kraken"
+				criterion: ""
+				id: "00203134DFE187A4"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B8E34D8451135A2"]
+			icon: {
+				id: "minecraft:sand"
+			}
+			id: "698B6DEE84F024F2"
+			rewards: [{
+				count: 2
+				id: "008B0681C9F79DC7"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "block_factorys_bosses:kill_sandworm"
+				criterion: ""
+				id: "068E8CED633336A7"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B8E34D8451135A2"]
+			icon: {
+				id: "minecraft:snow_block"
+			}
+			id: "1439FBB270F3EFE1"
+			rewards: [{
+				count: 2
+				id: "2FDE7351887E0FB3"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "block_factorys_bosses:kill_yeti"
+				criterion: ""
+				id: "594B0B7BF278D20D"
+				type: "advancement"
+			}]
+			x: 7.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B8E34D8451135A2"]
+			icon: {
+				id: "minecraft:netherite_helmet"
+			}
+			id: "47F22AFC08BD3A23"
+			rewards: [{
+				count: 3
+				id: "018BC9B438F6A209"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "block_factorys_bosses:kill_underworld_knight"
+				criterion: ""
+				id: "71EEA788B4235881"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CA9056CFB7D71C3"]
+			icon: {
+				id: "mutantmonsters:hulk_hammer"
+			}
+			id: "432619FF98709255"
+			optional: true
+			rewards: [{
+				id: "17A7B156CA3F77A8"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "mutantmonsters:hulk_hammer"
+				}
+				id: "608C73D1F05E6C91"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mutantmonsters:hulk_hammer)item(mutantmonsters:endersoul_hand)item(mutantmonsters:creeper_shard))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["44CA3753096058C2"]
+			icon: {
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "438B149B7DF76938"
+			rewards: [
+				{
+					count: 3
+					id: "22193827F6441FF7"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "41BC29638D3C15C8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:find_burning_arena"
+					criterion: ""
+					id: "052B36845E6A6786"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_ignis"
+					criterion: ""
+					id: "2943E2EABC3718E1"
+					type: "advancement"
+				}
+			]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["44CA3753096058C2"]
+			icon: {
+				id: "cataclysm:monstrous_horn"
+			}
+			id: "139EE15AECACA12C"
+			rewards: [
+				{
+					count: 3
+					id: "38D82004106C13C1"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "3A2C96F72A5E43EF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:find_soul_black_smith"
+					criterion: ""
+					id: "59A6180361BC7900"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_monstrosity"
+					criterion: ""
+					id: "2050D3CFB2FEDE70"
+					type: "advancement"
+				}
+			]
+			x: 11.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09B00B77B5CAEA01"]
+			icon: {
+				id: "cataclysm:void_core"
+			}
+			id: "270F604A6B1D704C"
+			rewards: [
+				{
+					count: 3
+					id: "3308C3C6593AE2A4"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7E1A5ED06E00596E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:find_ruined_citadel"
+					criterion: ""
+					id: "3A6A29B2EF0F5F56"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_ender_guardian"
+					criterion: ""
+					id: "42A77530E5DFFC14"
+					type: "advancement"
+				}
+			]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44CA3753096058C2"]
+			icon: {
+				id: "cataclysm:mech_eye"
+			}
+			id: "5FFB737514851303"
+			rewards: [
+				{
+					count: 3
+					id: "205B9B2243CABB59"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0C7F17C5B6726A10"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:find_ancient_factory"
+					criterion: ""
+					id: "509F3CC32A669E48"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_harbinger"
+					criterion: ""
+					id: "4374FD942972526B"
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09B00B77B5CAEA01"]
+			icon: {
+				id: "cataclysm:abyssal_sacrifice"
+			}
+			id: "1E0C56C22D0E6050"
+			rewards: [
+				{
+					count: 4
+					id: "4A76CD0A1DFF7C6D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "46A3C3A4E47B389E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:find_sunken_city"
+					criterion: ""
+					id: "7DB719D758565722"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_leviathan"
+					criterion: ""
+					id: "1DB78703CFA71697"
+					type: "advancement"
+				}
+			]
+			x: 7.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44CA3753096058C2"]
+			icon: {
+				id: "cataclysm:remnant_skull"
+			}
+			id: "1054E9ADB360DDE4"
+			rewards: [
+				{
+					count: 4
+					id: "7A7C3EF0466CE547"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "43A1717A57A25141"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:find_cursed_pyramid"
+					criterion: ""
+					id: "574BD8ADBC084589"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_remnant"
+					criterion: ""
+					id: "544D922577AC11DA"
+					type: "advancement"
+				}
+			]
+			x: 7.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09B00B77B5CAEA01"]
+			icon: {
+				id: "cataclysm:cursium_ingot"
+			}
+			id: "108C51D38CB7ECDF"
+			rewards: [
+				{
+					count: 4
+					id: "0D5AE24CE0FDDE5B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "655771441196C779"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:find_frosted_prison"
+					criterion: ""
+					id: "29A778E56C474D51"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_maledictus"
+					criterion: ""
+					id: "16244BA363CF115B"
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["09B00B77B5CAEA01"]
+			icon: {
+				id: "cataclysm:essence_of_the_storm"
+			}
+			id: "280B56F4CD8BA60F"
+			rewards: [
+				{
+					count: 5
+					id: "0DCE9F072F7A5291"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "199679CA92525231"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					advancement: "cataclysm:find_acropolis"
+					criterion: ""
+					id: "6F4F7241A4E28ED0"
+					type: "advancement"
+				}
+				{
+					advancement: "cataclysm:kill_scylla"
+					criterion: ""
+					id: "439721A3685CA73A"
+					type: "advancement"
+				}
+			]
+			x: 11.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["09B00B77B5CAEA01"]
+			icon: {
+				id: "cataclysm:void_core"
+			}
+			id: "065A6D04204EF7AC"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "2B5344CF142AF24A"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2A34F6AABB71601C"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "cataclysm:kill_all_bosses"
+				criterion: ""
+				id: "3BC3F2DCF7317EFA"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3467DDFFCBEEEC50"
+				"3E275F67AF2D0E86"
+				"3A9DABA5F00DA290"
+				"67C867B3ADCB1A45"
+				"642EF3D2733328D1"
+				"604969AD51F08667"
+				"28118086FB052F8B"
+				"07053E52E9327F0A"
+				"698B6DEE84F024F2"
+				"1439FBB270F3EFE1"
+				"47F22AFC08BD3A23"
+				"438B149B7DF76938"
+				"139EE15AECACA12C"
+				"270F604A6B1D704C"
+				"5FFB737514851303"
+				"1E0C56C22D0E6050"
+				"1054E9ADB360DDE4"
+				"108C51D38CB7ECDF"
+				"280B56F4CD8BA60F"
+			]
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "5E4A9B454D85D4F0"
+			min_required_dependencies: 6
+			rewards: [
+				{
+					count: 4
+					id: "6FA51CCEF9165EE0"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2AD5CC52AA405526"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B8E34D8451135A2"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "25FCD2A5A85FC69C"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "66DA23CD1EF40E54"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0373F5F78AA92255"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "block_factorys_bosses:kill_all_bosses"
+				criterion: ""
+				id: "2E6B04710D05E417"
+				type: "advancement"
+			}]
+			x: 16.25d
+			y: 0.0d
+		}
+	]
+}

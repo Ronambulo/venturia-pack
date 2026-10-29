@@ -1,0 +1,96 @@
+{
+	id: "6E23656918CD6DE6"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			id: "5733E2B8658DC42A"
+			item: {
+				count: 1
+				id: "minecraft:horse_spawn_egg"
+			}
+			weight: 14.0f
+		}
+		{
+			id: "7EE5DC0E887866DD"
+			item: {
+				count: 1
+				id: "minecraft:wolf_spawn_egg"
+			}
+			weight: 14.0f
+		}
+		{
+			id: "6B3859EFE478DC32"
+			item: {
+				count: 1
+				id: "minecraft:cat_spawn_egg"
+			}
+			weight: 14.0f
+		}
+		{
+			id: "1D9F10B6356FD8E4"
+			item: {
+				count: 1
+				id: "minecraft:bee_spawn_egg"
+			}
+			weight: 12.0f
+		}
+		{
+			id: "6F95BE5C20276FC5"
+			item: {
+				count: 1
+				id: "minecraft:llama_spawn_egg"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "65BE50753191FC51"
+			item: {
+				count: 1
+				id: "minecraft:donkey_spawn_egg"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "15304B6A3E608670"
+			item: {
+				count: 1
+				id: "minecraft:fox_spawn_egg"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "43B79AF97D149013"
+			item: {
+				count: 1
+				id: "minecraft:goat_spawn_egg"
+			}
+			weight: 6.0f
+		}
+		{
+			id: "26FD74555F81F94B"
+			item: {
+				count: 1
+				id: "minecraft:frog_spawn_egg"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "09050BA47E09CFA6"
+			item: {
+				count: 1
+				id: "minecraft:turtle_spawn_egg"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "7D1D61DEEEC1C49A"
+			item: {
+				count: 1
+				id: "minecraft:parrot_spawn_egg"
+			}
+			weight: 2.0f
+		}
+		{ id: "02BD62775C5713CF", item: { count: 1, id: "minecraft:axolotl_spawn_egg" } }
+	]
+}

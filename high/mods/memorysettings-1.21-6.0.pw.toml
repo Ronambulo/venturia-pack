@@ -1,0 +1,8 @@
+name = "memorysettings-1.21-6.0.jar"
+filename = "memorysettings-1.21-6.0.jar"
+side = "client"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/cf94148dab1e03ee5c737657efe0371f1132a145.jar"
+hash-format = "sha1"
+hash = "cf94148dab1e03ee5c737657efe0371f1132a145"

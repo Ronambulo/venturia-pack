@@ -1,0 +1,12 @@
+[performance]
+	#Maximum distance (in blocks) at which wallpaper is rendered. Set to 0 for unlimited.
+	# Default: 64
+	# Range: 0 ~ 512
+	maxRenderDistance = 64
+
+[appearance]
+	#Whether neighbouring wallpapers count as neighbouring blocks for connected texture
+	#mods (ConnectedTexturesMod, Fusion, Continuity) and for blocks that change texture
+	#when touching, such as Create's casings. Turn off to render every wallpaper as an
+	#isolated tile.
+	connectWallpapers = true

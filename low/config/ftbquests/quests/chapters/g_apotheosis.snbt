@@ -1,0 +1,705 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "g_apotheosis"
+	group: "094E0F2FCF1D26FE"
+	icon: {
+		id: "apotheosis:reforging_table"
+	}
+	id: "54846D111AE0C9E6"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7272F46679403145"]
+			icon: {
+				id: "apotheosis:reforging_table"
+			}
+			id: "344C395A789DA189"
+			shape: "hexagon"
+			size: 2.0d
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["344C395A789DA189"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "1F38AB9F3AAA70C7"
+			shape: "rsquare"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F38AB9F3AAA70C7"]
+			icon: {
+				id: "apotheosis:salvaging_table"
+			}
+			id: "6B4187554FE30B15"
+			rewards: [{
+				id: "49F07695CD18DD2D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "27445C0F6371B2F4"
+				item: { count: 1, id: "apotheosis:salvaging_table" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6B4187554FE30B15"]
+			icon: {
+				id: "apotheosis:reforging_table"
+			}
+			id: "08CA0FF30E711D27"
+			rewards: [{
+				id: "1B5F499E79BB2A2F"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				icon: {
+					id: "apotheosis:reforging_table"
+				}
+				id: "2A984B0E7F4540E7"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apotheosis:reforging_table)item(apotheosis:simple_reforging_table))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08CA0FF30E711D27"]
+			icon: {
+				id: "apotheosis:augmenting_table"
+			}
+			id: "2AF102F1D104CFB4"
+			rewards: [{
+				id: "05E8B1DCBC7DAFA1"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "218C6643516D5569"
+				item: { count: 1, id: "apotheosis:augmenting_table" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08CA0FF30E711D27"]
+			icon: {
+				id: "apotheosis:sigil_of_enhancement"
+			}
+			id: "2BFD2302B3116F92"
+			optional: true
+			rewards: [{
+				id: "28D5F56CD60A0F78"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "apotheosis:sigil_of_enhancement"
+				}
+				id: "39129790E7025F56"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apotheosis:sigil_of_enhancement)item(apotheosis:sigil_of_withdrawal)item(apotheosis:sigil_of_unnaming)item(apotheosis:sigil_of_rebirth))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2AF102F1D104CFB4"]
+			icon: {
+				id: "apotheosis:diamond_upgrade_smithing_template"
+			}
+			id: "17D8F677C1E1973D"
+			optional: true
+			rewards: [{
+				id: "645894F047408089"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "apotheosis:diamond_upgrade_smithing_template"
+				}
+				id: "736A1B2F43111C74"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apotheosis:iron_upgrade_smithing_template)item(apotheosis:gold_upgrade_smithing_template)item(apotheosis:diamond_upgrade_smithing_template))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["344C395A789DA189"]
+			icon: {
+				id: "apotheosis:gem_cutting_table"
+			}
+			id: "434C5F2E7F537D18"
+			shape: "rsquare"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["434C5F2E7F537D18"]
+			icon: {
+				id: "apotheosis:gem_cutting_table"
+			}
+			id: "72AC929FCE1FE103"
+			rewards: [{
+				count: 8
+				id: "775FE980A7B42A66"
+				item: {
+					count: 1
+					id: "apotheosis:gem_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A94A886B82359CD"
+				item: { count: 1, id: "apotheosis:gem_cutting_table" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72AC929FCE1FE103"]
+			icon: {
+				id: "apotheosis:sigil_of_socketing"
+			}
+			id: "002B6B49026B3309"
+			rewards: [{
+				id: "5729E491C69C97DF"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "7BD8427358D378FC"
+				item: { count: 1, id: "apotheosis:sigil_of_socketing" }
+				type: "item"
+			}]
+			x: 4.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72AC929FCE1FE103"]
+			icon: {
+				id: "apotheosis:gem_dust"
+			}
+			id: "63048BC8D1C1E7AC"
+			rewards: [{
+				id: "36CDA0D430D614A2"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				count: 16L
+				id: "71241F2DE6CCA46A"
+				item: { count: 1, id: "apotheosis:gem_dust" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["002B6B49026B3309"]
+			icon: {
+				id: "apotheosis:gem_case"
+			}
+			id: "49EE9E6E4CEA81D0"
+			optional: true
+			rewards: [{
+				id: "4A621A96A2D4D6DA"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "apotheosis:gem_case"
+				}
+				id: "7DE6666C7FF48E39"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apotheosis:gem_case)item(apotheosis:ender_gem_case))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["344C395A789DA189"]
+			icon: {
+				id: "minecraft:netherite_chestplate"
+			}
+			id: "0A1D99A712985499"
+			shape: "rsquare"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A1D99A712985499"]
+			icon: {
+				id: "minecraft:iron_chestplate"
+			}
+			id: "1474BB90EC9F3FEC"
+			rewards: [{
+				id: "5299C663EF2DE209"
+				type: "xp"
+				xp: 500
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "apotheosis:progression/frontier"
+				criterion: ""
+				id: "6B4F59586CEA329E"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1474BB90EC9F3FEC"]
+			icon: {
+				id: "minecraft:diamond_chestplate"
+			}
+			id: "55A2BEA4CD8F7457"
+			rewards: [{
+				id: "1B2B73BAA71E62AF"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "apotheosis:progression/ascent"
+				criterion: ""
+				id: "0EAFE48B9A634C51"
+				type: "advancement"
+			}]
+			x: 4.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55A2BEA4CD8F7457"]
+			icon: {
+				id: "minecraft:netherite_chestplate"
+			}
+			id: "5CBACBAAC75DD32B"
+			optional: true
+			rewards: [{
+				id: "59E00011F48CDE42"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "apotheosis:progression/summit"
+				criterion: ""
+				id: "4ADDB6FDDB378BBC"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CBACBAAC75DD32B"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "3C056F646925AEF2"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "115124663A40EFA7"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "apotheosis:progression/pinnacle"
+				criterion: ""
+				id: "5CE5894E3685425C"
+				type: "advancement"
+			}]
+			x: 9.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1474BB90EC9F3FEC"]
+			icon: {
+				id: "gateways:gate_pearl"
+			}
+			id: "12CEFDF971DBA388"
+			optional: true
+			rewards: [{
+				id: "64413E39FE36F5C1"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "apotheosis:gateways/frontier"
+				criterion: ""
+				id: "1857A58D125FC9A1"
+				type: "advancement"
+			}]
+			x: 4.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["344C395A789DA189"]
+			icon: {
+				id: "apothic_enchanting:hellshelf"
+			}
+			id: "4F511031E36E2660"
+			shape: "rsquare"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4F511031E36E2660"]
+			icon: {
+				id: "apothic_enchanting:hellshelf"
+			}
+			id: "65A09757D9F69C9C"
+			rewards: [{
+				id: "5CD6F64C8270C444"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				count: 4L
+				icon: {
+					id: "apothic_enchanting:hellshelf"
+				}
+				id: "55A108E24024AE22"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:hellshelf)item(apothic_enchanting:seashelf))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["65A09757D9F69C9C"]
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "6A694E2A1D485A38"
+			rewards: [{
+				id: "5027EBABEE735B46"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "apothic_enchanting:30ench"
+				criterion: ""
+				id: "41AD7BE07FABB49A"
+				type: "advancement"
+			}]
+			x: 4.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A694E2A1D485A38"]
+			icon: {
+				id: "apothic_enchanting:infused_hellshelf"
+			}
+			id: "7DFFE28EA91E524E"
+			rewards: [{
+				id: "139DFCB76C5EC219"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				icon: {
+					id: "apothic_enchanting:infused_hellshelf"
+				}
+				id: "6F15E60CD742FE48"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:infused_hellshelf)item(apothic_enchanting:infused_seashelf))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7DFFE28EA91E524E"]
+			icon: {
+				id: "apothic_enchanting:blazing_hellshelf"
+			}
+			id: "6B3D70480CDE19A1"
+			rewards: [{
+				id: "0FD23790324774C6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "apothic_enchanting:60ench"
+				criterion: ""
+				id: "76557756BBA1AE5A"
+				type: "advancement"
+			}]
+			x: 9.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B3D70480CDE19A1"]
+			icon: {
+				id: "apothic_enchanting:deepshelf"
+			}
+			id: "3AEE1BCC3D9F0531"
+			optional: true
+			rewards: [{
+				id: "576E3C8055D00F2D"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "apothic_enchanting:deepshelf"
+				criterion: ""
+				id: "57BCADBC00541E00"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3AEE1BCC3D9F0531"]
+			icon: {
+				id: "apothic_enchanting:draconic_endshelf"
+			}
+			id: "7E01F6F35AC87C67"
+			optional: true
+			rewards: [{
+				id: "28D8014E9831F226"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "apothic_enchanting:100ench"
+				criterion: ""
+				id: "5DCD135588E66A04"
+				type: "advancement"
+			}]
+			x: 13.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6A694E2A1D485A38"]
+			icon: {
+				id: "apothic_enchanting:library"
+			}
+			id: "08BC3B96FF88C54B"
+			rewards: [{
+				id: "2D63A4F715E1600A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				icon: {
+					id: "apothic_enchanting:library"
+				}
+				id: "2170A00BEB67E990"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:library)item(apothic_enchanting:ender_library))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["08BC3B96FF88C54B"]
+			icon: {
+				id: "apothic_enchanting:weapon_tome"
+			}
+			id: "1C87CC23352EDBA2"
+			optional: true
+			rewards: [{
+				id: "4E5D455CAB03063B"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "apothic_enchanting:helmet_tome"
+				}
+				id: "07144E83088F25B2"
+				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:helmet_tome)item(apothic_enchanting:chestplate_tome)item(apothic_enchanting:leggings_tome)item(apothic_enchanting:boots_tome)item(apothic_enchanting:weapon_tome)item(apothic_enchanting:pickaxe_tome)item(apothic_enchanting:bow_tome)item(apothic_enchanting:fishing_tome)item(apothic_enchanting:other_tome)item(apothic_enchanting:extraction_tome)item(apothic_enchanting:scrap_tome)item(apothic_enchanting:improved_scrap_tome))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["344C395A789DA189"]
+			icon: {
+				id: "minecraft:spawner"
+			}
+			id: "278A60CBE86697D2"
+			shape: "rsquare"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["278A60CBE86697D2"]
+			icon: {
+				id: "minecraft:zombie_spawn_egg"
+			}
+			id: "65730019F833E9D0"
+			rewards: [{
+				id: "063CCB555FF96346"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				advancement: "apothic_spawners:capturing"
+				criterion: ""
+				id: "190BBA8EDD11AAF6"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["65730019F833E9D0"]
+			icon: {
+				id: "minecraft:spawner"
+			}
+			id: "4D1F1D96E5F2136B"
+			rewards: [{
+				id: "626A23AFB09356D4"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				advancement: "apothic_spawners:modifier"
+				criterion: ""
+				id: "656556997311BC3E"
+				type: "advancement"
+			}]
+			x: 4.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D1F1D96E5F2136B"]
+			icon: {
+				id: "minecraft:comparator"
+			}
+			id: "0F4CBF9CDADD7A06"
+			rewards: [{
+				id: "519E017C8C89B149"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				advancement: "apothic_spawners:redstone"
+				criterion: ""
+				id: "2915C7142741F4DA"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D1F1D96E5F2136B"]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "7E2E1BF68F09D5CF"
+			rewards: [{
+				id: "7163B5F35BA581EB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "apothic_spawners:players"
+				criterion: ""
+				id: "6C99996E7938D68B"
+				type: "advancement"
+			}]
+			x: 9.25d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7E2E1BF68F09D5CF"
+				"0F4CBF9CDADD7A06"
+			]
+			icon: {
+				id: "minecraft:spawner"
+			}
+			id: "5FC2B16FCAED2AFD"
+			optional: true
+			rewards: [{
+				id: "5E2DD92FFDCE5E29"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "apothic_spawners:ultimate_spawner"
+				criterion: ""
+				id: "704AEEDDA8661B41"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2AF102F1D104CFB4"
+				"002B6B49026B3309"
+				"55A2BEA4CD8F7457"
+				"6B3D70480CDE19A1"
+				"4D1F1D96E5F2136B"
+			]
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "611F93120B6E8306"
+			min_required_dependencies: 4
+			rewards: [
+				{
+					count: 2
+					id: "3DAAD06DAAB09992"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "17A020790918E80A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			x: 18.25d
+			y: 0.0d
+		}
+	]
+}

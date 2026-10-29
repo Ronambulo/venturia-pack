@@ -1,0 +1,8 @@
+name = "3D Redstone - MC 1.21.1 - 1.0.0.zip"
+filename = "3D Redstone - MC 1.21.1 - 1.0.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/wiWzMmjL/versions/rIowQ6KO/3D%20Redstone%20-%20MC%201.21.1%20-%201.0.0.zip"
+hash-format = "sha1"
+hash = "96d91271c62eef98a4d4b8004114b23dd17a0641"

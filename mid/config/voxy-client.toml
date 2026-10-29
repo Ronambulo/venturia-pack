@@ -1,0 +1,29 @@
+#Voxy client settings – personal preferences, clamped by server limits at runtime
+[client]
+	#Enable background LOD auto-generation for chunks near the player.
+	auto_generation_enabled = false
+	#Target LOD sections to auto-generate per tick. Server may enforce a lower cap.
+	# Default: 2
+	# Range: 1 ~ 32
+	auto_generation_rate = 2
+	#LOD render radius in sections. Server may enforce a lower maximum.
+	# Default: 256
+	# Range: 8 ~ 8192
+	lod_radius = 8
+	#Enable verbose debug logging for Voxy. Requires DEBUG log level in log4j config to appear in the log file.
+	debug_logging = false
+	#Maximum chunk columns tracked in the auto-generation submitted set. 0 = no limit (default).
+	#When the limit is exceeded the set is cleared and re-populated from the database on the next rebuild cycle.
+	# Default: 0
+	# Range: > 0
+	auto_gen_submitted_limit = 0
+	#Max chunks being force-loaded from the integrated server at once for LOD generation.
+	#Higher = faster distant generation but more server load.
+	# Default: 4
+	# Range: 1 ~ 64
+	auto_gen_max_pending_loads = 4
+	#Max LOD upload backlog (generated chunks awaiting upload) before the oldest are dropped.
+	#Bounds memory; does not affect generation rate.
+	# Default: 256
+	# Range: 16 ~ 8192
+	auto_gen_max_upload_queue = 256

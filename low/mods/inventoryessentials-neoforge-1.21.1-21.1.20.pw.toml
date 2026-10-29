@@ -1,0 +1,8 @@
+name = "inventoryessentials-neoforge-1.21.1-21.1.20.jar"
+filename = "inventoryessentials-neoforge-1.21.1-21.1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Boon8xwi/versions/B2gBjJSj/inventoryessentials-neoforge-1.21.1-21.1.20.jar"
+hash-format = "sha1"
+hash = "7a3d6c52ae45491581a97bf09053cd0bd14d4a82"

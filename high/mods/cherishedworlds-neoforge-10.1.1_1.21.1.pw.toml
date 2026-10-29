@@ -1,0 +1,8 @@
+name = "cherishedworlds-neoforge-10.1.1+1.21.1.jar"
+filename = "cherishedworlds-neoforge-10.1.1+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/3azQ6p0W/versions/o5lwJaRU/cherishedworlds-neoforge-10.1.1%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "aefc8c79ba62606a71f509a9b3c881f3fc4cad5c"

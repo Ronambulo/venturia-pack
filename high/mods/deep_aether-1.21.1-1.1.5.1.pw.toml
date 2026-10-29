@@ -1,0 +1,8 @@
+name = "deep_aether-1.21.1-1.1.5.1.jar"
+filename = "deep_aether-1.21.1-1.1.5.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gcHIih5B/versions/MSW5emg8/deep_aether-1.21.1-1.1.5.1.jar"
+hash-format = "sha1"
+hash = "2cffdb08d7cb068186cf0fe766fd937425889af1"

@@ -1,0 +1,8 @@
+name = "letsdo-bakery-neoforge-2.1.8.jar"
+filename = "letsdo-bakery-neoforge-2.1.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oNB5jhlA/versions/9QEPWtYp/letsdo-bakery-neoforge-2.1.8.jar"
+hash-format = "sha1"
+hash = "bfdc1ae8e8341e8455a365c0e9c17b4515416619"

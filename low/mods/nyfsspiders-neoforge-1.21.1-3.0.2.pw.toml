@@ -1,0 +1,8 @@
+name = "nyfsspiders-neoforge-1.21.1-3.0.2.jar"
+filename = "nyfsspiders-neoforge-1.21.1-3.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dOGM7ccu/versions/B2RgTf4a/nyfsspiders-neoforge-1.21.1-3.0.2.jar"
+hash-format = "sha1"
+hash = "61990355ca856be2b7179fc4abbd8ff8c963e7f9"

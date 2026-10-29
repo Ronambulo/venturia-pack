@@ -1,0 +1,8 @@
+name = "letsdo-farm_and_charm-neoforge-1.1.27.jar"
+filename = "letsdo-farm_and_charm-neoforge-1.1.27.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HJetCzWo/versions/lAc3mEva/letsdo-farm_and_charm-neoforge-1.1.27.jar"
+hash-format = "sha1"
+hash = "f05c5175a19e3d639e502d96fe6deccf9c1be556"

@@ -1,0 +1,8 @@
+name = "ApothicEnchanting-1.21.1-1.6.4.jar"
+filename = "ApothicEnchanting-1.21.1-1.6.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pL8MtgqY/versions/JAQJkLJ1/ApothicEnchanting-1.21.1-1.6.4.jar"
+hash-format = "sha1"
+hash = "d88e75b60e97dae8054ee10f3a92aa2bb812b8b9"

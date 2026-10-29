@@ -1,0 +1,8 @@
+name = "GeophilicBackported-v1.3.3 1.21.1.jar"
+filename = "GeophilicBackported-v1.3.3 1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uTfd4Kbj/versions/gA1uuNv3/GeophilicBackported-v1.3.3%201.21.1.jar"
+hash-format = "sha1"
+hash = "7a65208e25a0f894e70a20ad675e50bf2919feab"

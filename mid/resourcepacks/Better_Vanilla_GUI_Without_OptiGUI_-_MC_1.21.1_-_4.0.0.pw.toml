@@ -1,0 +1,8 @@
+name = "Better Vanilla GUI (Without OptiGUI) - MC 1.21.1 - 4.0.0.zip"
+filename = "Better Vanilla GUI (Without OptiGUI) - MC 1.21.1 - 4.0.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Tp4jv4sv/versions/BDDMAqlg/Better%20Vanilla%20GUI%20%28Without%20OptiGUI%29%20-%20MC%201.21.1%20-%204.0.0.zip"
+hash-format = "sha1"
+hash = "7a630885f5027afb40de164effb4335811b6cf75"

@@ -1,0 +1,8 @@
+name = "cbcaeronauticsmissiles-0.2.0.jar"
+filename = "cbcaeronauticsmissiles-0.2.0.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/0c6c2322d038bb97a1abfb99d1cba6134fc783f5.jar"
+hash-format = "sha1"
+hash = "0c6c2322d038bb97a1abfb99d1cba6134fc783f5"

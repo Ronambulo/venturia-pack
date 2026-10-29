@@ -1,0 +1,404 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "g_cocina"
+	group: "094E0F2FCF1D26FE"
+	icon: {
+		id: "candlelight:cooking_pan"
+	}
+	id: "5B67A756B215375F"
+	images: [ ]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28EA2861CD8155A0"]
+			icon: {
+				id: "candlelight:cooking_pan"
+			}
+			id: "79ECF45460900A65"
+			shape: "hexagon"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79ECF45460900A65"]
+			icon: {
+				id: "farm_and_charm:stove"
+			}
+			id: "1EE3C47BA4708D14"
+			rewards: [{
+				count: 16
+				id: "396FC1335CF98CEF"
+				item: {
+					count: 1
+					id: "farm_and_charm:flour"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3FC2C07898D8E90E"
+					item: { count: 1, id: "farm_and_charm:crafting_bowl" }
+					type: "item"
+				}
+				{
+					id: "1FAA3AAB60080EE0"
+					item: { count: 1, id: "farm_and_charm:stove" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EE3C47BA4708D14"]
+			icon: {
+				id: "farm_and_charm:farmers_breakfast"
+			}
+			id: "6399C4F37BF7E586"
+			rewards: [{
+				id: "5ABBA43209ADADDC"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				icon: {
+					id: "farm_and_charm:farmers_breakfast"
+				}
+				id: "4FE523ABB02CCE68"
+				item: { components: { "ftbfiltersystem:filter": "or(item(farm_and_charm:farmers_breakfast)item(farm_and_charm:goulash)item(farm_and_charm:bacon_with_eggs)item(farm_and_charm:potato_with_roast_meat)item(farm_and_charm:stuffed_chicken)item(farm_and_charm:roasted_chicken)item(farm_and_charm:lamb_with_corn))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EE3C47BA4708D14"]
+			icon: {
+				id: "bakery:baguette"
+			}
+			id: "77EAB03CC0F99160"
+			rewards: [{
+				count: 2
+				id: "5F207770B76DFF55"
+				item: {
+					count: 1
+					id: "bakery:strawberry_jam"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "66D888130087FE7A"
+					item: { count: 1, id: "bakery:baker_station" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "bakery:baguette"
+					}
+					id: "7859ADD4D682E4BD"
+					item: { components: { "ftbfiltersystem:filter": "or(item(bakery:baguette)item(bakery:croissant)item(bakery:braided_bread)item(bakery:crusty_bread)item(bakery:bun)item(bakery:toast)item(bakery:milk_bread))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["77EAB03CC0F99160"]
+			icon: {
+				id: "bakery:chocolate_cake"
+			}
+			id: "7473A4E054730D55"
+			rewards: [{
+				id: "3C4F5B404B5ADFD9"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				icon: {
+					id: "bakery:chocolate_cake"
+				}
+				id: "3A5A8A7D44D506AB"
+				item: { components: { "ftbfiltersystem:filter": "or(item(bakery:chocolate_cake)item(bakery:strawberry_cake)item(bakery:sweetberry_cake)item(bakery:bundt_cake)item(bakery:chocolate_gateau)item(bakery:apple_pie)item(bakery:linzer_tart)item(bakery:chocolate_tart)item(bakery:glowberry_tart)item(bakery:pudding))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["79ECF45460900A65"]
+			icon: {
+				id: "candlelight:cobblestone_stove"
+			}
+			id: "4812791F2032B9A0"
+			rewards: [{
+				count: 4
+				id: "5FA87833B597843F"
+				item: {
+					count: 1
+					id: "candlelight:plate"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: {
+						id: "candlelight:cobblestone_stove"
+					}
+					id: "06BBD4D5DFF3D358"
+					item: { components: { "ftbfiltersystem:filter": "or(item(candlelight:cobblestone_stove)item(candlelight:stone_bricks_stove)item(candlelight:deepslate_stove)item(candlelight:granite_stove)item(candlelight:sandstone_stove)item(candlelight:mud_stove)item(candlelight:bamboo_stove)item(candlelight:basalt_stove)item(candlelight:quartz_stove)item(candlelight:red_nether_bricks_stove)item(candlelight:end_stove))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "003F7F89B4767486"
+					item: { count: 1, id: "candlelight:cooking_pan" }
+					type: "item"
+				}
+				{
+					id: "4DEC5DB738AF49A2"
+					item: { count: 1, id: "candlelight:cooking_pot" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4812791F2032B9A0"]
+			icon: {
+				id: "candlelight:beef_wellington"
+			}
+			id: "0A2EBBD514E79298"
+			rewards: [{
+				id: "5D15F728353C12E7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				icon: {
+					id: "candlelight:beef_wellington"
+				}
+				id: "10AD04C9187E3FD8"
+				item: { components: { "ftbfiltersystem:filter": "or(item(candlelight:beef_wellington)item(candlelight:lasagne)item(candlelight:chicken_alfredo)item(candlelight:roastbeef_with_glazed_carrots)item(candlelight:roasted_lamb_with_lettuce)item(candlelight:salmon_on_white_wine)item(candlelight:pork_ribs)item(candlelight:potroast)item(candlelight:tropical_fish_supreme)item(candlelight:chicken_teriyaki)item(candlelight:fillet_steak))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4812791F2032B9A0"]
+			icon: {
+				id: "cookscollection:oven"
+			}
+			id: "08D74D8DC2E859BF"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "1DCBDE04F36160D3"
+				item: {
+					count: 1
+					id: "cookscollection:salt"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "29B341CB4512C83B"
+					item: { count: 1, id: "cookscollection:oven" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "cookscollection:fish_and_chips"
+					}
+					id: "0277F84329C867E8"
+					item: { components: { "ftbfiltersystem:filter": "or(item(cookscollection:fish_and_chips)item(cookscollection:rustic_loaf)item(cookscollection:lemon_muffin)item(cookscollection:chocolate_muffin)item(cookscollection:lemonade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4812791F2032B9A0"]
+			icon: {
+				id: "culturaldelights:avocado"
+			}
+			id: "4511B63D497D649F"
+			optional: true
+			rewards: [{
+				id: "7761335FC618884F"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "culturaldelights:cucumber"
+				}
+				id: "702B3CEC752E1FE4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(culturaldelights:cucumber)item(culturaldelights:corn_cob)item(culturaldelights:avocado)item(rusticdelight:coffee_beans)item(oceansdelight:guardian_soup))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79ECF45460900A65"]
+			icon: {
+				id: "brewery:beer_wheat"
+			}
+			id: "6D5936F9DB68D693"
+			rewards: [{
+				count: 8
+				id: "0900EE5AD160D555"
+				item: {
+					count: 1
+					id: "brewery:hops"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "62AEE37C737EF9B1"
+					item: { count: 1, id: "brewery:wooden_brewingstation" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "brewery:beer_wheat"
+					}
+					id: "0A7EDB4617B0ADBD"
+					item: { components: { "ftbfiltersystem:filter": "or(item(brewery:beer_wheat)item(brewery:beer_barley)item(brewery:beer_hops)item(brewery:beer_oat)item(brewery:beer_nettle)item(brewery:beer_haley)item(brewery:dark_brew))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D5936F9DB68D693"]
+			icon: {
+				id: "brewery:whiskey_jojannik"
+			}
+			id: "1BE585DDCFB8050C"
+			optional: true
+			rewards: [{
+				id: "7D73632345488E43"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "brewery:whiskey_jojannik"
+				}
+				id: "77F70DAB48BAB5C4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(brewery:whiskey_jojannik)item(brewery:whiskey_lilitusinglemalt)item(brewery:whiskey_cristelwalker)item(brewery:whiskey_maggoallan)item(brewery:whiskey_carrasconlabel)item(brewery:whiskey_ak)item(brewery:whiskey_highland_hearth)item(brewery:whiskey_smokey_reverie)item(brewery:whiskey_jamesons_malt))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D5936F9DB68D693"]
+			icon: {
+				id: "brewinandchewin:keg"
+			}
+			id: "3D0A9DC8FC87847A"
+			rewards: [{
+				id: "078E709459E1BA7B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "4968FD96D71C057E"
+					item: { count: 1, id: "brewinandchewin:keg" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "brewinandchewin:flaxen_cheese_wheel"
+					}
+					id: "4D28AE646F701B2F"
+					item: { components: { "ftbfiltersystem:filter": "or(item(brewinandchewin:flaxen_cheese_wheel)item(brewinandchewin:scarlet_cheese_wheel)item(brewinandchewin:pizza)item(brewinandchewin:mead)item(brewinandchewin:beer)item(brewinandchewin:rice_wine)item(brewinandchewin:kombucha))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6D5936F9DB68D693"]
+			icon: {
+				id: "farmersrespite:kettle"
+			}
+			id: "54381626B3B2DCB7"
+			rewards: [{
+				count: 4
+				id: "0C80D141CB0852E2"
+				item: {
+					count: 1
+					id: "farmersrespite:tea_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3FC651BA779B1531"
+					item: { count: 1, id: "farmersrespite:kettle" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "farmersrespite:green_tea"
+					}
+					id: "214E75096D6B137B"
+					item: { components: { "ftbfiltersystem:filter": "or(item(farmersrespite:green_tea)item(farmersrespite:black_tea)item(farmersrespite:yellow_tea)item(farmersrespite:rose_hip_tea)item(farmersrespite:dandelion_tea)item(farmersrespite:coffee)item(farmersrespite:gamblers_tea))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6399C4F37BF7E586"
+				"7473A4E054730D55"
+				"0A2EBBD514E79298"
+				"3D0A9DC8FC87847A"
+				"54381626B3B2DCB7"
+			]
+			icon: {
+				id: "candlelight:cloche"
+			}
+			id: "26A87886A454C93F"
+			rewards: [
+				{
+					count: 2
+					id: "591EE4DD2ACACB4B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "339A36533D6F7FA6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+}

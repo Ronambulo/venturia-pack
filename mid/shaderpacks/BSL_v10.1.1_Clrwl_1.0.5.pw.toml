@@ -1,0 +1,8 @@
+name = "BSL_v10.1.1 + Clrwl_1.0.5.zip"
+filename = "BSL_v10.1.1 + Clrwl_1.0.5.zip"
+side = "client"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/584e03c2ab6b2ee947c8f31dc432dde7bf29afec.zip"
+hash-format = "sha1"
+hash = "584e03c2ab6b2ee947c8f31dc432dde7bf29afec"

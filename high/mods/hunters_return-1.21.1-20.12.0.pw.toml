@@ -1,0 +1,8 @@
+name = "hunters_return-1.21.1-20.12.0.jar"
+filename = "hunters_return-1.21.1-20.12.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Yt6gmdxW/versions/AXm6vO9Y/hunters_return-1.21.1-20.12.0.jar"
+hash-format = "sha1"
+hash = "8040238a8c57cdab05f2bb91ad8e869ac2c47aa7"

@@ -1,0 +1,8 @@
+name = "trimeffects-neoforge-mc1.21-2.1.1.jar"
+filename = "trimeffects-neoforge-mc1.21-2.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BL7ADJ7w/versions/bEjVixg6/trimeffects-neoforge-mc1.21-2.1.1.jar"
+hash-format = "sha1"
+hash = "f8ba2b1d2e895f73fb53524666c9d672b5c88cc6"

@@ -1,0 +1,8 @@
+name = "fastasyncworldsave-1.21-2.6.jar"
+filename = "fastasyncworldsave-1.21-2.6.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/87e019715314631f2c8288cf7c73a52a61b2d61b.jar"
+hash-format = "sha1"
+hash = "87e019715314631f2c8288cf7c73a52a61b2d61b"

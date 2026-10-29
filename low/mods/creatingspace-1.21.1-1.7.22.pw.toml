@@ -1,0 +1,8 @@
+name = "creatingspace-1.21.1-1.7.22.jar"
+filename = "creatingspace-1.21.1-1.7.22.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/6eca99ee07780ef8918ad6969809f15ed0b1371c.jar"
+hash-format = "sha1"
+hash = "6eca99ee07780ef8918ad6969809f15ed0b1371c"

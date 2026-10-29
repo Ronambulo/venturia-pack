@@ -1,0 +1,8 @@
+name = "Modern-Industrialization-2.5.10.jar"
+filename = "Modern-Industrialization-2.5.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Gov5Dboq/versions/HOR1tVas/Modern-Industrialization-2.5.10.jar"
+hash-format = "sha1"
+hash = "7f62032ad45a996cd4964a03c5359a5f86a55a54"

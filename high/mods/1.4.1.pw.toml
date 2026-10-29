@@ -1,0 +1,8 @@
+name = "1.4.1.jar"
+filename = "1.4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vMmtCgSV/versions/ilwAcYiK/1.4.1.jar"
+hash-format = "sha1"
+hash = "7baeeb78fe215cc3ea7703de077391bfb65bd633"

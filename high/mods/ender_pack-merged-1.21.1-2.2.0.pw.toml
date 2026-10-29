@@ -1,0 +1,8 @@
+name = "ender_pack-merged-1.21.1-2.2.0.jar"
+filename = "ender_pack-merged-1.21.1-2.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HaS8KaHF/versions/9OSOXxoi/ender_pack-merged-1.21.1-2.2.0.jar"
+hash-format = "sha1"
+hash = "49f25ce60f0a3f21923610b86a0206176d3edc06"

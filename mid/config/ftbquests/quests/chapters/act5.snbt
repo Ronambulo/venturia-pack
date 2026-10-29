@@ -1,0 +1,464 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act5"
+	group: "7EAAD566B90C2B1E"
+	icon: {
+		id: "aeronautics:levitite"
+	}
+	id: "71786D0D5EC3360B"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["568C062B517D5E83"]
+			icon: {
+				id: "simulated:gyroscopic_mechanism"
+			}
+			id: "7F31008D8EB7A80C"
+			rewards: [{
+				count: 16
+				id: "638AC06A3484CA5A"
+				item: {
+					count: 1
+					id: "create:iron_sheet"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				count: 2L
+				id: "63831430C1A9F909"
+				item: { count: 1, id: "simulated:gyroscopic_mechanism" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F31008D8EB7A80C"]
+			icon: {
+				id: "aeronautics:gyroscopic_propeller_bearing"
+			}
+			id: "31CA56CF87FA65FC"
+			rewards: [{
+				id: "3D849F516993C5DC"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				icon: {
+					id: "aeronautics:gyroscopic_propeller_bearing"
+				}
+				id: "3FED5A68EF66FE93"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aeronautics:gyroscopic_propeller_bearing)item(aeronautics:smart_propeller))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31CA56CF87FA65FC"]
+			icon: {
+				id: "simulated:steering_wheel"
+			}
+			id: "354F9E1F8D666C97"
+			rewards: [{
+				id: "1A93F0B466DBCF04"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1C3EA35BF84B0FA4"
+					item: { count: 1, id: "simulated:steering_wheel" }
+					type: "item"
+				}
+				{
+					advancement: "simulated:unpowered_steering"
+					criterion: ""
+					id: "24F58A27F0C19B7B"
+					type: "advancement"
+				}
+			]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31CA56CF87FA65FC"]
+			icon: {
+				id: "aeronautics:steam_vent"
+			}
+			id: "4C142ECC601602BD"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "5C2B0ABDA3A4B01A"
+				item: {
+					count: 1
+					id: "minecraft:copper_block"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "3487B036E624E5AF"
+				item: { count: 1, id: "aeronautics:steam_vent" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["354F9E1F8D666C97"]
+			icon: {
+				id: "simulated:docking_connector"
+			}
+			id: "1C09A7AD4747ABE3"
+			optional: true
+			rewards: [{
+				id: "217CA6A18E5D422C"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "simulated:a_calculated_connection"
+				criterion: ""
+				id: "47FF44FED3F82797"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F31008D8EB7A80C"]
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			id: "531B5AA344FAE6A0"
+			rewards: [{
+				id: "06C948834BAC2FF3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "5F53BD86A0245922"
+				item: { count: 1, id: "minecraft:end_stone" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["531B5AA344FAE6A0"]
+			icon: {
+				id: "aeronautics:end_stone_powder"
+			}
+			id: "77C9F6899546CE80"
+			rewards: [{
+				count: 16
+				id: "55973CA149ADFBE8"
+				item: {
+					count: 1
+					id: "create:zinc_nugget"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "3EBFD06E717690C4"
+				item: { count: 1, id: "aeronautics:end_stone_powder" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["77C9F6899546CE80"]
+			icon: {
+				id: "aeronautics:levitite_blend_bucket"
+			}
+			id: "30F2A02A454869E9"
+			rewards: [{
+				id: "4DBF34643DAD6E1D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "549C84F9711E5EDD"
+				item: { count: 1, id: "aeronautics:levitite_blend_bucket" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30F2A02A454869E9"]
+			icon: {
+				id: "aeronautics:levitite"
+			}
+			id: "6C0E52C3F2040D0D"
+			rewards: [{
+				count: 16
+				id: "5CFCA90B4598468D"
+				item: {
+					count: 1
+					id: "aeronautics:levitite"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "aeronautics:unidentified_floating_object"
+				criterion: ""
+				id: "0024E377E32429AD"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C0E52C3F2040D0D"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "aeronautics:pearlescent_levitite"
+			}
+			id: "324DEE2598387A56"
+			optional: true
+			rewards: [{
+				id: "131C347A5DD4C1E9"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "aeronautics:now_available_in_pink"
+				criterion: ""
+				id: "06221D07D0690254"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F31008D8EB7A80C"]
+			icon: {
+				id: "aeronautics:levitite"
+			}
+			id: "11A717CF23FA4266"
+			rewards: [{
+				id: "0208D92F4CEC9C7F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			size: 1.5d
+			tasks: [{
+				count: 32L
+				id: "4F5644FA08AB0198"
+				item: { count: 1, id: "aeronautics:levitite" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["568C062B517D5E83"]
+			icon: {
+				id: "aeronautics:mounted_potato_cannon"
+			}
+			id: "34172338265B154A"
+			rewards: [{
+				count: 32
+				id: "34D9E69A6EED6616"
+				item: {
+					count: 1
+					id: "minecraft:potato"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07C91EFBE5321A6E"
+					item: { count: 1, id: "aeronautics:mounted_potato_cannon" }
+					type: "item"
+				}
+				{
+					advancement: "aeronautics:heavier_artillery"
+					criterion: ""
+					id: "3BE240E2F2C34087"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["34172338265B154A"]
+			icon: {
+				id: "minecraft:phantom_membrane"
+			}
+			id: "78F66F060A14D4DE"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "0F5FCBACA88A1E4F"
+				item: {
+					count: 1
+					id: "minecraft:phantom_membrane"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "aeronautics:ghostbuster"
+				criterion: ""
+				id: "15E552CB1C8A75E1"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34172338265B154A"]
+			icon: {
+				id: "createbigcannons:cannon_mount"
+			}
+			id: "4C13FFAF34C7D7B3"
+			rewards: [{
+				count: 8
+				id: "6A8E24FB96A122BD"
+				item: {
+					count: 1
+					id: "createbigcannons:powder_charge"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0555FC370523BF24"
+					item: { count: 1, id: "createbigcannons:cannon_mount" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "createbigcannons:cast_iron_cannon_chamber"
+					}
+					id: "49D7C52612BB7F7D"
+					item: { components: { "ftbfiltersystem:filter": "or(item(createbigcannons:cast_iron_cannon_chamber)item(createbigcannons:cast_iron_cannon_barrel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "60CB28674BF4C993"
+					item: { count: 1, id: "createbigcannons:powder_charge" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3759B0FD0075E163"
+					item: { count: 1, id: "createbigcannons:solid_shot" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"11A717CF23FA4266"
+				"31CA56CF87FA65FC"
+				"354F9E1F8D666C97"
+			]
+			icon: {
+				id: "aeronautics:levitite"
+			}
+			id: "7EFEB93D7A443220"
+			rewards: [
+				{
+					count: 2
+					id: "0C00E90BE5C18FD4"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "405782D307BC2679"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7EFEB93D7A443220"]
+			icon: {
+				id: "simulated:navigation_table"
+			}
+			id: "12419AC16402D752"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "1574154A4C2C5DF4"
+					item: {
+						count: 1
+						id: "waystones:warp_scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "0E23A2BDBDF01315"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "simulated:far_from_home"
+				criterion: ""
+				id: "15E70700F4AD7FEA"
+				type: "advancement"
+			}]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EFEB93D7A443220"]
+			icon: {
+				id: "simulated:altitude_sensor"
+			}
+			id: "332D75914BF551CA"
+			optional: true
+			rewards: [{
+				id: "063A4E011ADA1BA1"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "simulated:can_we_get_much_higher"
+				criterion: ""
+				id: "15B123D1FFE52E90"
+				type: "advancement"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+	]
+}

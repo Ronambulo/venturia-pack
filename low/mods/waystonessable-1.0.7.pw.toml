@@ -1,0 +1,8 @@
+name = "waystonessable-1.0.7.jar"
+filename = "waystonessable-1.0.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BxhPGfcK/versions/Wot8Pf4C/waystonessable-1.0.7.jar"
+hash-format = "sha1"
+hash = "cebbc2cf9a7a8b2255caff04f2109d9611b28091"

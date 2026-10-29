@@ -1,0 +1,8 @@
+name = "create_sky_village-0.0.38 NeoForge 1.21.1.jar"
+filename = "create_sky_village-0.0.38 NeoForge 1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1sKEbgoN/versions/W6ckOMnh/create_sky_village-0.0.38%20NeoForge%201.21.1.jar"
+hash-format = "sha1"
+hash = "35ff34bab02e1d9e0a1930737664b653997bd593"

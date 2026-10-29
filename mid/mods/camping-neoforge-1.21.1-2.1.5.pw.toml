@@ -1,0 +1,8 @@
+name = "camping-neoforge-1.21.1-2.1.5.jar"
+filename = "camping-neoforge-1.21.1-2.1.5.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/2b639a260522ff534dbb27ad95b1bd49b59c00eb.jar"
+hash-format = "sha1"
+hash = "2b639a260522ff534dbb27ad95b1bd49b59c00eb"

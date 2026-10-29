@@ -1,0 +1,8 @@
+name = "flerovium-neoforge-1.21.1-1.1.2-all.jar"
+filename = "flerovium-neoforge-1.21.1-1.1.2-all.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4Rh1Mobu/versions/oU1q3eIj/flerovium-neoforge-1.21.1-1.1.2-all.jar"
+hash-format = "sha1"
+hash = "31491e08947da57d4af6c48e8d3237cc6d4009c1"

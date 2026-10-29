@@ -1,0 +1,8 @@
+name = "cookscollection-0.6.1.jar"
+filename = "cookscollection-0.6.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QC7N8ljN/versions/z1YUDQXH/cookscollection-0.6.1.jar"
+hash-format = "sha1"
+hash = "46a4ec47cdb021ee2ecf9fdb5f54f7a6b6dc15dd"

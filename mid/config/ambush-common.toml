@@ -1,0 +1,49 @@
+#Server-authoritative hard limits applied during reload, command execution, and scheduling.
+[safety]
+	# Default: 256
+	# Range: 1 ~ 4096
+	maxEntitiesPerEncounter = 256
+	# Default: 512
+	# Range: 1 ~ 16384
+	maxProjectilesPerEncounter = 512
+	# Default: 512
+	# Range: 1 ~ 16384
+	maxScheduledActionsPerEncounter = 512
+	# Default: 2048
+	# Range: 1 ~ 65536
+	maxScheduledActionsPerOwner = 2048
+	# Default: 8192
+	# Range: 1 ~ 262144
+	maxScheduledActionsGlobal = 8192
+	# Default: 4
+	# Range: 0 ~ 8
+	maxNestedFleetDepth = 4
+	# Default: 24
+	# Range: 1 ~ 128
+	maxPlacementAttemptsPerEntity = 24
+	#Soft cap for active AMBUSH ship records owned by one player before the natural scheduler pauses new opportunities.
+	# Default: 12
+	# Range: 1 ~ 64
+	maxNaturalActiveShipsPerPlayer = 12
+	#Soft global cap for active AMBUSH ship records before the natural scheduler pauses new opportunities.
+	# Default: 24
+	# Range: 1 ~ 96
+	maxNaturalActiveShipsGlobal = 24
+
+#Invasion-only ceilings. Increase late-wave quality instead of adding more hulls.
+[invasion]
+	# Default: 50
+	# Range: 1 ~ 96
+	invasionMaxSimultaneousShips = 50
+	# Default: 200
+	# Range: 1 ~ 4096
+	invasionMaxLiveEntities = 200
+	# Default: 384
+	# Range: 1 ~ 16384
+	invasionMaxScheduledActions = 384
+	# Default: 1
+	# Range: 1 ~ 8
+	invasionMaxConcurrentSessions = 1
+	# Default: 8
+	# Range: 1 ~ 64
+	invasionMaxDefinitionsPerWave = 8

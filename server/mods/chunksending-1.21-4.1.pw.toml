@@ -1,0 +1,8 @@
+name = "chunksending-1.21-4.1.jar"
+filename = "chunksending-1.21-4.1.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/bb408feaf8f1e7b9f375475f87a4d96fe781af71.jar"
+hash-format = "sha1"
+hash = "bb408feaf8f1e7b9f375475f87a4d96fe781af71"

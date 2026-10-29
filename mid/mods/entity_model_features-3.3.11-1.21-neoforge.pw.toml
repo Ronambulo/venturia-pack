@@ -1,0 +1,8 @@
+name = "entity_model_features-3.3.11-1.21-neoforge.jar"
+filename = "entity_model_features-3.3.11-1.21-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4I1XuqiY/versions/bRlX1x4e/entity_model_features-3.3.11-1.21-neoforge.jar"
+hash-format = "sha1"
+hash = "fc551f0a284a5864fbc1a11fde5e27ab0ac95f43"

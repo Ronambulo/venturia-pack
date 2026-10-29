@@ -1,0 +1,8 @@
+name = "ftb-filter-system-neoforge-21.1.4.jar"
+filename = "ftb-filter-system-neoforge-21.1.4.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/a48e54edeacc59aaba29a1b627799c052112ee0b.jar"
+hash-format = "sha1"
+hash = "a48e54edeacc59aaba29a1b627799c052112ee0b"

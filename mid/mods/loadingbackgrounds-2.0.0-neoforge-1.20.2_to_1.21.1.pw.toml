@@ -1,0 +1,8 @@
+name = "loadingbackgrounds-2.0.0-neoforge-1.20.2_to_1.21.1.jar"
+filename = "loadingbackgrounds-2.0.0-neoforge-1.20.2_to_1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/dH40biZd/versions/JlI4EiOe/loadingbackgrounds-2.0.0-neoforge-1.20.2_to_1.21.1.jar"
+hash-format = "sha1"
+hash = "4a84d25201376f369045e4bec5263c7f0666b457"

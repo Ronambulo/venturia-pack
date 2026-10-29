@@ -1,0 +1,8 @@
+name = "portable_engine_liquid_fuel-2.0.0-neoforge-1.21.1.jar"
+filename = "portable_engine_liquid_fuel-2.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HLbPoouI/versions/L6KPVFxI/portable_engine_liquid_fuel-2.0.0-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "f9602c7f9a8268507a835bfa47db1512d356dae7"

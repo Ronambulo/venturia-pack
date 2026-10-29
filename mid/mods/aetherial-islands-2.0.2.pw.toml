@@ -1,0 +1,8 @@
+name = "aetherial-islands-2.0.2.jar"
+filename = "aetherial-islands-2.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CHh9WEKT/versions/kcSMOEhD/aetherial-islands-2.0.2.jar"
+hash-format = "sha1"
+hash = "93dea890d111c115a88fb9a0a275473f90e99be9"

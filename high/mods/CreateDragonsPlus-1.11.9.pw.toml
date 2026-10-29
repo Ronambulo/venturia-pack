@@ -1,0 +1,8 @@
+name = "CreateDragonsPlus-1.11.9.jar"
+filename = "CreateDragonsPlus-1.11.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dzb1a5WV/versions/b0u9vk8C/CreateDragonsPlus-1.11.9.jar"
+hash-format = "sha1"
+hash = "67ffcb61207a7dbc6b1e70f0473ddbacb19d44eb"

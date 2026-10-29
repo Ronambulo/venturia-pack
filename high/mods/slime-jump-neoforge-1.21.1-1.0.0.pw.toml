@@ -1,0 +1,8 @@
+name = "slime-jump-neoforge-1.21.1-1.0.0.jar"
+filename = "slime-jump-neoforge-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/m7rNOr2S/versions/cu8WIJwD/slime-jump-neoforge-1.21.1-1.0.0%281%29.jar"
+hash-format = "sha1"
+hash = "98ed55b97b00b3a0c925ad630da2b63f5fe757a6"

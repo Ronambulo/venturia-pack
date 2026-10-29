@@ -1,0 +1,9 @@
+# Venturia (PvP en claims ya viene activado por defecto): 500 chunks reclamados y 20 cargados por jugador
+{
+	claiming: {
+		max_claimed_chunks: 500
+	}
+	force_loading: {
+		max_force_loaded_chunks: 20
+	}
+}

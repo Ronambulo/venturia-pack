@@ -1,0 +1,8 @@
+name = "darkerdepths-2.1.6.jar"
+filename = "darkerdepths-2.1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wCbFXJKH/versions/yzhGIe6b/darkerdepths-2.1.6.jar"
+hash-format = "sha1"
+hash = "748a1c3694df35ae8373dc293725e3aff13e9831"

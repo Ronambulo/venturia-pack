@@ -1,0 +1,8 @@
+name = "fragmentum-5.2.0+1.21.1-neoforge.jar"
+filename = "fragmentum-5.2.0+1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/49C5QgTK/versions/Kh6I6ckR/fragmentum-5.2.0%2B1.21.1-neoforge.jar"
+hash-format = "sha1"
+hash = "b4b7aed92ff5bfd61c2d0b0a894268d03c3f8f8c"

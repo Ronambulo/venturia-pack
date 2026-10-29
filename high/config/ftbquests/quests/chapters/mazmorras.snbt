@@ -1,0 +1,592 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mazmorras"
+	group: "034687D5B1FA5FDB"
+	icon: {
+		id: "minecraft:mossy_stone_bricks"
+	}
+	id: "14B702F388260FC4"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7272F46679403145"]
+			icon: {
+				id: "minecraft:mossy_stone_bricks"
+			}
+			id: "6DB011BFA589A62B"
+			shape: "hexagon"
+			size: 2.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DB011BFA589A62B"]
+			icon: {
+				id: "minecraft:phantom_membrane"
+			}
+			id: "0D4A7647E58524EE"
+			shape: "rsquare"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6DB011BFA589A62B"]
+			icon: {
+				id: "minecraft:trident"
+			}
+			id: "56F6CC3FF0925949"
+			shape: "rsquare"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6DB011BFA589A62B"]
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "6D15AB7D8E80D3BC"
+			shape: "rsquare"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DB011BFA589A62B"]
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
+			id: "22EB3D6D2BFDE864"
+			shape: "rsquare"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6DB011BFA589A62B"]
+			icon: {
+				id: "minecraft:red_mushroom"
+			}
+			id: "5B9EBEEC77E9644D"
+			shape: "rsquare"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D4A7647E58524EE"]
+			icon: {
+				id: "minecraft:white_wool"
+			}
+			id: "3BB750716F72879C"
+			rewards: [{
+				id: "5E285D0230BE02AE"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_small_blimp"
+				criterion: ""
+				id: "67FE5C5B8CA9DFA7"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0D4A7647E58524EE"]
+			icon: {
+				id: "minecraft:phantom_membrane"
+			}
+			id: "7977BCE6903215E2"
+			rewards: [{
+				id: "38AC98AE76634FEF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_heavenly_rider"
+				criterion: ""
+				id: "31703B9336107509"
+				type: "advancement"
+			}]
+			x: 7.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0D4A7647E58524EE"]
+			icon: {
+				id: "minecraft:feather"
+			}
+			id: "088A762A22F25E24"
+			rewards: [{
+				id: "77C03E9863DFFF96"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_heavenly_challenger"
+				criterion: ""
+				id: "488671E73EBCF9CD"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0D4A7647E58524EE"]
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "0D0807FB1E9C7C4D"
+			rewards: [{
+				id: "62C6F7E3A7265D01"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_heavenly_conqueror"
+				criterion: ""
+				id: "377628081D118367"
+				type: "advancement"
+			}]
+			x: 11.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["56F6CC3FF0925949"]
+			icon: {
+				id: "minecraft:lantern"
+			}
+			id: "04C6DAE7870FC8F4"
+			rewards: [{
+				id: "3F6CC151E1333D6C"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_lighthouse"
+				criterion: ""
+				id: "69C57D42BBA87E10"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56F6CC3FF0925949"]
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "2D4E391B89F121B8"
+			rewards: [{
+				id: "4EA88D521B04C458"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_illager_corsair_or_illager_galley"
+				criterion: ""
+				id: "538781E5B2ACEA45"
+				type: "advancement"
+			}]
+			x: 7.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56F6CC3FF0925949"]
+			icon: {
+				id: "minecraft:oak_boat"
+			}
+			id: "03FF585F485B4337"
+			rewards: [{
+				id: "7D9F2A841ADCA9B3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_undead_pirate_ship"
+				criterion: ""
+				id: "7E1F2ABDD0EF0965"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["56F6CC3FF0925949"]
+			icon: {
+				id: "minecraft:trident"
+			}
+			id: "7F5B4F1DA93A0C7A"
+			rewards: [{
+				id: "01675229ECF0D31C"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_typhon"
+				criterion: ""
+				id: "2011558DE20D4074"
+				type: "advancement"
+			}]
+			x: 11.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6D15AB7D8E80D3BC"]
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "79AA9CCE674227F6"
+			rewards: [{
+				id: "661206B009BE2053"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_bandit_towers"
+				criterion: ""
+				id: "6EF8AECCE347968C"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D15AB7D8E80D3BC"]
+			icon: {
+				id: "minecraft:feather"
+			}
+			id: "7BDDAB7EEC93C230"
+			rewards: [{
+				id: "71EAFFC2CFA82C65"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_aviary"
+				criterion: ""
+				id: "76313DACF333344C"
+				type: "advancement"
+			}]
+			x: 7.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D15AB7D8E80D3BC"]
+			icon: {
+				id: "minecraft:iron_axe"
+			}
+			id: "60942A7383F810DD"
+			rewards: [{
+				id: "64CB7D6779D54169"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_illager_fort"
+				criterion: ""
+				id: "5B73E95BFE4E87F8"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D15AB7D8E80D3BC"]
+			icon: {
+				id: "minecraft:mossy_cobblestone"
+			}
+			id: "17F6B2BA1ED16A11"
+			rewards: [{
+				id: "0A45E7753FC49DEE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_infested_temple"
+				criterion: ""
+				id: "7780ACF7084FF7EA"
+				type: "advancement"
+			}]
+			x: 11.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D15AB7D8E80D3BC"]
+			icon: {
+				id: "minecraft:bell"
+			}
+			id: "3F1B7232E1900A21"
+			optional: true
+			rewards: [{
+				id: "0F772ED9A4525757"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "dungeons_arise:find_monastery"
+				criterion: ""
+				id: "7B13B2AFE3296282"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22EB3D6D2BFDE864"]
+			icon: {
+				id: "minecraft:iron_pickaxe"
+			}
+			id: "79FD492912671FA2"
+			rewards: [{
+				id: "0D60F8567F1A61CA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_scorched_mines"
+				criterion: ""
+				id: "2E247BC7F36F175E"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["22EB3D6D2BFDE864"]
+			icon: {
+				id: "minecraft:blast_furnace"
+			}
+			id: "08C52A2DF315F05E"
+			rewards: [{
+				id: "723F49F6F0996F85"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_foundry"
+				criterion: ""
+				id: "3303469A6771FABC"
+				type: "advancement"
+			}]
+			x: 7.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["22EB3D6D2BFDE864"]
+			icon: {
+				id: "minecraft:piston"
+			}
+			id: "47FB52CD4CEC5B84"
+			rewards: [{
+				id: "0391735DCC369F3F"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_mechanical_nest"
+				criterion: ""
+				id: "2A79901B13643CB4"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["22EB3D6D2BFDE864"]
+			icon: {
+				id: "minecraft:stone_bricks"
+			}
+			id: "75D81E3926E74D90"
+			rewards: [{
+				id: "0240F75AE6DF911C"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_keep_kayra"
+				criterion: ""
+				id: "61E428100C0946A6"
+				type: "advancement"
+			}]
+			x: 11.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["22EB3D6D2BFDE864"]
+			icon: {
+				id: "minecraft:gold_block"
+			}
+			id: "2BD6D8D7EEDE10F3"
+			rewards: [{
+				id: "3FC1809D91D602DA"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "dungeons_arise:find_shiraz_palace"
+				criterion: ""
+				id: "4D653BE3F17D60DD"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5B9EBEEC77E9644D"]
+			icon: {
+				id: "minecraft:milk_bucket"
+			}
+			id: "399440F5E7FDC829"
+			optional: true
+			rewards: [{
+				id: "53E604E790669334"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "dungeons_arise:find_plague_asylum"
+				criterion: ""
+				id: "5D866CD6C4F1DFC8"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B9EBEEC77E9644D"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "32FA532DA609B3C2"
+			optional: true
+			rewards: [{
+				id: "4A868851F2ED59FC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "dungeons_arise:find_coliseum"
+				criterion: ""
+				id: "76C34B929844B4D2"
+				type: "advancement"
+			}]
+			x: 7.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B9EBEEC77E9644D"]
+			icon: {
+				id: "minecraft:red_mushroom"
+			}
+			id: "1A67EF9BA98D0AE4"
+			optional: true
+			rewards: [{
+				id: "4458CEAEE9274038"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "dungeons_arise:find_mushroom_mines"
+				criterion: ""
+				id: "74D9199C0A5CB849"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B9EBEEC77E9644D"]
+			icon: {
+				id: "minecraft:minecart"
+			}
+			id: "0731B2DF20F4E5CE"
+			optional: true
+			rewards: [{
+				id: "15194C1275FBCB41"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "dungeons_arise:find_mining_complex"
+				criterion: ""
+				id: "69246C03F7E841F0"
+				type: "advancement"
+			}]
+			x: 11.75d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3BB750716F72879C"
+				"7977BCE6903215E2"
+				"088A762A22F25E24"
+				"0D0807FB1E9C7C4D"
+				"04C6DAE7870FC8F4"
+				"2D4E391B89F121B8"
+				"03FF585F485B4337"
+				"7F5B4F1DA93A0C7A"
+				"79AA9CCE674227F6"
+				"7BDDAB7EEC93C230"
+				"60942A7383F810DD"
+				"17F6B2BA1ED16A11"
+				"3F1B7232E1900A21"
+				"79FD492912671FA2"
+				"08C52A2DF315F05E"
+				"47FB52CD4CEC5B84"
+				"75D81E3926E74D90"
+				"2BD6D8D7EEDE10F3"
+				"399440F5E7FDC829"
+				"32FA532DA609B3C2"
+				"1A67EF9BA98D0AE4"
+				"0731B2DF20F4E5CE"
+			]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "20A0688BA2707FCB"
+			min_required_dependencies: 8
+			rewards: [
+				{
+					count: 3
+					id: "62F46334C16DFB8D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4F6A77B49B40764A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			x: 16.5d
+			y: 0.0d
+		}
+	]
+}

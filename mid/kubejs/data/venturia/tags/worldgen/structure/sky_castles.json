@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "mss:castle_tower", "required": false },
+    { "id": "mss:large_tower", "required": false },
+    { "id": "mss:castle_ruin", "required": false },
+    { "id": "mss:arena", "required": false },
+    { "id": "chineseflyingislandtower:flying_temple", "required": false }
+  ]
+}

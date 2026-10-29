@@ -1,0 +1,8 @@
+name = "withoutstructures-1.0.0.jar"
+filename = "withoutstructures-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MdgQBi3t/versions/4KWN5652/withoutstructures-1.0.0.jar"
+hash-format = "sha1"
+hash = "801cdf51bced3672a2baec97fd1a13880c5448f1"

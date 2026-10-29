@@ -1,0 +1,8 @@
+name = "aeroportals-1.21.1-1.3.3.jar"
+filename = "aeroportals-1.21.1-1.3.3.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/ea57ea1792a76c1ff5ca3aa5a192fff4fa88a8ba.jar"
+hash-format = "sha1"
+hash = "ea57ea1792a76c1ff5ca3aa5a192fff4fa88a8ba"

@@ -1,0 +1,8 @@
+name = "ForgeEndertech-1.21.1-12.1.4.0-NeoForge-build.1161.jar"
+filename = "ForgeEndertech-1.21.1-12.1.4.0-NeoForge-build.1161.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EgS8gGp8/versions/r9lM1yuJ/ForgeEndertech-1.21.1-12.1.4.0-NeoForge-build.1161.jar"
+hash-format = "sha1"
+hash = "57552932d2b40961fe80eeca4937b917fe166ceb"

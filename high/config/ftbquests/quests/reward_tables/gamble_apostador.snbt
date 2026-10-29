@@ -1,0 +1,84 @@
+{
+	id: "1D910788C58004D5"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			id: "40AEEFC46A589E3C"
+			item: {
+				count: 1
+				id: "minecraft:dirt"
+			}
+			weight: 47.0f
+		}
+		{
+			id: "53FC1578497FBE27"
+			item: {
+				count: 1
+				id: "minecraft:poisonous_potato"
+			}
+			weight: 13.0f
+		}
+		{
+			count: 16
+			id: "5F9DB18B48A7452E"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+			weight: 12.0f
+		}
+		{
+			count: 8
+			id: "0D5EB36A95010981"
+			item: {
+				count: 1
+				id: "create:electron_tube"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "6BCC17AD3F5D3057"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+			weight: 7.0f
+		}
+		{
+			id: "5A0ED9802D5A960C"
+			item: {
+				count: 1
+				id: "voidtotem:totem_of_void_undying"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 2
+			id: "2F2206BD55B0D3CF"
+			item: {
+				count: 1
+				id: "aeronautics:propeller_bearing"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 32
+			id: "4792751E8A27704D"
+			item: {
+				count: 1
+				id: "aeronautics:levitite"
+			}
+			weight: 1.5f
+		}
+		{
+			id: "4CE907A7DAA6A8FF"
+			item: {
+				count: 1
+				id: "numismatics:crown"
+			}
+			weight: 0.5f
+		}
+	]
+}

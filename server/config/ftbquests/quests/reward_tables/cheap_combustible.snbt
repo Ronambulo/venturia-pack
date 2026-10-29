@@ -1,0 +1,78 @@
+{
+	id: "62686AA46D46531B"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			count: 32
+			id: "172CECF422449B0F"
+			item: {
+				count: 1
+				id: "minecraft:coal"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 32
+			id: "5CFEF8290BF13408"
+			item: {
+				count: 1
+				id: "minecraft:charcoal"
+			}
+			weight: 18.0f
+		}
+		{
+			count: 16
+			id: "37320F984C483118"
+			item: {
+				count: 1
+				id: "minecraft:gunpowder"
+			}
+			weight: 18.0f
+		}
+		{
+			id: "2102C72C3FDB69CA"
+			item: {
+				count: 1
+				id: "minecraft:lava_bucket"
+			}
+			weight: 12.0f
+		}
+		{
+			count: 4
+			id: "38D1EB142EFCD4D8"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "7BF94C43BB4BBFB7"
+			item: {
+				count: 1
+				id: "minecraft:coal_block"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "2409982CAE70724E"
+			item: {
+				count: 1
+				id: "minecraft:tnt"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "39EC4C749AAC1C89"
+			item: {
+				count: 1
+				id: "minecraft:fire_charge"
+			}
+			weight: 3.0f
+		}
+	]
+}

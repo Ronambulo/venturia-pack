@@ -1,0 +1,8 @@
+name = "puzzleslib-v21.1.63-mc1.21.1+neoforge.jar"
+filename = "puzzleslib-v21.1.63-mc1.21.1+neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QAGBst4M/versions/Rd8nOmlF/puzzleslib-v21.1.63-mc1.21.1%2Bneoforge.jar"
+hash-format = "sha1"
+hash = "0bc04f49c8f0420c2db8c45d9329fe8c1919bc85"

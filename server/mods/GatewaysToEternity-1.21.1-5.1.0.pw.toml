@@ -1,0 +1,8 @@
+name = "GatewaysToEternity-1.21.1-5.1.0.jar"
+filename = "GatewaysToEternity-1.21.1-5.1.0.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/f91a593378209f527fe81e731ca60fe8f8da2319.jar"
+hash-format = "sha1"
+hash = "f91a593378209f527fe81e731ca60fe8f8da2319"

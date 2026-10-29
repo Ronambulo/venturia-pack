@@ -1,0 +1,8 @@
+name = "fancymenu_neoforge_3.9.14_MC_1.21.1.jar"
+filename = "fancymenu_neoforge_3.9.14_MC_1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Wq5SjeWM/versions/P9dDosz2/fancymenu_neoforge_3.9.14_MC_1.21.1.jar"
+hash-format = "sha1"
+hash = "cafbef98afb4f60adea426b950c5452655040c40"

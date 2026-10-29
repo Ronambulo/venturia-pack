@@ -1,0 +1,8 @@
+name = "explore_ruins_aether-1.0.0-neoforge-1.21.1.jar"
+filename = "explore_ruins_aether-1.0.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/spwhkPqk/versions/hXttxA3w/explore_ruins_aether-1.0.0-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "c4de6d0104090df656634afc03f3b1b05c6b33e1"

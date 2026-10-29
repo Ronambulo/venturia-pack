@@ -1,0 +1,8 @@
+name = "RPG Potions - Neoforge - MC 1.21.1 - 1.2.0.jar"
+filename = "RPG Potions - Neoforge - MC 1.21.1 - 1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZBslV1VK/versions/YpuVUPTf/RPG%20Potions%20-%20Neoforge%20-%20MC%201.21.1%20-%201.0.0.jar"
+hash-format = "sha1"
+hash = "637a51460f7cf01be7625ffba13809c43b12e0e5"

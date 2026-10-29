@@ -1,0 +1,8 @@
+name = "justzoom_neoforge_3.0.1_MC_1.21.1.jar"
+filename = "justzoom_neoforge_3.0.1_MC_1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/iAiqcykM/versions/c9bc4pyu/justzoom_neoforge_3.0.1_MC_1.21.1.jar"
+hash-format = "sha1"
+hash = "3151a603551f8794c4bc80ae65b4e03b17578cde"

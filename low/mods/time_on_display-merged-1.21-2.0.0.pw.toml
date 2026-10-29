@@ -1,0 +1,8 @@
+name = "time_on_display-merged-1.21-2.0.0.jar"
+filename = "time_on_display-merged-1.21-2.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yWZYDU0J/versions/Hb6LjCBu/time_on_display-merged-1.21-2.0.0.jar"
+hash-format = "sha1"
+hash = "8d77892c5a990533366119f03be9b8cf15c7febe"

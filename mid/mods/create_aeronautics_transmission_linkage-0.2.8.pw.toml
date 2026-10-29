@@ -1,0 +1,8 @@
+name = "create_aeronautics_transmission_linkage-0.2.8.jar"
+filename = "create_aeronautics_transmission_linkage-0.2.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Y1dq5ioE/versions/FCZZ3ED4/create_aeronautics_transmission_linkage-0.2.8.jar"
+hash-format = "sha1"
+hash = "bccaf90652905ae5f28dcc7e1134099d188ca020"

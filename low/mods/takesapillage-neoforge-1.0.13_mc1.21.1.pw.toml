@@ -1,0 +1,8 @@
+name = "takesapillage-neoforge-1.0.13+mc1.21.1.jar"
+filename = "takesapillage-neoforge-1.0.13+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QOJOg1gE/versions/m8qvxZIS/takesapillage-neoforge-1.0.13%2Bmc1.21.1.jar"
+hash-format = "sha1"
+hash = "5bd588f08b8a6e783d8dc20860373e8b01f8e2df"

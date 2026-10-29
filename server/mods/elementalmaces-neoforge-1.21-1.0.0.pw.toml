@@ -1,0 +1,8 @@
+name = "elementalmaces-neoforge-1.21-1.0.0.jar"
+filename = "elementalmaces-neoforge-1.21-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZRT4oxpT/versions/LPqN3ztB/elementalmaces-neoforge-1.21-1.0.0.jar"
+hash-format = "sha1"
+hash = "6788da71dc4871f5b68c0bc17aab2ce910f3d42e"

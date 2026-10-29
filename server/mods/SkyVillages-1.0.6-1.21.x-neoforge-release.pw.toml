@@ -1,0 +1,8 @@
+name = "SkyVillages-1.0.6-1.21.x-neoforge-release.jar"
+filename = "SkyVillages-1.0.6-1.21.x-neoforge-release.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/mb68eIfx/versions/3InSHTOp/SkyVillages-1.0.6-1.21.x-neoforge-release.jar"
+hash-format = "sha1"
+hash = "645eb49d4019e5550afd4055f380c26edd126611"

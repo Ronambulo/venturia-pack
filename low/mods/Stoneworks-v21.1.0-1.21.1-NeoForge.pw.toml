@@ -1,0 +1,8 @@
+name = "Stoneworks-v21.1.0-1.21.1-NeoForge.jar"
+filename = "Stoneworks-v21.1.0-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FzyTKtVF/versions/9XTU6J5n/Stoneworks-v21.1.0-1.21.1-NeoForge.jar"
+hash-format = "sha1"
+hash = "3134034decd63a5f0cd894c3b94b46df2635936e"

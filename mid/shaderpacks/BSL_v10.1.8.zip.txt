@@ -1,0 +1,8 @@
+SHADOW=true
+shadowMapResolution=1024
+shadowDistance=128.0
+AO=false
+LIGHT_SHAFT=false
+SHADOW_COLOR=false
+SHADOW_FILTER=false
+TAA=false

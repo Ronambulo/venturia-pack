@@ -1,0 +1,8 @@
+name = "gadgets-and-gizmos-bundled-V1.2.7.jar"
+filename = "gadgets-and-gizmos-bundled-V1.2.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Sza3GgEL/versions/HhiEx5tk/gadgets-and-gizmos-bundled-V1.2.7.jar"
+hash-format = "sha1"
+hash = "afc0abb9c9c3bbdcb9ab815fc76ee89402383deb"

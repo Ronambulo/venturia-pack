@@ -1,0 +1,8 @@
+name = "sophisticatedstorage-1.21.1-1.6.1.2147.jar"
+filename = "sophisticatedstorage-1.21.1-1.6.1.2147.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/8b96ed4f89edca6878c8e3d94e8ffa17a6f549d3.jar"
+hash-format = "sha1"
+hash = "8b96ed4f89edca6878c8e3d94e8ffa17a6f549d3"

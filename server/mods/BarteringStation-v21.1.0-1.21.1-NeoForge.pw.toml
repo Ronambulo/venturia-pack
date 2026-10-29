@@ -1,0 +1,8 @@
+name = "BarteringStation-v21.1.0-1.21.1-NeoForge.jar"
+filename = "BarteringStation-v21.1.0-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EOig9U0j/versions/GOAgiH0l/BarteringStation-v21.1.0-1.21.1-NeoForge.jar"
+hash-format = "sha1"
+hash = "f48d3cf685e11d057e00bd403988fed812756670"

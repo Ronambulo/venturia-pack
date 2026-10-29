@@ -1,0 +1,8 @@
+name = "ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar"
+filename = "ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ohNO6lps/versions/tWlsPKJI/ForgeConfigAPIPort-v21.1.6-1.21.1-NeoForge.jar"
+hash-format = "sha1"
+hash = "14f2dd9f43254b8c06af04b6f0c8ae5192f658b5"

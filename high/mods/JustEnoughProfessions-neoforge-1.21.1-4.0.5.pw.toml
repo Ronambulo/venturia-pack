@@ -1,0 +1,8 @@
+name = "JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar"
+filename = "JustEnoughProfessions-neoforge-1.21.1-4.0.5.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/439ea1baa5e3065e36e0e57422f22403918bb59f.jar"
+hash-format = "sha1"
+hash = "439ea1baa5e3065e36e0e57422f22403918bb59f"

@@ -1,0 +1,8 @@
+name = "MultiArrowEffects-Neoforge-1.21.1-2.0.0.jar"
+filename = "MultiArrowEffects-Neoforge-1.21.1-2.0.0.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/87b107137ff37b851569f67153ea0508166bbc3f.jar"
+hash-format = "sha1"
+hash = "87b107137ff37b851569f67153ea0508166bbc3f"

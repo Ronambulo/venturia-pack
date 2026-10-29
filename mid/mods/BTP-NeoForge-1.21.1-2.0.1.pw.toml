@@ -1,0 +1,8 @@
+name = "BTP-NeoForge-1.21.1-2.0.1.jar"
+filename = "BTP-NeoForge-1.21.1-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/H3a6cFKr/versions/1IKhBo7j/BTP-NeoForge-1.21.1-2.0.1.jar"
+hash-format = "sha1"
+hash = "fcbe40d2dccab177afd6514269f7a66d70fe7afc"

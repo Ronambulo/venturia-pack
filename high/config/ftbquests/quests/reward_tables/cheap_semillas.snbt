@@ -1,0 +1,160 @@
+{
+	id: "7BBAE164AEEB14E0"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			count: 8
+			id: "4F941588F9FF2C7B"
+			item: {
+				count: 1
+				id: "farmersdelight:tomato_seeds"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "1CD08E7B4561381C"
+			item: {
+				count: 1
+				id: "farmersdelight:cabbage_seeds"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "323B02EF0083C4DF"
+			item: {
+				count: 1
+				id: "farmersdelight:rice"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "7B78405A05630DE7"
+			item: {
+				count: 1
+				id: "farmersdelight:onion"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 8
+			id: "7D76A188FCAF7264"
+			item: {
+				count: 1
+				id: "farm_and_charm:barley_seeds"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "7465F93257337AFE"
+			item: {
+				count: 1
+				id: "farm_and_charm:oat_seeds"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "2F8F21ECBDBF51E1"
+			item: {
+				count: 1
+				id: "farm_and_charm:lettuce_seeds"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "4A70300623C4D2DC"
+			item: {
+				count: 1
+				id: "farm_and_charm:strawberry_seeds"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "2181A320EEAAACAA"
+			item: {
+				count: 1
+				id: "culturaldelights:cucumber_seeds"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "10995BE03D52A1BB"
+			item: {
+				count: 1
+				id: "culturaldelights:eggplant_seeds"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "58E73EA352D55D9A"
+			item: {
+				count: 1
+				id: "culturaldelights:corn_kernels"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "7B4C715243B7AD5F"
+			item: {
+				count: 1
+				id: "rusticdelight:bell_pepper_seeds"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 8
+			id: "6B7079B192975839"
+			item: {
+				count: 1
+				id: "rusticdelight:cotton_seeds"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "18E8064CEA32D9E0"
+			item: {
+				count: 1
+				id: "farmersrespite:tea_seeds"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "498B131C73D350C9"
+			item: {
+				count: 1
+				id: "farmersrespite:coffee_beans"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "1AB51AC21FBCBD76"
+			item: {
+				count: 1
+				id: "vinery:red_grape_seeds"
+			}
+			weight: 4.0f
+		}
+		{
+			count: 8
+			id: "772B2F3044334DF7"
+			item: {
+				count: 1
+				id: "vinery:white_grape_seeds"
+			}
+			weight: 4.0f
+		}
+	]
+}

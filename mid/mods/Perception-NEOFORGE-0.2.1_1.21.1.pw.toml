@@ -1,0 +1,8 @@
+name = "Perception-NEOFORGE-0.2.1+1.21.1.jar"
+filename = "Perception-NEOFORGE-0.2.1+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/P8STLvzB/versions/W5IQteYO/Perception-NEOFORGE-0.2.1%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "ea6d1403c8bc5cdda2727c1a90b29284c0ed653a"

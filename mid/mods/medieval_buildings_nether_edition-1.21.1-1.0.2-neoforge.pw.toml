@@ -1,0 +1,8 @@
+name = "medieval_buildings_nether_edition-1.21.1-1.0.2-neoforge.jar"
+filename = "medieval_buildings_nether_edition-1.21.1-1.0.2-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9zKI9xOD/versions/70C9QEm8/medieval_buildings_nether_edition-1.21.1-1.0.2-neoforge.jar"
+hash-format = "sha1"
+hash = "6efa264eabf4a53283660814be3e395500f339f0"

@@ -1,0 +1,2509 @@
+{
+	chapter.005A702ACB613863.chapter_subtitle: ["Ars Nouveau y su magia con Create"]
+	chapter.005A702ACB613863.title: "Magia"
+	chapter.06DE5A59EF33292E.chapter_subtitle: ["Tu primera aeronave"]
+	chapter.06DE5A59EF33292E.title: "Acto 3 · Despegue"
+	chapter.14B702F388260FC4.chapter_subtitle: ["Las estructuras de When Dungeons Arise"]
+	chapter.14B702F388260FC4.title: "Mazmorras"
+	chapter.1CDB6B929E1877D9.chapter_subtitle: ["Cañones, radar, misiles y escudos"]
+	chapter.1CDB6B929E1877D9.title: "Armas pesadas"
+	chapter.2AA1D8A1336D45CC.chapter_subtitle: ["Rutas de naves, hipertubos y almacenes"]
+	chapter.2AA1D8A1336D45CC.title: "Logística"
+	chapter.3211EF35C26D8866.chapter_subtitle: ["Armas, artefactos y portales de oleadas"]
+	chapter.3211EF35C26D8866.title: "Equipo y aventura"
+	chapter.325711CC25A0D7B5.chapter_subtitle: ["Del spawn a tu propia isla"]
+	chapter.325711CC25A0D7B5.title: "Acto 1 · Náufrago del cielo"
+	chapter.36773EF9B6669230.chapter_subtitle: ["Create: tu isla trabaja sola"]
+	chapter.36773EF9B6669230.title: "Acto 2 · Primeros engranajes"
+	chapter.36891B9D5F6246B8.chapter_subtitle: ["Se abre con la tecla F10 o /tienda"]
+	chapter.36891B9D5F6246B8.title: "Tienda"
+	chapter.396BF83F2CAA7E30.chapter_subtitle: ["Granjas automáticas, vino, pesca y caza"]
+	chapter.396BF83F2CAA7E30.title: "Granja"
+	chapter.408C50034B9BF00F.chapter_subtitle: ["El End, el Aether y más"]
+	chapter.408C50034B9BF00F.title: "Otros mundos"
+	chapter.4AD0C986959FDFD0.chapter_subtitle: ["Latón y naves de verdad"]
+	chapter.4AD0C986959FDFD0.title: "Acto 4 · Industria"
+	chapter.4F849D89B012EE49.chapter_subtitle: ["De la andesita a trenes, ranas y fábricas"]
+	chapter.4F849D89B012EE49.title: "Create"
+	chapter.54846D111AE0C9E6.chapter_subtitle: ["Afijos, gemas, niveles de mundo y encantamientos"]
+	chapter.54846D111AE0C9E6.title: "Apotheosis"
+	chapter.5B41E00580F0E4E3.chapter_subtitle: ["Espacio, otros mundos y jefes"]
+	chapter.5B41E00580F0E4E3.title: "Acto 6 · Más allá"
+	chapter.5B67A756B215375F.chapter_subtitle: ["Pan, pasteles, cerveza y cenas de gala"]
+	chapter.5B67A756B215375F.title: "Cocina"
+	chapter.5D26994344D0F5D8.chapter_subtitle: ["Los jefes más duros"]
+	chapter.5D26994344D0F5D8.title: "Cazadores"
+	chapter.65DD119C6F80BB59.chapter_subtitle: ["Propulsores, cabinas, saltos warp y submarinos"]
+	chapter.65DD119C6F80BB59.title: "Naves avanzadas"
+	chapter.70928CC542FFDFD9.chapter_subtitle: ["Cohetes, la Luna, Marte y Venus"]
+	chapter.70928CC542FFDFD9.title: "El espacio"
+	chapter.70A2EE6C310A7263.chapter_subtitle: ["Electricidad, diésel, Powah y minería de vetas"]
+	chapter.70A2EE6C310A7263.title: "Energía e industria"
+	chapter.71786D0D5EC3360B.chapter_subtitle: ["Levitita y naves grandes"]
+	chapter.71786D0D5EC3360B.title: "Acto 5 · Señores del cielo"
+	chapter.747F5EF5FF7CEB0E.chapter_subtitle: ["Mochilas, waystones, paravela y más"]
+	chapter.747F5EF5FF7CEB0E.title: "Utilidades"
+	chapter.78B8F7ABB57DA7D0.chapter_subtitle: ["Cultivos, tierra rica, cocina y platos de otros mundos"]
+	chapter.78B8F7ABB57DA7D0.title: "Farmer's Delight"
+	chapter_group.034687D5B1FA5FDB.title: "Más allá"
+	chapter_group.094E0F2FCF1D26FE.title: "Guías"
+	chapter_group.3638B1DAF7BD0EEC.title: "Tienda"
+	chapter_group.7EAAD566B90C2B1E.title: "Historia"
+	file.0000000000000001.title: "Venturia"
+	quest.002B6B49026B3309.quest_desc: ["El &esello de engarce&r, junto a la pieza y la gema en el yunque, la mete en un hueco libre. ¡Elige bien: sacarla luego cuesta un sello de retirada!"]
+	quest.002B6B49026B3309.quest_subtitle: "Poner gemas"
+	quest.002B6B49026B3309.title: "Sello de engarce"
+	quest.0031A77006ADDA03.quest_desc: ["La &eolla&r va sobre el fuego. Mete los ingredientes y sale el plato; los que se sirven en cuenco piden un cuenco."]
+	quest.0031A77006ADDA03.quest_subtitle: "Guisos y sopas"
+	quest.0031A77006ADDA03.title: "Olla"
+	quest.00382426A1CDD882.quest_desc: ["Fabrica un generador de Powah de cualquier nivel."]
+	quest.00382426A1CDD882.quest_subtitle: "Energía sin girar nada"
+	quest.00382426A1CDD882.title: "Generadores Powah"
+	quest.009D4C2103250A25.quest_desc: ["Los &eejes&r llevan la rotación en línea recta y los &eengranajes&r a los lados. Un engranaje grande con uno pequeño cambia la velocidad: &ex2&r o &e/2&r."]
+	quest.009D4C2103250A25.quest_subtitle: "Llevar la rotación"
+	quest.009D4C2103250A25.title: "Ejes y engranajes"
+	quest.0124B359C0B0105F.quest_desc: ["Algunos platos se colocan como &ebloque&r y se sirven varias raciones con un cuenco: jamón glaseado, pastel de pastor, pollo asado... Perfectos para la base."]
+	quest.0124B359C0B0105F.quest_subtitle: "Comida para el equipo"
+	quest.0124B359C0B0105F.title: "Banquete"
+	quest.025088ED5226218B.quest_desc: [
+		"Un cohete quema &ecombustible&r con &eoxidante&r:"
+		""
+		"- &eLicuador de aire&r: con aire libre delante, en el mundo normal, llena de &eoxígeno líquido&r. Con una hoguera delante da CO₂ líquido."
+		"- &eElectrolizador mecánico&r: parte el agua en &ehidrógeno&r y &eoxígeno&r líquidos."
+		"- &eMetano&r: CO₂ + hidrógeno con calor. Es más denso que el hidrógeno."
+		""
+		"Guárdalos en tanques; los líquidos criogénicos van mejor en el &etanque criogénico&r."
+	]
+	quest.025088ED5226218B.quest_subtitle: "Oxígeno e hidrógeno líquidos"
+	quest.025088ED5226218B.title: "Combustible"
+	quest.026C7B0D438305C2.quest_desc: ["El &efogón&r (o una hoguera, o un quemador de blaze de Create) calienta lo que pongas encima. Encima de una hoguera también se pueden asar cosas."]
+	quest.026C7B0D438305C2.quest_subtitle: "Calor para cocinar"
+	quest.026C7B0D438305C2.title: "Fogón"
+	quest.0353B5C50174FF04.quest_desc: [
+		"El &easpersor&r riega con agua (los cultivos crecen más rápido) o con &efertilizante&r líquido."
+		""
+		"La &ecortadora&r de Slice \\& Dice usa el cuchillo de Farmer's Delight con rotación: corta en la tabla sin ti."
+	]
+	quest.0353B5C50174FF04.quest_subtitle: "Slice \\& Dice"
+	quest.0353B5C50174FF04.title: "Aspersores"
+	quest.03E71049A0C6B386.quest_desc: ["Las &eseñales&r dividen la vía en tramos. Un tren no entra en un tramo ocupado por otro."]
+	quest.03E71049A0C6B386.quest_subtitle: "Que no choquen"
+	quest.03E71049A0C6B386.title: "Señales"
+	quest.03EFE5BDDDA321AE.quest_desc: ["Los &efamiliares&r te acompañan y dan bonus: más maná, menos coste, saltar más... Se invocan con su &evínculo de familiar&r."]
+	quest.03EFE5BDDDA321AE.quest_subtitle: "Compañero de viaje"
+	quest.03EFE5BDDDA321AE.title: "Un familiar"
+	quest.03FF585F485B4337.quest_desc: ["Un &ebarco pirata&r con tripulación zombi. Mejor de día."]
+	quest.03FF585F485B4337.quest_subtitle: "Tripulación de no muertos"
+	quest.03FF585F485B4337.title: "Barco pirata maldito"
+	quest.044E920F9629033D.quest_desc: [
+		"Pega globo, quemador, una plataforma y el ensamblador, y monta tu primera nave."
+		""
+		"Para &esubir&r da más potencia al quemador; para &ebajar&r, menos. Con la altura el aire es más fino y el globo empuja menos, así que la nave se estabiliza sola a cierta altura."
+		""
+		"&cAntes de despegar&r: lleva el parapente. Si algo sale mal sobre el vacío, es tu única salida."
+	]
+	quest.044E920F9629033D.quest_subtitle: "Arriba... y abajo"
+	quest.044E920F9629033D.title: "Primer vuelo"
+	quest.04551CB613938B11.quest_desc: ["El zumo fermenta en la &ebarrica de fermentación&r. Los vinos dan efectos y mejoran con los días."]
+	quest.04551CB613938B11.quest_subtitle: "Barricas que fermentan"
+	quest.04551CB613938B11.title: "Vino"
+	quest.04C6DAE7870FC8F4.quest_desc: ["Un &efaro&r en lo alto de un acantilado de la costa."]
+	quest.04C6DAE7870FC8F4.quest_subtitle: "En la costa"
+	quest.04C6DAE7870FC8F4.title: "El faro"
+	quest.0542494712F5987E.quest_desc: ["Rotación, electricidad y mineral sin fin: vuestra isla es una central."]
+	quest.0542494712F5987E.quest_subtitle: "Fin de la guía"
+	quest.0542494712F5987E.title: "Ingeniero eléctrico"
+	quest.065A6D04204EF7AC.quest_desc: ["Has matado a todos los jefes de Cataclysm."]
+	quest.065A6D04204EF7AC.quest_subtitle: "Secreto"
+	quest.065A6D04204EF7AC.title: "Cataclismo"
+	quest.06B5CA38877D69CF.quest_desc: [
+		"En este mundo de islas no hay montañas que picar, pero bajo cada chunk puede haber una &eveta&r."
+		""
+		"1. Usa el &eBuscador de vetas&r en un chunk."
+		"2. Pon la &eMáquina perforadora&r con un &etaladro&r y dale rotación."
+		"3. Sacará mineral de esa veta durante muchísimo tiempo."
+	]
+	quest.06B5CA38877D69CF.quest_subtitle: "Mineral infinito"
+	quest.06B5CA38877D69CF.title: "Minería de vetas"
+	quest.06DF498FFA6EC752.quest_desc: [
+		"Una &eMochila&r (Sophisticated Backpacks) es un cofre que llevas a la espalda: cofre, cuero y cuerda."
+		""
+		"Admite mejoras: recoger objetos solo, filtros, más espacio... Abre su receta en EMI/JEI para ver cuáles hay."
+	]
+	quest.06DF498FFA6EC752.quest_subtitle: "Más espacio"
+	quest.06DF498FFA6EC752.title: "Mochila"
+	quest.07053E52E9327F0A.quest_desc: ["En el &ebarco del kraken&r, en el océano. Llevad respiración acuática."]
+	quest.07053E52E9327F0A.quest_subtitle: "El barco hundido"
+	quest.07053E52E9327F0A.title: "El Kraken"
+	quest.070BE855F905B216.quest_desc: ["Más allá de las ciudades antiguas. Mata a un &eWarden&r para conseguir el &eCorazón de las profundidades&r y úsalo en el marco del portal de una &eciudad antigua&r."]
+	quest.070BE855F905B216.quest_subtitle: "Deeper and Darker"
+	quest.070BE855F905B216.title: "El Otherside"
+	quest.0731B2DF20F4E5CE.quest_desc: ["Un &ecomplejo minero&r con raíles bajo tierra."]
+	quest.0731B2DF20F4E5CE.quest_subtitle: "Raíles y vagonetas"
+	quest.0731B2DF20F4E5CE.title: "Complejo minero"
+	quest.0758F6F59FE9848A.quest_desc: [
+		"Mezcladora encima, cuenca en medio y quemador debajo: echa &ecobre y zinc&r y saldrá &elatón&r."
+		""
+		"Con el latón se abre el &6Nivel 2 de la Tienda&r."
+	]
+	quest.0758F6F59FE9848A.quest_subtitle: "Una nueva era"
+	quest.0758F6F59FE9848A.title: "Latón"
+	quest.0783F012A2CA07D0.quest_desc: ["Los &eartefactos&r salen en cofres de estructuras y de los &eimitadores&r (cofres que muerden). Van en las ranuras de accesorios: botas de velocidad, anillos, amuletos..."]
+	quest.0783F012A2CA07D0.quest_subtitle: "Tesoros con poderes"
+	quest.0783F012A2CA07D0.title: "Artefactos"
+	quest.07ACE259E96F7A4F.quest_desc: [
+		"Tu molino se queda en tierra. A bordo necesitas un &eMotor portátil&r: quema combustible y da fuerza de rotación."
+		""
+		"Conéctalo a las hélices con ejes. Puede girar en los dos sentidos y se puede alimentar con embudos."
+	]
+	quest.07ACE259E96F7A4F.quest_subtitle: "Energía a bordo"
+	quest.07ACE259E96F7A4F.title: "Motor portátil"
+	quest.088A762A22F25E24.quest_desc: ["Una &efortaleza flotante&r muy por encima de las montañas."]
+	quest.088A762A22F25E24.quest_subtitle: "Fortaleza en las nubes"
+	quest.088A762A22F25E24.title: "Retador celestial"
+	quest.08BC3B96FF88C54B.quest_desc: ["La &eBiblioteca de encantamientos&r absorbe libros encantados y te deja sacar el encantamiento que quieras al nivel que quieras."]
+	quest.08BC3B96FF88C54B.quest_subtitle: "Guardar encantamientos"
+	quest.08BC3B96FF88C54B.title: "Biblioteca"
+	quest.08C52A2DF315F05E.quest_desc: ["Una &efundición&r enorme, de las que gustarán a los ingenieros."]
+	quest.08C52A2DF315F05E.quest_subtitle: "Hierro y fuego"
+	quest.08C52A2DF315F05E.title: "La fundición"
+	quest.08CA0FF30E711D27.quest_desc: ["En la &eMesa de reforja&r pagas materiales de rareza y gemas en polvo para &ecambiar los afijos&r de una pieza. Elige entre tres resultados."]
+	quest.08CA0FF30E711D27.quest_subtitle: "Cambiar los afijos"
+	quest.08CA0FF30E711D27.title: "Mesa de reforja"
+	quest.08D74D8DC2E859BF.quest_desc: ["El &ehorno&r de Cook's Collection hornea panes y bizcochos. También trae &esal&r, &elimones&r y aceite para freír."]
+	quest.08D74D8DC2E859BF.quest_subtitle: "Cook's Collection"
+	quest.08D74D8DC2E859BF.title: "El horno"
+	quest.095DC98A6181730B.quest_desc: ["El &econtrolador de velocidad de rotación&r fija las RPM que quieras. La &ecaja de cambios secuencial&r gira cantidades exactas."]
+	quest.095DC98A6181730B.quest_subtitle: "RPM exactas"
+	quest.095DC98A6181730B.title: "Control de velocidad"
+	quest.09B00B77B5CAEA01.quest_desc: ["El final de Cataclysm: océanos profundos, hielo y el End. Id con el mejor equipo que tengáis."]
+	quest.09B00B77B5CAEA01.quest_subtitle: "Los más duros"
+	quest.09B00B77B5CAEA01.title: "Cataclysm II"
+	quest.09C88B1363FAAC41.quest_desc: [
+		"Pon &econtroladores automáticos de giro y elevación&r en una montura de cañón y únelos al controlador de red: el cañón seguirá al objetivo. El &econtrolador de fuego&r da redstone cuando está alineado."
+		""
+		"- Con el &efiltro de objetivos&r activas el disparo automático."
+		"- Con los &eprismáticos&r apuntas tú mismo."
+		"- Pon un &etranspondedor de identificación&r en vuestras naves para no dispararos."
+	]
+	quest.09C88B1363FAAC41.quest_subtitle: "Que apunte solo"
+	quest.09C88B1363FAAC41.title: "Puntería automática"
+	quest.0A1D99A712985499.quest_desc: ["Apotheosis tiene &eniveles de mundo&r: cuanto más alto, más duros los monstruos y mejor el botín. Se desbloquean con equipo y hazañas. Cámbialo con &eCtrl+T&r; cada jugador elige el suyo."]
+	quest.0A1D99A712985499.quest_subtitle: "Más peligro, más premio"
+	quest.0A1D99A712985499.title: "Niveles de mundo"
+	quest.0A21E255220AD3F7.quest_desc: [
+		"Un submarino necesita:"
+		""
+		"- &eTanques de lastre&r y una &eválvula de lastre&r: se llenan de agua para bajar y se vacían para subir."
+		"- &eHélices de submarino&r: 4 en un cuadrado de 2x2 se unen en una gran hélice."
+		"- Un casco &esellado&r: a mucha profundidad la presión rompe los bloques débiles."
+	]
+	quest.0A21E255220AD3F7.quest_subtitle: "Bajo el agua"
+	quest.0A21E255220AD3F7.title: "Submarino"
+	quest.0A2EBBD514E79298.quest_desc: ["Prepara un plato de restaurante."]
+	quest.0A2EBBD514E79298.quest_subtitle: "Para el equipo"
+	quest.0A2EBBD514E79298.title: "Cena de gala"
+	quest.0B1B829FE93BBDF7.quest_desc: [
+		"Esta guía es &eopcional&r. Create funciona con &erotación&r, pero muchos mods usan &eenergía eléctrica (FE)&r: propulsores iónicos, escudos, cargadores..."
+		""
+		"- &eArriba&r: pasar de rotación a electricidad y almacenarla."
+		"- &eCentro&r: motores diésel y biocombustible."
+		"- &eAbajo&r: Powah, Flux Networks, minería infinita y cargadores de chunks."
+	]
+	quest.0B1B829FE93BBDF7.quest_subtitle: "Electricidad y máquinas grandes"
+	quest.0B1B829FE93BBDF7.title: "Energía e industria"
+	quest.0B24115BEC7A1ECA.quest_desc: ["El &epistón mecánico&r empuja bloques con &epértigas&r; el &erodamiento&r los hace girar. Prueba también la &epolea de cuerda&r y el &epórtico&r."]
+	quest.0B24115BEC7A1ECA.quest_subtitle: "Mover y girar"
+	quest.0B24115BEC7A1ECA.title: "Pistón y rodamiento"
+	quest.0B7D1C4391095BAB.quest_desc: [
+		"Un &eVentilador revestido&r que sopla a través de &eagua&r lava los objetos que pasan delante:"
+		""
+		"- &eGrava&r: pepitas de hierro y pedernal."
+		"- &eArena&r: bolas de arcilla."
+		"- &eArena roja&r: pepitas de oro."
+		""
+		"Junta todo: generador de adoquín, muela para la grava y ventilador para lavarla. Hierro para siempre sin bajar a la mina."
+	]
+	quest.0B7D1C4391095BAB.quest_subtitle: "Lavar grava"
+	quest.0B7D1C4391095BAB.title: "Hierro sin minar"
+	quest.0BF7B5EC8DA2E270.quest_desc: [
+		"Los motores se hacen con metales cada vez mejores. En la &emezcladora&r:"
+		""
+		"- Con calor: &ecobre reforzado&r (cobre + hierro) y &ecuproníquel&r (cobre + níquel)."
+		"- Con &ecalor intenso&r (blaze cake): &emonel&r, &einconel&r y &ehastelloy&r (este último lleva cobalto de la Luna)."
+		""
+		"Para el primer cohete basta con andesita, hierro o cobre. Las aleaciones dan motores más potentes y eficientes."
+	]
+	quest.0BF7B5EC8DA2E270.quest_subtitle: "Mezcladora con calor"
+	quest.0BF7B5EC8DA2E270.title: "Aleaciones"
+	quest.0CC8FAC6AB0FBBCB.quest_desc: ["Las &etuberías de fluido&r llevan líquidos. La &ebomba mecánica&r los empuja en el sentido de la flecha."]
+	quest.0CC8FAC6AB0FBBCB.quest_subtitle: "Mover líquidos"
+	quest.0CC8FAC6AB0FBBCB.title: "Tuberías y bomba"
+	quest.0CFB174A658B1BDC.quest_desc: [
+		"El &eSellador de oxígeno&r llena de aire una sala cerrada: así podéis quitaros el casco dentro de la base."
+		""
+		"La sala tiene que estar bien cerrada o el aire se escapa."
+	]
+	quest.0CFB174A658B1BDC.quest_subtitle: "Aire dentro"
+	quest.0CFB174A658B1BDC.title: "Base lunar"
+	quest.0D0807FB1E9C7C4D.quest_desc: ["La estructura voladora más grande. Llevad la nave bien armada."]
+	quest.0D0807FB1E9C7C4D.quest_subtitle: "El gigante del cielo"
+	quest.0D0807FB1E9C7C4D.title: "Conquistador celestial"
+	quest.0D28302C9154B3AD.quest_desc: ["Domestica un &eBeehemoth&r, la abeja gigante que se puede montar."]
+	quest.0D28302C9154B3AD.quest_subtitle: "Una abeja de montura"
+	quest.0D28302C9154B3AD.title: "Beehemoth"
+	quest.0D4A7647E58524EE.quest_desc: ["Barcos y fortalezas que &eflotan&r. Con la nave podéis abordarlas en el aire."]
+	quest.0D4A7647E58524EE.quest_subtitle: "Estructuras voladoras"
+	quest.0D4A7647E58524EE.title: "El cielo"
+	quest.0DF22BF6A6900FF8.quest_desc: [
+		"Esta guía es &eopcional&r: objetos prácticos para el día a día."
+		""
+		"- &eArriba&r: mochilas y almacenamiento."
+		"- &eCentro&r: viajar y no caer al vacío."
+		"- &eAbajo&r: herramientas y trucos."
+		""
+		"&eAtajos útiles:&r"
+		"- &eM&r: mapa de FTB Chunks (en equipo veis a los compañeros y reclamáis terreno)."
+		"- &eShift + clic derecho&r con la mano vacía en un cofre o un animal: &eCarry On&r te lo deja llevar en brazos."
+	]
+	quest.0DF22BF6A6900FF8.quest_subtitle: "Cosas que hacen la vida fácil"
+	quest.0DF22BF6A6900FF8.title: "Utilidades"
+	quest.0E19B4C67B0CE4BA.quest_desc: [
+		"El &eGenerador de escudo&r crea una burbuja alrededor de tu nave o tu isla que para los proyectiles rápidos."
+		""
+		"Funciona con &eenergía (FE)&r y se calienta con cada impacto. Mira la guía de &eEnergía&r para alimentarlo."
+	]
+	quest.0E19B4C67B0CE4BA.quest_subtitle: "Que reboten"
+	quest.0E19B4C67B0CE4BA.title: "Generador de escudo"
+	quest.0EED1D7D28D2BCC9.quest_desc: [
+		"La &ePrensa mecánica&r aplasta lingotes en &eláminas&r, que usarás en muchas recetas (y en tus futuras aeronaves)."
+		""
+		"Ponla encima de un &edepósito&r o de una cinta y deja el lingote debajo."
+	]
+	quest.0EED1D7D28D2BCC9.quest_subtitle: "Láminas"
+	quest.0EED1D7D28D2BCC9.title: "Prensa mecánica"
+	quest.0F2D34730E8A3A3E.quest_desc: [
+		"La mezcladora solo hace latón con &ecalor&r debajo de la cuenca."
+		""
+		"Fabrica un &eQuemador vacío&r y haz clic derecho con él sobre un &eblaze&r (en las fortalezas del Nether) para atraparlo. Ponlo debajo de la cuenca y aliméntalo con carbón o madera."
+	]
+	quest.0F2D34730E8A3A3E.quest_subtitle: "Calor de verdad"
+	quest.0F2D34730E8A3A3E.title: "Quemador de blaze"
+	quest.0F4CBF9CDADD7A06.quest_desc: ["Con el modificador de redstone, el generador solo funciona cuando recibe señal."]
+	quest.0F4CBF9CDADD7A06.quest_subtitle: "Encender y apagar"
+	quest.0F4CBF9CDADD7A06.title: "Generador con interruptor"
+	quest.1054E9ADB360DDE4.quest_desc: [
+		"La &ePirámide maldita&r está en el &edesierto&r. El Remanente invoca tormentas de arena: no os quedéis quietos."
+		""
+		"Para encontrarla, fabrica un &eOjo del desierto&r y lánzalo como un ojo de ender."
+	]
+	quest.1054E9ADB360DDE4.quest_subtitle: "La pirámide maldita"
+	quest.1054E9ADB360DDE4.title: "El Remanente antiguo"
+	quest.108C51D38CB7ECDF.quest_desc: [
+		"La &ePrisión helada&r está en las &ellanuras nevadas&r. Maledictus vuela y lanza almas: llevad arco o ballesta."
+		""
+		"Para encontrarla, fabrica un &eOjo maldito&r y lánzalo como un ojo de ender."
+	]
+	quest.108C51D38CB7ECDF.quest_subtitle: "La prisión helada"
+	quest.108C51D38CB7ECDF.title: "Maledictus"
+	quest.109B9ADBCA77F96F.quest_desc: ["En las &ecatacumbas&r duerme el &eGuardián Olvidado&r. Su lingote olvidado da las mejores herramientas de la Infratierra."]
+	quest.109B9ADBCA77F96F.quest_subtitle: "Catacumbas"
+	quest.109B9ADBCA77F96F.title: "El Guardián Olvidado"
+	quest.111CEE8887543F84.quest_desc: [
+		"Las máquinas se paran cuando os vais lejos. El &eCargador de chunks&r de andesita o latón mantiene cargados los chunks de alrededor si recibe rotación."
+		""
+		"&cNo abuséis: muchos chunks cargados ralentizan el servidor para todos.&r"
+	]
+	quest.111CEE8887543F84.quest_subtitle: "Que no se pare"
+	quest.111CEE8887543F84.title: "Cargador de chunks"
+	quest.116DF2B933627BCD.quest_desc: [
+		"La &ePalanca de acelerador&r da una señal de redstone graduada: úsala con un &eReductor de velocidad&r o con los quemadores para controlar cuánto empujas o subes."
+		""
+		"Pon los mandos juntos en una cabina y vuela sin bajarte de la silla."
+	]
+	quest.116DF2B933627BCD.quest_subtitle: "Control fino"
+	quest.116DF2B933627BCD.title: "Acelerador"
+	quest.117F82CA974339BE.quest_desc: [
+		"Cada máquina consume &eestrés (SU)&r y cada fuente aporta una cantidad. Si pides más de lo que hay, todo se para."
+		""
+		"Las &eGafas del ingeniero&r te dejan ver la capacidad y el consumo mirando a las piezas. La &eLlave inglesa&r gira bloques y los recoge al instante con mayús + clic derecho."
+	]
+	quest.117F82CA974339BE.quest_subtitle: "Ver el estrés"
+	quest.117F82CA974339BE.title: "Gafas y llave"
+	quest.119C48CE338DD1D0.quest_desc: ["Pon la &eprensa&r encima de un &edepósito&r o una cinta: aplasta los lingotes y hace &eplanchas&r. Sobre una &ecuenca&r compacta cosas."]
+	quest.119C48CE338DD1D0.quest_subtitle: "Planchas de metal"
+	quest.119C48CE338DD1D0.title: "Prensa mecánica"
+	quest.11A717CF23FA4266.quest_desc: [
+		"La &eLevitita&r mantiene a flote una nave sin globos: con bastante levitita pegada, la nave &eno cae&r."
+		""
+		"- &cNo sube sola&r: para ganar altura necesitas hélices o globos."
+		"- A poca velocidad &efrena mucho&r el movimiento; a más velocidad, menos."
+		""
+		"Fabrícala tú (camino de abajo) o cómprala en la &6Tienda&r: cualquier levitita cuenta."
+	]
+	quest.11A717CF23FA4266.quest_subtitle: "Piedra que flota"
+	quest.11A717CF23FA4266.title: "Levitita"
+	quest.121641E8CB8D7703.quest_desc: ["En lo alto de las islas de oro arde el &eEspíritu del Sol&r. Llevad protección contra el fuego."]
+	quest.121641E8CB8D7703.quest_subtitle: "El Espíritu del Sol"
+	quest.121641E8CB8D7703.title: "Mazmorra de oro"
+	quest.123802F7BAEEB218.quest_desc: [
+		"Fabrica el &eLibro de hechizos de novicio&r. Ábrelo con &eC&r: elige una forma y añade efectos. Cambia de hechizo con la rueda (&eV&r)."
+		""
+		"Gasta tu maná, que se recupera solo."
+	]
+	quest.123802F7BAEEB218.quest_subtitle: "Tu primer hechizo"
+	quest.123802F7BAEEB218.title: "Libro de hechizos"
+	quest.12419AC16402D752.quest_desc: [
+		"Apunta la &eMesa de navegación&r a un sitio a más de &e5000 bloques&r... y ve hasta allí."
+		""
+		"Llevad comida, combustible y una waystone para volver. Allí lejos hay islas que nadie ha pisado."
+	]
+	quest.12419AC16402D752.quest_subtitle: "Más de 5000 bloques"
+	quest.12419AC16402D752.title: "Lejos de casa"
+	quest.12CEFDF971DBA388.quest_desc: ["Cada nivel de mundo tiene su &eportal de oleadas&r. Supera el de Frontera para demostrar que estás listo."]
+	quest.12CEFDF971DBA388.quest_subtitle: "Oleadas de nivel"
+	quest.12CEFDF971DBA388.title: "Portal de Frontera"
+	quest.13061C8162D5E058.quest_desc: [
+		"Con una nave puedes llegar a sitios imposibles a pie: &epueblos en las nubes, ballenas de piedra, naves abandonadas y torres&r."
+		""
+		"Estas misiones son opcionales. Cuando entres en una de esas estructuras, se completan solas."
+	]
+	quest.13061C8162D5E058.quest_subtitle: "Lo que se ve desde arriba"
+	quest.13061C8162D5E058.title: "Explorar el cielo"
+	quest.139EE15AECACA12C.quest_desc: [
+		"La &eHerrería de almas&r está en el &eNether&r. La Monstruosidad es lenta pero lanza lava y golpea muy fuerte."
+		""
+		"Para encontrarla, fabrica un &eOjo monstruoso&r y lánzalo como un ojo de ender."
+	]
+	quest.139EE15AECACA12C.quest_subtitle: "La herrería de almas"
+	quest.139EE15AECACA12C.title: "Monstruosidad de netherita"
+	quest.1416DB9852500292.quest_desc: ["Los &econtroles de artilugio&r encienden o apagan los taladros, sierras... del artilugio mientras se mueve."]
+	quest.1416DB9852500292.quest_subtitle: "Parar a las máquinas"
+	quest.1416DB9852500292.title: "Controles de artilugio"
+	quest.1439FBB270F3EFE1.quest_desc: ["Su &eescondite&r está en las montañas nevadas."]
+	quest.1439FBB270F3EFE1.quest_subtitle: "Escondite helado"
+	quest.1439FBB270F3EFE1.title: "El Yeti"
+	quest.1474BB90EC9F3FEC.quest_desc: ["Equípate con un juego completo con afijos para desbloquear &eFrontera&r."]
+	quest.1474BB90EC9F3FEC.quest_subtitle: "El segundo nivel"
+	quest.1474BB90EC9F3FEC.title: "Frontera"
+	quest.149DB242321DDF07.quest_desc: ["El &eBrasero&r y la &eestufa de ladrillo del Nether&r cocinan con fuego del Nether. La &eolla de piedra negra&r aguanta la lava."]
+	quest.149DB242321DDF07.quest_subtitle: "My Nether's Delight"
+	quest.149DB242321DDF07.title: "Cocina del Nether"
+	quest.14E30993AE25D770.quest_desc: ["Tanques + agua + quemador debajo + &emotor de vapor&r pegado al tanque con un eje. Cuanto más grande el tanque y más calor, más potencia."]
+	quest.14E30993AE25D770.quest_subtitle: "Mucha potencia"
+	quest.14E30993AE25D770.title: "Motor de vapor"
+	quest.1531B6BBAA987454.quest_desc: ["Jefes que viven en &ebiomas concretos&r del Overworld. No necesitan ojos: basta con explorar."]
+	quest.1531B6BBAA987454.quest_subtitle: "Bestias del mundo"
+	quest.1531B6BBAA987454.title: "Mowzie's Mobs"
+	quest.1534861E9F671A4A.quest_desc: ["Venus es un horno. Hace falta el &etraje espacial avanzado&r: tela de netherita con ensamblaje y la &ebombona de oxígeno de netherita&r."]
+	quest.1534861E9F671A4A.quest_subtitle: "Para lo peor"
+	quest.1534861E9F671A4A.title: "Traje avanzado"
+	quest.1552996587689843.quest_desc: [
+		"Un mundo de noche eterna. Busca unas &eruinas de portal&r de Eternal Starlight: allí está el &eOrbe de la profecía&r, que abre el portal."
+		""
+		"Lee la descripción del orbe en JEI para ver cómo activarlo."
+	]
+	quest.1552996587689843.quest_subtitle: "Eternal Starlight"
+	quest.1552996587689843.title: "Luz Eterna"
+	quest.159014FC5FAAC5EF.quest_desc: ["En la &eforja del gólem&r espera el &eGólem Estelar&r. Su acero de gólem es muy útil."]
+	quest.159014FC5FAAC5EF.quest_subtitle: "La forja"
+	quest.159014FC5FAAC5EF.title: "El Gólem Estelar"
+	quest.15B4A16AB8E572D1.quest_desc: ["Pon &esilbatos&r en el tanque. Más alto = nota más grave. Con redstone suenan."]
+	quest.15B4A16AB8E572D1.quest_subtitle: "Para presumir"
+	quest.15B4A16AB8E572D1.title: "Silbato de vapor"
+	quest.15D8FD9A113B8146.quest_desc: [
+		"El spawn es de todos: no construyas aquí tu base."
+		""
+		"Busca una isla que te guste. Las grandes tienen de todo (madera, agua, cuevas y minerales en la base de piedra), así que una sola puede ser tu casa durante mucho tiempo."
+		""
+		"Para cruzar entre islas cercanas, mira primero la distancia. Un salto mal calculado aquí es definitivo."
+	]
+	quest.15D8FD9A113B8146.quest_subtitle: "Busca tu propia isla"
+	quest.15D8FD9A113B8146.title: "Deja el spawn"
+	quest.162F0BDBC980327D.quest_desc: ["Fabrica un &6mecanismo de precisión&r y se abre el &eNivel 3&r de la tienda: piezas complejas, trofeos de jefes y las compras más caras."]
+	quest.162F0BDBC980327D.quest_subtitle: "Abre una sección nueva en la tienda"
+	quest.162F0BDBC980327D.title: "Nivel 3: Lonja de lujo"
+	quest.163249402B930F75.quest_desc: [
+		"Todo lo de Creating Space empieza por el &eníquel&r."
+		""
+		"- &eMena de níquel&r: búscala en la roca de las islas grandes, como el zinc. Tritúrala para sacar más."
+		"- En la &eLuna&r hay mucho más, junto con aluminio y cobalto."
+		""
+		"Pulsa &eU&r sobre cualquier objeto de Creating Space en JEI para ver cómo se hace: casi todo pasa por máquinas de Create."
+	]
+	quest.163249402B930F75.quest_subtitle: "El metal del espacio"
+	quest.163249402B930F75.title: "Níquel"
+	quest.1641C57B8137C96E.quest_desc: [
+		"El &eCabrestante de cuerda&r y los &econectores de cuerda&r (bloque de hierro industrial) cuelgan cosas de la nave: una plataforma, un ascensor o una carga."
+		""
+		"Muy útil para bajar a las estructuras que cuelgan debajo de las islas."
+	]
+	quest.1641C57B8137C96E.quest_subtitle: "Subir y bajar carga"
+	quest.1641C57B8137C96E.title: "Cabrestante"
+	quest.1643566C59AAE014.quest_desc: ["En el cielo crecen &ebayas de nube&r, &efrutas del trueno&r y &eloto&r. La &etierra del tiempo&r cambia según llueva o truene."]
+	quest.1643566C59AAE014.quest_subtitle: "Delight o' Flight"
+	quest.1643566C59AAE014.title: "Cocina del cielo"
+	quest.16813950CCA11CBD.quest_desc: [
+		"Además del libro, todos los equipos del servidor compiten en &6retos globales&r. Ábrelos con la tecla &eF9&r, el botón del &ereloj&r junto al &einventario&r, &e/retos&r o el &6Tablón de retos&r del spawn: todo se maneja desde ese panel, con una pestaña para cada cosa. (&e/retos texto&r lo enseña por chat.)"
+		""
+		"&eCarreras «El primero en...»&r (&e/retos carreras&r): los 3 primeros equipos en volar, llegar al Nether, matar al Wither, pisar la Luna... ganan premio. El 1.º se lleva un &6trofeo&r con su nombre."
+		""
+		"&eMetas cooperativas&r (&e/retos cooperativos&r): contadores de todo el servidor (monstruos, bloques, platos, jefes, logros). Cada nivel alcanzado da monedas a &atodos los que aportaron&r; el último, un trofeo al que más aportó."
+		""
+		"&eReto semanal&r (&e/retos semanal&r): cada lunes sale uno al azar (caza, obras, minería, tala, pesca, jefes...). Si llegas al &amínimo&r del reto cobras un premio al momento; al cerrar la semana, los 3 mejores equipos cobran y el ganador se lleva un trofeo."
+		""
+		"&eSubastas&r (&e/retos subasta&r): tres a la semana, una barata (cierra el &amiércoles&r), una media (&aviernes&r) y una de lujo (&asábado&r), siempre a las 20:00 (hora de España). Puja con &e/retos pujar <lote 1-3> <spurs>&r o desde F9; se cobra de tus monedas con cambio y, si te superan, te lo devuelven."
+		""
+		"&eEncargos del día&r (&e/retos encargos&r): 2 fáciles, 2 medios y 1 difícil, renovados cada medianoche. Llévalos en el inventario y usa &e/retos entregar <n>&r. Lo farmeable pide más cada semana."
+		""
+		"&eRecompensas del día&r (&e/retos recompensas&r): 3 encargos de caza para tu equipo (fácil, media y difícil): matar ciertos monstruos, pescar, visitar estructuras o dimensiones, cazar con arco, de noche o planeando... El progreso es del equipo y cobra quien la termina. Se renuevan a medianoche."
+		""
+		"&eContratos entre equipos&r (&e/retos contratos&r): pide a otros equipos una cantidad de un objeto (arrástralo desde JEI al hueco) y deja el pago en depósito. Quien lo entregue entero cobra. Máximo 3 por equipo, caducan a los 7 días (se devuelve el pago) y publicar cuesta un 5 % de comisión."
+		""
+		"&eEquipo&r: crea tu equipo, invita y acepta invitaciones, asciende oficiales, cambia nombre, color y descripción, añade aliados o únete a un equipo abierto de la lista. Todo es de FTB Teams, así que el libro y las protecciones se comparten con tu equipo."
+		""
+		"&eHUD&r: en las pestañas Reto semanal, Subasta y Recompensas del día hay un botón &eHUD&r para verlas en pantalla, arriba a la izquierda, mientras juegas. &eAlt + U&r oculta o muestra todo el HUD. Además salta un aviso si te superan en la subasta o si tu equipo cumple una recompensa o un encargo."
+		""
+		"Si ganas algo estando desconectado, lo recibes al entrar."
+	]
+	quest.16813950CCA11CBD.quest_subtitle: "Pulsa F9 o escribe /retos"
+	quest.16813950CCA11CBD.title: "Retos del servidor"
+	quest.16F9CA592834A6C9.quest_desc: ["El &ebrazo mecánico&r coge objetos de unos sitios y los deja en otros. Antes de colocarlo, haz clic en sus &eentradas&r y &esalidas&r."]
+	quest.16F9CA592834A6C9.quest_subtitle: "Coger y dejar"
+	quest.16F9CA592834A6C9.title: "Brazo mecánico"
+	quest.17D5C17ACCF4BF68.quest_desc: [
+		"- Prensa 3 pólvoras: &epólvora compactada&r."
+		"- &eAlgodón pólvora&r: más potente, se mezcla con agua, pólvora y algo nitrable."
+		"- &eNitro&r: se mezcla con blaze y crema de magma, se endurece y se muele en &enitropólvora&r."
+		""
+		"Más potencia por carga = menos cargas para el mismo alcance."
+	]
+	quest.17D5C17ACCF4BF68.quest_subtitle: "Algodón pólvora y nitro"
+	quest.17D5C17ACCF4BF68.title: "Pólvora mejor"
+	quest.17D8F677C1E1973D.quest_desc: ["Con las &eplantillas de mejora&r en la mesa de herrería subes una pieza de hierro a oro, de oro a diamante... &econservando sus afijos&r."]
+	quest.17D8F677C1E1973D.quest_subtitle: "Subir el material"
+	quest.17D8F677C1E1973D.title: "Plantillas de mejora"
+	quest.17F6B2BA1ED16A11.quest_desc: ["Un &etemplo&r de la jungla lleno de arañas y lepismas."]
+	quest.17F6B2BA1ED16A11.quest_subtitle: "Bichos por todas partes"
+	quest.17F6B2BA1ED16A11.title: "Templo infestado"
+	quest.18F4EC266F9B3027.quest_desc: [
+		"&eCreate Radar&r: un &eRodamiento de radar&r con &eplatos de radar&r gira y detecta naves y criaturas. El &eMonitor&r las enseña, y el &eControlador de red&r une todo."
+		""
+		"En una nave, mejor el &eRadar de avión&r, que no gira."
+	]
+	quest.18F4EC266F9B3027.quest_subtitle: "Verlos antes de que te vean"
+	quest.18F4EC266F9B3027.title: "Radar"
+	quest.19030078C404206C.quest_desc: ["El &eCargador de cañón&r empuja cargas y proyectiles dentro del cañón con un &eatacador&r y saca los restos con un &esacatrapos&r. Así puedes recargar desde dentro de la nave."]
+	quest.19030078C404206C.quest_subtitle: "Sin pasar por delante"
+	quest.19030078C404206C.title: "Carga automática"
+	quest.19991F0F0E5BAA2A.quest_desc: ["Con &eAerowarptics&r una nave puede &esaltar&r de un sitio a otro. Todo empieza con un &eNúcleo de grieta&r. Fabrica el &eManual del navegante&r: lo explica paso a paso."]
+	quest.19991F0F0E5BAA2A.quest_subtitle: "Aerowarptics"
+	quest.19991F0F0E5BAA2A.title: "Núcleo de grieta"
+	quest.19A03E6D0E89D2CD.quest_desc: ["Cobre + zinc en una mezcladora con calor = &elatón&r. Abre la parte avanzada de Create."]
+	quest.19A03E6D0E89D2CD.quest_subtitle: "El segundo nivel"
+	quest.19A03E6D0E89D2CD.title: "Latón"
+	quest.19F91B0B26B2BE58.quest_desc: ["Aterriza en &eVenus&r con el traje avanzado puesto."]
+	quest.19F91B0B26B2BE58.quest_subtitle: "El infierno de nubes"
+	quest.19F91B0B26B2BE58.title: "Venus"
+	quest.1A67EF9BA98D0AE4.quest_desc: ["Unas &eminas&r excavadas bajo setas gigantes, en los campos de champiñones."]
+	quest.1A67EF9BA98D0AE4.quest_subtitle: "Bajo los hongos"
+	quest.1A67EF9BA98D0AE4.title: "Minas de setas"
+	quest.1A900E9B768B6519.quest_desc: [
+		"Funde &ealuminio&r y &ecobalto&r de la Luna. Con ellos:"
+		""
+		"- &ecarcasa de cohete&r (cobalto + chapa de aluminio), un bloque resistente para el casco;"
+		"- &ehastelloy&r, la mejor aleación para motores."
+	]
+	quest.1A900E9B768B6519.quest_subtitle: "Aluminio y cobalto"
+	quest.1A900E9B768B6519.title: "Metales lunares"
+	quest.1AA03306ED85A926.quest_desc: [
+		"El &eRodamiento de hélice&r convierte en hélice las &evelas&r que le pegues delante. Es mucho más potente que las hélices de andesita."
+		""
+		"Más palas y más velocidad de giro = más empuje. Se puede invertir el sentido igual que las pequeñas."
+	]
+	quest.1AA03306ED85A926.quest_subtitle: "Rodamiento de hélice"
+	quest.1AA03306ED85A926.title: "Hélices de verdad"
+	quest.1AA2EF572BE17592.quest_desc: ["La &esierra mecánica&r corta troncos en tablones (más que a mano) y hace recetas de cortapiedras. En un artilugio, tala árboles."]
+	quest.1AA2EF572BE17592.quest_subtitle: "Talar y cortar"
+	quest.1AA2EF572BE17592.title: "Sierra mecánica"
+	quest.1ADBA513264E055E.quest_desc: ["El &eStarbuncle&r lleva objetos de un cofre a otro. Con la &evarita de dominio&r le dices de dónde coger y dónde dejar."]
+	quest.1ADBA513264E055E.quest_subtitle: "El repartidor"
+	quest.1ADBA513264E055E.title: "Starbuncle"
+	quest.1B0D2C835A683587.quest_desc: ["El &ególem de amatista&r cuida las geodas: hace crecer los cristales y los recoge."]
+	quest.1B0D2C835A683587.quest_subtitle: "Minero de geodas"
+	quest.1B0D2C835A683587.title: "Gólem de amatista"
+	quest.1B14B97CFB20ABB2.quest_desc: ["El &eobservador de vía&r da señal de redstone cuando pasa un tren. Ideal para abrir puertas o activar máquinas."]
+	quest.1B14B97CFB20ABB2.quest_subtitle: "Detectar trenes"
+	quest.1B14B97CFB20ABB2.title: "Observador de vía"
+	quest.1BBE6A8E549DAE46.quest_desc: [
+		"El &eRevestimiento de latón&r (madera desnuda y latón) es la base de las máquinas listas."
+		""
+		"El &eTubo de vacío&r sale de &ecuarzo rosa pulido&r (cuarzo del Nether y redstone, pulido con una lija o en la cinta) y una lámina de hierro."
+	]
+	quest.1BBE6A8E549DAE46.quest_subtitle: "Cuarzo rosa y latón"
+	quest.1BBE6A8E549DAE46.title: "Electrónica"
+	quest.1BD082C5D8310BAE.quest_desc: ["&eDeep Aether&r añade biomas, el &ejade celeste&r y una mazmorra de latón."]
+	quest.1BD082C5D8310BAE.quest_subtitle: "Jade celeste"
+	quest.1BD082C5D8310BAE.title: "Aether profundo"
+	quest.1BE585DDCFB8050C.quest_desc: ["El &ewhisky&r necesita una estación de cobre o de netherita y mucho tiempo."]
+	quest.1BE585DDCFB8050C.quest_subtitle: "Para los pacientes"
+	quest.1BE585DDCFB8050C.title: "Whisky"
+	quest.1C09A7AD4747ABE3.quest_desc: [
+		"Los &eConectores de acoplamiento&r unen dos naves en el aire: alinéalos y se enganchan."
+		""
+		"Sirven para naves nodriza, módulos de carga o para que una nave pequeña aterrice en una grande."
+	]
+	quest.1C09A7AD4747ABE3.quest_subtitle: "Naves que se unen"
+	quest.1C09A7AD4747ABE3.title: "Acoplamiento"
+	quest.1C87CC23352EDBA2.quest_desc: ["Los &etomos&r se encantan como libros pero solo con encantamientos de un tipo de objeto (casco, arco, pico...). El &etomo de extracción&r saca los encantamientos de un objeto."]
+	quest.1C87CC23352EDBA2.quest_subtitle: "Encantar a medida"
+	quest.1C87CC23352EDBA2.title: "Tomos"
+	quest.1CA9056CFB7D71C3.quest_desc: ["Los dos jefes de Minecraft de siempre, y los &emutantes&r que a veces salen de noche."]
+	quest.1CA9056CFB7D71C3.quest_subtitle: "Vanilla"
+	quest.1CA9056CFB7D71C3.title: "Los clásicos"
+	quest.1D19C3319E8C50A0.quest_desc: ["Llega a la &eórbita terrestre&r. Desde aquí se ve tu isla... muy, muy pequeña."]
+	quest.1D19C3319E8C50A0.quest_subtitle: "Por encima del cielo"
+	quest.1D19C3319E8C50A0.title: "En órbita"
+	quest.1E0C56C22D0E6050.quest_desc: [
+		"La &eCiudad hundida&r está en el fondo de los &eocéanos profundos&r. Respiración acuática y conductos imprescindibles."
+		""
+		"Para encontrarla, fabrica un &eOjo del abismo&r y lánzalo como un ojo de ender."
+	]
+	quest.1E0C56C22D0E6050.quest_subtitle: "La ciudad hundida"
+	quest.1E0C56C22D0E6050.title: "El Leviatán"
+	quest.1ED7F8A0AAC66B9D.quest_desc: ["Corta hierba alta o trigo con el cuchillo para sacar &epaja&r: sirve para lona, fardos y comida para caballos."]
+	quest.1ED7F8A0AAC66B9D.quest_subtitle: "Nada se tira"
+	quest.1ED7F8A0AAC66B9D.title: "Paja"
+	quest.1EE3C47BA4708D14.quest_desc: [
+		"&eFarm \\& Charm&r trae cebada, avena, lechuga, fresas... y su propia cocina:"
+		"- El &ebol de mezclar&r hace masa, harina y mezclas."
+		"- El &efogón&r hornea (pan, pasteles) y cuece en la &eolla&r o la &ecacerola&r de encima."
+		"- El &eassador&r y la &epicadora&r para la carne."
+		""
+		"La &elevadura&r sale de dejar fermentar fruta o pan en el bol."
+	]
+	quest.1EE3C47BA4708D14.quest_subtitle: "Let's Do Farm \\& Charm"
+	quest.1EE3C47BA4708D14.title: "Cocina de granja"
+	quest.1F34A7D65AB8CF32.quest_desc: ["Se completa al terminar el capítulo &bEl espacio&r."]
+	quest.1F34A7D65AB8CF32.quest_subtitle: "Pisa Venus"
+	quest.1F34A7D65AB8CF32.title: "Meta: el espacio"
+	quest.1F38AB9F3AAA70C7.quest_desc: ["El equipo que sueltan monstruos y cofres puede salir con &erareza&r (común, poco común, raro, épico, mítico) y &eafijos&r: bonus de daño, vida, velocidad... Pasa el ratón por encima para verlos."]
+	quest.1F38AB9F3AAA70C7.quest_subtitle: "Equipo con rareza"
+	quest.1F38AB9F3AAA70C7.title: "Afijos y reforja"
+	quest.1F8DFA58AE1D3F2D.quest_desc: ["En el &ejardín maldito&r crece la &eMonstruosidad Lunar&r."]
+	quest.1F8DFA58AE1D3F2D.quest_subtitle: "El jardín maldito"
+	quest.1F8DFA58AE1D3F2D.title: "La Monstruosidad Lunar"
+	quest.203E2ED0347A333C.quest_desc: ["En los templos de plata manda la &eValquiria Reina&r."]
+	quest.203E2ED0347A333C.quest_subtitle: "La Valquiria Reina"
+	quest.203E2ED0347A333C.title: "Mazmorra de plata"
+	quest.208BA0CCECE1EEFB.quest_desc: [
+		"El espacio, todos los mundos y los peores jefes. No queda nada que se os resista."
+		""
+		"&6Sois una leyenda del cielo.&r Gracias por jugar Venturia."
+	]
+	quest.208BA0CCECE1EEFB.quest_subtitle: "Fin de la historia"
+	quest.208BA0CCECE1EEFB.title: "Leyenda del cielo"
+	quest.20A0688BA2707FCB.quest_desc: ["Habéis entrado en &e8 estructuras&r. No queda rincón del mapa sin pisar."]
+	quest.20A0688BA2707FCB.quest_subtitle: "Fin de mazmorras"
+	quest.20A0688BA2707FCB.title: "Explorador de leyenda"
+	quest.2106BC50C2C3EB47.quest_desc: [
+		"Los &eejes&r transmiten el giro en línea recta y los &eengranajes&r lo pasan a los lados o cambian la velocidad."
+		""
+		"Conecta una &emanivela&r a un eje y gírala: tu primera máquina movida a mano."
+	]
+	quest.2106BC50C2C3EB47.quest_subtitle: "Mover a mano"
+	quest.2106BC50C2C3EB47.title: "Ejes y engranajes"
+	quest.211A036EBC9D30C4.quest_desc: ["Planta todos los cultivos de Farmer's Delight."]
+	quest.211A036EBC9D30C4.quest_subtitle: "De todo un poco"
+	quest.211A036EBC9D30C4.title: "Huerto completo"
+	quest.211D2A6258A7EF6E.quest_desc: ["En la &eMesa de escriba&r aprendes nuevos &eglifos&r con materiales. Los glifos de nivel 2 y 3 piden un libro mejor."]
+	quest.211D2A6258A7EF6E.quest_subtitle: "Nuevos glifos"
+	quest.211D2A6258A7EF6E.title: "Mesa de escriba"
+	quest.213DCF7573A0B2CD.quest_desc: [
+		"Al jugar ganas experiencia en &eárboles de habilidades&r (Pufferfish's Skills): combate, minería, agricultura..."
+		""
+		"Pulsa &eK&r para abrirlos y gastar los puntos. No tienes que hacerlo ahora, pero no te olvides de que existen."
+	]
+	quest.213DCF7573A0B2CD.quest_subtitle: "Pulsa K"
+	quest.213DCF7573A0B2CD.title: "Árboles de habilidades"
+	quest.217F73CE03EEFF67.quest_desc: ["El &eSonar&r enseña el fondo y lo que se mueve alrededor del submarino."]
+	quest.217F73CE03EEFF67.quest_subtitle: "Ver en lo oscuro"
+	quest.217F73CE03EEFF67.title: "Sonar"
+	quest.222EE1A4D1ACF08A.quest_desc: ["La &eespada&r, el &earco&r y la &eballesta&r de encantador lanzan el hechizo que les inscribas al atacar. La &evarita&r lanza sin gastar tu maná."]
+	quest.222EE1A4D1ACF08A.quest_subtitle: "Lanzar hechizos al pegar"
+	quest.222EE1A4D1ACF08A.title: "Armas mágicas"
+	quest.22EB3D6D2BFDE864.quest_desc: ["Las estructuras &eenormes&r del mod. Id en grupo y con comida de sobra."]
+	quest.22EB3D6D2BFDE864.quest_subtitle: "Ciudades y fortalezas"
+	quest.22EB3D6D2BFDE864.title: "Las grandes"
+	quest.23B13B5C30AFD9D3.quest_desc: ["Torretas, pociones, teletransporte y rituales: la parte práctica de Ars Nouveau."]
+	quest.23B13B5C30AFD9D3.quest_subtitle: "Magia para la base"
+	quest.23B13B5C30AFD9D3.title: "Utilidades y rituales"
+	quest.24B52CF18F461627.quest_desc: ["Andesita + pepita de hierro (o de zinc) en la mesa de crafteo. Con ella haces ejes, engranajes y carcasas."]
+	quest.24B52CF18F461627.quest_subtitle: "El material de todo"
+	quest.24B52CF18F461627.title: "Aleación de andesita"
+	quest.2539033B4A1BCAE3.quest_desc: [
+		"El &eparapente&r se hace con cuero y palos, y es lo que te salvará la vida al principio."
+		""
+		"Llévalo en la mano al saltar: en el aire puedes planear mientras te dure el &evigor&r (la rueda de stamina). Si se acaba, caes."
+		""
+		"Los &eContenedores de vigor&r amplían esa rueda. Se consiguen en las estatuas de la diosa a cambio de orbes de espíritu."
+	]
+	quest.2539033B4A1BCAE3.quest_subtitle: "Tu red de seguridad"
+	quest.2539033B4A1BCAE3.title: "No mires abajo"
+	quest.25500F83160AE0A0.quest_desc: ["El &eDifusor de oxígeno&r llena de aire una sala sellada. La &ecámara de descompresión&r hace de esclusa para salir y entrar."]
+	quest.25500F83160AE0A0.quest_subtitle: "Respirar dentro"
+	quest.25500F83160AE0A0.title: "Oxígeno"
+	quest.25EBA2EA58E9406E.quest_desc: ["La &emezcladora mecánica&r sobre una &ecuenca&r mezcla ingredientes. Con calor (&equemador de blaze&r debajo) hace aleaciones como el &elatón&r."]
+	quest.25EBA2EA58E9406E.quest_subtitle: "Recetas sin forma"
+	quest.25EBA2EA58E9406E.title: "Mezcladora"
+	quest.25FCD2A5A85FC69C.quest_desc: ["Has matado a todos los jefes de Block Factory's Bosses."]
+	quest.25FCD2A5A85FC69C.quest_subtitle: "Secreto"
+	quest.25FCD2A5A85FC69C.title: "Exterminador"
+	quest.26A87886A454C93F.quest_desc: ["Panadería, restaurante y bebidas: vuestra base ya es el mejor sitio para comer del mundo."]
+	quest.26A87886A454C93F.quest_subtitle: "Fin de la cocina"
+	quest.26A87886A454C93F.title: "Gran chef"
+	quest.26BEB7FE91252E85.quest_desc: ["Pon &etaladros&r, &ecosechadoras&r, &earados&r o &esierras&r en un artilugio en marcha y trabajan solos: minan, recogen cultivos o talan."]
+	quest.26BEB7FE91252E85.quest_subtitle: "Herramientas en movimiento"
+	quest.26BEB7FE91252E85.title: "Taladros y cosechadoras"
+	quest.2704D838F6BBDF4F.quest_desc: [
+		"Los &ehipertubos&r llevan jugadores a toda velocidad. Pon una &eentrada&r, une los tubos y usa &eaceleradores&r en los tramos largos."
+		""
+		"Ideales para unir las islas de vuestra base sin tener que volar."
+	]
+	quest.2704D838F6BBDF4F.quest_subtitle: "Viajar por un tubo"
+	quest.2704D838F6BBDF4F.title: "Hipertubos"
+	quest.270F604A6B1D704C.quest_desc: [
+		"La &eCiudadela en ruinas&r está en las islas exteriores del &eEnd&r. Cuidado con sus puños: te lanzan lejos."
+		""
+		"Para encontrarla, fabrica un &eOjo del vacío&r y lánzalo como un ojo de ender."
+	]
+	quest.270F604A6B1D704C.quest_subtitle: "La ciudadela en ruinas"
+	quest.270F604A6B1D704C.title: "Guardián del End"
+	quest.2739E92E561EBBD7.quest_desc: ["Las &eensambladoras mecánicas&r en rejilla hacen recetas grandes (hasta 9x9). Únelas con flechas y alimenta la primera con rotación."]
+	quest.2739E92E561EBBD7.quest_subtitle: "Crafteos gigantes"
+	quest.2739E92E561EBBD7.title: "Ensambladoras mecánicas"
+	quest.2769047C3CA00F8B.quest_desc: ["Las setas sobre tierra rica se vuelven &ecolonias&r. Córtalas con el cuchillo para sacar setas sin destruirlas."]
+	quest.2769047C3CA00F8B.quest_subtitle: "Setas sin fin"
+	quest.2769047C3CA00F8B.title: "Colonias de setas"
+	quest.278A60CBE86697D2.quest_desc: ["Los &egeneradores de monstruos&r se pueden recoger con &etoque de seda&r y mejorar con objetos. En la tienda y las cajas a veces sale alguno."]
+	quest.278A60CBE86697D2.quest_subtitle: "Apothic Spawners"
+	quest.278A60CBE86697D2.title: "Generadores"
+	quest.278C20F5AC575784.quest_desc: [
+		"Un mundo de islas en las nubes. El portal: un marco de &epiedra luminosa&r (como uno del Nether) y un &ecubo de agua&r dentro."
+		""
+		"Cuidado al caer: debajo de las islas del Aether hay vacío... y vuelves al mundo normal."
+	]
+	quest.278C20F5AC575784.quest_subtitle: "El cielo sobre el cielo"
+	quest.278C20F5AC575784.title: "El Aether"
+	quest.27BE51BDFE1EA032.quest_desc: [
+		"Fabrica un &epico de piedra&r. La piedra está en la base de las islas, debajo de la tierra."
+		""
+		"&cCuidado:&r los árboles caen de verdad (Tree Physics). Si talas uno en el borde, puede acabar en el vacío con la madera."
+		""
+		"Más adelante, el encantamiento &eVein Mining&r te dejará picar vetas enteras de golpe."
+	]
+	quest.27BE51BDFE1EA032.quest_subtitle: "Lo de siempre... con cuidado"
+	quest.27BE51BDFE1EA032.title: "Madera y piedra"
+	quest.280B56F4CD8BA60F.quest_desc: [
+		"La &eAcrópolis&r está en los &eocéanos cálidos&r. Scylla llama a los rayos: el jefe más difícil de Cataclysm."
+		""
+		"Para encontrarla, fabrica un &eOjo de la tormenta&r y lánzalo como un ojo de ender."
+	]
+	quest.280B56F4CD8BA60F.quest_subtitle: "La acrópolis"
+	quest.280B56F4CD8BA60F.title: "Scylla"
+	quest.28118086FB052F8B.quest_desc: ["Busca la &etorre del dragón&r."]
+	quest.28118086FB052F8B.quest_subtitle: "Torre del dragón"
+	quest.28118086FB052F8B.title: "Dragón de la torre"
+	quest.28BF09D6BB21470D.quest_desc: [
+		"Para el latón necesitas &ezinc&r y cobre."
+		""
+		"- &eMineral de zinc&r: en la roca de la base de las islas grandes."
+		"- &eSin minar&r: las ruedas trituradoras convierten la &etoba&r en pepitas de zinc (y algo de cobre y oro) de vez en cuando."
+		""
+		"Tritura el mineral antes de fundirlo y lávalo con el ventilador: rinde casi el doble."
+	]
+	quest.28BF09D6BB21470D.quest_subtitle: "La mitad del latón"
+	quest.28BF09D6BB21470D.title: "Zinc"
+	quest.28EA2861CD8155A0.quest_desc: [
+		"Ya tienes casa, comida, equipo y sabes moverte entre islas. Ahora empieza lo bueno."
+		""
+		"Se abre la &6Tienda&r (tecla &eF10&r, el botón del medio junto al inventario o &e/tienda&r): vende lo que te sobre por monedas y compra lo que no puedas fabricar."
+		""
+		"El &6Acto 2&r te enseña &6Create&r: ejes, engranajes y máquinas. Es la base de todo lo que viene, incluida tu primera aeronave."
+	]
+	quest.28EA2861CD8155A0.quest_subtitle: "Fin del acto 1"
+	quest.28EA2861CD8155A0.title: "Listo para Create"
+	quest.28F0DF7B7D466487.quest_desc: ["Con &eesquema y pluma&r guardas una construcción. En la &emesa de esquemas&r la pasas a un esquema vacío y el &ecañón de esquemas&r la construye solo con los materiales de un cofre."]
+	quest.28F0DF7B7D466487.quest_subtitle: "Copiar y pegar edificios"
+	quest.28F0DF7B7D466487.title: "Esquemas"
+	quest.2905D4B378D97E50.quest_desc: ["Encuentra un &epuesto subterráneo&r en Marte."]
+	quest.2905D4B378D97E50.quest_subtitle: "Puesto subterráneo"
+	quest.2905D4B378D97E50.title: "Bajo la arena roja"
+	quest.29A2E475036472DB.quest_desc: [
+		"El &eventilador&r empuja aire. Delante de él, los objetos tirados al suelo o en cinta se procesan según lo que haya en medio:"
+		"- &eLava o fuego&r: fundir.  - &eAgua&r: lavar.  - &eFuego de alma&r: ahumar."
+	]
+	quest.29A2E475036472DB.quest_subtitle: "Soplar y procesar"
+	quest.29A2E475036472DB.title: "Ventilador"
+	quest.29D8D2AF304725D8.quest_desc: ["El &eeyector&r lanza lo que le pongas encima a otro punto. Elige el destino al colocarlo."]
+	quest.29D8D2AF304725D8.quest_subtitle: "Lanzar objetos"
+	quest.29D8D2AF304725D8.title: "Eyector con peso"
+	quest.2A53D93F43C92E07.quest_desc: ["&ePimientos&r de colores, &ealgodón&r, &ecafé&r y &etortitas&r. Prueba a hacer &eaceite de cocina&r y freírlo todo."]
+	quest.2A53D93F43C92E07.quest_subtitle: "Rustic Delight"
+	quest.2A53D93F43C92E07.title: "Cocina rústica"
+	quest.2AB272CE6FBCDF43.quest_desc: [
+		"En este pack &6cualquier construcción puede convertirse en un vehículo con físicas reales&r (Create Aeronautics)."
+		""
+		"La clave es el &eEnsamblador de físicas&r: marca un grupo de bloques con &ePegamento&r (Super Glue), ponle el ensamblador, mantén clic derecho y &etira de su palanca&r. Lo pegado se convierte en un artefacto que cae, flota y choca como un objeto real."
+		""
+		"Pruébalo primero &cen el suelo y lejos del borde&r."
+	]
+	quest.2AB272CE6FBCDF43.quest_subtitle: "Todo lo que pegues puede volar"
+	quest.2AB272CE6FBCDF43.title: "Despegue"
+	quest.2AB73D516195139E.quest_desc: [
+		"Una &eperla de portal&r abre un portal del que salen &eoleadas&r de monstruos. Si aguantas todas, te da un buen botín."
+		""
+		"&cAbridlo lejos de la base y con el equipo preparado.&r"
+	]
+	quest.2AB73D516195139E.quest_subtitle: "Gateways"
+	quest.2AB73D516195139E.title: "Portales de oleadas"
+	quest.2AF102F1D104CFB4.quest_desc: ["La &eMesa de aumento&r vuelve a tirar o mejora &eun solo afijo&r de la pieza, sin tocar los demás."]
+	quest.2AF102F1D104CFB4.quest_subtitle: "Subir un afijo"
+	quest.2AF102F1D104CFB4.title: "Mesa de aumento"
+	quest.2B1D7D0FCDF1A23A.quest_desc: [
+		"Por el mundo hay &cjefes&r que guardan los mejores botines. Casi todos viven en &eestructuras lejanas&r: id a buscarlos en nave, bien armados y con camas o waystones para volver."
+		""
+		"- Fila de arriba: los clásicos, el &eDragón&r y el &eWither&r."
+		"- Fila del centro: los jefes de &eMowzie's Mobs&r."
+		"- Fila de abajo: los jefes de &eBlock Factory's Bosses&r."
+		""
+		"Con &e6 jefes&r cualquiera se completa la meta. Un cañón de Create Big Cannons en la nave también cuenta como arma..."
+	]
+	quest.2B1D7D0FCDF1A23A.quest_subtitle: "Los peores del mundo"
+	quest.2B1D7D0FCDF1A23A.title: "Cazadores"
+	quest.2B73CBDCF1051503.quest_desc: [
+		"Con &eAquaculture&r hay decenas de peces según el bioma. Las cañas mejores admiten &eanzuelos&r, sedal y cebo (&egusanos&r de la tierra)."
+		""
+		"El &ecuchillo de filetear&r convierte peces en filetes, y en el fondo del mar está el &eneptunio&r."
+	]
+	quest.2B73CBDCF1051503.quest_subtitle: "Aquaculture"
+	quest.2B73CBDCF1051503.title: "Pesca"
+	quest.2B950CD9769832D5.quest_desc: [
+		"Las mejoras más útiles:"
+		""
+		"- &eRecoger&r: mete en la mochila lo que coges."
+		"- &eImán&r: atrae objetos del suelo."
+		"- &eAlimentación&r: te da de comer cuando tienes hambre."
+		"- &eCrafteo&r: una mesa de crafteo dentro."
+	]
+	quest.2B950CD9769832D5.quest_subtitle: "Que trabaje por ti"
+	quest.2B950CD9769832D5.title: "Mejoras de mochila"
+	quest.2BCF02CF9C72C3B1.quest_desc: ["Pon animales o monstruos cerca de la &epiedra de drygmy&r: el &eDrygmy&r saca su botín sin matarlos."]
+	quest.2BCF02CF9C72C3B1.quest_subtitle: "El cazador pacífico"
+	quest.2BCF02CF9C72C3B1.title: "Drygmy"
+	quest.2BD6D8D7EEDE10F3.quest_desc: ["Un &epalacio&r del desierto, de los más grandes del mod."]
+	quest.2BD6D8D7EEDE10F3.quest_subtitle: "Oro en el desierto"
+	quest.2BD6D8D7EEDE10F3.title: "Palacio de Shiraz"
+	quest.2BE44371A8155AFA.quest_desc: ["Acero, radar y misiles: vuestra nave es una fortaleza volante."]
+	quest.2BE44371A8155AFA.quest_subtitle: "Fin de la guía"
+	quest.2BE44371A8155AFA.title: "Señor de la guerra"
+	quest.2BFD2302B3116F92.quest_desc: [
+		"- &eSello de mejora&r: sube la rareza de una gema."
+		"- &eSello de retirada&r: saca las gemas de una pieza sin romperlas."
+		"- &eSello de borrado&r: quita el nombre especial de un objeto."
+	]
+	quest.2BFD2302B3116F92.quest_subtitle: "Herramientas de forja"
+	quest.2BFD2302B3116F92.title: "Sellos"
+	quest.2C22F01AA0F88774.quest_desc: ["Además de seguir rutas, el &eTranspondedor avanzado&r saca por redstone hacia dónde quiere ir la nave (subir, norte/sur, este/oeste) y cuándo atraca. Úsalo para mover propulsores o abrir compuertas."]
+	quest.2C22F01AA0F88774.quest_subtitle: "Para ingenieros"
+	quest.2C22F01AA0F88774.title: "Transpondedor avanzado"
+	quest.2CB728030B6F71A3.quest_desc: ["Pon &ecuerda&r encima de una tomatera: crecerá hacia arriba y dará mucho más."]
+	quest.2CB728030B6F71A3.quest_subtitle: "Hacia arriba"
+	quest.2CB728030B6F71A3.title: "Tomates en cuerda"
+	quest.2CCC02C367720216.quest_desc: ["De una isla flotante a otro planeta. Pocas tripulaciones llegan tan lejos."]
+	quest.2CCC02C367720216.quest_subtitle: "Fin del espacio"
+	quest.2CCC02C367720216.title: "Conquistador del espacio"
+	quest.2CD0DD12167EB5F3.quest_desc: ["Dos &eenlaces de redstone&r con los mismos dos objetos de frecuencia se pasan la señal a distancia."]
+	quest.2CD0DD12167EB5F3.quest_subtitle: "Redstone sin cables"
+	quest.2CD0DD12167EB5F3.title: "Enlace de redstone"
+	quest.2D2DE4F2592D85E4.quest_desc: ["Planta &esemillas de uva&r junto a un &eenrejado&r. Pisa las uvas en la &emaceta de vid&r o usa la &eprensa&r para sacar zumo."]
+	quest.2D2DE4F2592D85E4.quest_subtitle: "Let's Do Vinery"
+	quest.2D2DE4F2592D85E4.title: "Viñedo"
+	quest.2D4E391B89F121B8.quest_desc: ["Los illagers también navegan: busca una &ecorsaria&r o una &egalera&r en el océano."]
+	quest.2D4E391B89F121B8.quest_subtitle: "Corsarios en el mar"
+	quest.2D4E391B89F121B8.title: "Barco illager"
+	quest.2D94CB4CA328BBDE.quest_desc: ["Con la prensa sobre una cuenca puedes &ecompactar&r: 9 lingotes en un bloque, o hacer recetas especiales."]
+	quest.2D94CB4CA328BBDE.quest_subtitle: "Prensa + cuenca"
+	quest.2D94CB4CA328BBDE.title: "Compactar"
+	quest.2DDD77CCFEE53729.quest_desc: [
+		"Esta guía es &eopcional&r y no bloquea la historia. Explica cómo mover objetos solos entre máquinas, islas y equipos (los &epaquetes, ranas y medidores de fábrica&r están en la guía de &eCreate&r):"
+		""
+		"- &eArriba&r: depósito de comercio con aldeanos."
+		"- &eFila del centro&r: rutas automáticas para tus naves."
+		"- &eFila de abajo&r: hipertubos y almacenamiento con terminal."
+		""
+		"Mira los &ePonder&r (tecla &eW&r sobre el objeto) de cada bloque."
+	]
+	quest.2DDD77CCFEE53729.quest_subtitle: "Mover cosas sin ir tú"
+	quest.2DDD77CCFEE53729.title: "Logística"
+	quest.2E2BE219B231B7FC.quest_desc: ["La tablilla &eConjurar isla&r (llanura o desierto) crea una isla entera. En un mundo de islas flotantes, es oro."]
+	quest.2E2BE219B231B7FC.quest_subtitle: "Tierra nueva"
+	quest.2E2BE219B231B7FC.title: "Conjurar isla"
+	quest.2E757C4E479D6906.quest_desc: [
+		"- &eHierro fundido&r: compacta hierro con carbón en la prensa con &ecalor&r."
+		"- &eBronce&r: mezcla cobre y zinc (o latón) con harina de ceniza, con calor."
+		""
+		"Son los metales de los primeros cañones: aguantan poca pólvora."
+	]
+	quest.2E757C4E479D6906.quest_subtitle: "Metales de cañón"
+	quest.2E757C4E479D6906.title: "Hierro fundido y bronce"
+	quest.2F18976891EFED21.quest_desc: ["El &ecuchillo&r saca más comida de los animales y corta hierba y paja. Hay de pedernal, hierro, oro, diamante y netherita."]
+	quest.2F18976891EFED21.quest_subtitle: "La herramienta del cocinero"
+	quest.2F18976891EFED21.title: "Cuchillo"
+	quest.2F93F9624619E62B.quest_desc: ["Atrapa un &eblaze&r con el &equemador vacío&r (o sácalo de un generador). Alimentado con combustible da &ecalor&r; con &epastel de blaze&r, &esupercalor&r."]
+	quest.2F93F9624619E62B.quest_subtitle: "Calor para todo"
+	quest.2F93F9624619E62B.title: "Quemador de blaze"
+	quest.30082353242567AB.quest_desc: [
+		"La &eMezcladora mecánica&r sobre una &eCuenca&r combina ingredientes sin mesa de trabajo."
+		""
+		"Con ella puedes fabricar &ealeación de andesita&r en automático. Más adelante, con calor debajo, hará latón."
+	]
+	quest.30082353242567AB.quest_subtitle: "Aleación en automático"
+	quest.30082353242567AB.title: "Mezcladora"
+	quest.3036621BF837C97E.quest_desc: ["Planta &esemillas de flor de mago&r: con la &efibra&r se hacen las túnicas de mago."]
+	quest.3036621BF837C97E.quest_subtitle: "Tela mágica"
+	quest.3036621BF837C97E.title: "Flor de mago"
+	quest.304565ED8822ECC7.quest_desc: ["Se hace con una &ereceta secuencial&r: plancha de oro → surtidor, desplegador y prensa en orden, varias veces. Mira el JEI/EMI para los pasos."]
+	quest.304565ED8822ECC7.quest_subtitle: "Ensamblaje secuencial"
+	quest.304565ED8822ECC7.title: "Mecanismo de precisión"
+	quest.30651EA06B2BE434.quest_desc: ["La &eTerminal de crafteo&r tiene mesa de crafteo y coge los ingredientes del almacén. La &eTerminal inalámbrica&r abre el almacén desde lejos."]
+	quest.30651EA06B2BE434.quest_subtitle: "Craftear desde el almacén"
+	quest.30651EA06B2BE434.title: "Terminal de crafteo"
+	quest.308DD2D7E88F15FB.quest_desc: ["Dos addons juntan la magia con las máquinas de Create."]
+	quest.308DD2D7E88F15FB.quest_subtitle: "Ars Creo y Ars Technica"
+	quest.308DD2D7E88F15FB.title: "Magia con Create"
+	quest.30F2A02A454869E9.quest_desc: [
+		"En la &emezcladora con quemador&r: 4 polvos de piedra del End, 2 pepitas de zinc y agua dan &emezcla de levitita&r líquida."
+		""
+		"Sácala con un cubo o con un grifo de Create."
+	]
+	quest.30F2A02A454869E9.quest_subtitle: "Con calor"
+	quest.30F2A02A454869E9.title: "Mezcla de levitita"
+	quest.31005FC533B0799D.quest_desc: ["La &eTerminal logística&r muestra un mapa desde arriba con vuestras estaciones, rutas y naves en marcha."]
+	quest.31005FC533B0799D.quest_subtitle: "Ver toda la red"
+	quest.31005FC533B0799D.title: "Terminal logística"
+	quest.31CA56CF87FA65FC.quest_desc: [
+		"Con el mecanismo giroscópico hay dos hélices nuevas:"
+		""
+		"- &eRodamiento de hélice giroscópico&r: intenta mantener la hélice derecha. Es la buena para &ehelicópteros&r, y bocabajo estabiliza naves con mucho peso arriba."
+		"- &eHélice inteligente&r: una hélice pequeña que se inclina sola para mirar hacia arriba."
+		""
+		"Las dos pierden fuerza con la altura: cuanto más subes, menos empujan."
+	]
+	quest.31CA56CF87FA65FC.quest_subtitle: "Giroscópicas e inteligentes"
+	quest.31CA56CF87FA65FC.title: "Hélices estables"
+	quest.324DEE2598387A56.quest_desc: ["Has descubierto la &dlevitita nacarada&r. Ahora tus naves pueden ser rosas."]
+	quest.324DEE2598387A56.quest_subtitle: "La levitita secreta"
+	quest.324DEE2598387A56.title: "Nácar"
+	quest.32FA532DA609B3C2.quest_desc: ["Un &ecoliseo&r en ruinas con oleadas de enemigos."]
+	quest.32FA532DA609B3C2.quest_subtitle: "Que empiece el combate"
+	quest.32FA532DA609B3C2.title: "El coliseo"
+	quest.332D75914BF551CA.quest_desc: [
+		"Sube tanto que el &eSensor de altitud&r marque &e0 %&r de presión atmosférica."
+		""
+		"Las hélices y los globos pierden fuerza con la altura: hará falta mucha levitita y mucha potencia."
+	]
+	quest.332D75914BF551CA.quest_subtitle: "0 % de presión"
+	quest.332D75914BF551CA.title: "El techo del mundo"
+	quest.3403637C4F264AD8.quest_desc: ["Castillos, torres y templos flotan sobre islas solitarias. Ve preparado: suelen estar vigilados."]
+	quest.3403637C4F264AD8.quest_subtitle: "Ruinas en las alturas"
+	quest.3403637C4F264AD8.title: "Torres y templos"
+	quest.34172338265B154A.quest_desc: [
+		"El &eCañón de patatas montado&r es la versión en bloque del cañón de patatas de Create: se carga con giro y dispara con redstone."
+		""
+		"Acepta la misma munición que el de mano y se puede cargar en automático. Si lo mantienes con señal, dispara sin parar."
+	]
+	quest.34172338265B154A.quest_subtitle: "La primera arma de tu nave"
+	quest.34172338265B154A.title: "Cañón de patatas montado"
+	quest.34420248FA48510B.quest_desc: [
+		"Esta guía es &eopcional&r: armas, tesoros y desafíos para salir a explorar."
+		""
+		"- Armas nuevas, artefactos, netherita mejorada y portales de oleadas."
+		"- Afijos, gemas, niveles de mundo y encantamientos tienen su propia guía: &eApotheosis&r."
+		""
+		"&eHabilidades:&r con &ePufferfish's Skills&r ganas puntos de habilidad al matar, minar, fabricar... Ábrelo con la tecla &eK&r y elige mejoras en sus árboles."
+	]
+	quest.34420248FA48510B.quest_subtitle: "Armarse para salir"
+	quest.34420248FA48510B.title: "Equipo y aventura"
+	quest.3443ABCC661628B8.quest_desc: ["El &eReactor&r de Powah es una torre de 3x3 y 4 de alto. Quema &euraninita&r y da muchísima energía. Necesita refrigerante (agua o hielo seco) para no perder potencia."]
+	quest.3443ABCC661628B8.quest_subtitle: "Nuclear"
+	quest.3443ABCC661628B8.title: "Reactor"
+	quest.344C395A789DA189.quest_desc: [
+		"Esta guía es &eopcional&r. &eApotheosis&r cambia el botín, los encantamientos y los generadores de monstruos:"
+		""
+		"1. Afijos y reforja  2. Gemas  3. Niveles de mundo"
+		"4. Encantamiento avanzado  5. Generadores de monstruos"
+		""
+		"Casi todas las misiones son &elogros&r: si ya los tenías, se completan solas."
+	]
+	quest.344C395A789DA189.quest_subtitle: "Botín, gemas y encantamientos"
+	quest.344C395A789DA189.title: "Apotheosis"
+	quest.3467DDFFCBEEEC50.quest_desc: ["Entra en el End (capítulo &aOtros mundos&r), rompe los cristales de las torres y mata al &eDragón&r."]
+	quest.3467DDFFCBEEEC50.quest_subtitle: "El primer jefe"
+	quest.3467DDFFCBEEEC50.title: "El Dragón del End"
+	quest.34CF7B0FC5CBCF8C.quest_desc: [
+		"Hay animales nuevos: ciervos, bisontes, jabalíes, pavos... La &epizarra de recompensas&r da encargos de caza y recolección a cambio de botín."
+		""
+		"&eNaturalist&r también añade fauna: osos, caracoles, mariposas, patos..."
+	]
+	quest.34CF7B0FC5CBCF8C.quest_subtitle: "Let's Do Wilder Nature"
+	quest.34CF7B0FC5CBCF8C.title: "Caza y encargos"
+	quest.34DF1D52355C3B6A.quest_desc: [
+		"El &eMedidor de fábrica&r se pone en un panel: le dices qué fabricar y qué ingredientes pedir a la red, y él solo envía los pedidos cuando falta stock."
+		""
+		"Une varios medidores entre sí para cadenas de producción enteras. El &eSolicitador de redstone&r pide un pedido fijo cada vez que recibe una señal."
+	]
+	quest.34DF1D52355C3B6A.quest_subtitle: "Producción automática"
+	quest.34DF1D52355C3B6A.title: "Medidores de fábrica"
+	quest.354F9E1F8D666C97.quest_desc: [
+		"El &eTimón&r se agarra y se gira a mano: manda una señal según cuánto lo gires, perfecta para dirigir hélices o un &eRodamiento giratorio&r."
+		""
+		"Junto con la palanca de acelerador del acto 4, ya tienes una cabina de verdad."
+	]
+	quest.354F9E1F8D666C97.quest_subtitle: "Pilotar de verdad"
+	quest.354F9E1F8D666C97.title: "Al timón"
+	quest.37896CF5817C63FA.quest_desc: ["Empaqueta, envía, pide y fabrica solo. Para rutas de naves y almacenes de Tom's, mira la guía de &eLogística&r."]
+	quest.37896CF5817C63FA.quest_subtitle: "Logística de Create 6"
+	quest.37896CF5817C63FA.title: "Paquetes y fábricas"
+	quest.384F9751B53F8009.quest_desc: [
+		"El &eEnlace de existencias&r va sobre un empaquetador y lo une a una &ered&r (configúralo con clic derecho). El &eTeletipo de existencias&r ve todo lo que hay en esa red: pides lo que quieras y los empaquetadores te lo envían a la dirección que elijas."
+		""
+		"Es la forma de tener un &ealmacén central&r en la isla."
+	]
+	quest.384F9751B53F8009.quest_subtitle: "Pídelo desde un mostrador"
+	quest.384F9751B53F8009.title: "La red de almacén"
+	quest.3854AB62F8B11F6E.quest_desc: ["En el Nether crecen &epimientos bala&r. Con ellos y carne de hoglin o strider salen los platos picantes, que dan resistencia al fuego."]
+	quest.3854AB62F8B11F6E.quest_subtitle: "Pimientos bala"
+	quest.3854AB62F8B11F6E.title: "Picante"
+	quest.386EA5FD5FBBA0E8.quest_desc: ["Has pisado las siete dimensiones: el Nether, el End, el Aether, la Infratierra, Eternal Starlight, el Otherside y la Bumblezone."]
+	quest.386EA5FD5FBBA0E8.quest_subtitle: "Secreto"
+	quest.386EA5FD5FBBA0E8.title: "Trotamundos"
+	quest.3892D7900D917299.quest_desc: ["Del primer engranaje a una fábrica que funciona sola. Ya dominas Create."]
+	quest.3892D7900D917299.quest_subtitle: "Fin de la guía"
+	quest.3892D7900D917299.title: "Ingeniero de Create"
+	quest.394CE07DA32DD133.quest_desc: ["Las &egafas de ingeniero&r enseñan la velocidad y el estrés de cada bloque. La &ellave inglesa&r gira y quita piezas al instante."]
+	quest.394CE07DA32DD133.quest_subtitle: "Ver lo que pasa"
+	quest.394CE07DA32DD133.title: "Gafas y llave"
+	quest.399440F5E7FDC829.quest_desc: ["Un &easilo&r abandonado en el pantano. Llevad leche."]
+	quest.399440F5E7FDC829.quest_subtitle: "No toques nada"
+	quest.399440F5E7FDC829.title: "Asilo de la peste"
+	quest.3A9DABA5F00DA290.quest_desc: ["Duerme en una &ecámara subterránea&r. Esquiva su hacha y golpéale por la espalda."]
+	quest.3A9DABA5F00DA290.quest_subtitle: "La cámara de hierro"
+	quest.3A9DABA5F00DA290.title: "El Wroughtnaut Ferroso"
+	quest.3AEE1BCC3D9F0531.quest_desc: ["Activa una &eestantería profunda dormida&r (sale en el fondo del mundo) y combínala con sculk para llegar a nivel &e80&r."]
+	quest.3AEE1BCC3D9F0531.quest_subtitle: "De las profundidades"
+	quest.3AEE1BCC3D9F0531.title: "Estanterías profundas"
+	quest.3B375A633ADFEAEA.quest_desc: [
+		"El &eBrazo mecánico&r coge objetos de un sitio y los deja en otro, incluso en máquinas. Es la pieza clave para automatizar fábricas."
+		""
+		"Para redes de almacén, paquetes y pedidos, mira la &eguía de Create&r."
+	]
+	quest.3B375A633ADFEAEA.quest_subtitle: "Automatiza el taller"
+	quest.3B375A633ADFEAEA.title: "Brazo mecánico"
+	quest.3B80E7AA1D6867BE.quest_desc: ["El &eAcumulador modular&r guarda energía y crece si pones varios juntos. Útil para que la nave tenga reserva."]
+	quest.3B80E7AA1D6867BE.quest_subtitle: "Guardar energía"
+	quest.3B80E7AA1D6867BE.title: "Acumulador"
+	quest.3BB750716F72879C.quest_desc: ["Pequeños &edirigibles&r flotan sobre las llanuras. Con la nave podéis abordarlos en el aire."]
+	quest.3BB750716F72879C.quest_subtitle: "Un globo a la deriva"
+	quest.3BB750716F72879C.title: "Pequeño dirigible"
+	quest.3C056F646925AEF2.quest_desc: ["El último nivel. Solo para quien lo tenga todo."]
+	quest.3C056F646925AEF2.quest_subtitle: "Lo más alto"
+	quest.3C056F646925AEF2.title: "Pináculo"
+	quest.3C9E0393FDD81FAA.quest_desc: [
+		"Pulsa &eM&r para abrir el mapa y pulsa el botón de &eclaims&r. Arrastra con &eclic izquierdo&r sobre los chunks para reclamarlos y con &eclic derecho&r para soltarlos."
+		""
+		"Con &eShift + clic izquierdo&r un chunk reclamado queda &ecargado&r aunque no estés cerca (máximo 20)."
+		""
+		"Los claims son de tu &eequipo de FTB&r: lo que reclames es de todo tu equipo, el mismo con el que compartís las misiones."
+	]
+	quest.3C9E0393FDD81FAA.quest_subtitle: "Que nadie te la quite"
+	quest.3C9E0393FDD81FAA.title: "Reclama tu isla"
+	quest.3CB4F8FD877E9C91.quest_desc: [
+		"Dos &eRuedas trituradoras&r enfrentadas, girando hacia dentro, convierten un mineral en &emineral triturado&r con un extra de vez en cuando."
+		""
+		"Lava el mineral triturado con el ventilador y obtendrás aún más pepitas. Así el mineral de tu isla rinde mucho más."
+	]
+	quest.3CB4F8FD877E9C91.quest_subtitle: "Más mineral por mineral"
+	quest.3CB4F8FD877E9C91.title: "Trituradoras"
+	quest.3D0A9DC8FC87847A.quest_desc: [
+		"El &ebarril&r de Brewin' and Chewin' fermenta bebidas (hidromiel, sake, vodka...) y la &ecava&r madura &equesos&r."
+		""
+		"Los quesos y la &epizza&r son de lo que más llena."
+	]
+	quest.3D0A9DC8FC87847A.quest_subtitle: "Brewin' and Chewin'"
+	quest.3D0A9DC8FC87847A.title: "Barril y queso"
+	quest.3D0FA7219A4D9191.quest_desc: ["La &eHerramienta de estructuras&r guarda, suelda, mueve, gira y separa estructuras físicas. La &ePistola magnética&r arrastra naves hasta a 24 bloques."]
+	quest.3D0FA7219A4D9191.quest_subtitle: "Ingeniería rápida"
+	quest.3D0FA7219A4D9191.title: "Pistola de estructuras"
+	quest.3D21CB9661877BA6.quest_desc: ["Salta con tu nave a través de una grieta."]
+	quest.3D21CB9661877BA6.quest_subtitle: "Llegar de una pieza"
+	quest.3D21CB9661877BA6.title: "Primer salto"
+	quest.3D4481A2961C7CF8.quest_desc: ["Pon &ecosechadoras mecánicas&r en algo que se mueva (un rodamiento, un pistón, una nave...) y recogerán los cultivos maduros sin romper la planta. El &earado mecánico&r labra la tierra."]
+	quest.3D4481A2961C7CF8.quest_subtitle: "Create en el campo"
+	quest.3D4481A2961C7CF8.title: "Granja automática"
+	quest.3E275F67AF2D0E86.quest_desc: ["Tres &ecráneos de esqueleto wither&r sobre arena de almas en forma de T. Invócalo lejos de vuestra base: rompe bloques."]
+	quest.3E275F67AF2D0E86.quest_subtitle: "Tres cráneos"
+	quest.3E275F67AF2D0E86.title: "El Wither"
+	quest.3E66D6E66EBA36A8.quest_desc: ["El &eescáner de petróleo&r busca chunks con crudo. Una &ebomba de balancín&r lo saca y la &etorre de destilación&r lo separa en gasolina, diésel y asfalto."]
+	quest.3E66D6E66EBA36A8.quest_subtitle: "Bombear y destilar"
+	quest.3E66D6E66EBA36A8.title: "Petróleo"
+	quest.3E8B0A5C6CFD9FC9.quest_desc: ["Farmer's Delight trae &etomates&r, &ecoles&r, &ecebollas&r y &earroz&r, y el &ecuchillo&r para sacar más de cada cosa."]
+	quest.3E8B0A5C6CFD9FC9.quest_subtitle: "Cuchillo y cultivos"
+	quest.3E8B0A5C6CFD9FC9.title: "Campo"
+	quest.3E9D24DB12A58084.quest_desc: [
+		"El &eacero&r sale de la mezcladora con calor: &e2 hierros y 1 carbón&r dan 2 lingotes."
+		""
+		"Los cañones de acero aguantan muchas más cargas de pólvora, así que disparan más lejos y más fuerte."
+	]
+	quest.3E9D24DB12A58084.quest_subtitle: "Más presión"
+	quest.3E9D24DB12A58084.title: "Acero"
+	quest.3F1B7232E1900A21.quest_desc: ["Un &emonasterio&r en lo alto de las montañas."]
+	quest.3F1B7232E1900A21.quest_subtitle: "Silencio en la montaña"
+	quest.3F1B7232E1900A21.title: "El monasterio"
+	quest.3F995CE0A0354D2B.quest_desc: ["El &eDepósito de comercio&r comercia con el aldeano que tiene delante: mete el pago por una cinta y saca lo que vende. Perfecto para granjas de aldeanos."]
+	quest.3F995CE0A0354D2B.quest_subtitle: "Aldeanos automáticos"
+	quest.3F995CE0A0354D2B.title: "Depósito de comercio"
+	quest.40410D3B4A2B83A1.quest_desc: [
+		"Las naves grandes agradecen instrumentos:"
+		""
+		"- &eMesa de navegación&r: apunta a unas coordenadas."
+		"- &eSensor de altitud&r: señal según la altura (para un piloto automático de altura)."
+		"- &eSensor de cardán&r y de &evelocidad&r: equilibrio y velocidad."
+	]
+	quest.40410D3B4A2B83A1.quest_subtitle: "Volar sin mirar abajo"
+	quest.40410D3B4A2B83A1.title: "Instrumentos"
+	quest.404EFCF45B5F2ABA.quest_desc: [
+		"Los equipos se manejan desde &6nuestro propio mod&r, &eVenturia Retos&r: pulsa &eF9&r (o el botón del &ereloj&r junto al inventario) y entra en la pestaña &eEquipo&r."
+		""
+		"Desde ahí puedes:"
+		"- &eCrear&r tu equipo y ponerle nombre, color y descripción."
+		"- &eInvitar&r a tus amigos y &eaceptar&r las invitaciones que te lleguen."
+		"- Ver la lista de &eequipos abiertos&r y unirte a uno."
+		"- Ascender &eoficiales&r y añadir &ealiados&r."
+		""
+		"Por debajo usa &eFTB Teams&r, así que el equipo es el mismo para todo: el progreso de este libro, los &eclaims&r del mapa, los retos, las subastas y los contratos."
+		""
+		"El progreso del libro &aes del equipo&r: lo que haga uno cuenta para todos."
+	]
+	quest.404EFCF45B5F2ABA.quest_subtitle: "Juntos se cae menos"
+	quest.404EFCF45B5F2ABA.title: "Forma tu equipo"
+	quest.4056DA965E5BAFA7.quest_desc: [
+		"&eSimply Swords&r añade muchos tipos de arma: katanas, guadañas, alabardas, martillos... Cada tipo pega distinto."
+		""
+		"Las &earmas únicas&r, con poderes especiales, solo salen en cofres y jefes."
+	]
+	quest.4056DA965E5BAFA7.quest_subtitle: "Simply Swords"
+	quest.4056DA965E5BAFA7.title: "Armas nuevas"
+	quest.409DE6BDCDA344B8.quest_desc: [
+		"&eFarmer's Delight&r convierte la comida en algo que merece la pena: platos que llenan mucho y dan efectos útiles."
+		""
+		"Empieza por un &ecuchillo&r (para cortar ingredientes en la tabla y conseguir paja de la hierba) y una &eolla&r, que cocina recetas con varios ingredientes."
+	]
+	quest.409DE6BDCDA344B8.quest_subtitle: "Farmer's Delight"
+	quest.409DE6BDCDA344B8.title: "Comer bien"
+	quest.41065267FB59AE0D.quest_desc: ["El &emecanismo de precisión calibrado&r mezcla el de Create con magia. Es la base de los objetos de Ars Technica."]
+	quest.41065267FB59AE0D.quest_subtitle: "Precisión mágica"
+	quest.41065267FB59AE0D.title: "Mecanismo calibrado"
+	quest.4238D415D3FC516B.quest_desc: ["Huerto, tierra rica y banquetes: en vuestra isla se come mejor que en tierra firme."]
+	quest.4238D415D3FC516B.quest_subtitle: "Fin de la guía"
+	quest.4238D415D3FC516B.title: "Chef del cielo"
+	quest.432619FF98709255.quest_desc: ["A veces aparecen versiones &emutantes&r de zombis, esqueletos, creepers y endermans. Consigue uno de sus trofeos."]
+	quest.432619FF98709255.quest_subtitle: "Bichos enormes"
+	quest.432619FF98709255.title: "Mutantes"
+	quest.432718D7E34CB49F.quest_desc: ["Se completa al terminar el capítulo &aOtros mundos&r."]
+	quest.432718D7E34CB49F.quest_subtitle: "Explorador"
+	quest.432718D7E34CB49F.title: "Meta: otros mundos"
+	quest.434C5F2E7F537D18.quest_desc: ["Algunas piezas tienen &ehuecos&r. Cada gema da un bonus distinto según dónde se ponga (arma, armadura, herramienta...)."]
+	quest.434C5F2E7F537D18.quest_subtitle: "Engarzar y tallar"
+	quest.434C5F2E7F537D18.title: "Gemas"
+	quest.435F4DE8A9C1A9BF.quest_desc: ["El &eReceptor de alerta de radar&r suena cuando un radar enemigo te detecta, y otra vez cuando te fija como blanco."]
+	quest.435F4DE8A9C1A9BF.quest_subtitle: "Te están apuntando"
+	quest.435F4DE8A9C1A9BF.title: "Alerta de radar"
+	quest.436A82486D34223C.quest_desc: ["Encuentra el bioma de &elas profundidades&r."]
+	quest.436A82486D34223C.quest_subtitle: "Aún más abajo"
+	quest.436A82486D34223C.title: "Las profundidades"
+	quest.438B149B7DF76938.quest_desc: [
+		"En el &eNether&r (páramos) está la &eArena ardiente&r. Ignis pega con fuego y escudo: llevad resistencia al fuego."
+		""
+		"Para encontrarla, fabrica un &eOjo de llama&r y lánzalo como un ojo de ender."
+	]
+	quest.438B149B7DF76938.quest_subtitle: "La arena ardiente"
+	quest.438B149B7DF76938.title: "Ignis"
+	quest.44300F6CD8F19409.quest_desc: ["Has estado en la órbita de la &eLuna&r y en la de &eMarte&r. Hay quien viaja solo por las vistas."]
+	quest.44300F6CD8F19409.quest_subtitle: "Secreto"
+	quest.44300F6CD8F19409.title: "Turista orbital"
+	quest.44CA3753096058C2.quest_desc: ["Los jefes de &eL'Ender's Cataclysm&r más asequibles. Cada estructura se encuentra con su propio &eojo&r, que se lanza como un ojo de ender."]
+	quest.44CA3753096058C2.quest_subtitle: "Overworld y Nether"
+	quest.44CA3753096058C2.title: "Cataclysm I"
+	quest.4511B63D497D649F.quest_desc: [
+		"Hay más cultivos: &epepinos&r, &emaíz&r y &eaguacates&r (Cultural Delights), &epimientos&r y &ecafé&r (Rustic Delight)... y comida de mar en &eOcean's Delight&r."
+		""
+		"Los encuentras silvestres o en la &eCaja de semillas de cocina&r."
+	]
+	quest.4511B63D497D649F.quest_subtitle: "Ingredientes nuevos"
+	quest.4511B63D497D649F.title: "Cocina del mundo"
+	quest.4517F7AB51D80DCE.quest_desc: ["El &eMotor de grieta&r se monta en la nave y la lleva entera. Solo puede saltar a un sitio marcado con un &eAncla warp&r (o uno que encuentre una &eSonda&r)."]
+	quest.4517F7AB51D80DCE.quest_subtitle: "Saltar con la nave"
+	quest.4517F7AB51D80DCE.title: "Motor de grieta"
+	quest.4537F08BF976C900.quest_desc: ["Cruza más de 2000 bloques en un solo salto."]
+	quest.4537F08BF976C900.quest_subtitle: "Dos mil bloques"
+	quest.4537F08BF976C900.title: "Gran salto"
+	quest.45FDCD285508CF94.quest_desc: [
+		"Las piezas grandes se &efunden&r:"
+		""
+		"1. Pon la &etapa de fundición&r en una cuenca con calor y echa lingotes: se funden en metal líquido."
+		"2. Viértelo en un &emolde&r de la pieza que quieras."
+		"3. La pieza sale &esin taladrar&r: pásala por el &eTaladro de cañón&r."
+		""
+		"Los cañones de acero grandes se hacen por capas con el &eConstructor&r y el &eSoldador&r."
+	]
+	quest.45FDCD285508CF94.quest_subtitle: "Moldes y taladro"
+	quest.45FDCD285508CF94.title: "Fundición"
+	quest.4600A1D7940CDC2B.quest_desc: [
+		"Diseña un cohete con más empuje y más combustible: &eMarte&r está mucho más lejos."
+		""
+		"Bajo la superficie hay &epuestos subterráneos&r esperando."
+	]
+	quest.4600A1D7940CDC2B.quest_subtitle: "El planeta rojo"
+	quest.4600A1D7940CDC2B.title: "Marte"
+	quest.462DD8D2137EC3B7.quest_desc: [
+		"El &eOrbe energizante&r, rodeado de &evarillas energizantes&r con energía, fusiona materiales. Hierro y oro dan &eacero energizado&r, la base de Powah."
+		""
+		"Luego vienen generadores (&ehornalla&r, &epaneles solares&r, &etermogeneradores&r...) y &eceldas&r para guardar energía."
+	]
+	quest.462DD8D2137EC3B7.quest_subtitle: "Energía a lo grande"
+	quest.462DD8D2137EC3B7.title: "Powah"
+	quest.46BB26902EE4B9B8.quest_desc: ["Los &econductos&r bajan objetos por gravedad. Con un &eventilador&r debajo o encima, los suben."]
+	quest.46BB26902EE4B9B8.quest_subtitle: "Para arriba y para abajo"
+	quest.46BB26902EE4B9B8.title: "Conductos"
+	quest.472247D02E5CB298.quest_desc: ["La &epolea de manguera&r baja y saca (o mete) fluido de una masa de agua o lava. Las grandes son infinitas."]
+	quest.472247D02E5CB298.quest_subtitle: "Vaciar lagos"
+	quest.472247D02E5CB298.title: "Polea de manguera"
+	quest.47540A6BC7A3FCA9.quest_desc: ["Si queréis una fábrica de verdad, &eModern Industrialization&r va de máquinas de vapor de bronce a altos hornos eléctricos y reactores. Su &eguía&r lo explica todo."]
+	quest.47540A6BC7A3FCA9.quest_subtitle: "Industria pesada"
+	quest.47540A6BC7A3FCA9.title: "Modern Industrialization"
+	quest.47AF888429C27E7F.quest_desc: ["Con el &ecuerno del tiempo&r cambias el clima: lluvia para los cultivos o tormenta para la fruta del trueno."]
+	quest.47AF888429C27E7F.quest_subtitle: "Llamar a la lluvia"
+	quest.47AF888429C27E7F.title: "Cuerno del tiempo"
+	quest.47B85A490650DAAD.quest_desc: [
+		"Esta guía es &eopcional&r: granjas automáticas, vino, pesca y caza."
+		""
+		"- &eArriba&r: automatizar con Create y montar una cocina."
+		"- &eAbajo&r: vino, pesca y caza."
+		""
+		"Los cultivos y platos de &eFarmer's Delight&r tienen su propia guía."
+	]
+	quest.47B85A490650DAAD.quest_subtitle: "El campo en las nubes"
+	quest.47B85A490650DAAD.title: "Granja"
+	quest.47D0D7B5E06C588F.quest_desc: ["Los trenes de Create van solos con horarios y señales. Entre islas puedes tender puentes o usarlos dentro de islas grandes."]
+	quest.47D0D7B5E06C588F.quest_subtitle: "Viajar por raíles"
+	quest.47D0D7B5E06C588F.title: "Trenes"
+	quest.47D53FCEBA4183F0.quest_desc: ["Mete un &estarbuncle&r en la &eRueda de starbuncle&r y correrá dentro dando &erotación&r. Dale bayas para que corra más."]
+	quest.47D53FCEBA4183F0.quest_subtitle: "Ars Creo"
+	quest.47D53FCEBA4183F0.title: "Rueda de starbuncle"
+	quest.47EACFAF9FCD44DD.quest_desc: ["Alguien llegó antes. Busca el &epuesto avanzado abandonado&r de la Luna (y, ya puestos, algún &ecohete estrellado&r)."]
+	quest.47EACFAF9FCD44DD.quest_subtitle: "No sois los primeros"
+	quest.47EACFAF9FCD44DD.title: "Restos lunares"
+	quest.47F22AFC08BD3A23.quest_desc: ["Te espera en la &earena del inframundo&r. Es el más duro de todos."]
+	quest.47F22AFC08BD3A23.quest_subtitle: "La arena"
+	quest.47F22AFC08BD3A23.title: "El Caballero del Inframundo"
+	quest.47FB52CD4CEC5B84.quest_desc: ["Un &enido&r de piedra y engranajes, en la montaña."]
+	quest.47FB52CD4CEC5B84.quest_subtitle: "Engranajes y arañas"
+	quest.47FB52CD4CEC5B84.title: "Nido mecánico"
+	quest.4812791F2032B9A0.quest_desc: [
+		"&eCandlelight&r es la cocina fina: un &efogón&r (hay de muchas piedras), la &esartén&r y la &eolla&r encima."
+		""
+		"Sirve los platos en un &eplato&r sobre la mesa y tápalos con una &ecampana&r para que no se enfríen."
+	]
+	quest.4812791F2032B9A0.quest_subtitle: "Let's Do Candlelight"
+	quest.4812791F2032B9A0.title: "Restaurante"
+	quest.48229D11D3A2E4FD.quest_desc: ["El &eMotor de fuente&r convierte fuente de un tarro cercano en &erotación&r de Create. Ajusta las RPM en sus lados."]
+	quest.48229D11D3A2E4FD.quest_subtitle: "Ars Technica"
+	quest.48229D11D3A2E4FD.title: "Motor de fuente"
+	quest.485183EACC3E7CC7.quest_desc: ["Combina netherita con hierro, oro, esmeralda o diamante para tener &enetherita mejorada&r, con bonus según el material."]
+	quest.485183EACC3E7CC7.quest_subtitle: "Advanced Netherite"
+	quest.485183EACC3E7CC7.title: "Netherita mejorada"
+	quest.49185DD16CA699A7.quest_desc: ["El &edesplegador&r usa el objeto que tenga como si fuera un jugador: coloca bloques, usa herramientas, aplica objetos a otros..."]
+	quest.49185DD16CA699A7.quest_subtitle: "Una mano robot"
+	quest.49185DD16CA699A7.title: "Desplegador"
+	quest.49803733F3CD7855.quest_desc: ["Con el &esuperpegamento&r marcas una zona y todo lo que haya dentro se mueve junto."]
+	quest.49803733F3CD7855.quest_subtitle: "Juntar bloques"
+	quest.49803733F3CD7855.title: "Superpegamento"
+	quest.498F5E34B398FE8E.quest_desc: [
+		"En la &eMesa de ingeniería de cohetes&r diseñas el motor: eliges el &eciclo&r, la &etobera&r, el &ematerial&r y el combustible, y te da un &eplano de motor&r."
+		""
+		"Con el plano, el &eensamblaje secuencial&r fabrica las piezas: turbinas, inyectores, la cámara de combustión... y al final el &eMotor de cohete&r."
+		""
+		"Cuanto mejor el material (andesita, hierro, cobre, latón... aleaciones), más empuje. Duplica el plano con papel para hacer más motores iguales."
+	]
+	quest.498F5E34B398FE8E.quest_subtitle: "Mesa de ingeniería de cohetes"
+	quest.498F5E34B398FE8E.title: "Diseña tu motor"
+	quest.49D3FF373D7E204E.quest_desc: ["Pon un ingrediente en la &etabla de cortar&r y dale con el cuchillo: carne en filetes, col en hojas, troncos en corteza..."]
+	quest.49D3FF373D7E204E.quest_subtitle: "Cortar ingredientes"
+	quest.49D3FF373D7E204E.title: "Tabla de cortar"
+	quest.49D710EFE734761D.quest_desc: ["El &etanque de cobre&r en la espalda guarda aire. Con el &ecasco y botas de buceo&r puedes estar bajo el agua mucho rato."]
+	quest.49D710EFE734761D.quest_subtitle: "Aire comprimido"
+	quest.49D710EFE734761D.title: "Tanque y buceo"
+	quest.49EE9E6E4CEA81D0.quest_desc: ["El &eestuche de gemas&r guarda todas tus gemas en un solo bloque. El de Ender se comparte entre todos tus estuches."]
+	quest.49EE9E6E4CEA81D0.quest_subtitle: "Ordenar la colección"
+	quest.49EE9E6E4CEA81D0.title: "Estuche de gemas"
+	quest.4A3019297A69E928.quest_desc: [
+		"&6Create&r es el corazón de este pack: máquinas de engranajes, cintas y aeronaves."
+		""
+		"Truco número uno: pon el ratón sobre cualquier bloque de Create en el inventario (o en EMI) y &emantén W&r. Se abre una &eescena animada (Ponder)&r que te enseña cómo funciona."
+		""
+		"Este acto cubre lo básico. Lo demás lo tienes en la &eguía de Create&r del libro."
+	]
+	quest.4A3019297A69E928.quest_subtitle: "Pulsa W"
+	quest.4A3019297A69E928.title: "Primeros engranajes"
+	quest.4A31CB2E98205D4E.quest_desc: ["Encuentra un &etemplo antiguo&r en el Otherside. Ahí está el material para mejorar tu equipo a nivel warden."]
+	quest.4A31CB2E98205D4E.quest_subtitle: "Ecos reforzados"
+	quest.4A31CB2E98205D4E.title: "Templo antiguo"
+	quest.4A41B811C5F73CA6.quest_desc: [
+		"Activa una &ewaystone&r y podrás volver a ella desde cualquier otra. Pon una en vuestra base y otra en cada isla que visitéis a menudo."
+		""
+		"También funcionan &edentro de las naves&r: una waystone en vuestra nave os lleva a ella, esté donde esté."
+	]
+	quest.4A41B811C5F73CA6.quest_subtitle: "Teletransporte"
+	quest.4A41B811C5F73CA6.title: "Waystones"
+	quest.4AEC9037AD70BA4B.quest_desc: ["Tritura &etroncos de abeto&r: a veces dan &eresina de pino&r. Mézclala con agua y sale &etrementina&r, el combustible de los propulsores."]
+	quest.4AEC9037AD70BA4B.quest_subtitle: "Combustible de propulsor"
+	quest.4AEC9037AD70BA4B.title: "Trementina"
+	quest.4B069C1118BA2765.quest_desc: ["Fabrica &ecompost orgánico&r con tierra, paja, huesos y restos de plantas, y colócalo. Con el tiempo (más rápido junto a agua y setas) se vuelve tierra rica."]
+	quest.4B069C1118BA2765.quest_subtitle: "Paciencia"
+	quest.4B069C1118BA2765.title: "Compost orgánico"
+	quest.4B2B77390AEF1E41.quest_desc: [
+		"Toca mover el taller sin manivela. Aquí arriba la mejor opción es el &emolino de viento&r: no hay montañas que le quiten el aire."
+		""
+		"- &eMolino de viento&r: un rodamiento con &evelas&r pegadas con pegamento (Super Glue). Mínimo 8 velas; cuantas más, más fuerza. Actívalo con clic derecho."
+		"- &eRueda hidráulica&r: si tu isla tiene un río o una cascada, es barata y no hay que montarla."
+		""
+		"Cualquiera de las dos vale."
+	]
+	quest.4B2B77390AEF1E41.quest_subtitle: "Viento o agua"
+	quest.4B2B77390AEF1E41.title: "Energía del cielo"
+	quest.4B45B1A8D5605AC2.quest_desc: ["Las &eesencias&r (fuego, agua, tierra, aire, abjuración, conjuración, manipulación) se hacen en la cámara de imbuición y son la base de los glifos y objetos avanzados."]
+	quest.4B45B1A8D5605AC2.quest_subtitle: "Los cinco elementos"
+	quest.4B45B1A8D5605AC2.title: "Esencias"
+	quest.4B8CED6AC18705FC.quest_desc: ["En el End se cocina con &ecoro&r, &eshulker&r y &eendermites&r sobre la &eestufa de piedra del End&r."]
+	quest.4B8CED6AC18705FC.quest_subtitle: "Ender's Delight"
+	quest.4B8CED6AC18705FC.title: "Cocina del End"
+	quest.4BFCE667CE1BD047.quest_desc: ["Las &ebóvedas&r se juntan entre sí y forman un almacén enorme que se llena y vacía con embudos."]
+	quest.4BFCE667CE1BD047.quest_subtitle: "Un cofre gigante"
+	quest.4BFCE667CE1BD047.title: "Bóveda de objetos"
+	quest.4C13FFAF34C7D7B3.quest_desc: [
+		"Para algo más serio está &eCreate Big Cannons&r:"
+		""
+		"- &eHierro fundido&r: compacta hierro en la prensa con calor."
+		"- Las piezas del cañón (&erecámara&r y &ecañón&r) se funden en moldes de arena o se fabrican con sus máquinas; mira el Ponder."
+		"- Ponlo sobre una &eMontura de cañón&r para apuntarlo con giro, y cárgalo con &ecargas de pólvora&r y un &eproyectil&r."
+		""
+		"La munición también se vende en la &6Tienda&r. Cañones grandes, autocañones y misiles tendrán su propia guía."
+	]
+	quest.4C13FFAF34C7D7B3.quest_subtitle: "Create Big Cannons"
+	quest.4C13FFAF34C7D7B3.title: "Artillería"
+	quest.4C142ECC601602BD.quest_desc: [
+		"La &eSalida de vapor&r llena globos con vapor en vez de aire caliente. Necesita lo mismo que una máquina de vapor de Create: &ecalor, agua y caldera&r."
+		""
+		"Es más complicada, pero levanta mucho más peso que los quemadores."
+	]
+	quest.4C142ECC601602BD.quest_subtitle: "Más fuerza que el aire caliente"
+	quest.4C142ECC601602BD.title: "Globos de vapor"
+	quest.4C180DF27C1FECAD.quest_desc: ["La &epiedra warp&r te lleva a cualquier waystone que hayas activado. Los &epergaminos&r son de un solo uso: de vuelta a casa, a una waystone o a otro jugador."]
+	quest.4C180DF27C1FECAD.quest_subtitle: "Pergaminos y piedra warp"
+	quest.4C180DF27C1FECAD.title: "Viaje de bolsillo"
+	quest.4D1F1D96E5F2136B.quest_desc: ["Haz clic derecho al generador con ciertos objetos para cambiar sus valores: velocidad, alcance, cuántos monstruos salen... El JEI tiene la lista de &emodificadores de generador&r."]
+	quest.4D1F1D96E5F2136B.quest_subtitle: "Ajustar sus valores"
+	quest.4D1F1D96E5F2136B.title: "Modificar un generador"
+	quest.4D2385357957DA38.quest_desc: ["Todo en Create gira. Las máquinas necesitan &evelocidad&r (RPM) y consumen &eestrés&r (SU) de la fuente que las mueve."]
+	quest.4D2385357957DA38.quest_subtitle: "Rotación y estrés"
+	quest.4D2385357957DA38.title: "Lo básico"
+	quest.4D43943E596FD805.quest_desc: [
+		"El &eDiagrama de artefacto&r (papel y ensamblador de físicas) muestra sustentación, empuje y peso de tu nave al hacerle clic derecho."
+		""
+		"Las &eGafas de aviador&r (gafas del ingeniero y cuero) añaden esa información al mirar las piezas."
+	]
+	quest.4D43943E596FD805.quest_subtitle: "¿Por qué no vuela?"
+	quest.4D43943E596FD805.title: "Diagrama"
+	quest.4D47EF1F281A8102.quest_desc: ["Los &eamuletos&r invocan criaturas que trabajan por ti. Los fragmentos para fabricarlos los sueltan las criaturas salvajes o se hacen con rituales."]
+	quest.4D47EF1F281A8102.quest_subtitle: "Ayudantes mágicos"
+	quest.4D47EF1F281A8102.title: "Criaturas"
+	quest.4E17F1934703999F.quest_desc: ["Monta un cañón con &erecámara de acero&r y &ecierre de tornillo&r. Más recámaras = más cargas de pólvora; más cañón = más precisión."]
+	quest.4E17F1934703999F.quest_subtitle: "Largo alcance"
+	quest.4E17F1934703999F.title: "Cañón de acero"
+	quest.4EBA6106AE9A9705.quest_desc: ["El &eMotor diésel&r quema combustible y da mucha más rotación que un molino. Varios en fila forman un motor &egrande&r; con más, uno &eenorme&r."]
+	quest.4EBA6106AE9A9705.quest_subtitle: "Mucha rotación"
+	quest.4EBA6106AE9A9705.title: "Motor diésel"
+	quest.4ED49F1696400BFA.quest_desc: ["Chorro, saltos y submarinos: no hay sitio al que no podáis llegar."]
+	quest.4ED49F1696400BFA.quest_subtitle: "Fin de la guía"
+	quest.4ED49F1696400BFA.title: "Ingeniero naval"
+	quest.4F511031E36E2660.quest_desc: ["Con &eApothic Enchanting&r la mesa tiene tres valores: &eEterna&r (nivel máximo), &eQuanta&r (azar) y &eArcana&r (rareza). Cada estantería los cambia."]
+	quest.4F511031E36E2660.quest_subtitle: "Más allá del nivel 30"
+	quest.4F511031E36E2660.title: "Encantamiento avanzado"
+	quest.4F6183EBC1503093.quest_desc: ["Los &etanques&r se apilan y se juntan para guardar mucho líquido. Son la base del motor de vapor."]
+	quest.4F6183EBC1503093.quest_subtitle: "Guardar líquidos"
+	quest.4F6183EBC1503093.title: "Tanque de fluido"
+	quest.4F9A6C146AEC9E1B.quest_desc: ["Escribe un &ehorario&r con paradas y condiciones de espera y dáselo a un &emaquinista&r (un aldeano o un blaze sentado en los controles)."]
+	quest.4F9A6C146AEC9E1B.quest_subtitle: "Tren sin maquinista"
+	quest.4F9A6C146AEC9E1B.title: "Horario automático"
+	quest.4FC5BF5420DF4471.quest_desc: ["El &eLibro de archimago&r es el más poderoso y abre los glifos de nivel 3."]
+	quest.4FC5BF5420DF4471.quest_subtitle: "El libro definitivo"
+	quest.4FC5BF5420DF4471.title: "Archimago"
+	quest.4FD74DA117863B72.quest_desc: ["El &etarro de pociones&r guarda muchas dosis. La &emezcladora de pociones&r junta dos pociones en una con los dos efectos."]
+	quest.4FD74DA117863B72.quest_subtitle: "Tarros y mezclas"
+	quest.4FD74DA117863B72.title: "Pociones mágicas"
+	quest.4FF954A42E352AFE.quest_desc: [
+		"El &eEnd&r: islas flotantes sobre el vacío, como en casa... pero con endermans y un dragón."
+		""
+		"Los &eojos de ender&r te guían hasta una fortaleza con el portal. Allí hay piedra del End de sobra para la levitita."
+	]
+	quest.4FF954A42E352AFE.quest_subtitle: "Más allá del portal"
+	quest.4FF954A42E352AFE.title: "El End"
+	quest.504D851EDBB8AD5E.quest_desc: ["Mezcla &ecobre&r y &ezinc&r en una cuenca con mezcladora y un quemador de blaze encendido debajo."]
+	quest.504D851EDBB8AD5E.quest_subtitle: "Mezclar con calor"
+	quest.504D851EDBB8AD5E.title: "Lingote de latón"
+	quest.50C69046688A8D9C.quest_desc: ["El &emolino de piedra&r muele lo que le metes por arriba: grava, flores para tinte, trigo para harina, minerales..."]
+	quest.50C69046688A8D9C.quest_subtitle: "Moler"
+	quest.50C69046688A8D9C.title: "Molino de piedra"
+	quest.50CC44ADD3B43DF6.quest_desc: ["Los cerdos y hoglins sueltan &ejamón&r si los matas con cuchillo. Ahumado o glaseado es de lo mejor del mod."]
+	quest.50CC44ADD3B43DF6.quest_subtitle: "De cerdo a banquete"
+	quest.50CC44ADD3B43DF6.title: "Jamón"
+	quest.510865169DD5E627.quest_desc: [
+		"El &eEmpaquetador&r se pone pegado a un cofre. Con una señal de redstone mete lo que hay dentro en un &epaquete&r."
+		""
+		"- Ponle un &ecartel&r o un &eportapapeles&r con un nombre: esa es la &edirección&r del paquete."
+		"- Los paquetes viajan por cintas, conductos y ranas, y los &efiltros de paquete&r los separan por dirección."
+		"- Otro empaquetador que reciba un paquete con su dirección lo &edesempaqueta&r en su cofre."
+	]
+	quest.510865169DD5E627.quest_subtitle: "Cajas con dirección"
+	quest.510865169DD5E627.title: "Empaquetador"
+	quest.5124ED32DA0EBD6A.quest_desc: ["La &epulpa&r sale de la &emezcladora&r con 4 cosas «pulpables» (caña de azúcar, bambú, papel...) y agua. Prénsala y tendrás &ecartón&r."]
+	quest.5124ED32DA0EBD6A.quest_subtitle: "Para empaquetar"
+	quest.5124ED32DA0EBD6A.title: "Cartón"
+	quest.51461CF974AA8F01.quest_desc: ["La &ecarcasa de ferrocarril&r se hace aplicando una &eplancha resistente&r a la carcasa de latón. Con ella haces la estación y los controles."]
+	quest.51461CF974AA8F01.quest_subtitle: "Cuerpo del tren"
+	quest.51461CF974AA8F01.title: "Carcasa de tren"
+	quest.52463D848D47AFA2.quest_desc: [
+		"Se abre al terminar el acto 1."
+		""
+		"&lCómo abrirla&r"
+		"- La tecla &eF10&r (se cambia en Controles → Venturia Tienda)."
+		"- El botón con un &6cog&r al lado del inventario, debajo del de los retos."
+		"- El comando &e/tienda&r."
+		""
+		"&lQué hay dentro&r"
+		"- &eComprar&r y &eVender&r: elige la oferta y pulsa el botón; las monedas se cogen y se dan solas, con cambio."
+		"- &eCajas&r: pasa el ratón por encima para ver qué trae cada una y con qué probabilidad."
+		"- &eCambio&r: parte y junta monedas."
+		"- &eMercado&r: lo que ponen a la venta otros jugadores. Pon lo tuyo en &eMis ventas&r: te pagan aunque no estés conectado."
+		""
+		"&lCómo están puestos los precios&r"
+		"- Lo que una granja de &6Create&r saca a montones se paga &cfatal&r y solo en lotes enormes."
+		"- Lo que lleva una cadena de fabricación se paga mucho mejor."
+		"- Lo que no se puede automatizar (exploración, jefes) es lo que más vale."
+		"- Muchas ventas tienen &eespera&r, compartida por todo el equipo."
+		""
+		"Las monedas tienen que estar &een el inventario&r. No hay bancos: si caes al vacío con ellas encima, se pierden."
+		"Valor: 1 &6Crown&r = 8 &6Cog&r = 32 &6Sprocket&r = 64 &6Bevel&r = 512 &6Spur&r."
+	]
+	quest.52463D848D47AFA2.quest_subtitle: "Compra y vende con monedas de Numismatics"
+	quest.52463D848D47AFA2.title: "Tienda"
+	quest.52B24325F3A10E48.quest_desc: ["Has completado el objetivo principal de al menos &e4 mundos&r. El cielo de Venturia se os queda pequeño."]
+	quest.52B24325F3A10E48.quest_subtitle: "Fin de otros mundos"
+	quest.52B24325F3A10E48.title: "Explorador de mundos"
+	quest.531B5AA344FAE6A0.quest_desc: [
+		"La levitita sale de la &epiedra del End&r. Hay varias formas de conseguirla:"
+		""
+		"- &eEn el End&r: es todo el suelo. Desde allí, una &ecabeza de dragón&r o &ealiento de dragón&r te dejan fabricarla en casa: un ventilador que sopla a través de ellos convierte el &eadoquín&r en piedra del End, y el aliento de dragón que toca lava también la crea."
+		"- &eSin ir al End&r: la &eesencia de conjuración&r de Ars Nouveau rodeada de 8 piedras da 8 piedras del End."
+		""
+		"¿No quieres fabricarla? La &6Tienda&r (nivel 2) vende levitita ya hecha, aunque cara."
+	]
+	quest.531B5AA344FAE6A0.quest_subtitle: "La base de la levitita"
+	quest.531B5AA344FAE6A0.title: "Piedra del End"
+	quest.5333646A83556FF6.quest_desc: [
+		"Esta guía es &eopcional&r: piezas para hacer naves mejores que las de la historia."
+		""
+		"- &eArriba&r: propulsores a chorro y alas."
+		"- &eCentro&r: cabinas de mando, herramientas y &esaltos warp&r."
+		"- &eAbajo&r: barcos de vela y &esubmarinos&r."
+		""
+		"Además: las naves pueden &ecruzar portales&r del Nether, se pueden &eremolcar&r unas a otras con cuerdas, y las &etapas&r y alas copycat sirven para darles forma."
+	]
+	quest.5333646A83556FF6.quest_subtitle: "Más rápido, más lejos, más hondo"
+	quest.5333646A83556FF6.title: "Naves avanzadas"
+	quest.53BFB14E1114BC17.quest_desc: ["La &efuente&r alimenta casi todo: aparatos, criaturas y rituales. Se genera con &eenlaces de fuente&r y se guarda en &etarros&r."]
+	quest.53BFB14E1114BC17.quest_subtitle: "Energía mágica"
+	quest.53BFB14E1114BC17.title: "Fuente y aparatos"
+	quest.53D2C4F9522A9D4D.quest_desc: ["La &etierra rica&r hace crecer más rápido las plantas y, arada, los cultivos. En islas pequeñas cada bloque cuenta."]
+	quest.53D2C4F9522A9D4D.quest_subtitle: "Crecer más rápido"
+	quest.53D2C4F9522A9D4D.title: "Tierra rica"
+	quest.54381626B3B2DCB7.quest_desc: ["El &ehervidor&r va sobre una fuente de calor y hace &eté&r, &ecafé&r y chocolate. El té verde da velocidad, el negro aguante..."]
+	quest.54381626B3B2DCB7.quest_subtitle: "Farmer's Respite"
+	quest.54381626B3B2DCB7.title: "La hora del té"
+	quest.54A6DC2DB6BFE7DA.quest_desc: [
+		"Aterriza en la &eLuna&r. Gravedad baja: cuidado con los saltos."
+		""
+		"Aquí hay &eníquel&r, &ealuminio&r y &ecobalto&r: son la base de las aleaciones buenas y de la carcasa de cohete."
+	]
+	quest.54A6DC2DB6BFE7DA.quest_subtitle: "¿Dónde está el queso?"
+	quest.54A6DC2DB6BFE7DA.title: "La Luna"
+	quest.54D73A65368719A7.quest_desc: [
+		"La forma más sencilla de despegar es un &eglobo de aire caliente&r."
+		""
+		"- &eEnvoltura de globo&r: lana y palos. Con ella cierras un volumen &ehermético&r."
+		"- &eQuemador de aire caliente&r: debajo del globo. Con señal de redstone (una palanca) lo va llenando desde arriba."
+		""
+		"Cuanto más grande el globo, más peso levanta. Los bloques que metas dentro le quitan volumen."
+	]
+	quest.54D73A65368719A7.quest_subtitle: "Aire caliente"
+	quest.54D73A65368719A7.title: "Un globo"
+	quest.5540EF081B5F2733.quest_desc: [
+		"Este mundo son &bislas flotantes sobre el vacío&r. Hay islas enormes con ríos, montañas y minas, islas medianas, islotes y estructuras colgando entre las nubes."
+		""
+		"&cDebajo no hay nada.&r Si caes al vacío pierdes lo que llevas encima. Mira dónde pisas, sobre todo al talar o minar en el borde."
+		""
+		"Si caes en combate, tus compañeros pueden &areanimarte&r durante unos segundos (PlayerRevive). Jugad cerca al principio."
+		""
+		"Este libro es la &6historia principal&r: te lleva de náufrago a capitán de tu propia aeronave. Las misiones no bloquean nada: puedes ir a tu ritmo y saltarte lo que ya sepas."
+	]
+	quest.5540EF081B5F2733.quest_subtitle: "Lee esto antes de saltar"
+	quest.5540EF081B5F2733.title: "Bienvenido al cielo"
+	quest.554A49B8466C40C9.quest_desc: ["Se completa al terminar el capítulo &cCazadores&r."]
+	quest.554A49B8466C40C9.quest_subtitle: "Jefes caídos"
+	quest.554A49B8466C40C9.title: "Meta: cazadores"
+	quest.5586D211E8EA1883.quest_desc: ["No eres el primero en volar. Busca &eaeronaves y globos abandonados&r: suelen tener cofres con piezas útiles."]
+	quest.5586D211E8EA1883.quest_subtitle: "Otros lo intentaron antes"
+	quest.5586D211E8EA1883.title: "Naufragios"
+	quest.55A2BEA4CD8F7457.quest_desc: ["Equípate entero de &epoco común&r o mejor y mata a un &einvasor&r."]
+	quest.55A2BEA4CD8F7457.quest_subtitle: "Para los valientes"
+	quest.55A2BEA4CD8F7457.title: "Ascenso"
+	quest.5605C9D366B4FD28.quest_desc: ["Con &eSimulated Coasters&r puedes montar vías de montaña rusa con vagonetas. No es útil... pero ¿a quién le importa?"]
+	quest.5605C9D366B4FD28.quest_subtitle: "Por diversión"
+	quest.5605C9D366B4FD28.title: "Montaña rusa"
+	quest.566AEE27B0187A85.quest_desc: [
+		"Si te asomas, verás &eestructuras flotando entre las nubes&r, por debajo de las islas. Tienen botín... y la peor caída posible."
+		""
+		"Para bajar: cuerdas, escaleras o el parapente con el vigor lleno. Ten claro antes &ccómo vas a volver a subir&r."
+		""
+		"Más adelante, con una aeronave, estas excursiones serán mucho más fáciles."
+	]
+	quest.566AEE27B0187A85.quest_subtitle: "Estructuras colgantes"
+	quest.566AEE27B0187A85.title: "¿Qué hay ahí abajo?"
+	quest.567D5940A424D0EA.quest_desc: ["La &emochila&r se lleva puesta o en el inventario (ábrela con &eB&r). Se mejora a cobre, hierro, oro, diamante y netherita para tener más espacio y huecos de mejoras."]
+	quest.567D5940A424D0EA.quest_subtitle: "Sophisticated Backpacks"
+	quest.567D5940A424D0EA.title: "Mochila"
+	quest.568C062B517D5E83.quest_desc: [
+		"Latón, mecanismos y una nave que responde al acelerador: ya eres ingeniero."
+		""
+		"&7Más energía:&r cuando el molino se quede corto, la &emáquina de vapor&r de Create (tanques, agua y quemadores) da muchísima más fuerza. Otros mods del pack añaden electricidad: los encontrarás en sus guías."
+		""
+		"El &6Acto 5 · Señores del cielo&r trae naves grandes, levitita y el combate aéreo."
+	]
+	quest.568C062B517D5E83.quest_subtitle: "Fin del acto 4"
+	quest.568C062B517D5E83.title: "Ingeniero del aire"
+	quest.5695D5E7D789ABB5.quest_desc: ["Las mazmorras del Aether van de bronce a plata y oro. Empieza por la de &ebronce&r y vence a su &eSlider&r."]
+	quest.5695D5E7D789ABB5.quest_subtitle: "El primer guardián"
+	quest.5695D5E7D789ABB5.title: "Mazmorra de bronce"
+	quest.56EECF8FDA165AD7.quest_desc: [
+		"Haz una cama y duerme en ella: así &areapareces en tu isla&r y no en el spawn."
+		""
+		"Tu primera noche aquí arriba es peligrosa: los monstruos también aparecen en las islas y un empujón cerca del borde es mortal."
+	]
+	quest.56EECF8FDA165AD7.quest_subtitle: "Duerme en tu isla"
+	quest.56EECF8FDA165AD7.title: "Un techo"
+	quest.56F6CC3FF0925949.quest_desc: ["Faros, barcos y fuertes en el &eocéano&r. Llevad respiración acuática por si acaso."]
+	quest.56F6CC3FF0925949.quest_subtitle: "Costas y océanos"
+	quest.56F6CC3FF0925949.title: "El mar"
+	quest.57D208313B2413BE.quest_desc: [
+		"Sin aire no se respira. El &etraje espacial básico&r: casco, pantalones y botas de tela espacial (lámina de cobre con ensamblaje), y de pecho la &ebombona de oxígeno de cobre&r."
+		""
+		"Llena la bombona de oxígeno con una tubería o un tanque."
+	]
+	quest.57D208313B2413BE.quest_subtitle: "Respirar fuera"
+	quest.57D208313B2413BE.title: "Traje espacial"
+	quest.585B59AEDDF30DFE.quest_desc: [
+		"La &eMuela&r muele lo que le eches por arriba: trigo en harina, flores en tinte... y &eadoquín en grava&r."
+		""
+		"Eso último es importante: la grava es el primer paso para sacar hierro sin minar."
+	]
+	quest.585B59AEDDF30DFE.quest_subtitle: "Moler"
+	quest.585B59AEDDF30DFE.title: "Muela"
+	quest.59117A2656384FCB.quest_desc: ["El &ecompost orgánico&r se convierte poco a poco en &etierra rica&r, que acelera todo lo que tenga encima."]
+	quest.59117A2656384FCB.quest_subtitle: "Tierra que trabaja sola"
+	quest.59117A2656384FCB.title: "Suelo"
+	quest.592B7CA7523663CE.quest_desc: [
+		"Las &eWaystones&r son piedras de teletransporte: actívala con clic derecho y después podrás viajar a cualquiera que hayas activado desde otra."
+		""
+		"Hay waystones repartidas por el mundo y también se pueden fabricar (necesitan una Warp Stone: esmeralda, amatista y perla de ender)."
+		""
+		"Los &ePergaminos de teletransporte&r abren el menú de viaje desde cualquier sitio."
+	]
+	quest.592B7CA7523663CE.quest_subtitle: "Viajar sin volar"
+	quest.592B7CA7523663CE.title: "Waystones"
+	quest.593477B84BA33101.quest_desc: ["La &eCámara de imbuición&r, junto a un tarro con fuente, convierte &eamatista&r en &egemas de fuente&r, el material de casi todo."]
+	quest.593477B84BA33101.quest_subtitle: "Imbuir"
+	quest.593477B84BA33101.title: "Gemas de fuente"
+	quest.5956F4CAA29530ED.quest_desc: ["El &eAparato de encantamiento&r va sobre un &enúcleo arcano&r, rodeado de &epedestales&r con ingredientes. Fabrica los objetos mágicos más avanzados."]
+	quest.5956F4CAA29530ED.quest_subtitle: "Fabricación mágica"
+	quest.5956F4CAA29530ED.title: "Aparato de encantamiento"
+	quest.597FD6E0B275A3A5.quest_desc: ["El &eWhirlisprig&r hace crecer las plantas que tiene alrededor y genera fuente con ellas."]
+	quest.597FD6E0B275A3A5.quest_subtitle: "El jardinero"
+	quest.597FD6E0B275A3A5.title: "Whirlisprig"
+	quest.599B8531900093D8.quest_desc: ["Pistones, rodamientos, poleas y pórticos mueven grupos de bloques pegados con &epegamento&r. Las naves de Aeronautics usan lo mismo."]
+	quest.599B8531900093D8.quest_subtitle: "Bloques que se mueven"
+	quest.599B8531900093D8.title: "Artilugios"
+	quest.5A034C0F5C481D7A.quest_desc: ["La &etorreta&r lanza el hechizo de un pergamino cada vez que recibe redstone: minar, plantar, atacar... Tira de la fuente de tarros cercanos."]
+	quest.5A034C0F5C481D7A.quest_subtitle: "Magia automática"
+	quest.5A034C0F5C481D7A.title: "Torreta de hechizos"
+	quest.5A8EA87824A0C3F9.quest_desc: ["El &esurtidor&r llena objetos con líquido (botellas, cubos, recetas). El &edrenaje&r los vacía."]
+	quest.5A8EA87824A0C3F9.quest_subtitle: "Llenar y vaciar"
+	quest.5A8EA87824A0C3F9.title: "Surtidor y drenaje"
+	quest.5ACA6C8ED82C3F99.quest_desc: ["Pon un &emantel&r sobre una mesa con objetos y precios, y un teletipo de existencias con un aldeano o un blaze sentado detrás: los demás equipos pueden &ecomprarte&r y el pedido sale solo de tu almacén."]
+	quest.5ACA6C8ED82C3F99.quest_subtitle: "Vender a otros equipos"
+	quest.5ACA6C8ED82C3F99.title: "Tienda de mostrador"
+	quest.5B56DACDCE315FA2.quest_desc: ["Granjas solas, bodega y pesca: vuestra isla da de comer a todo el equipo."]
+	quest.5B56DACDCE315FA2.quest_subtitle: "Fin de la guía"
+	quest.5B56DACDCE315FA2.title: "Granjero del cielo"
+	quest.5B8E34D8451135A2.quest_desc: ["Cada jefe tiene su &eguarida&r en un bioma. Al matarlos a todos se desbloquea un secreto."]
+	quest.5B8E34D8451135A2.quest_subtitle: "Guaridas"
+	quest.5B8E34D8451135A2.title: "Block Factory's Bosses"
+	quest.5B9EBEEC77E9644D.quest_desc: ["Estructuras &eraras&r o escondidas. No hacen falta para la meta, pero cuentan."]
+	quest.5B9EBEEC77E9644D.quest_subtitle: "Opcionales"
+	quest.5B9EBEEC77E9644D.title: "Rarezas"
+	quest.5BADA7CD4DA2D045.quest_desc: [
+		"El &eTranspondedor de vehículo&r va en tu nave y guarda sus &eparadas&r y rutas."
+		""
+		"1. Pon una &eEstación de dirigibles&r en cada isla donde vaya a parar."
+		"2. Desde la estación, &egraba la ruta&r mientras pilotas la nave hasta la siguiente estación."
+		"3. En el transpondedor ordena las paradas y pon &econdiciones de espera&r (tiempo, carga llena o vacía...)."
+		""
+		"Luego la nave hace la ruta sola, incluso sin nadie cerca."
+	]
+	quest.5BADA7CD4DA2D045.quest_subtitle: "Naves con piloto automático"
+	quest.5BADA7CD4DA2D045.title: "Transpondedor"
+	quest.5BE1D909D7578660.quest_desc: [
+		"Pon una &etablilla de ritual&r en el &ebrasero de ritual&r. Hay de todo: cambiar el tiempo, hacer crecer el bosque, volar..."
+		""
+		"El ritual &eConjurar isla&r crea una isla de tierra o arena a tu alrededor: muy útil en este mundo."
+	]
+	quest.5BE1D909D7578660.quest_subtitle: "Magia grande"
+	quest.5BE1D909D7578660.title: "Rituales"
+	quest.5C99F0CA1539289D.quest_desc: ["Usa la &ecinta mecánica&r entre dos ejes para unirlos. Lleva objetos y también rotación."]
+	quest.5C99F0CA1539289D.quest_subtitle: "Lo primero de toda fábrica"
+	quest.5C99F0CA1539289D.title: "Cinta mecánica"
+	quest.5CBACBAAC75DD32B.quest_desc: ["Equipo &eraro&r o mejor y más hazañas: los monstruos aquí pegan muy fuerte."]
+	quest.5CBACBAAC75DD32B.quest_subtitle: "Élite"
+	quest.5CBACBAAC75DD32B.title: "Cumbre"
+	quest.5CE7F9A873ED2EAA.quest_desc: ["Cintas, embudos, conductos y brazos: así van los objetos de una máquina a otra sin que los toques."]
+	quest.5CE7F9A873ED2EAA.quest_subtitle: "Mover objetos"
+	quest.5CE7F9A873ED2EAA.title: "Transporte"
+	quest.5D281D716CA53107.quest_desc: ["Paquetes, rutas y almacenes: tu base funciona sola."]
+	quest.5D281D716CA53107.quest_subtitle: "Fin de la guía"
+	quest.5D281D716CA53107.title: "Maestro logístico"
+	quest.5D3AA60D16A96D60.quest_desc: ["Cada dimensión tiene su cocina: ingredientes del Nether, del End, del cielo y del mar."]
+	quest.5D3AA60D16A96D60.quest_subtitle: "Addons de Farmer's Delight"
+	quest.5D3AA60D16A96D60.title: "Cocina de otros mundos"
+	quest.5D614453C3E42D3C.quest_desc: ["El &ePropulsor vectorial&r puede inclinarse para dirigir el empuje. Lleva &eplatino&r: sale como pepita al lavar &eoro triturado&r, o de su mena."]
+	quest.5D614453C3E42D3C.quest_subtitle: "Empuje que gira"
+	quest.5D614453C3E42D3C.title: "Propulsor vectorial"
+	quest.5DAC81C991845BE0.quest_desc: ["Cada hechizo es una &eforma&r (proyectil, tocar, uno mismo...) seguida de &eefectos&r y &eaumentos&r (amplificar, extender, dividir...)."]
+	quest.5DAC81C991845BE0.quest_subtitle: "Forma + efectos"
+	quest.5DAC81C991845BE0.title: "Hechizos"
+	quest.5DD05520C0FB70FC.quest_desc: ["Bombea agua, lava o lo que sea, y quema combustible para tener muchísimo estrés con el motor de vapor."]
+	quest.5DD05520C0FB70FC.quest_subtitle: "Tuberías y motores"
+	quest.5DD05520C0FB70FC.title: "Fluidos y vapor"
+	quest.5DDA0A577DB927F6.quest_desc: ["El &epergamino de teletransporte&r guarda un sitio y te lleva allí. Lánzalo dentro de un marco de &epiedra de fuente&r para abrir un &eportal&r fijo."]
+	quest.5DDA0A577DB927F6.quest_subtitle: "Pergaminos y portales"
+	quest.5DDA0A577DB927F6.title: "Teletransporte"
+	quest.5DE78993A18FC04F.quest_desc: ["Las &ealas&r dan sustentación cuando la nave avanza. Hornéalas para tener &ealas templadas&r, o córtalas en &ealas copycat&r para darles la forma que quieras."]
+	quest.5DE78993A18FC04F.quest_subtitle: "Sustentación"
+	quest.5DE78993A18FC04F.title: "Alas"
+	quest.5E4372D709CD5803.quest_desc: ["La &ellave rúnica&r configura las máquinas de Ars Technica igual que la llave inglesa de Create."]
+	quest.5E4372D709CD5803.quest_subtitle: "Ajustar máquinas mágicas"
+	quest.5E4372D709CD5803.title: "Llave rúnica"
+	quest.5E4A9B454D85D4F0.quest_desc: ["&e6 jefes&r han caído ante vosotros. Nada en este mundo os da miedo."]
+	quest.5E4A9B454D85D4F0.quest_subtitle: "Fin de cazadores"
+	quest.5E4A9B454D85D4F0.title: "Cazador de leyenda"
+	quest.5E891DDB6A483B9D.quest_desc: ["Dos &ePuertas de grieta&r unidas son un portal fijo para jugadores y vehículos. Úsalas entre vuestra base y la de vuestros aliados."]
+	quest.5E891DDB6A483B9D.quest_subtitle: "Portales fijos"
+	quest.5E891DDB6A483B9D.title: "Puertas de grieta"
+	quest.5EA106090933E7B4.quest_desc: [
+		"La &emesa de cocina&r enseña todo lo que puedes cocinar con lo que tienes en la nevera, armarios y horno conectados a ella. Fabrica y coge los ingredientes sola."
+		""
+		"La &evaca en tarro&r da leche infinita."
+	]
+	quest.5EA106090933E7B4.quest_subtitle: "Cooking for Blockheads"
+	quest.5EA106090933E7B4.title: "Cocina completa"
+	quest.5ED560445C6D6799.quest_desc: [
+		"Tu nave ya domina el cielo. Ahora toca ir &emás allá&r, y hay tres caminos. Hacedlos en el orden que queráis, o repartíos el trabajo en el equipo:"
+		""
+		"- &bEl espacio&r: cohetes de Creating Space, la órbita, la Luna, Marte y Venus."
+		"- &aOtros mundos&r: el End, el Aether, la Infratierra, Eternal Starlight, el Otherside y la Bumblezone."
+		"- &cCazadores&r: los jefes más duros del mundo."
+		""
+		"Cada camino tiene su capítulo en el grupo &eMás allá&r, justo debajo de la Historia. Al acabar cada uno se marca aquí su meta."
+		""
+		"&7Y dicen que quien completa los tres se gana algo que nadie más ha visto..."
+	]
+	quest.5ED560445C6D6799.quest_subtitle: "Tres caminos"
+	quest.5ED560445C6D6799.title: "Más allá"
+	quest.5EDD9170E08DEB7E.quest_desc: ["Escribe un hechizo en un &epergamino de hechizo&r desde la mesa de escriba. Sirve para las &etorretas&r, para las armas mágicas y para pasarlo a tus compañeros."]
+	quest.5EDD9170E08DEB7E.quest_subtitle: "Hechizos para todos"
+	quest.5EDD9170E08DEB7E.title: "Pergaminos"
+	quest.5FC2B16FCAED2AFD.quest_desc: ["Retraso mínimo, control por redstone, sin IA, sin condiciones de aparición y sin jugadores. El sueño de cualquier granja."]
+	quest.5FC2B16FCAED2AFD.quest_subtitle: "Todo al máximo"
+	quest.5FC2B16FCAED2AFD.title: "El generador definitivo"
+	quest.5FFB737514851303.quest_desc: [
+		"La &eFábrica antigua&r está &ebajo tierra&r en el Overworld. El Heraldo dispara láseres: buscad cobertura."
+		""
+		"Para encontrarla, fabrica un &eOjo mecánico&r y lánzalo como un ojo de ender."
+	]
+	quest.5FFB737514851303.quest_subtitle: "La fábrica antigua"
+	quest.5FFB737514851303.title: "El Heraldo"
+	quest.604969AD51F08667.quest_desc: ["Vuela sobre los &eacantilados de la costa&r. Sus colmillos dan pociones de veneno."]
+	quest.604969AD51F08667.quest_subtitle: "Serpiente marina"
+	quest.604969AD51F08667.title: "La Naga"
+	quest.60942A7383F810DD.quest_desc: ["Un &efuerte&r de illagers con muralla y torres."]
+	quest.60942A7383F810DD.quest_subtitle: "El campamento de guerra"
+	quest.60942A7383F810DD.title: "Fuerte illager"
+	quest.60EFA3916E4A919A.quest_desc: ["Cómete un plato con &eNutrición&r: durante un rato no perderás hambre por correr ni por curarte."]
+	quest.60EFA3916E4A919A.quest_subtitle: "Nutrición"
+	quest.60EFA3916E4A919A.title: "Comida nutritiva"
+	quest.6114DCB362384DB1.quest_desc: [
+		"Los &egeneradores&r de las mazmorras se pueden llevar: rómpelos con un pico con &eToque de seda&r y conservan su monstruo (gasta 100 de durabilidad del pico)."
+		""
+		"- &eCambiar el monstruo&r: clic derecho con un &ehuevo generador&r (la Caja de la suerte trae a veces uno de blaze)."
+		"- &eMejorar&r: clic derecho con un objeto. Cada uno cambia una cosa:"
+		"  &eazúcar&r: menos espera mínima · &ereloj&r: menos espera máxima"
+		"  &eojo de araña fermentado&r: más monstruos por vez · &elágrima de ghast&r: más monstruos a la vez"
+		"  &epistón&r: más radio · &ecristales de prismarina&r: funciona más lejos de ti"
+		"  &efarol de almas&r: ignora la luz · &ecomparador&r: se apaga con redstone"
+		"  &elana&r: silencioso · &efruta de coro&r: monstruos sin IA"
+		"  &eestrella del Nether&r: funciona sin jugadores cerca"
+		"- Con &ecuarzo en la otra mano&r, el mismo objeto deshace la mejora."
+		""
+		"Mira el generador con &eJade&r para ver sus valores."
+	]
+	quest.6114DCB362384DB1.quest_subtitle: "Apothic Spawners"
+	quest.6114DCB362384DB1.title: "Generadores de monstruos"
+	quest.611F93120B6E8306.quest_desc: ["Equipo con afijos, gemas perfectas y encantamientos de nivel 60: estáis listos para cualquier cosa."]
+	quest.611F93120B6E8306.quest_subtitle: "Fin de la guía"
+	quest.611F93120B6E8306.title: "Bien equipado"
+	quest.6168B6E6233D98FF.quest_desc: ["El &eServo mecánico&r gira a un ángulo según la fuerza de la redstone, y el &eServo paso a paso&r avanza a saltos. Ideales para alerones, compuertas o tren de aterrizaje."]
+	quest.6168B6E6233D98FF.quest_subtitle: "Ángulos exactos"
+	quest.6168B6E6233D98FF.title: "Servos"
+	quest.61D40C8098C03A0A.quest_desc: ["Mochila llena, waystones en cada isla y un tótem en el bolsillo: el vacío ya no da tanto miedo."]
+	quest.61D40C8098C03A0A.quest_subtitle: "Fin de la guía"
+	quest.61D40C8098C03A0A.title: "Bien preparado"
+	quest.61FA72B8FB0ED175.quest_desc: ["Prensas, molinos, trituradoras, ventiladores y mezcladoras: así se hacen la mayoría de materiales de Create."]
+	quest.61FA72B8FB0ED175.quest_subtitle: "Máquinas que transforman"
+	quest.61FA72B8FB0ED175.title: "Procesado"
+	quest.62333F3BFE230D15.quest_desc: ["Hechizos, criaturas y máquinas mágicas: la magia también es ingeniería."]
+	quest.62333F3BFE230D15.quest_subtitle: "Fin de la guía"
+	quest.62333F3BFE230D15.title: "Archimago del cielo"
+	quest.62711AAB88F5AEB3.quest_desc: ["Las &evías&r se ponen a mano o en curva: clic en una vía y luego en otro punto para unirlas."]
+	quest.62711AAB88F5AEB3.quest_subtitle: "Tender raíles"
+	quest.62711AAB88F5AEB3.title: "Vías de tren"
+	quest.62FEA76F186F6719.quest_desc: [
+		"El cañón del Acto 5 fue solo el principio. Esta guía (&eopcional&r) explica la artillería en serio:"
+		""
+		"- &eArriba&r: metales, fundición y cañones grandes."
+		"- &eCentro&r: munición, espoletas y carga automática."
+		"- &eAbajo&r: autocañones, radar, puntería automática, misiles guiados y escudos."
+		""
+		"Usadlo contra jefes y monstruos, o en guerras pactadas entre equipos. &cNo disparéis a islas ajenas sin acuerdo.&r"
+	]
+	quest.62FEA76F186F6719.quest_subtitle: "Artillería de verdad"
+	quest.62FEA76F186F6719.title: "Armas pesadas"
+	quest.63048BC8D1C1E7AC.quest_desc: ["Aplasta gemas con un &eyunque&r que caiga encima (o desguázalas) para sacar &epolvo de gema&r."]
+	quest.63048BC8D1C1E7AC.quest_subtitle: "Romper lo que sobra"
+	quest.63048BC8D1C1E7AC.title: "Polvo de gema"
+	quest.6307D6FCCE8948A7.quest_desc: [
+		"- &eProyectil sólido&r y &eperforante&r: para atravesar blindaje."
+		"- &eExplosivo&r: revienta al llegar."
+		"- &eMetralla&r y &eracimo de metralla&r: contra grupos."
+		"- &eHumo&r y &eproyectil de fluido&r: para lo demás."
+		""
+		"Los que explotan necesitan &eespoleta&r: ponla con clic derecho en una mesa de crafteo (o con un desplegador)."
+	]
+	quest.6307D6FCCE8948A7.quest_subtitle: "Algo más que balas"
+	quest.6307D6FCCE8948A7.title: "Proyectiles"
+	quest.631D7109A0322BD3.quest_desc: ["El &earroz&r se planta en agua de un bloque de profundidad, sobre tierra."]
+	quest.631D7109A0322BD3.quest_subtitle: "Con los pies en el agua"
+	quest.631D7109A0322BD3.title: "Arroz"
+	quest.632E8C1D0A99104C.quest_desc: ["Dos &eruedas trituradoras&r juntas, girando en sentidos opuestos, trituran minerales y dan &eminerales triturados&r con extras. Fúndelos o lávalos para sacar más metal."]
+	quest.632E8C1D0A99104C.quest_subtitle: "Doblar minerales"
+	quest.632E8C1D0A99104C.title: "Ruedas trituradoras"
+	quest.6399C4F37BF7E586.quest_desc: ["Haz un plato de granja. El &edesayuno del granjero&r y el &egulash&r llenan muchísimo."]
+	quest.6399C4F37BF7E586.quest_subtitle: "Para empezar el día"
+	quest.6399C4F37BF7E586.title: "Desayuno de granjero"
+	quest.642EF3D2733328D1.quest_desc: ["En la &earboleda Umvuthana&r de la sabana reina &eUmvuthi&r. Al vencerlo te da el &eVisaje del Sol&r."]
+	quest.642EF3D2733328D1.quest_subtitle: "La arboleda de las máscaras"
+	quest.642EF3D2733328D1.title: "Umvuthi"
+	quest.6450EA4558F2F22A.quest_desc: ["Las túnicas de &ehechicero&r, &earcanista&r y &emago de batalla&r dan maná y regeneración. En la &emesa de alteración&r les pones &ehilos&r con bonus."]
+	quest.6450EA4558F2F22A.quest_subtitle: "Más maná"
+	quest.6450EA4558F2F22A.title: "Ropa de mago"
+	quest.64ABB6DC173F07E7.quest_desc: [
+		"La &emanivela&r se gira a mano. La &erueda hidráulica&r gira con agua que cae o corre, y el &emolino de viento&r (rodamiento + velas) con el viento."
+		""
+		"En las islas el agua es limitada: el molino de viento suele ser la mejor fuente al principio."
+	]
+	quest.64ABB6DC173F07E7.quest_subtitle: "Manivela, rueda o molino"
+	quest.64ABB6DC173F07E7.title: "La primera fuerza"
+	quest.64FC5B1FEB8B5A65.quest_desc: ["Entre las nubes vagan &eballenas&r gigantes, algunas convertidas en barco. Dicen que guardan tesoros... y guardianes."]
+	quest.64FC5B1FEB8B5A65.quest_subtitle: "Algo enorme flota ahí fuera"
+	quest.64FC5B1FEB8B5A65.title: "La ballena del cielo"
+	quest.65730019F833E9D0.quest_desc: ["El encantamiento &eCaptura&r en un arma hace que a veces los monstruos suelten su &ehuevo&r. Con él cambias lo que sale de un generador."]
+	quest.65730019F833E9D0.quest_subtitle: "Huevos de monstruo"
+	quest.65730019F833E9D0.title: "Captura"
+	quest.65A09757D9F69C9C.quest_desc: ["Las del Nether (&eestanterías infernales&r) y del mar (&eestanterías marinas&r) suben la Eterna por encima de 15."]
+	quest.65A09757D9F69C9C.quest_subtitle: "Las primeras mejoras"
+	quest.65A09757D9F69C9C.title: "Estanterías infernales y marinas"
+	quest.65D01E309EAB4A72.quest_desc: ["El &eembudo&r mete y saca objetos de cofres, cintas y máquinas. El &etúnel&r reparte los objetos de una cinta en varias."]
+	quest.65D01E309EAB4A72.quest_subtitle: "Meter y sacar"
+	quest.65D01E309EAB4A72.title: "Embudos y túneles"
+	quest.65E81114757DDBBD.quest_desc: ["Pega &evelas&r alrededor del &erodamiento de molino&r y dale clic derecho. Más velas = más estrés disponible."]
+	quest.65E81114757DDBBD.quest_subtitle: "Energía gratis"
+	quest.65E81114757DDBBD.title: "Molino de viento"
+	quest.66301D7AE0DDBE1B.quest_desc: ["La &eWixie&r, en su &ecaldero&r, fabrica objetos y prepara pociones si le das la receta y los ingredientes."]
+	quest.66301D7AE0DDBE1B.quest_subtitle: "La artesana"
+	quest.66301D7AE0DDBE1B.title: "Wixie"
+	quest.6645553906ACA097.quest_desc: [
+		"Desde el aire todas las islas se parecen. Abre el mapa (tecla &eM&r), haz &eclic derecho&r en tu base y crea un &ewaypoint&r. Haz otro en el spawn."
+		""
+		"Los waypoints salen en el minimapa. Tu equipo os ve a todos en el mapa."
+	]
+	quest.6645553906ACA097.quest_subtitle: "Que no se te pierda tu casa"
+	quest.6645553906ACA097.title: "Orientarse"
+	quest.66F9238283DA2006.quest_desc: ["Los &ecilindros hidráulicos&r empujan y las &ejuntas universales&r transmiten giro en ángulo: para mecanismos que se mueven dentro de la nave."]
+	quest.66F9238283DA2006.quest_subtitle: "Brazos y juntas"
+	quest.66F9238283DA2006.title: "Hidráulica"
+	quest.6704A996E2B5DC78.quest_desc: ["La &eparavela&r frena la caída y te deja planear de isla en isla. Gasta &eaguante&r: los &eorbes de espíritu&r de los santuarios se cambian en las &eestatuas de la diosa&r por más aguante o corazones."]
+	quest.6704A996E2B5DC78.quest_subtitle: "Paraglider"
+	quest.6704A996E2B5DC78.title: "Paravela"
+	quest.67C867B3ADCB1A45.quest_desc: ["Vive en los &ebiomas nevados&r. Si le robas el &ecristal de hielo&r mientras duerme, ya tienes premio."]
+	quest.67C867B3ADCB1A45.quest_subtitle: "Bestia de hielo"
+	quest.67C867B3ADCB1A45.title: "El Frostmaw"
+	quest.681D4A7D4FDB769D.quest_desc: [
+		"El cohete es una estructura de bloques, como las naves: construye el casco, pon &emotores&r debajo, &etanques&r con combustible y oxidante, y los &eMandos de cohete&r dentro."
+		""
+		"Desde los mandos eliges el destino y ves si el empuje basta para el peso. El &eRegistrador de vuelo&r guarda los datos del viaje."
+		""
+		"&cPonte el traje antes de despegar.&r"
+	]
+	quest.681D4A7D4FDB769D.quest_subtitle: "Mandos y despegue"
+	quest.681D4A7D4FDB769D.title: "El cohete"
+	quest.681E62A87B3DDDC8.quest_desc: [
+		"El &eTimón&r (Steering Wheel) se agarra con clic derecho y se gira moviendo el ratón: da rotación precisa."
+		""
+		"Úsalo para orientar hélices o un timón de &evelas simétricas&r, que no empujan pero frenan el aire y hacen girar la nave."
+	]
+	quest.681E62A87B3DDDC8.quest_subtitle: "Girar"
+	quest.681E62A87B3DDDC8.title: "Al timón"
+	quest.68279FDACA8653B3.quest_desc: [
+		"Une dos ejes con una &eCinta mecánica&r y tendrás una línea de transporte."
+		""
+		"Los &edepósitos&r sostienen un objeto para que una máquina trabaje sobre él, y los &eembudos&r meten y sacan objetos de cintas y cofres."
+	]
+	quest.68279FDACA8653B3.quest_subtitle: "Que las cosas se muevan solas"
+	quest.68279FDACA8653B3.title: "Cintas y embudos"
+	quest.68AC755FE2C83179.quest_desc: ["Mesa de crafteo, yunque, cortapiedras, telar... en versión de bolsillo: úsalas con clic derecho desde la mano."]
+	quest.68AC755FE2C83179.quest_subtitle: "Crafting on a Stick"
+	quest.68AC755FE2C83179.title: "Mesa de bolsillo"
+	quest.68B78F073AA1CF7F.quest_desc: ["El &eenlace de pantalla&r lee datos de un bloque (stock, velocidad, horarios de tren...) y los escribe en un &etablero de pantalla&r o un cartel."]
+	quest.68B78F073AA1CF7F.quest_subtitle: "Mostrar datos"
+	quest.68B78F073AA1CF7F.title: "Pantallas"
+	quest.691298D0D43AE71B.quest_desc: [
+		"Cada bloque que picas de tu isla &cdeja un hueco&r: si la vacías, te quedas sin suelo."
+		""
+		"Un &eTaladro mecánico&r apuntando a un generador de adoquín (agua y lava que se tocan) te da piedra sin fin. Mételo en una cinta y llévalo a un cofre."
+	]
+	quest.691298D0D43AE71B.quest_subtitle: "Tu isla no es infinita"
+	quest.691298D0D43AE71B.title: "Piedra infinita"
+	quest.696B6BF428C46074.quest_desc: ["La &eMegaantorcha&r impide que aparezcan monstruos en un radio grande. El &eFarol del miedo&r hace lo contrario con los animales."]
+	quest.696B6BF428C46074.quest_subtitle: "Torchmaster"
+	quest.696B6BF428C46074.title: "Megaantorcha"
+	quest.698B6DEE84F024F2.quest_desc: ["Su &enido&r está en el desierto."]
+	quest.698B6DEE84F024F2.quest_subtitle: "Nido en el desierto"
+	quest.698B6DEE84F024F2.title: "El Gusano de arena"
+	quest.6990B3881285504E.quest_desc: ["Los platos de la &eolla&r y la &esartén&r dan efectos: &eNutrición&r (no pierdes hambre) y &eConfort&r (regeneras)."]
+	quest.6990B3881285504E.quest_subtitle: "Platos de verdad"
+	quest.6990B3881285504E.title: "Cocina"
+	quest.6A2AE24E05CE8EA3.quest_desc: [
+		"Los claims de tu isla &cno protegen&r una nave cuando se va volando. Para eso está el &eBloque de claim&r (aeroclaims): necesita un mecanismo de precisión."
+		""
+		"1. Colócalo en la nave."
+		"2. Clic derecho para abrir su menú y &eActívalo&r."
+		"3. En &eAcceso&r elige quién puede tocarla: solo tu party o también aliados."
+		""
+		"Cada claim admite un número máximo de bloques; si la nave crece demasiado, se desactiva y te avisa."
+	]
+	quest.6A2AE24E05CE8EA3.quest_subtitle: "aeroclaims"
+	quest.6A2AE24E05CE8EA3.title: "Protege tu nave"
+	quest.6A694E2A1D485A38.quest_desc: ["Encanta cualquier objeto a nivel &e30&r."]
+	quest.6A694E2A1D485A38.quest_subtitle: "Lo básico"
+	quest.6A694E2A1D485A38.title: "Encantar a nivel 30"
+	quest.6ACAE09330EDCAB9.quest_desc: [
+		"Un globo sube y baja, pero el viento no te lleva a donde quieres. Necesitas &eempuje&r."
+		""
+		"La &eHélice de andesita&r (hélice de Create, losa y eje) se coloca en un eje y empuja al girar. Si inviertes el giro, empuja hacia el otro lado; con la llave inglesa también se invierte."
+		""
+		"Las hélices grandes con rodamiento llegarán con el latón, en el acto 4."
+	]
+	quest.6ACAE09330EDCAB9.quest_subtitle: "Ir hacia algún sitio"
+	quest.6ACAE09330EDCAB9.title: "Hélices"
+	quest.6AF842871880DE9E.quest_desc: ["La &esartén&r se usa sobre el fuego o en la mano (clic derecho con comida en la otra). ¡También es un arma!"]
+	quest.6AF842871880DE9E.quest_subtitle: "Fritos rápidos"
+	quest.6AF842871880DE9E.title: "Sartén"
+	quest.6B3D70480CDE19A1.quest_desc: ["Con estanterías infusionadas mejoradas llegas a nivel &e60&r."]
+	quest.6B3D70480CDE19A1.quest_subtitle: "Infierno y mar"
+	quest.6B3D70480CDE19A1.title: "Encantar a nivel 60"
+	quest.6B4187554FE30B15.quest_desc: ["La &eMesa de desguace&r rompe el equipo con afijos que no quieras y da &emateriales de rareza&r. Guárdalos: son la moneda de todo lo demás."]
+	quest.6B4187554FE30B15.quest_subtitle: "Materiales de rareza"
+	quest.6B4187554FE30B15.title: "Mesa de desguace"
+	quest.6B51B1941D80F13F.quest_desc: ["Fabrica &6latón&r y se abre el &eNivel 2&r de la tienda: productos fabricados, piezas de nave y munición."]
+	quest.6B51B1941D80F13F.quest_subtitle: "Abre una sección nueva en la tienda"
+	quest.6B51B1941D80F13F.title: "Nivel 2: Taller"
+	quest.6B79F0AEAAE8C02E.quest_desc: [
+		"Unos cuantos objetos de Supplementaries:"
+		""
+		"- &eCuerda&r: se baja con clic derecho; con poleas sube y baja cosas."
+		"- &eAltímetro&r: te dice tu altura (útil para volar)."
+		"- &eTirachinas&r: lanza bloques y objetos."
+		"- &eCarcaj&r y &esaco&r: más espacio para flechas y cosas."
+		"- &eLlave&r: cierra puertas y cajas fuertes."
+	]
+	quest.6B79F0AEAAE8C02E.quest_subtitle: "Cosas pequeñas y útiles"
+	quest.6B79F0AEAAE8C02E.title: "Supplementaries"
+	quest.6C0E52C3F2040D0D.quest_desc: [
+		"Vierte la mezcla donde quieras la levitita y ponle &ecalor&r cerca: cristaliza y el cristal se extiende por todo el líquido."
+		""
+		"&cUna vez empieza no se puede recoger.&r Algunos bloques se rompen al cristalizar: úsalos como &emolde&r para darle la forma que quieras."
+		""
+		"&7Dicen que existe una levitita de otro color... experimenta."
+	]
+	quest.6C0E52C3F2040D0D.quest_subtitle: "Moldes de levitita"
+	quest.6C0E52C3F2040D0D.title: "Cristalizar"
+	quest.6C5DF1AF3FDE863C.quest_desc: [
+		"Algunas piezas no se fabrican en la mesa: pasan varias veces por una cadena de máquinas. Esto es el &eensamblaje secuencial&r."
+		""
+		"El &eConjunto de motor&r empieza como una lámina de hierro que va pasando por una &eSierra mecánica&r y una &ePrensa&r sobre una cinta, 8 vueltas. Mira la receta en EMI: te dice el orden exacto."
+	]
+	quest.6C5DF1AF3FDE863C.quest_subtitle: "Ensamblaje secuencial"
+	quest.6C5DF1AF3FDE863C.title: "Montaje en cadena"
+	quest.6C8B238703F354BB.quest_desc: [
+		"El &ePropulsor&r empuja en una dirección cuando recibe redstone y tiene trementina. No necesita rotación."
+		""
+		"El &epropulsor de combustible sólido&r quema objetos (carbón...) en lugar de líquido."
+	]
+	quest.6C8B238703F354BB.quest_subtitle: "Empuje a chorro"
+	quest.6C8B238703F354BB.title: "Propulsor"
+	quest.6CB72891F3E023D0.quest_desc: [
+		"Esta guía es &eopcional&r. Comer platos variados y elaborados da efectos buenos (&eNutrición&r, &eConfort&r) y llena mucho más que la comida normal."
+		""
+		"1. Campo  2. Suelo  3. Cocina  4. Cocina de otros mundos"
+		""
+		"Casi todas las misiones son &elogros&r: si ya los tenías, se completan solas. Para panadería, cervecería y vino mira la guía de &eCocina&r."
+	]
+	quest.6CB72891F3E023D0.quest_subtitle: "Comer bien en las nubes"
+	quest.6CB72891F3E023D0.title: "Farmer's Delight"
+	quest.6CC34D2AE110E7B4.quest_desc: [
+		"- En el &eFermentador&r: cosas fermentables con harina de hueso dan &eetanol&r."
+		"- Prensando &esemillas&r sale &eaceite vegetal&r."
+		"- Mezclando los dos sale &ebiodiésel&r."
+		""
+		"Guárdalo en un &ebidón&r para llevarlo a mano."
+	]
+	quest.6CC34D2AE110E7B4.quest_subtitle: "Del campo al depósito"
+	quest.6CC34D2AE110E7B4.title: "Biocombustible"
+	quest.6CC7DB12BA9AEC4A.quest_desc: [
+		"El &eautocañón&r dispara ráfagas de cartuchos pequeños. Necesita &ecierre de autocañón&r, &emuelle de retroceso&r y cañones."
+		""
+		"Munición: &eperforante&r contra blindaje, &eantiaérea (flak)&r contra naves y bichos voladores. Llénala en un &econtenedor de munición&r."
+	]
+	quest.6CC7DB12BA9AEC4A.quest_subtitle: "Fuego rápido"
+	quest.6CC7DB12BA9AEC4A.title: "Autocañón"
+	quest.6D15AB7D8E80D3BC.quest_desc: ["Estructuras &epequeñas o medianas&r: buenas para los primeros viajes en nave."]
+	quest.6D15AB7D8E80D3BC.quest_subtitle: "Para empezar"
+	quest.6D15AB7D8E80D3BC.title: "Tierra firme"
+	quest.6D5936F9DB68D693.quest_desc: [
+		"La &eestación de cerveza&r: ponle agua, los ingredientes (cebada, trigo, avena, lúpulo...) y &ecalor debajo&r. Al terminar, sirve en &ejarras&r."
+		""
+		"Cuidado: beber mucho emborracha. El &ealcoholímetro&r te dice cómo vas."
+	]
+	quest.6D5936F9DB68D693.quest_subtitle: "Let's Do Brewery"
+	quest.6D5936F9DB68D693.title: "Cervecería"
+	quest.6DB011BFA589A62B.quest_desc: [
+		"Por el mundo hay &eestructuras enormes&r llenas de enemigos y cofres: barcos piratas, fortalezas, minas, palacios... y algunas &evuelan&r."
+		""
+		"Basta con &eentrar&r en una para completar su misión. Con la nave es fácil: mirad desde el aire y aterrizad cerca."
+		""
+		"Cada fila es un tipo de estructura: &eel cielo&r, &eel mar&r, &etierra firme&r, &elas grandes&r y algunas &erarezas&r opcionales."
+		""
+		"Con &e8 estructuras&r cualquiera se completa la meta."
+	]
+	quest.6DB011BFA589A62B.quest_subtitle: "Estructuras por todo el mundo"
+	quest.6DB011BFA589A62B.title: "Mazmorras"
+	quest.6DBDB7DCDADB1B38.quest_desc: ["Cocina todos los platos de Farmer's Delight. Solo para los más dedicados."]
+	quest.6DBDB7DCDADB1B38.quest_subtitle: "Lo has cocinado todo"
+	quest.6DBDB7DCDADB1B38.title: "Gran chef"
+	quest.6F16C4AB0A9BAED9.quest_desc: ["Ars Technica añade glifos que hacen lo mismo que las máquinas de Create sobre objetos en el suelo: &eprensar&r, &etorbellino&r (lavar, ahumar...), &esobrecalentar&r, &efusionar&r..."]
+	quest.6F16C4AB0A9BAED9.quest_subtitle: "Procesar con hechizos"
+	quest.6F16C4AB0A9BAED9.title: "Glifos de máquina"
+	quest.6F99D91C944CC414.quest_desc: [
+		"La &efuente&r la generan los &eenlaces de fuente&r:"
+		""
+		"- &eAgronómico&r: plantas que crecen cerca."
+		"- &eVolcánico&r: quema troncos y madera."
+		"- &eMicelial&r: comida."
+		"- &eVitálico&r: animales que crecen o mueren."
+		"- &eAlquímico&r: pociones."
+	]
+	quest.6F99D91C944CC414.quest_subtitle: "Generar y guardar"
+	quest.6F99D91C944CC414.title: "La fuente"
+	quest.6FED6318C15EF657.quest_desc: ["Rompe las plantas &esilvestres&r (col, tomate, cebolla, arroz...) para conseguir semillas. También están en la tienda."]
+	quest.6FED6318C15EF657.quest_subtitle: "Semillas silvestres"
+	quest.6FED6318C15EF657.title: "Cultivos nuevos"
+	quest.70BB81F024D02FF5.quest_desc: ["Vence al dragón (capítulo &cCazadores&r), cruza la &epuerta del End&r y busca una &eciudad del End&r: en su barco hay unas &eélitros&r."]
+	quest.70BB81F024D02FF5.quest_subtitle: "Ciudades del End"
+	quest.70BB81F024D02FF5.title: "Alas de verdad"
+	quest.7105DAB52BA426E1.quest_desc: [
+		"Hay pueblos construidos en islas del cielo, algunos con máquinas de Create."
+		""
+		"Sus aldeanos comercian como los de tierra: un buen sitio para conseguir esmeraldas, libros o herramientas."
+	]
+	quest.7105DAB52BA426E1.quest_subtitle: "Vecinos voladores"
+	quest.7105DAB52BA426E1.title: "Pueblo en las nubes"
+	quest.7107DBB950DCD648.quest_desc: [
+		"Esta guía es &eopcional&r y va más allá de los actos. Cada &efila&r es una parte de Create, de lo más sencillo a lo más avanzado:"
+		""
+		"1. Lo básico  2. Procesado  3. Transporte  4. Fluidos y vapor"
+		"5. Artilugios  6. Latón  7. Trenes  8. Paquetes y fábricas"
+		""
+		"Casi todas las misiones son &elogros de Create&r: si ya los tenías, se completan solas. Si dudas cómo va un bloque, mantén &eW&r sobre él para ver su &ePonder&r."
+	]
+	quest.7107DBB950DCD648.quest_subtitle: "De la andesita a los trenes"
+	quest.7107DBB950DCD648.title: "Create"
+	quest.713DDE502AA18225.quest_desc: ["La &einterfaz de almacenamiento portátil&r pasa objetos entre un artilugio parado y un cofre fijo. Ideal para descargar naves."]
+	quest.713DDE502AA18225.quest_subtitle: "Cargar al vuelo"
+	quest.713DDE502AA18225.title: "Interfaz de almacenamiento"
+	quest.71967BF9361170BD.quest_desc: ["Calamares, guardianes y pepinos de mar también se cocinan: anillas de calamar, sopa de guardián..."]
+	quest.71967BF9361170BD.quest_subtitle: "Ocean's Delight"
+	quest.71967BF9361170BD.title: "Cocina del mar"
+	quest.72579264319B86CA.quest_desc: ["El &epolvo de flux&r sale de redstone aplastada entre &ebedrock&r y &eobsidiana&r (la bedrock está en el suelo y techo del Nether). Con él: el &eenchufe de flux&r recoge energía y el &epunto de flux&r la entrega, a cualquier distancia y dimensión."]
+	quest.72579264319B86CA.quest_subtitle: "Energía sin cables"
+	quest.72579264319B86CA.title: "Flux Networks"
+	quest.7272F46679403145.quest_desc: [
+		"Vuela con tu nave hasta una isla &alejana&r (a más de 500 bloques de casa) y vuelve."
+		""
+		"A partir de aquí el cielo es tuyo. El &6Acto 4 · Industria&r trae el latón: hélices de verdad, mecanismos de precisión y la forma de &6proteger tu nave&r para que nadie la toque."
+	]
+	quest.7272F46679403145.quest_subtitle: "Fin del acto 3"
+	quest.7272F46679403145.title: "Capitán"
+	quest.72AC929FCE1FE103.quest_desc: ["En la &eMesa de tallado&r juntas gemas iguales con polvo de gema para subirlas de calidad: astillada, defectuosa, normal, impecable, perfecta."]
+	quest.72AC929FCE1FE103.quest_subtitle: "Mejorar gemas"
+	quest.72AC929FCE1FE103.title: "Mesa de tallado"
+	quest.72ED082A06CFCF14.quest_desc: ["Si las máquinas piden más estrés del que da la fuente, &etodo se para&r. El &eestresómetro&r te dice cuánto queda libre; el &evelocímetro&r, las RPM."]
+	quest.72ED082A06CFCF14.quest_subtitle: "No te pases"
+	quest.72ED082A06CFCF14.title: "Estresómetro"
+	quest.736E7B074B2F3AD3.quest_desc: ["El &ePropulsor iónico&r no gasta combustible: funciona con &eenergía (FE)&r. Mira la guía de &eEnergía&r."]
+	quest.736E7B074B2F3AD3.quest_subtitle: "Empuje eléctrico"
+	quest.736E7B074B2F3AD3.title: "Propulsor iónico"
+	quest.7473A4E054730D55.quest_desc: ["Haz un &epastel&r o una &etarta&r entera. Se ponen en la mesa y cada uno come una porción."]
+	quest.7473A4E054730D55.quest_subtitle: "Algo dulce"
+	quest.7473A4E054730D55.title: "Pastelería"
+	quest.74AF691B53716A2C.quest_desc: [
+		"Llega a una isla vecina &asin caerte&r. Algunas formas de hacerlo:"
+		""
+		"- &ePuentes de cuerda&r (Macaw's Bridges): losas y cuerda, se colocan en línea recta."
+		"- &eCuerdas&r (Supplementaries): se descuelgan hacia abajo para bajar a islas inferiores."
+		"- &eParapente&r: desde una isla más alta puedes planear hasta otra más baja."
+		""
+		"Las islas pequeñas sirven de escalones entre las grandes."
+	]
+	quest.74AF691B53716A2C.quest_subtitle: "Tu primera travesía"
+	quest.74AF691B53716A2C.title: "Al otro lado"
+	quest.74B66E53A78CE4DD.quest_desc: ["Pon una &eestación&r en la vía, coloca &ebogies&r (clic a la vía con carcasa), los &econtroles&r y lo que quieras, y monta el tren desde la estación."]
+	quest.74B66E53A78CE4DD.quest_subtitle: "Montar un tren"
+	quest.74B66E53A78CE4DD.title: "Estación y primer tren"
+	quest.74E5518C1A62B2B2.quest_desc: [
+		"Una dimensión dentro de una colmena gigante. Para entrar, &elanza una perla de ender&r contra una colmena o un nido de abejas."
+		""
+		"Para salir, cae por debajo del mundo. &cNo les robes la miel delante de las abejas.&r"
+	]
+	quest.74E5518C1A62B2B2.quest_subtitle: "Dentro de la colmena"
+	quest.74E5518C1A62B2B2.title: "La Bumblezone"
+	quest.757A8BFB7A6D9127.quest_desc: [
+		"&eTom's Simple Storage&r: el &eConector de inventarios&r une todos los cofres que toque (o los unidos por &ecables de inventario&r), y la &eTerminal de almacenamiento&r enseña todo junto y con buscador."
+		""
+		"La &eBóveda de objetos&r de Create es un cofre gigante que también se puede conectar."
+	]
+	quest.757A8BFB7A6D9127.quest_subtitle: "Todo en una pantalla"
+	quest.757A8BFB7A6D9127.title: "Almacén con terminal"
+	quest.75D81E3926E74D90.quest_desc: ["Una &efortaleza&r enorme con murallas y patios."]
+	quest.75D81E3926E74D90.quest_subtitle: "Una ciudad amurallada"
+	quest.75D81E3926E74D90.title: "Fortaleza de Kayra"
+	quest.75F3066817DBF8FE.quest_desc: [
+		"Con el ritual &eInvocar salvaje&r y una &eespina de salvaje&r aparece la &eQuimera salvaje&r. Derrótala para su &etributo&r."
+		""
+		"&cEs dura: id en equipo.&r"
+	]
+	quest.75F3066817DBF8FE.quest_subtitle: "El jefe de Ars"
+	quest.75F3066817DBF8FE.title: "Quimera salvaje"
+	quest.7614BD675D38D7D9.quest_desc: ["El &ecañón de patatas&r dispara comida (y más cosas) gastando aire del tanque. El &ebrazo extensible&r te deja alcanzar más lejos."]
+	quest.7614BD675D38D7D9.quest_subtitle: "Cañón de patatas y brazo extensible"
+	quest.7614BD675D38D7D9.title: "Cachivaches"
+	quest.76344B2CFF48263B.quest_desc: [
+		"- &eCaja de engranajes&r: reparte la rotación a los 4 lados."
+		"- &eEmbrague&r: corta la rotación con redstone."
+		"- &eCambio de marcha&r: invierte el sentido con redstone."
+	]
+	quest.76344B2CFF48263B.quest_subtitle: "Controlar la rotación"
+	quest.76344B2CFF48263B.title: "Cajas de cambios"
+	quest.76A57F850AE59F14.quest_desc: ["La &eBrújula del explorador&r señala la estructura que elijas, y la &eBrújula de la naturaleza&r el bioma que elijas."]
+	quest.76A57F850AE59F14.quest_subtitle: "Encontrar lo que buscas"
+	quest.76A57F850AE59F14.title: "Brújulas"
+	quest.76FE475676291BD7.quest_desc: ["Lamina cobre en el &eLaminador&r para hacer &ealambre&r y enróllalo en un &ecarrete&r. Con él unes &econectores&r para llevar electricidad."]
+	quest.76FE475676291BD7.quest_subtitle: "Llevar la corriente"
+	quest.76FE475676291BD7.title: "Cables"
+	quest.774F845CCC28E854.quest_desc: [
+		"La &eRana de paquetes&r atrapa y lanza paquetes por las &ecintas de cadena&r, que cuelgan entre engranajes grandes y pueden cruzar el vacío entre islas."
+		""
+		"El &ebuzón&r hace lo mismo para trenes y naves: lo que llega con su dirección se queda dentro."
+	]
+	quest.774F845CCC28E854.quest_subtitle: "Correo entre islas"
+	quest.774F845CCC28E854.title: "Ranas y buzones"
+	quest.7783F9867DB95A7A.quest_desc: [
+		"Un misil se monta por partes en un &eSoporte de misiles&r:"
+		""
+		"- &eMotor cohete&r (lleva cargas de pólvora) y &ealetas&r para girar."
+		"- &eOrdenador de guía&r, que sigue al objetivo."
+		"- &eCarcasa de carga&r con explosivo y una &eespoleta de proximidad&r."
+		""
+		"Empareja el soporte con un &eControlador de red&r del radar, y pon la &eInterfaz de puntería&r en un asiento para disparar desde él."
+	]
+	quest.7783F9867DB95A7A.quest_subtitle: "CBC Aeronautics Missiles"
+	quest.7783F9867DB95A7A.title: "Misiles guiados"
+	quest.77C9F6899546CE80.quest_desc: ["Pasa la piedra del End por las &eRuedas trituradoras&r: sale &epolvo de piedra del End&r."]
+	quest.77C9F6899546CE80.quest_subtitle: "Tritúrala"
+	quest.77C9F6899546CE80.title: "Polvo de piedra del End"
+	quest.77E27265DE515B6E.quest_desc: [
+		"Tu isla ya produce sola: piedra, hierro y aleación sin tener que picar."
+		""
+		"El &6Acto 3&r es el que estabas esperando: tu &6primera aeronave&r."
+	]
+	quest.77E27265DE515B6E.quest_subtitle: "Fin del acto 2"
+	quest.77E27265DE515B6E.title: "Tu primer taller"
+	quest.77EAB03CC0F99160.quest_desc: [
+		"La &emesa de panadero&r es donde se montan los pasteles y las tartas. Usa el &erodillo&r para estirar la masa."
+		""
+		"El pan y los bollos se hornean en el &efogón&r de Farm \\& Charm."
+	]
+	quest.77EAB03CC0F99160.quest_subtitle: "Let's Do Bakery"
+	quest.77EAB03CC0F99160.title: "Panadería"
+	quest.78894F1C81796BA4.quest_desc: ["Pon una &ePlaca de nombre&r en tu nave y escríbele un nombre. Así la reconocerás en la lista de aeroclaims y en el mapa."]
+	quest.78894F1C81796BA4.quest_subtitle: "Toda nave tiene nombre"
+	quest.78894F1C81796BA4.title: "Bautizo"
+	quest.78F4CF887E01B1D7.quest_desc: ["Armas nuevas, artefactos y oleadas superadas: listos para salir a explorar."]
+	quest.78F4CF887E01B1D7.quest_subtitle: "Fin de la guía"
+	quest.78F4CF887E01B1D7.title: "Aventurero"
+	quest.78F66F060A14D4DE.quest_desc: ["Los &ephantoms&r son la plaga de las alturas. Derriba uno con el cañón de patatas montado."]
+	quest.78F66F060A14D4DE.quest_subtitle: "Phantoms fuera"
+	quest.78F66F060A14D4DE.title: "Cazafantasmas"
+	quest.794ED607E5669300.quest_desc: ["Anillos de descuento de maná, amuletos de regeneración, cinturón de levitación... Van en las ranuras de accesorios."]
+	quest.794ED607E5669300.quest_subtitle: "Accesorios mágicos"
+	quest.794ED607E5669300.title: "Anillos y amuletos"
+	quest.7977BCE6903215E2.quest_desc: ["Un barco de guerra &evolador&r. Arqueros en cubierta: acercaos con escudo."]
+	quest.7977BCE6903215E2.quest_subtitle: "Barco volador"
+	quest.7977BCE6903215E2.title: "Jinete celestial"
+	quest.79A0D007FE6BCA59.quest_desc: ["Las &eélitros del alma&r se recargan solas y te dejan volar sin cohetes."]
+	quest.79A0D007FE6BCA59.quest_subtitle: "Vuelo oscuro"
+	quest.79A0D007FE6BCA59.title: "Élitros del alma"
+	quest.79AA9CCE674227F6.quest_desc: ["Unas &etorres&r de vigilancia llenas de bandidos, en el desierto y la sabana."]
+	quest.79AA9CCE674227F6.quest_subtitle: "Ojo con las flechas"
+	quest.79AA9CCE674227F6.title: "Torres de bandidos"
+	quest.79ECF45460900A65.quest_desc: [
+		"Esta guía es &eopcional&r y sigue a &aGranja y cocina&r. Aquí están las cocinas de los demás mods: pan, pasteles, cerveza, té, queso y cenas de gala."
+		""
+		"Los platos elaborados &esacian mucho&r y dan buenos efectos. Además, la &eTienda&r compra algunos y los &eencargos&r de Retos piden muchos."
+		""
+		"- Arriba: &eFarm \\& Charm&r y &eBakery&r (granja y panadería)."
+		"- Centro: &eCandlelight&r (restaurante)."
+		"- Abajo: bebidas y quesos."
+	]
+	quest.79ECF45460900A65.quest_subtitle: "Más allá de la olla"
+	quest.79ECF45460900A65.title: "Cocina"
+	quest.79F8C9BA83B1ACB8.quest_desc: [
+		"El &eAlternador&r convierte rotación de Create en &eFE&r. Cuanto más rápido gira, más energía da."
+		""
+		"Al revés, el &eMotor eléctrico&r convierte FE en rotación."
+	]
+	quest.79F8C9BA83B1ACB8.quest_subtitle: "Rotación a electricidad"
+	quest.79F8C9BA83B1ACB8.title: "Alternador"
+	quest.79FD492912671FA2.quest_desc: ["Unas &eminas&r bajo los páramos, llenas de lava y esqueletos."]
+	quest.79FD492912671FA2.quest_subtitle: "Bajo tierra"
+	quest.79FD492912671FA2.title: "Minas abrasadas"
+	quest.7A0FF9B34E80DD3B.quest_desc: ["Lava &egrava&r con el ventilador y agua: salen pedernal y &epepitas de hierro&r. Lava minerales triturados para conseguir más pepitas."]
+	quest.7A0FF9B34E80DD3B.quest_subtitle: "Pepitas gratis"
+	quest.7A0FF9B34E80DD3B.title: "Lavado de grava"
+	quest.7ADA10F83050FDC2.quest_desc: [
+		"Funde tu primer &elingote de hierro&r."
+		""
+		"En las islas grandes los minerales están en la roca de debajo: cava hacia abajo &cdesde dentro&r de la isla, no por el borde. Las cuevas que asoman por los lados son una buena entrada."
+	]
+	quest.7ADA10F83050FDC2.quest_subtitle: "La base de todo"
+	quest.7ADA10F83050FDC2.title: "Hierro"
+	quest.7AF219F8B33A08C7.quest_desc: ["El &eLibro de aprendiz&r da más maná, más huecos de hechizo y glifos de nivel 2. Se fabrica en el &eaparato de encantamiento&r."]
+	quest.7AF219F8B33A08C7.quest_subtitle: "Más poder"
+	quest.7AF219F8B33A08C7.title: "Libro de aprendiz"
+	quest.7B34AE555D3ABB92.quest_desc: [
+		"La &eBobina Tesla&r carga objetos que pasan por debajo en un depósito, y convierte oro en &eelectro&r."
+		""
+		"El &ecargador inalámbrico&r recarga a los jugadores cercanos o a las máquinas sin cables."
+	]
+	quest.7B34AE555D3ABB92.quest_subtitle: "Cargar y electrificar"
+	quest.7B34AE555D3ABB92.title: "Bobina Tesla"
+	quest.7B38D1DC3E5F9F26.quest_desc: ["La &eAbeja Reina&r te pide favores a cambio de objetos únicos. Completa todos sus deseos."]
+	quest.7B38D1DC3E5F9F26.quest_subtitle: "La Abeja Reina"
+	quest.7B38D1DC3E5F9F26.title: "Los deseos de la reina"
+	quest.7B7ABB64E46F7B3B.quest_desc: [
+		"Casi todas las piezas básicas usan &eAleación de andesita&r: andesita y pepitas de hierro en la mesa de trabajo."
+		""
+		"La andesita sale en la roca de las islas. Si escasea en la tuya, se fabrica con diorita y adoquín."
+	]
+	quest.7B7ABB64E46F7B3B.quest_subtitle: "El material de todo"
+	quest.7B7ABB64E46F7B3B.title: "Aleación de andesita"
+	quest.7BA2D033D8903847.quest_desc: ["Con &ecalor intenso&r: chatarra de netherita y 4 aceros dan &eacero del Nether&r, el metal de cañón más duro."]
+	quest.7BA2D033D8903847.quest_subtitle: "Lo mejor de lo mejor"
+	quest.7BA2D033D8903847.title: "Acero del Nether"
+	quest.7BDDAB7EEC93C230.quest_desc: ["Una &ejaula enorme&r de pájaros en el bosque."]
+	quest.7BDDAB7EEC93C230.quest_subtitle: "Una jaula gigante"
+	quest.7BDDAB7EEC93C230.title: "El aviario"
+	quest.7D0E5814D8BF371A.quest_desc: ["Los &eflotadores&r mantienen un barco en la superficie. Las &evelas&r empujan con el viento (la &eveleta&r te dice de dónde sopla) y necesitan un &etimón&r a popa. El &eancla&r lo para."]
+	quest.7D0E5814D8BF371A.quest_subtitle: "Navegar con el viento"
+	quest.7D0E5814D8BF371A.title: "Barco de vela"
+	quest.7D6E0507EEC38CEA.quest_desc: [
+		"Esta guía es &eopcional&r. Con &eArs Nouveau&r creas tus propios hechizos con &eglifos&r y usas la &efuente&r (source), la energía mágica, para máquinas, criaturas y rituales."
+		""
+		"Lleva siempre el &eCuaderno gastado&r: es el manual del mod, con todas las recetas."
+		""
+		"1. Hechizos  2. Fuente y aparatos  3. Criaturas  4. Utilidades y rituales  5. Magia con Create"
+	]
+	quest.7D6E0507EEC38CEA.quest_subtitle: "Ars Nouveau"
+	quest.7D6E0507EEC38CEA.title: "Magia"
+	quest.7DC7CFBC91803874.quest_desc: ["Los &ecofres&r y &ebarriles&r de Sophisticated Storage se mejoran igual que la mochila y aceptan las mismas mejoras. El &econtrolador&r une los que toque en un solo inventario."]
+	quest.7DC7CFBC91803874.quest_subtitle: "Sophisticated Storage"
+	quest.7DC7CFBC91803874.title: "Cofres mejorables"
+	quest.7DFFE28EA91E524E.quest_desc: ["Encanta una estantería infernal o marina en la mesa para &einfusionarla&r. Las infusionadas se pueden mejorar aún más."]
+	quest.7DFFE28EA91E524E.quest_subtitle: "Encantar estanterías"
+	quest.7DFFE28EA91E524E.title: "Estanterías infusionadas"
+	quest.7E01F6F35AC87C67.quest_desc: ["Las &eestanterías del End&r, hechas con aliento de dragón infusionado, llevan la mesa a nivel &e100&r."]
+	quest.7E01F6F35AC87C67.quest_subtitle: "Encantamiento dracónico"
+	quest.7E01F6F35AC87C67.title: "Encantar a nivel 100"
+	quest.7E21363C9834BD8B.quest_desc: [
+		"Un mundo subterráneo, oscuro y hostil. El portal: un marco de &eladrillos de piedra&r activado con el &eCatalizador&r (hierro, oro y diamante)."
+		""
+		"Lleva luz: las &eantorchas de esquirla&r no se apagan allí abajo."
+	]
+	quest.7E21363C9834BD8B.quest_subtitle: "Undergarden"
+	quest.7E21363C9834BD8B.title: "La Infratierra"
+	quest.7E2E1BF68F09D5CF.quest_desc: ["Con el modificador adecuado (míralo en el JEI) el generador funciona aunque no haya nadie cerca. Perfecto para granjas automáticas con Create."]
+	quest.7E2E1BF68F09D5CF.quest_subtitle: "Sin nadie cerca"
+	quest.7E2E1BF68F09D5CF.title: "Listo para fábrica"
+	quest.7E3746A224B525D0.quest_desc: [
+		"El &eTótem del vacío&r te salva si caes al vacío: en vez de morir, vuelves a tierra firme. Se gasta, así que lleva otro de repuesto."
+		""
+		"No se fabrica: sale en la &eCaja del apostador&r de la tienda (nivel Taller) y a veces en la subasta."
+	]
+	quest.7E3746A224B525D0.quest_subtitle: "Segunda oportunidad"
+	quest.7E3746A224B525D0.title: "Tótem del vacío"
+	quest.7E800611BC65DD1F.quest_desc: ["El &ePuesto de mando&r de Aeroworks lleva &emódulos&r: volante, cuernos, joystick, pedales, palancas de gas... Cada uno manda redstone que puedes unir a timones y motores."]
+	quest.7E800611BC65DD1F.quest_subtitle: "Volantes y palancas"
+	quest.7E800611BC65DD1F.title: "Cabina de mando"
+	quest.7EFEB93D7A443220.quest_desc: [
+		"Una nave que flota sola, hélices que no vuelcan y un timón: ya mandas en el cielo."
+		""
+		"Ahora, a ver hasta dónde llega. Y el &6Acto 6 · Más allá&r te espera."
+	]
+	quest.7EFEB93D7A443220.quest_subtitle: "Fin del acto 5"
+	quest.7EFEB93D7A443220.title: "Señor del cielo"
+	quest.7F1FC3DD36CE1A1A.quest_desc: ["Las armaduras de &etecnomante&r y &eartífice&r combinan magia y mecánica. La &eFábrica de bolsillo&r lleva una mesa de procesado contigo."]
+	quest.7F1FC3DD36CE1A1A.quest_subtitle: "Armadura de mago ingeniero"
+	quest.7F1FC3DD36CE1A1A.title: "Tecnomante"
+	quest.7F31008D8EB7A80C.quest_desc: [
+		"Las naves grandes se tuercen y vuelcan. El &eMecanismo giroscópico&r es la pieza que las mantiene derechas."
+		""
+		"Se monta por ensamblaje secuencial, como el mecanismo de precisión: una &elámina de hierro&r pasa 5 veces por &edespliegues&r que le ponen un engranaje, un eje y una pepita de latón."
+	]
+	quest.7F31008D8EB7A80C.quest_subtitle: "Equilibrio"
+	quest.7F31008D8EB7A80C.title: "Mecanismo giroscópico"
+	quest.7F5B4F1DA93A0C7A.quest_desc: ["Una fortaleza enorme en mitad del &eocéano&r."]
+	quest.7F5B4F1DA93A0C7A.quest_subtitle: "El fuerte en el mar"
+	quest.7F5B4F1DA93A0C7A.title: "Typhon"
+	quest.7FBB5B5E716E972E.quest_desc: [
+		"El &eMecanismo de precisión&r se monta por ensamblaje secuencial: una lámina de oro pasa varias veces por &edespliegues&r que le añaden engranajes y pepitas."
+		""
+		"Monta la cadena con cinta, &eDespliegue&r y depósitos; mira el orden exacto en EMI."
+		""
+		"Con él se abre el &6Nivel 3 de la Tienda&r."
+	]
+	quest.7FBB5B5E716E972E.quest_subtitle: "La pieza más pedida"
+	quest.7FBB5B5E716E972E.title: "Mecanismo de precisión"
+	reward_table.1935FCF2561B7DEC.title: "Caja de comida"
+	reward_table.1C864F8974DFE8F8.title: "Caja de aeronáutica"
+	reward_table.1D7F289678762BF7.title: "Caja de explorador"
+	reward_table.1D910788C58004D5.title: "Caja del apostador"
+	reward_table.26420CEB0F9C9093.title: "Caja de Create básica"
+	reward_table.283834967AD9ACDF.title: "Caja de la suerte"
+	reward_table.2E5677CC7ABA4D40.title: "Caja de granja"
+	reward_table.316B43B9DD43AC76.title: "Caja de abejas"
+	reward_table.345325F4E46C521E.title: "Caja de cultivos"
+	reward_table.43D8DE120B36F01C.title: "Caja de brotes"
+	reward_table.6041ACBE4DEC8425.title: "Caja de Create II"
+	reward_table.62686AA46D46531B.title: "Caja de pólvora y combustible"
+	reward_table.64953347E24136AB.title: "Caja de Create I"
+	reward_table.6C4500421B68B6A6.title: "Caja todo o nada"
+	reward_table.6E23656918CD6DE6.title: "Caja de animales de compañía"
+	reward_table.6FD270978E3E3202.title: "Caja de aeronáutica rara"
+	reward_table.753B52AA8DFEA73F.title: "Caja de munición"
+	reward_table.7BBAE164AEEB14E0.title: "Caja de semillas de cocina"
+	reward_table.7F7779F90B210F0F.title: "Caja de Create III"
+	task.0017FF510805600A.title: "Encuentra un artefacto"
+	task.00203134DFE187A4.title: "Mata al Kraken"
+	task.0024E377E32429AD.title: "Cristaliza mezcla de levitita"
+	task.0040776B81A252F0.title: "Un carrete de cable"
+	task.00731E8913F34C8F.title: "La Infratierra"
+	task.00DF04D88CD4FE63.title: "Llega a Marte"
+	task.0151013F823B42C0.title: "Un motor diésel"
+	task.015AE3B24841573C.title: "Fabrica latón"
+	task.021F9635EB35F29A.title: "Llega a Venus"
+	task.0277F84329C867E8.title: "Algo de Cook's Collection"
+	task.034AFAD5EC712AB4.title: "He hecho una travesía larga y he vuelto"
+	task.03CA5BFF174B846C.title: "Inspecciona un artefacto con el diagrama"
+	task.04B56648420DF62B.title: "Un lingote de netherita mejorada"
+	task.04D663AE6452B15B.title: "Una waystone"
+	task.052B36845E6A6786.title: "Encuentra la Arena ardiente"
+	task.055A6977C704A736.title: "Un cierre de autocañón"
+	task.06221D07D0690254.title: "Consigue levitita nacarada"
+	task.068E8CED633336A7.title: "Mata al Gusano de arena"
+	task.06BBD4D5DFF3D358.title: "Un fogón de Candlelight"
+	task.06D26C87D430AB51.title: "Consigue un Ensamblador de físicas"
+	task.07144E83088F25B2.title: "Un tomo"
+	task.07196FB29B3C30F0.title: "Mata al dragón de la torre"
+	task.0816761118524CC0.title: "Un cilindro hidráulico o una junta universal"
+	task.09A90DB053CF8101.title: "Conecta dos piezas con cuerda"
+	task.09BB769B9E9B424E.title: "4 proyectiles explosivos de cualquier tipo"
+	task.0A44F0E57C159F7B.title: "He activado una waystone"
+	task.0A7EDB4617B0ADBD.title: "Una cerveza"
+	task.0BC56352E87141FD.title: "Un pistón, rodamiento, polea o pórtico"
+	task.0DAD91BB6778A6E2.title: "Un panel solar, hornalla, termogenerador o magmator"
+	task.0E1A506D9CD3F699.title: "16 lingotes de hierro fundido o bronce"
+	task.0EAFE48B9A634C51.title: "Desbloquea el nivel Ascenso"
+	task.10AD04C9187E3FD8.title: "Un plato de Candlelight"
+	task.123D018F3391AADF.title: "Llega a una torre, castillo o templo del cielo"
+	task.13844EC3071E433F.title: "Gira un timón"
+	task.14DB8C57543407DC.title: "Entra con una perla de ender"
+	task.151D25F0AD73E8AB.title: "El Aether"
+	task.15B123D1FFE52E90.title: "Mira un sensor de altitud a 0 % de presión"
+	task.15E552CB1C8A75E1.title: "Mata un phantom con el cañón montado"
+	task.15E70700F4AD7FEA.title: "Apunta la mesa de navegación a más de 5000 bloques"
+	task.16244BA363CF115B.title: "Mata a Maledictus"
+	task.174A622E63E7FE8A.title: "Una caldera de bronce, martillo de forja, horno de coque u otra máquina de bronce"
+	task.1857A58D125FC9A1.title: "Supera el portal de Frontera"
+	task.18C31B2A3288A02E.title: "Una nevera, encimera o armario"
+	task.1BFDB4BE1F84E5B0.title: "El Nether"
+	task.1CEAEFFA21EA94A0.title: "36 bloques de reactor"
+	task.1D913B502BBC4CC1.title: "Un enlace de fuente"
+	task.1DB59BB3303CB11F.title: "Vence la mazmorra de plata"
+	task.1DB78703CFA71697.title: "Mata al Leviatán"
+	task.1F30E7E0403194B7.title: "La Bumblezone"
+	task.2011558DE20D4074.title: "Encuentra: Typhon"
+	task.2050D3CFB2FEDE70.title: "Mata a la Monstruosidad de netherita"
+	task.2073739D60452247.title: "Atraviesa una grieta con una nave"
+	task.20AFDE919B70D852.title: "He despegado y aterrizado de una pieza"
+	task.20B46CB66DF8DB7E.title: "Entra en el Otherside"
+	task.214E75096D6B137B.title: "Un té o café"
+	task.2170A00BEB67E990.title: "Una biblioteca"
+	task.2393177628D8B2BF.title: "Consigue armadura de warden"
+	task.2408C12D630B12BB.title: "Una caña de Aquaculture"
+	task.247F827023FEE3DA.title: "Una perla de portal"
+	task.24F58A27F0C19B7B.title: "Agarra y gira un timón"
+	task.25711816F7264EDC.title: "4 semillas de uva"
+	task.25DBF58E0CE61A1B.title: "Un arma o varita mágica"
+	task.26199FD8ABB77CDE.title: "Mata a la Monstruosidad Lunar"
+	task.27301D5F0E177235.title: "Un vino"
+	task.27943D8DD6AA9D57.title: "Encuentra un puesto subterráneo"
+	task.2943E2EABC3718E1.title: "Mata a Ignis"
+	task.29A58EA0FE6C99F3.title: "Cañón de patatas o brazo extensible"
+	task.29A778E56C474D51.title: "Encuentra la Prisión helada"
+	task.2A3C5610D6C6A156.title: "Un buzón de cualquier color"
+	task.2A79901B13643CB4.title: "Encuentra: Nido mecánico"
+	task.2A7A0368B3310998.title: "Un motor portátil (de cualquier color)"
+	task.2A984B0E7F4540E7.title: "Una mesa de reforja"
+	task.2B0FE28C71BA004B.title: "Un rodamiento de radar o un radar de avión"
+	task.2B79527EE5B2B669.title: "Un objeto de Supplementaries"
+	task.2E1EB3A99F9D8C06.title: "Consigue unas élitros"
+	task.2E247BC7F36F175E.title: "Encuentra: Minas abrasadas"
+	task.2E6B04710D05E417.title: "Mata a todos los jefes"
+	task.2E9F88C7116A7C04.title: "Vence la mazmorra de latón"
+	task.30405B901658FC0F.title: "Una mesa de bolsillo"
+	task.30D4FD0D68DBBF1C.title: "He marcado mi base"
+	task.31703B9336107509.title: "Encuentra: Jinete celestial"
+	task.31CFB2B8BBE0D59E.title: "Encuentra una ballena del cielo"
+	task.3303469A6771FABC.title: "Encuentra: La fundición"
+	task.3360CECB2BA819A2.title: "Mata al Gólem Estelar"
+	task.3455EC19139B6F31.title: "Un propulsor vectorial"
+	task.35044F8C8ECD5842.title: "Monta un rodamiento de hélice"
+	task.353E62558C50BAB9.title: "Encuentra una aeronave abandonada"
+	task.358395E9A4C2315C.title: "Fabrica un núcleo de grieta"
+	task.35ACAF8D96C06D54.title: "Pisa la Luna"
+	task.3612BCE13C27764E.title: "Funde hierro"
+	task.369D54DFD7C75807.title: "Una bobina Tesla o un cargador inalámbrico"
+	task.377628081D118367.title: "Encuentra: Conquistador celestial"
+	task.3808CDD0164F8DA3.title: "Un ingrediente del cielo"
+	task.38365BF851FD4FE5.title: "Un cuchillo de filetear"
+	task.39129790E7025F56.title: "Un sello"
+	task.3A5A8A7D44D506AB.title: "Un pastel o tarta"
+	task.3A62F858F41EEFDB.title: "Fabrica un mecanismo de precisión"
+	task.3A6A29B2EF0F5F56.title: "Encuentra la Ciudadela en ruinas"
+	task.3B69CF69BEEB04B1.title: "Entra en Eternal Starlight"
+	task.3BC3F2DCF7317EFA.title: "Mata a todos los jefes de Cataclysm"
+	task.3BE240E2F2C34087.title: "Dispara una verdura con él"
+	task.3C1969C5062D29DC.title: "Un servo"
+	task.3C3D688BD19929BF.title: "2 propulsores"
+	task.3C421FF21CF855D8.title: "Mata al Guardián Olvidado"
+	task.3D46219C7E228781.title: "He reclamado mi isla"
+	task.3D49857CD608B233.title: "Un cubo de hidrógeno o metano líquido"
+	task.3DA9216A80B80712.title: "Un fogón o una hoguera"
+	task.3DD8C8F9535F807D.title: "Eternal Starlight"
+	task.3E21BD22181EC9D2.title: "Enciende el motor"
+	task.3E3DF33C2720DA50.title: "Construye un motor de grieta"
+	task.3FED5A68EF66FE93.title: "Un rodamiento giroscópico o una hélice inteligente"
+	task.3FFF71286C525146.title: "Un plato del End"
+	task.40A24BFAE3409EFC.title: "2 aspersores"
+	task.40B175A08A8921D9.title: "Una fuente de rotación"
+	task.42192217DE7CAFAC.title: "Una maceta de vid o una prensa"
+	task.42A77530E5DFFC14.title: "Mata al Guardián del End"
+	task.4374FD942972526B.title: "Mata al Heraldo"
+	task.439721A3685CA73A.title: "Mata a Scylla"
+	task.43FA4CE2D37A4163.title: "Un plato picante"
+	task.4400AADC0D4B3FAB.title: "Órbita lunar"
+	task.451183B977A7150C.title: "Cruza una puerta de grieta"
+	task.458B757BB55A6B20.title: "Mata al Frostmaw"
+	task.45F17B24CFACA731.title: "16 balas de autocañón"
+	task.46AD67C698D35DFA.title: "Una espoleta"
+	task.47FF44FED3F82797.title: "Acopla dos conectores"
+	task.482E0053FDA2A1E7.title: "El Otherside"
+	task.488671E73EBCF9CD.title: "Encuentra: Retador celestial"
+	task.49D7C52612BB7F7D.title: "Una recámara o un cañón de hierro fundido"
+	task.4ADDB6FDDB378BBC.title: "Desbloquea el nivel Cumbre"
+	task.4B9538D1677ED510.title: "Órbita de Marte"
+	task.4CD08622C5B047B9.title: "Entra en el Aether"
+	task.4D28AE646F701B2F.title: "Queso, pizza o una bebida del barril"
+	task.4D653BE3F17D60DD.title: "Encuentra: Palacio de Shiraz"
+	task.4D84335119BDC2A3.title: "Un glifo de Ars Technica"
+	task.4DD0E94D89CA3C15.title: "Una mejora de mochila"
+	task.4E4381C5FF50CD1A.title: "He abierto los árboles con K"
+	task.4E604E4554B0F002.title: "Mata al Dragón del End"
+	task.4F16024C4DCFD63F.title: "Encuentra un templo antiguo"
+	task.4F5DFD78AE0A40E6.title: "2 cofres o barriles"
+	task.4FADC3B504EB1B19.title: "He bajado a una estructura colgante"
+	task.4FDFE6B5EE61CB43.title: "8 alas de cualquier tipo"
+	task.4FE523ABB02CCE68.title: "Un plato de Farm \\& Charm"
+	task.5023EC03A32F1C6A.title: "Una pieza de ropa de mago"
+	task.509F3CC32A669E48.title: "Encuentra la Fábrica antigua"
+	task.50CF82A70D2A8BD7.title: "Estoy en un equipo (o juego solo)"
+	task.51112B2D96476EAD.title: "Una recámara de acero"
+	task.52DA4FAC087A835A.title: "Entra en la Infratierra"
+	task.53184A0DD395EFEC.title: "He lavado grava"
+	task.537BEDDB020B27A5.title: "He mirado los retos"
+	task.538781E5B2ACEA45.title: "Encuentra: Barco illager"
+	task.54335A56CBA0268D.title: "Mata al Wroughtnaut Ferroso"
+	task.544D922577AC11DA.title: "Mata al Remanente antiguo"
+	task.555ECEC4F942BB36.title: "Un plato del mar"
+	task.55A108E24024AE22.title: "4 estanterías infernales o marinas"
+	task.56FDBC208107AC49.title: "Una pieza de armadura de tecnomante/artífice o la fábrica de bolsillo"
+	task.574BD8ADBC084589.title: "Encuentra la Pirámide maldita"
+	task.57A50DE5F1FB754E.title: "Una piedra warp o un pergamino"
+	task.588B1C25809C9BE4.title: "Vence la mazmorra de oro"
+	task.594B0B7BF278D20D.title: "Mata al Yeti"
+	task.595E2232037223AB.title: "Mata a Umvuthi"
+	task.597FB4CBC300FB5A.title: "He leído las normas del cielo"
+	task.59A6180361BC7900.title: "Encuentra la Herrería de almas"
+	task.5A036EB65CEE064B.title: "Entra en el End"
+	task.5AC6748D61948AC0.title: "Vence la mazmorra de bronce"
+	task.5B73E95BFE4E87F8.title: "Encuentra: Fuerte illager"
+	task.5B7B2F358BC08398.title: "Ponle nombre a tu nave"
+	task.5BBC7DEE18D11185.title: "He cruzado a otra isla"
+	task.5C716D32E959BB97.title: "Mata a una Naga"
+	task.5CE5894E3685425C.title: "Desbloquea el nivel Pináculo"
+	task.5D20D6F59D7D780B.title: "Un cargador de chunks"
+	task.5D30DB2A90247962.title: "Llega a la órbita de la Tierra"
+	task.5D866CD6C4F1DFC8.title: "Encuentra: Asilo de la peste"
+	task.5E48BFC0FC7E6EE5.title: "4 de algodón pólvora o nitropólvora"
+	task.5E4B383F2C5E519F.title: "He elegido isla"
+	task.5E5275CF8914CF2B.title: "Fabrica un pico de piedra"
+	task.608C73D1F05E6C91.title: "Un trofeo mutante"
+	task.61E428100C0946A6.title: "Encuentra: Fortaleza de Kayra"
+	task.621AA2A9F03A968B.title: "Entra en las profundidades"
+	task.647F437C339E10A4.title: "Consigue un ancla warp"
+	task.65AC39EE3BFAC5AC.title: "4 lingotes de cualquier aleación espacial"
+	task.65E0508EB9E6497E.title: "La herramienta de estructuras o la pistola magnética"
+	task.672FC094365BFEC1.title: "Una estufa, brasero u olla del Nether"
+	task.67776D2EEC322A18.title: "Una tablilla de conjurar isla"
+	task.67AC148C62C6CFEB.title: "Visita un pueblo del cielo"
+	task.67FE5C5B8CA9DFA7.title: "Encuentra: Pequeño dirigible"
+	task.68279E063CA288CD.title: "Una mochila"
+	task.685BE30992E52FC8.title: "Coloca una mesa de navegación"
+	task.69246C03F7E841F0.title: "Encuentra: Complejo minero"
+	task.69C57D42BBA87E10.title: "Encuentra: El faro"
+	task.6B4F59586CEA329E.title: "Desbloquea el nivel Frontera"
+	task.6B58467D95FB08B5.title: "Cumple todos los deseos de la reina"
+	task.6BBD8FB5B94C3885.title: "Un taladro"
+	task.6DD3214E814F54AE.title: "Llena un globo de aire caliente"
+	task.6EF8AECCE347968C.title: "Encuentra: Torres de bandidos"
+	task.6F15E60CD742FE48.title: "Una estantería infusionada"
+	task.6F4F7241A4E28ED0.title: "Encuentra la Acrópolis"
+	task.702B3CEC752E1FE4.title: "Un ingrediente del mundo"
+	task.70C1901AFAEA5BBD.title: "Duerme en una cama"
+	task.7146F0A39AF9945C.title: "Domestica un Beehemoth"
+	task.71D8150E810ED81A.title: "Un puesto o mesa de mando"
+	task.71EEA788B4235881.title: "Mata al Caballero del Inframundo"
+	task.736A1B2F43111C74.title: "Una plantilla de mejora"
+	task.748501162AAB7CF9.title: "Mata al Wither"
+	task.74D9199C0A5CB849.title: "Encuentra: Minas de setas"
+	task.74DD38A05AD0C525.title: "Un licuador de aire o un electrolizador"
+	task.74F3DC9070AC1F83.title: "4 esencias"
+	task.750A933462389827.title: "El End"
+	task.75DCAB24E7F21CCF.title: "Salta 2000 bloques de una vez"
+	task.76313DACF333344C.title: "Encuentra: El aviario"
+	task.7650D71B0F383A7B.title: "Un anillo, amuleto o cinturón"
+	task.76C34B929844B4D2.title: "Encuentra: El coliseo"
+	task.7780ACF7084FF7EA.title: "Encuentra: Templo infestado"
+	task.77F70DAB48BAB5C4.title: "Un whisky"
+	task.7859ADD4D682E4BD.title: "Un pan de panadería"
+	task.79EBEAAE9A55745B.title: "Encuentra el puesto avanzado abandonado"
+	task.7A95EAC571D77197.title: "Un arma de hierro de Simply Swords"
+	task.7B041EA4ACE8A9A6.title: "Una tablilla de ritual"
+	task.7B13B2AFE3296282.title: "Encuentra: El monasterio"
+	task.7C012C98E8B36A0C.title: "He probado a mantener W"
+	task.7D6F4E9083227F4D.title: "Haz girar una hélice"
+	task.7D934F213871A486.title: "Una de las dos brújulas"
+	task.7DB719D758565722.title: "Encuentra la Ciudad hundida"
+	task.7DE101B3F6B563EA.title: "Un rodamiento de molino o una rueda hidráulica"
+	task.7DE6666C7FF48E39.title: "Un estuche de gemas"
+	task.7E1F2ABDD0EF0965.title: "Encuentra: Barco pirata maldito"
+	task.7F5184E6BBEA7EFF.title: "Un volante, cuernos o joystick"
+	task.7FA25C417C1D9854.title: "Una bomba de balancín o un controlador de destilación"
+}

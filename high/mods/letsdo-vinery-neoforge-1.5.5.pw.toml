@@ -1,0 +1,8 @@
+name = "letsdo-vinery-neoforge-1.5.5.jar"
+filename = "letsdo-vinery-neoforge-1.5.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1DWmBJVA/versions/DLINXOWN/letsdo-vinery-neoforge-1.5.5.jar"
+hash-format = "sha1"
+hash = "95cf5505ee39cc0418160870451c8b5d2d73dfda"

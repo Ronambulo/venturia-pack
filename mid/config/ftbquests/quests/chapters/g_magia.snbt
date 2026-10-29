@@ -1,0 +1,860 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "g_magia"
+	group: "094E0F2FCF1D26FE"
+	icon: {
+		id: "ars_nouveau:novice_spell_book"
+	}
+	id: "005A702ACB613863"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["77E27265DE515B6E"]
+			icon: {
+				id: "ars_nouveau:worn_notebook"
+			}
+			id: "7D6E0507EEC38CEA"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6AB7B5EABCD3CC6D"
+				item: { count: 1, id: "ars_nouveau:worn_notebook" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D6E0507EEC38CEA"]
+			icon: {
+				id: "ars_nouveau:novice_spell_book"
+			}
+			id: "5DAC81C991845BE0"
+			shape: "rsquare"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5DAC81C991845BE0"]
+			icon: {
+				id: "ars_nouveau:novice_spell_book"
+			}
+			id: "123802F7BAEEB218"
+			rewards: [{
+				id: "0B449896B659D648"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				advancement: "ars_nouveau:novice_spell_book"
+				criterion: ""
+				id: "3A25A47C63E992B7"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["123802F7BAEEB218"]
+			icon: {
+				id: "ars_nouveau:scribes_table"
+			}
+			id: "211D2A6258A7EF6E"
+			rewards: [{
+				count: 4
+				id: "49D3D2DB6D28571C"
+				item: {
+					count: 1
+					id: "ars_nouveau:blank_parchment"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FDA8A094FAE1C74"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: 4.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["211D2A6258A7EF6E"]
+			icon: {
+				id: "ars_nouveau:spell_parchment"
+			}
+			id: "5EDD9170E08DEB7E"
+			rewards: [{
+				id: "2F9B7A5673694A10"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "0BB0283C306E2987"
+				item: { count: 1, id: "ars_nouveau:spell_parchment" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5EDD9170E08DEB7E"
+				"5956F4CAA29530ED"
+			]
+			icon: {
+				id: "ars_nouveau:apprentice_spell_book"
+			}
+			id: "7AF219F8B33A08C7"
+			rewards: [{
+				id: "6B99631E296A7210"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "ars_nouveau:apprentice_spell_book"
+				criterion: ""
+				id: "4427CDFF58B6719E"
+				type: "advancement"
+			}]
+			x: 9.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7AF219F8B33A08C7"]
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+			}
+			id: "4FC5BF5420DF4471"
+			rewards: [{
+				id: "1E51916148D786DA"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				advancement: "ars_nouveau:archmage_spell_book"
+				criterion: ""
+				id: "5BC5CCA4E2C79E94"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7AF219F8B33A08C7"]
+			icon: {
+				id: "ars_nouveau:enchanters_sword"
+			}
+			id: "222EE1A4D1ACF08A"
+			optional: true
+			rewards: [{
+				id: "23C88294B9B2B6BC"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "ars_nouveau:enchanters_sword"
+				}
+				id: "25DBF58E0CE61A1B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:enchanters_sword)item(ars_nouveau:spell_bow)item(ars_nouveau:spell_crossbow)item(ars_nouveau:wand)item(ars_nouveau:enchanters_shield))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 13.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7D6E0507EEC38CEA"]
+			icon: {
+				id: "ars_nouveau:source_jar"
+			}
+			id: "53BFB14E1114BC17"
+			shape: "rsquare"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["53BFB14E1114BC17"]
+			icon: {
+				id: "ars_nouveau:source_jar"
+			}
+			id: "6F99D91C944CC414"
+			rewards: [{
+				id: "119C8CA5BE69D856"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					advancement: "ars_nouveau:source_jar"
+					criterion: ""
+					id: "3A821F30FAD2648C"
+					type: "advancement"
+				}
+				{
+					icon: {
+						id: "ars_nouveau:agronomic_sourcelink"
+					}
+					id: "1D913B502BBC4CC1"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:agronomic_sourcelink)item(ars_nouveau:volcanic_sourcelink)item(ars_nouveau:mycelial_sourcelink)item(ars_nouveau:vitalic_sourcelink)item(ars_nouveau:alchemical_sourcelink))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F99D91C944CC414"]
+			icon: {
+				id: "ars_nouveau:source_gem"
+			}
+			id: "593477B84BA33101"
+			rewards: [{
+				count: 16
+				id: "430906C1514E82F1"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_shard"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					advancement: "ars_nouveau:imbuement_chamber"
+					criterion: ""
+					id: "0028DA3DA3FE2903"
+					type: "advancement"
+				}
+				{
+					count: 8L
+					id: "5CB035C2B38479F3"
+					item: { count: 1, id: "ars_nouveau:source_gem" }
+					type: "item"
+				}
+			]
+			x: 4.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["593477B84BA33101"]
+			icon: {
+				id: "ars_nouveau:enchanting_apparatus"
+			}
+			id: "5956F4CAA29530ED"
+			rewards: [{
+				id: "1F2B5FC3AF622779"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "ars_nouveau:enchanting_apparatus"
+					criterion: ""
+					id: "0A80968B5DD12DEA"
+					type: "advancement"
+				}
+				{
+					id: "38BDE9801616278F"
+					item: { count: 1, id: "ars_nouveau:arcane_core" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0B7BFE538EC91ECD"
+					item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5956F4CAA29530ED"]
+			icon: {
+				id: "ars_nouveau:fire_essence"
+			}
+			id: "4B45B1A8D5605AC2"
+			rewards: [{
+				id: "40A34ABF25DBF74F"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 4L
+				icon: {
+					id: "ars_nouveau:fire_essence"
+				}
+				id: "74F3DC9070AC1F83"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:fire_essence)item(ars_nouveau:water_essence)item(ars_nouveau:earth_essence)item(ars_nouveau:air_essence)item(ars_nouveau:abjuration_essence)item(ars_nouveau:conjuration_essence)item(ars_nouveau:manipulation_essence))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["593477B84BA33101"]
+			icon: {
+				id: "ars_nouveau:magebloom"
+			}
+			id: "3036621BF837C97E"
+			rewards: [{
+				count: 16
+				id: "0F2840EFBFEE16D0"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "ars_nouveau:magebloom_crop"
+				criterion: ""
+				id: "100E218A7DE3B618"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3036621BF837C97E"
+				"5956F4CAA29530ED"
+			]
+			icon: {
+				id: "ars_nouveau:arcanist_robes"
+			}
+			id: "6450EA4558F2F22A"
+			rewards: [{
+				count: 2
+				id: "23E1D528C7F4A719"
+				item: {
+					count: 1
+					id: "ars_nouveau:blank_thread"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					advancement: "ars_nouveau:alteration_table"
+					criterion: ""
+					id: "706F85C066444BD9"
+					type: "advancement"
+				}
+				{
+					icon: {
+						id: "ars_nouveau:arcanist_robes"
+					}
+					id: "5023EC03A32F1C6A"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:sorcerer_hood)item(ars_nouveau:sorcerer_robes)item(ars_nouveau:sorcerer_leggings)item(ars_nouveau:sorcerer_boots)item(ars_nouveau:arcanist_hood)item(ars_nouveau:arcanist_robes)item(ars_nouveau:arcanist_leggings)item(ars_nouveau:arcanist_boots)item(ars_nouveau:battlemage_hood)item(ars_nouveau:battlemage_robes)item(ars_nouveau:battlemage_leggings)item(ars_nouveau:battlemage_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 13.75d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4B45B1A8D5605AC2"]
+			icon: {
+				id: "ars_nouveau:amulet_of_mana_boost"
+			}
+			id: "794ED607E5669300"
+			optional: true
+			rewards: [{
+				id: "0D1D90ECF0AE2B7B"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "ars_nouveau:amulet_of_mana_boost"
+				}
+				id: "7650D71B0F383A7B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:ring_of_lesser_discount)item(ars_nouveau:ring_of_greater_discount)item(ars_nouveau:amulet_of_mana_boost)item(ars_nouveau:amulet_of_mana_regen)item(ars_nouveau:belt_of_levitation)item(ars_nouveau:jump_ring)item(ars_nouveau:belt_of_unstable_gifts))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5956F4CAA29530ED"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "4D47EF1F281A8102"
+			shape: "rsquare"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D47EF1F281A8102"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "1ADBA513264E055E"
+			rewards: [{
+				count: 4
+				id: "5FF8229B6F8294D5"
+				item: {
+					count: 1
+					id: "ars_nouveau:sourceberry_bush"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "ars_nouveau:starby_charm"
+				criterion: ""
+				id: "0EE3415F20155463"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ADBA513264E055E"]
+			icon: {
+				id: "ars_nouveau:whirlisprig_charm"
+			}
+			id: "597FD6E0B275A3A5"
+			rewards: [{
+				id: "74BF69962C5B1C73"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				advancement: "ars_nouveau:whirlisprig_charm"
+				criterion: ""
+				id: "41DD1FB6384577C4"
+				type: "advancement"
+			}]
+			x: 4.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ADBA513264E055E"]
+			icon: {
+				id: "ars_nouveau:drygmy_charm"
+			}
+			id: "2BCF02CF9C72C3B1"
+			rewards: [{
+				id: "354475A188753173"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				advancement: "ars_nouveau:drygmy_charm"
+				criterion: ""
+				id: "0E4C949C270C6143"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ADBA513264E055E"]
+			icon: {
+				id: "ars_nouveau:wixie_charm"
+			}
+			id: "66301D7AE0DDBE1B"
+			rewards: [{
+				id: "4D938D718BC1C214"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				advancement: "ars_nouveau:wixie_charm"
+				criterion: ""
+				id: "7246097744CE9089"
+				type: "advancement"
+			}]
+			x: 9.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ADBA513264E055E"]
+			icon: {
+				id: "ars_nouveau:amethyst_golem_charm"
+			}
+			id: "1B0D2C835A683587"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "4E2C1A0FDEA6262E"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_shard"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "ars_nouveau:amethyst_golem_charm"
+				criterion: ""
+				id: "16A2D5DFD08706F9"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["597FD6E0B275A3A5"]
+			icon: {
+				id: "ars_nouveau:familiar_starbuncle"
+			}
+			id: "03EFE5BDDDA321AE"
+			rewards: [{
+				id: "7FA703499E2E1FE3"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				advancement: "ars_nouveau:familiar"
+				criterion: ""
+				id: "09A6DECD1129CFA8"
+				type: "advancement"
+			}]
+			x: 13.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5956F4CAA29530ED"]
+			icon: {
+				id: "ars_nouveau:ritual_brazier"
+			}
+			id: "23B13B5C30AFD9D3"
+			shape: "rsquare"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["23B13B5C30AFD9D3"]
+			icon: {
+				id: "ars_nouveau:basic_spell_turret"
+			}
+			id: "5A034C0F5C481D7A"
+			rewards: [{
+				id: "630F9B669C59E814"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				advancement: "ars_nouveau:basic_spell_turret"
+				criterion: ""
+				id: "5EC74274F9EC3922"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A034C0F5C481D7A"]
+			icon: {
+				id: "ars_nouveau:potion_melder"
+			}
+			id: "4FD74DA117863B72"
+			rewards: [{
+				count: 8
+				id: "71E6D64DFD0C94E4"
+				item: {
+					count: 1
+					id: "minecraft:glass_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					advancement: "ars_nouveau:potion_jar"
+					criterion: ""
+					id: "31A873B57362171B"
+					type: "advancement"
+				}
+				{
+					advancement: "ars_nouveau:potion_melder"
+					criterion: ""
+					id: "1ECBCE4B76ED1559"
+					type: "advancement"
+				}
+			]
+			x: 4.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A034C0F5C481D7A"]
+			icon: {
+				id: "ars_nouveau:warp_scroll"
+			}
+			id: "5DDA0A577DB927F6"
+			rewards: [{
+				id: "7E3610473318203E"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				advancement: "ars_nouveau:warp_scroll"
+				criterion: ""
+				id: "6685566BCC8ECBBC"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A034C0F5C481D7A"]
+			icon: {
+				id: "ars_nouveau:ritual_brazier"
+			}
+			id: "5BE1D909D7578660"
+			rewards: [{
+				id: "5B1CA3E4A88FE99A"
+				type: "xp"
+				xp: 300
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "ars_nouveau:ritual_brazier"
+					criterion: ""
+					id: "1A22480BE0DAEB06"
+					type: "advancement"
+				}
+				{
+					icon: {
+						id: "ars_nouveau:ritual_conjure_island_plains"
+					}
+					id: "7B041EA4ACE8A9A6"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:ritual_conjure_island_plains)item(ars_nouveau:ritual_conjure_island_desert)item(ars_nouveau:ritual_flight)item(ars_nouveau:ritual_forestation)item(ars_nouveau:ritual_sunrise)item(ars_nouveau:ritual_cloudshaping)item(ars_nouveau:ritual_fertility)item(ars_nouveau:ritual_harvest))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5BE1D909D7578660"]
+			icon: {
+				id: "ars_nouveau:ritual_conjure_island_plains"
+			}
+			id: "2E2BE219B231B7FC"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "0C296E595322B49A"
+				item: {
+					count: 1
+					id: "minecraft:grass_block"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "ars_nouveau:ritual_conjure_island_plains"
+				}
+				id: "67776D2EEC322A18"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ars_nouveau:ritual_conjure_island_plains)item(ars_nouveau:ritual_conjure_island_desert))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5BE1D909D7578660"]
+			icon: {
+				id: "ars_nouveau:wilden_tribute"
+			}
+			id: "75F3066817DBF8FE"
+			optional: true
+			rewards: [{
+				id: "4C68599A63C299A0"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "ars_nouveau:wilden_tribute"
+				criterion: ""
+				id: "5A295B4610BCFB37"
+				type: "advancement"
+			}]
+			x: 13.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F99D91C944CC414"]
+			icon: {
+				id: "ars_technica:source_motor"
+			}
+			id: "308DD2D7E88F15FB"
+			shape: "rsquare"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["308DD2D7E88F15FB"]
+			icon: {
+				id: "ars_creo:starbuncle_wheel"
+			}
+			id: "47D53FCEBA4183F0"
+			rewards: [{
+				id: "2E49216E2544B6F1"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "31DF0AD16ABE73EC"
+				item: { count: 1, id: "ars_creo:starbuncle_wheel" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["47D53FCEBA4183F0"]
+			icon: {
+				id: "ars_technica:source_motor"
+			}
+			id: "48229D11D3A2E4FD"
+			rewards: [{
+				id: "53CBC70258841000"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				advancement: "ars_nouveau:source_motor"
+				criterion: ""
+				id: "6D0E5C21AE0768B9"
+				type: "advancement"
+			}]
+			x: 4.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["48229D11D3A2E4FD"]
+			icon: {
+				id: "ars_technica:calibrated_precision_mechanism"
+			}
+			id: "41065267FB59AE0D"
+			rewards: [{
+				id: "3D3AE025EB83B063"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				advancement: "ars_nouveau:calibrated_precision_mechanism"
+				criterion: ""
+				id: "7A3F165FDF8A50FD"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["41065267FB59AE0D"]
+			icon: {
+				id: "ars_technica:glyph_press"
+			}
+			id: "6F16C4AB0A9BAED9"
+			rewards: [{
+				id: "34265B5CD6F67FAD"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				icon: {
+					id: "ars_technica:glyph_press"
+				}
+				id: "4D84335119BDC2A3"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ars_technica:glyph_press)item(ars_technica:glyph_whirl)item(ars_technica:glyph_superheat)item(ars_technica:glyph_fuse)item(ars_technica:glyph_polish)item(ars_technica:glyph_carve)item(ars_technica:glyph_apply))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["41065267FB59AE0D"]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "5E4372D709CD5803"
+			optional: true
+			rewards: [{
+				id: "5E05E195FC763482"
+				type: "xp"
+				xp: 150
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "ars_nouveau:runic_spanner"
+				criterion: ""
+				id: "4DB88923B353F974"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6F16C4AB0A9BAED9"]
+			icon: {
+				id: "ars_technica:technomancer_helmet"
+			}
+			id: "7F1FC3DD36CE1A1A"
+			optional: true
+			rewards: [{
+				id: "6429009C8ED36572"
+				type: "xp"
+				xp: 400
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "ars_technica:technomancer_helmet"
+				}
+				id: "56FDBC208107AC49"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ars_technica:technomancer_helmet)item(ars_technica:technomancer_chestplate)item(ars_technica:artificer_cap)item(ars_technica:artificer_tunic)item(ars_technica:pocket_factory))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 13.75d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4FC5BF5420DF4471"
+				"6450EA4558F2F22A"
+				"66301D7AE0DDBE1B"
+				"5BE1D909D7578660"
+				"6F16C4AB0A9BAED9"
+			]
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+			}
+			id: "62333F3BFE230D15"
+			min_required_dependencies: 4
+			rewards: [
+				{
+					count: 2
+					id: "3C27DC24A7A8F5CE"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "070B1412D49BB83F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			x: 19.25d
+			y: 0.0d
+		}
+	]
+}

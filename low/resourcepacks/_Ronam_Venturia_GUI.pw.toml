@@ -1,0 +1,8 @@
+name = "[Ronam] Venturia GUI.zip"
+filename = "[Ronam] Venturia GUI.zip"
+side = "client"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/3ae476fac92cc76e238e6f7b691bff647edbcd3f.zip"
+hash-format = "sha1"
+hash = "3ae476fac92cc76e238e6f7b691bff647edbcd3f"

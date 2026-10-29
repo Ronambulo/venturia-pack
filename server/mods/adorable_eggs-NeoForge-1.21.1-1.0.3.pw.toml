@@ -1,0 +1,8 @@
+name = "adorable_eggs-NeoForge-1.21.1-1.0.3.jar"
+filename = "adorable_eggs-NeoForge-1.21.1-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/v1NZJevY/versions/kL5diTED/adorable_eggs-NeoForge-1.21.1-1.0.3.jar"
+hash-format = "sha1"
+hash = "ae4edc9ed842bf6e0abbde5a12b1ce4568b85bfe"

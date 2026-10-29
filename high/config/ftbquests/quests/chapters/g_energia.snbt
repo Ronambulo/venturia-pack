@@ -1,0 +1,433 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "g_energia"
+	group: "094E0F2FCF1D26FE"
+	icon: {
+		id: "createaddition:alternator"
+	}
+	id: "70A2EE6C310A7263"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["568C062B517D5E83"]
+			icon: {
+				id: "createaddition:alternator"
+			}
+			id: "0B1B829FE93BBDF7"
+			shape: "hexagon"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B1B829FE93BBDF7"]
+			icon: {
+				id: "createaddition:copper_spool"
+			}
+			id: "76FE475676291BD7"
+			rewards: [{
+				count: 16
+				id: "621B4177D101BFDD"
+				item: {
+					count: 1
+					id: "createaddition:copper_wire"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3D142A2700D2EAA9"
+					item: { count: 1, id: "createaddition:rolling_mill" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "117AF29CFB54BB44"
+					item: { count: 1, id: "createaddition:connector" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "createaddition:copper_spool"
+					}
+					id: "0040776B81A252F0"
+					item: { components: { "ftbfiltersystem:filter": "or(item(createaddition:copper_spool)item(createaddition:gold_spool)item(createaddition:electrum_spool))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76FE475676291BD7"]
+			icon: {
+				id: "createaddition:alternator"
+			}
+			id: "79F8C9BA83B1ACB8"
+			rewards: [{
+				id: "6D27F04943BB8458"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "70B2D6B376858EB1"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["79F8C9BA83B1ACB8"]
+			icon: {
+				id: "createaddition:modular_accumulator"
+			}
+			id: "3B80E7AA1D6867BE"
+			rewards: [{
+				id: "3255B74E841C6E64"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 2L
+				id: "2456887AC2F3C577"
+				item: { count: 1, id: "createaddition:modular_accumulator" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B80E7AA1D6867BE"]
+			icon: {
+				id: "createaddition:tesla_coil"
+			}
+			id: "7B34AE555D3ABB92"
+			optional: true
+			rewards: [{
+				id: "73CF88AD485084CF"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "createaddition:tesla_coil"
+				}
+				id: "369D54DFD7C75807"
+				item: { components: { "ftbfiltersystem:filter": "or(item(createaddition:tesla_coil)item(wirelesschargers:basic_wireless_player_charger)item(wirelesschargers:basic_wireless_block_charger))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B1B829FE93BBDF7"]
+			icon: {
+				id: "createdieselgenerators:bulk_fermenter"
+			}
+			id: "6CC34D2AE110E7B4"
+			rewards: [{
+				count: 32
+				id: "369E1DC18489DE76"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1889F1889B1FBB4E"
+					item: { count: 1, id: "createdieselgenerators:bulk_fermenter" }
+					type: "item"
+				}
+				{
+					id: "5178506C119B6EBB"
+					item: { count: 1, id: "createdieselgenerators:canister" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CC34D2AE110E7B4"]
+			icon: {
+				id: "createdieselgenerators:diesel_engine"
+			}
+			id: "4EBA6106AE9A9705"
+			rewards: [{
+				id: "7CF373DD3F23AEC5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				icon: {
+					id: "createdieselgenerators:diesel_engine"
+				}
+				id: "0151013F823B42C0"
+				item: { components: { "ftbfiltersystem:filter": "or(item(createdieselgenerators:diesel_engine)item(createdieselgenerators:large_diesel_engine)item(createdieselgenerators:huge_diesel_engine))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4EBA6106AE9A9705"]
+			icon: {
+				id: "createdieselgenerators:pumpjack_head"
+			}
+			id: "3E66D6E66EBA36A8"
+			optional: true
+			rewards: [{
+				id: "50869628AFB8EB2F"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "1CECE5E5AE277660"
+					item: { count: 1, id: "createdieselgenerators:oil_scanner" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "createdieselgenerators:pumpjack_bearing"
+					}
+					id: "7FA25C417C1D9854"
+					item: { components: { "ftbfiltersystem:filter": "or(item(createdieselgenerators:pumpjack_bearing)item(createdieselgenerators:distillation_controller))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B1B829FE93BBDF7"]
+			icon: {
+				id: "powah:energizing_orb"
+			}
+			id: "462DD8D2137EC3B7"
+			rewards: [{
+				id: "21ED75EF694DD0AB"
+				type: "xp"
+				xp: 300
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "4918A97921B50701"
+					item: { count: 1, id: "powah:energizing_orb" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3B6795F50AC1664C"
+					item: { count: 1, id: "powah:steel_energized" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["462DD8D2137EC3B7"]
+			icon: {
+				id: "powah:solar_panel_starter"
+			}
+			id: "00382426A1CDD882"
+			rewards: [{
+				id: "07CA81DCB8086519"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				icon: {
+					id: "powah:solar_panel_starter"
+				}
+				id: "0DAD91BB6778A6E2"
+				item: { components: { "ftbfiltersystem:filter": "or(item(powah:solar_panel_starter)item(powah:solar_panel_basic)item(powah:furnator_starter)item(powah:furnator_basic)item(powah:thermo_generator_starter)item(powah:thermo_generator_basic)item(powah:magmator_starter)item(powah:magmator_basic))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00382426A1CDD882"]
+			icon: {
+				id: "powah:reactor_basic"
+			}
+			id: "3443ABCC661628B8"
+			optional: true
+			rewards: [{
+				id: "6B4ABA39965DF23D"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "gear"
+			tasks: [{
+				count: 36L
+				icon: {
+					id: "powah:reactor_starter"
+				}
+				id: "1CEAEFFA21EA94A0"
+				item: { components: { "ftbfiltersystem:filter": "or(item(powah:reactor_starter)item(powah:reactor_basic)item(powah:reactor_hardened)item(powah:reactor_blazing))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00382426A1CDD882"]
+			icon: {
+				id: "fluxnetworks:flux_point"
+			}
+			id: "72579264319B86CA"
+			optional: true
+			rewards: [{
+				id: "26A8D5052A007245"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					id: "41FDD384DDCBF5AE"
+					item: { count: 1, id: "fluxnetworks:flux_plug" }
+					type: "item"
+				}
+				{
+					id: "5A349587887E2844"
+					item: { count: 1, id: "fluxnetworks:flux_point" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B1B829FE93BBDF7"]
+			icon: {
+				id: "createoreexcavation:drilling_machine"
+			}
+			id: "06B5CA38877D69CF"
+			rewards: [{
+				id: "55CD1878D1A3ABC8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					id: "6D2B9BBDADFED235"
+					item: { count: 1, id: "createoreexcavation:vein_finder" }
+					type: "item"
+				}
+				{
+					id: "3DD12D126F6BC41D"
+					item: { count: 1, id: "createoreexcavation:drilling_machine" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "createoreexcavation:drill"
+					}
+					id: "6BBD8FB5B94C3885"
+					item: { components: { "ftbfiltersystem:filter": "or(item(createoreexcavation:drill)item(createoreexcavation:diamond_drill)item(createoreexcavation:netherite_drill))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["06B5CA38877D69CF"]
+			icon: {
+				id: "create_power_loader:brass_chunk_loader"
+			}
+			id: "111CEE8887543F84"
+			rewards: [{
+				id: "29E0CD3A1F7EDC64"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				icon: {
+					id: "create_power_loader:andesite_chunk_loader"
+				}
+				id: "5D20D6F59D7D780B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(create_power_loader:andesite_chunk_loader)item(create_power_loader:brass_chunk_loader))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["06B5CA38877D69CF"]
+			icon: {
+				id: "modern_industrialization:bronze_boiler"
+			}
+			id: "47540A6BC7A3FCA9"
+			optional: true
+			rewards: [{
+				id: "68A707FA48F76EA8"
+				item: {
+					count: 1
+					id: "modern_industrialization:guidebook"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					id: "modern_industrialization:bronze_boiler"
+				}
+				id: "174A622E63E7FE8A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_boiler)item(modern_industrialization:forge_hammer)item(modern_industrialization:coke_oven)item(modern_industrialization:bronze_furnace)item(modern_industrialization:bronze_macerator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3B80E7AA1D6867BE"
+				"4EBA6106AE9A9705"
+				"462DD8D2137EC3B7"
+				"06B5CA38877D69CF"
+			]
+			icon: {
+				id: "powah:energy_cell_basic"
+			}
+			id: "0542494712F5987E"
+			min_required_dependencies: 3
+			rewards: [
+				{
+					count: 2
+					id: "2D41F0B5C9AC8801"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "294F239D2974D970"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			x: 13.0d
+			y: 0.0d
+		}
+	]
+}

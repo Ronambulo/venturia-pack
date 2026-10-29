@@ -1,0 +1,8 @@
+name = "just-hammers-neoforge-21.1.4.jar"
+filename = "just-hammers-neoforge-21.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/edU0NbZZ/versions/SobtrAG5/just-hammers-neoforge-21.1.4.jar"
+hash-format = "sha1"
+hash = "9db9f80eeb27ab968b989f4b9b0f4ab88af6ec01"

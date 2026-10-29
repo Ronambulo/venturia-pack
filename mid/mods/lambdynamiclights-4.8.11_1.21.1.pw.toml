@@ -1,0 +1,8 @@
+name = "lambdynamiclights-4.8.11+1.21.1.jar"
+filename = "lambdynamiclights-4.8.11+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yBW8D80W/versions/ksaGCvSu/lambdynamiclights-4.8.11%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "7b5afc75a094b4e8a7118f9856eec959b10f2422"

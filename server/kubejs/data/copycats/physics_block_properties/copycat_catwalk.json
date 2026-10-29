@@ -1,0 +1,7 @@
+{
+    "selector": "copycats:copycat_vertical_step",
+    "priority": 1000,
+    "properties": {
+        "sable:mass": 0.25
+    }
+}

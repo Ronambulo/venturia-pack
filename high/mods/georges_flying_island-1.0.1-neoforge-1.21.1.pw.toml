@@ -1,0 +1,8 @@
+name = "georges_flying_island-1.0.1-neoforge-1.21.1.jar"
+filename = "georges_flying_island-1.0.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Yd0fNmVR/versions/iK7Gbw9d/georges_flying_island-1.0.1-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "9f806bd9934968735ac1a7cfa85b6acb53167c4d"

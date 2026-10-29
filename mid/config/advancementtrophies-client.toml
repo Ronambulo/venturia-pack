@@ -1,0 +1,9 @@
+	#Settings related to the appearance of the trophy block in the world.
+	["Client Settings"."Trophy Label"]
+		#BETA: If true, the achiever's name is displayed on the trophy's base. This feature is experimental and may not display well with long names.
+		showAchieverLabel = false
+
+	#Settings related to the trophy item's tooltip.
+	["Client Settings".Tooltip]
+		#Defines the format for the achievement date in the tooltip. Uses Java's SimpleDateFormat pattern (e.g., yyyy/MM/dd HH:mm:ss).
+		dateFormat = "yyyy/MM/dd HH:mm:ss"

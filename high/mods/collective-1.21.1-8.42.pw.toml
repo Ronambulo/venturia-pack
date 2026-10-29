@@ -1,0 +1,8 @@
+name = "collective-1.21.1-8.42.jar"
+filename = "collective-1.21.1-8.42.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/ZHBXubZ4/collective-1.21.1-8.42.jar"
+hash-format = "sha1"
+hash = "b9db90bc675290ad490300b056d3f3f82425f2eb"

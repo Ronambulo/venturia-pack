@@ -1,0 +1,8 @@
+name = "connectivity-1.21.1-7.7.jar"
+filename = "connectivity-1.21.1-7.7.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/b4900c9a46123e2c7d6bfd653abbced92aab560b.jar"
+hash-format = "sha1"
+hash = "b4900c9a46123e2c7d6bfd653abbced92aab560b"

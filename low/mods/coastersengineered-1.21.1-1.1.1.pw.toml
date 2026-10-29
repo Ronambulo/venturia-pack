@@ -1,0 +1,8 @@
+name = "coastersengineered-1.21.1-1.1.1.jar"
+filename = "coastersengineered-1.21.1-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/guKf87OB/versions/pzBMM4ER/coastersengineered-1.21.1-1.1.1.jar"
+hash-format = "sha1"
+hash = "71238147443c0cf85bc661f0c56a9e6d4d36fd74"

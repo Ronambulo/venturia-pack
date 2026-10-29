@@ -1,0 +1,8 @@
+name = "stardew_fishing-3.7-1.21.1.jar"
+filename = "stardew_fishing-3.7-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Rw1Ylmn4/versions/iJkNXCRB/stardew_fishing-3.7-1.21.1.jar"
+hash-format = "sha1"
+hash = "3fd3e299634dae1e671c7dd485af004eb7d71e50"

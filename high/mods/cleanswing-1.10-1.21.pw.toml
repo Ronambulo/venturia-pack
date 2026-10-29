@@ -1,0 +1,8 @@
+name = "cleanswing-1.10-1.21.jar"
+filename = "cleanswing-1.10-1.21.jar"
+side = "client"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/1df3892b57ad00a75c5bb4a6f6b2749aa126e548.jar"
+hash-format = "sha1"
+hash = "1df3892b57ad00a75c5bb4a6f6b2749aa126e548"

@@ -1,0 +1,8 @@
+name = "automessage-merged-1.21.1-3.0.0.jar"
+filename = "automessage-merged-1.21.1-3.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vtggzSb5/versions/Tra0KX5Q/automessage-merged-1.21.1-3.0.0.jar"
+hash-format = "sha1"
+hash = "1c312eb30c8e1bd608d4ea66b1a950f780ee814a"

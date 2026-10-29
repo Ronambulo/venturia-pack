@@ -1,0 +1,8 @@
+name = "createaeronauticscurios-neoforge-1.21.1-2.2.jar"
+filename = "createaeronauticscurios-neoforge-1.21.1-2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XdeUdp2p/versions/mFcxlsvt/createaeronauticscurios-neoforge-1.21.1-2.2.jar"
+hash-format = "sha1"
+hash = "ded927b94810ff89791e1e57bcd20b468bd98a9f"

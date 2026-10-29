@@ -1,0 +1,8 @@
+name = "simple_villager_follow-neoforge-1.21.1-1.0.0.jar"
+filename = "simple_villager_follow-neoforge-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TLfqKtxl/versions/y0H9P88u/simple_villager_follow-neoforge-1.21.1-1.0.0.jar"
+hash-format = "sha1"
+hash = "616b1543337329056315eb926e0b13f31f322eab"

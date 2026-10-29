@@ -1,0 +1,8 @@
+name = "AdvancedLootInfo-neoforge-1.21.1-2.4.0.jar"
+filename = "AdvancedLootInfo-neoforge-1.21.1-2.4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PEPVViac/versions/ATGK1BZ2/AdvancedLootInfo-neoforge-1.21.1-2.4.0.jar"
+hash-format = "sha1"
+hash = "cbf395184974d0a3ce250afd128e5357d1edb512"

@@ -1,0 +1,9 @@
+{
+  "draw_lods": true,
+  "generate_chunks": true,
+  "section_render_distance": 16.0,
+  "service_threads": 5,
+  "sub_division_size": 64.0,
+  "use_environmental_fog": true,
+  "dont_use_sodium_builder_threads": false
+}

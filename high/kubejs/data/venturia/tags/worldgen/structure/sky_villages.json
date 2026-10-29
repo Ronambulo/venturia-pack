@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "skyvillages:skyvillage", "required": false },
+    { "id": "create_sky_village:skyvillage", "required": false },
+    { "id": "create_sky_village:highwind_village", "required": false },
+    { "id": "create_structures_arise:createminiskyvillage", "required": false }
+  ]
+}

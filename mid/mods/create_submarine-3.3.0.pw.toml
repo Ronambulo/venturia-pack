@@ -1,0 +1,8 @@
+name = "create_submarine-3.3.0.jar"
+filename = "create_submarine-3.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mva5q4qZ/versions/8CV1LRTl/create_submarine-3.3.0.jar"
+hash-format = "sha1"
+hash = "b1aaaf64423d9e80aa750c71de426f6aaa33989e"

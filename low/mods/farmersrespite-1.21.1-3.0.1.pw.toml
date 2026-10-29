@@ -1,0 +1,8 @@
+name = "farmersrespite-1.21.1-3.0.1.jar"
+filename = "farmersrespite-1.21.1-3.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/AioQLjKj/versions/aChm7DAW/farmersrespite-1.21.1-3.0.1.jar"
+hash-format = "sha1"
+hash = "9da31eaa6ac8fcfae8d4d53323aa04ad11f054b0"

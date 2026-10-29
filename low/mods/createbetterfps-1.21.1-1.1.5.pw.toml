@@ -1,0 +1,8 @@
+name = "createbetterfps-1.21.1-1.1.5.jar"
+filename = "createbetterfps-1.21.1-1.1.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/lMYIHZNH/versions/dxmPYimo/createbetterfps-1.21.1-1.1.5.jar"
+hash-format = "sha1"
+hash = "c06111569e30af58d1cec4b4ee4b545f0021172a"

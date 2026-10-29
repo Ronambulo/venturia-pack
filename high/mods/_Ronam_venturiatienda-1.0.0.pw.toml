@@ -1,0 +1,8 @@
+name = "[Ronam]venturiatienda-1.0.0.jar"
+filename = "[Ronam]venturiatienda-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/59858a83d5abb3335fe98f2cac569ead97114202.jar"
+hash-format = "sha1"
+hash = "59858a83d5abb3335fe98f2cac569ead97114202"

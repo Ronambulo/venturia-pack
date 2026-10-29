@@ -1,0 +1,8 @@
+name = "clientcrafting-1.21-2.1.jar"
+filename = "clientcrafting-1.21-2.1.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/ed816decf1ce06bd17b3a446b4fddd33b07ace40.jar"
+hash-format = "sha1"
+hash = "ed816decf1ce06bd17b3a446b4fddd33b07ace40"

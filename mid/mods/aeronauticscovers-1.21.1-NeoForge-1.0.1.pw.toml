@@ -1,0 +1,8 @@
+name = "aeronauticscovers-1.21.1-NeoForge-1.0.1.jar"
+filename = "aeronauticscovers-1.21.1-NeoForge-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eWrKPy9E/versions/R35biaZf/aeronauticscovers-1.21.1-NeoForge-1.0.1.jar"
+hash-format = "sha1"
+hash = "c4404a98d85c75e5e80ace462c3ed1bdf0b1c93e"

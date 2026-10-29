@@ -1,0 +1,8 @@
+name = "lionfishapi-3.1.jar"
+filename = "lionfishapi-3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FoVacERa/versions/fTRMVgyZ/lionfishapi-3.1.jar"
+hash-format = "sha1"
+hash = "353ca00ed118eb67cf11085abbbd699884722326"

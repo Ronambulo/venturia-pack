@@ -1,0 +1,8 @@
+name = "puffish_skills-0.19.2-1.21-neoforge.jar"
+filename = "puffish_skills-0.19.2-1.21-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hqQqvaa4/versions/8tfcI2wU/puffish_skills-0.19.2-1.21-neoforge.jar"
+hash-format = "sha1"
+hash = "e7439fa56036bfacf228269b8b89f10cbbba13fd"

@@ -1,0 +1,8 @@
+name = "culturaldelights-1.21.1-0.18.1.jar"
+filename = "culturaldelights-1.21.1-0.18.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YttyNOFA/versions/jL5hP1qm/culturaldelights-1.21.1-0.18.1.jar"
+hash-format = "sha1"
+hash = "0be069977520f620e9ff771399430e79b51c3640"

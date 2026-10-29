@@ -1,0 +1,8 @@
+name = "eatinganimation-1.21.0-6.0.1.jar"
+filename = "eatinganimation-1.21.0-6.0.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/X8CISwXp/versions/D7saUVV5/eatinganimation-1.21.0-6.0.1.jar"
+hash-format = "sha1"
+hash = "68f276dc8cf57658b0afc2112c6ee63325989e02"

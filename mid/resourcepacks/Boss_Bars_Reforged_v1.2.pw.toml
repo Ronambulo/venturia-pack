@@ -1,0 +1,8 @@
+name = "Boss Bars Reforged v1.2.zip"
+filename = "Boss Bars Reforged v1.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uGOo9pIY/versions/4mjgmRSC/Boss%20Bars%20Reforged%20v1.2.zip"
+hash-format = "sha1"
+hash = "14d67c9823c6e78062c2178f20cb004b64e3c192"

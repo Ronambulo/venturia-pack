@@ -1,0 +1,8 @@
+name = "DiagonalWindows-v21.1.1-1.21.1-NeoForge.jar"
+filename = "DiagonalWindows-v21.1.1-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oOi0CKes/versions/IwUmOLxe/DiagonalWindows-v21.1.1-1.21.1-NeoForge.jar"
+hash-format = "sha1"
+hash = "a2d28a50756a297d77f0a0fb9a015f4c2c501700"

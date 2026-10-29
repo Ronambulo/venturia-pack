@@ -1,0 +1,351 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act4"
+	group: "7EAAD566B90C2B1E"
+	icon: {
+		id: "create:brass_ingot"
+	}
+	id: "4AD0C986959FDFD0"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7272F46679403145"]
+			icon: {
+				id: "create:zinc_ingot"
+			}
+			id: "28BF09D6BB21470D"
+			rewards: [{
+				count: 8
+				id: "0EFBFAE6FE14BF25"
+				item: {
+					count: 1
+					id: "create:zinc_ingot"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				count: 8L
+				id: "3B5398F2E0F13939"
+				item: { count: 1, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28BF09D6BB21470D"]
+			icon: {
+				id: "create:blaze_burner"
+			}
+			id: "0F2D34730E8A3A3E"
+			rewards: [{
+				count: 32
+				id: "5BB15E838AF36B10"
+				item: {
+					count: 1
+					id: "minecraft:charcoal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "157CD48A95CA1724"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"28BF09D6BB21470D"
+				"0F2D34730E8A3A3E"
+			]
+			icon: {
+				id: "create:brass_ingot"
+			}
+			id: "0758F6F59FE9848A"
+			rewards: [{
+				count: 8
+				id: "4077764017E8E99A"
+				item: {
+					count: 1
+					id: "create:brass_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7D8CA0B94AC8F30E"
+				item: { count: 1, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0758F6F59FE9848A"]
+			icon: {
+				id: "create:electron_tube"
+			}
+			id: "1BBE6A8E549DAE46"
+			rewards: [{
+				count: 4
+				id: "7A9D40BFC509D313"
+				item: {
+					count: 1
+					id: "create:polished_rose_quartz"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "7AC5D6E457B52A30"
+					item: { count: 1, id: "create:brass_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "255188B808A7968F"
+					item: { count: 1, id: "create:electron_tube" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1BBE6A8E549DAE46"]
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "7FBB5B5E716E972E"
+			rewards: [{
+				count: 8
+				id: "79B0C8D4489A26F5"
+				item: {
+					count: 1
+					id: "create:golden_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "670126DE916AB118"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0E527F3244322CE9"
+					item: { count: 1, id: "create:precision_mechanism" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0758F6F59FE9848A"]
+			icon: {
+				id: "aeronautics:propeller_bearing"
+			}
+			id: "1AA03306ED85A926"
+			rewards: [{
+				count: 16
+				id: "0EA1F049AD0A16B3"
+				item: {
+					count: 1
+					id: "create:white_sail"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1C3AAADF8B743001"
+					item: { count: 1, id: "aeronautics:propeller_bearing" }
+					type: "item"
+				}
+				{
+					advancement: "aeronautics:in_thrust_we_trust"
+					criterion: ""
+					id: "35044F8C8ECD5842"
+					type: "advancement"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1AA03306ED85A926"]
+			icon: {
+				id: "simulated:throttle_lever"
+			}
+			id: "116DF2B933627BCD"
+			rewards: [{
+				id: "55D6334B24575699"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "36DD0D1D539E1D11"
+				item: { count: 1, id: "simulated:throttle_lever" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["116DF2B933627BCD"]
+			icon: {
+				id: "simulated:navigation_table"
+			}
+			id: "40410D3B4A2B83A1"
+			optional: true
+			rewards: [{
+				id: "5678F8F5FA4D8F86"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "simulated:thataway"
+				criterion: ""
+				id: "685BE30992E52FC8"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1AA03306ED85A926"]
+			icon: {
+				id: "simulated:white_nameplate"
+			}
+			id: "78894F1C81796BA4"
+			optional: true
+			rewards: [{
+				id: "23279773C26B13CC"
+				item: {
+					count: 1
+					id: "minecraft:name_tag"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "simulated:i_declare_thee"
+				criterion: ""
+				id: "5B7B2F358BC08398"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7FBB5B5E716E972E"]
+			icon: {
+				id: "aeroclaims:claim_block"
+			}
+			id: "6A2AE24E05CE8EA3"
+			optional: true
+			rewards: [{
+				id: "611213767E0AC527"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "1A2AC6C24814BF86"
+				item: { count: 1, id: "aeroclaims:claim_block" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FBB5B5E716E972E"]
+			icon: {
+				id: "create:mechanical_arm"
+			}
+			id: "3B375A633ADFEAEA"
+			optional: true
+			rewards: [{
+				id: "61FCEFEDEFF92AE2"
+				item: {
+					count: 1
+					id: "create:brass_hand"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "52A437B4FE26CC5B"
+				item: { count: 1, id: "create:mechanical_arm" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0758F6F59FE9848A"]
+			icon: {
+				id: "simulated:rope_winch"
+			}
+			id: "1641C57B8137C96E"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "065CD354E50490DE"
+				item: {
+					count: 1
+					id: "supplementaries:rope"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "simulated:learning_the_ropes"
+				criterion: ""
+				id: "09A90DB053CF8101"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7FBB5B5E716E972E"
+				"116DF2B933627BCD"
+			]
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "568C062B517D5E83"
+			rewards: [
+				{
+					count: 16
+					id: "522FF8D89F8EB57C"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "057EA6C5416B4C89"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+}

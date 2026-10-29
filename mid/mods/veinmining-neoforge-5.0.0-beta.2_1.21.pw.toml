@@ -1,0 +1,8 @@
+name = "veinmining-neoforge-5.0.0-beta.2+1.21.jar"
+filename = "veinmining-neoforge-5.0.0-beta.2+1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bRAPbNyF/versions/bAYRag9u/veinmining-neoforge-5.0.0-beta.2%2B1.21.jar"
+hash-format = "sha1"
+hash = "8fd7cd1e02103b4ffee716f3a76abfd5c04d8883"

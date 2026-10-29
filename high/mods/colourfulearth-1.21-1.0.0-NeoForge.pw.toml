@@ -1,0 +1,8 @@
+name = "colourfulearth-1.21-1.0.0-NeoForge.jar"
+filename = "colourfulearth-1.21-1.0.0-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/blQC9FUr/versions/oGr7P3O9/colourfulearth-1.21-1.0.0-NeoForge.jar"
+hash-format = "sha1"
+hash = "d439b880a92df51d2ca6ecd3c951aca796bd5e28"

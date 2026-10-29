@@ -1,0 +1,8 @@
+name = "AI-Improvements-1.21-0.5.3.jar"
+filename = "AI-Improvements-1.21-0.5.3.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/DSVgwcji/versions/dGNP90t0/AI-Improvements-1.21-0.5.3.jar"
+hash-format = "sha1"
+hash = "b4a8e11384454bcc341043b251db7fb5afdfdf45"

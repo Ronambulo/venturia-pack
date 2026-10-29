@@ -1,0 +1,8 @@
+name = "happy_ghasts_boost-merged-1.21.1-1.0.1.jar"
+filename = "happy_ghasts_boost-merged-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IavCsUgJ/versions/BBppKQR1/happy_ghasts_boost-merged-1.21.1-1.0.1.jar"
+hash-format = "sha1"
+hash = "f64f15471b4b794643f30c1f95551d5fe8f80bfc"

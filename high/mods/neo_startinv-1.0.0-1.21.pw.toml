@@ -1,0 +1,8 @@
+name = "neo_startinv-1.0.0-1.21.jar"
+filename = "neo_startinv-1.0.0-1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8jUIs1kd/versions/QcUGcj7p/neo_startinv-1.0.0-1.21.jar"
+hash-format = "sha1"
+hash = "405274c56f428c5e3c8e5e552626c011696b55ac"

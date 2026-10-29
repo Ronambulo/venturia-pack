@@ -1,0 +1,8 @@
+name = "NetherChested-v21.1.1-1.21.1-NeoForge.jar"
+filename = "NetherChested-v21.1.1-1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bHJp2GRg/versions/fII2Ezk6/NetherChested-v21.1.1-1.21.1-NeoForge.jar"
+hash-format = "sha1"
+hash = "17b325cbc2a474ab08148d2b9932dd8e9fc12646"

@@ -1,0 +1,395 @@
+#Fine-tuning of the effects.
+[Effects]
+
+	[Effects."Vitality Effect"]
+		#Ticks between two exhaustion reductions.
+		# Default: 10
+		# Range: 1 ~ 200
+		vitalityEffectInterval = 10
+		#Exhaustion removed each interval. Grows with the effect level.
+		# Default: 0.08
+		# Range: 0.0 ~ 10.0
+		vitalityEffectExhaustionReduction = 0.08
+
+	[Effects."Sugar Rush Effect"]
+		#How many times Sugar Rush can stack.
+		# Default: 10
+		# Range: 1 ~ 50
+		sugarRushMaxStacks = 10
+		#Speed bonus per stack. 0.02 = 2%.
+		# Default: 0.02
+		# Range: 0.0 ~ 1.0
+		sugarRushBonusPerStack = 0.02
+		#Stacks up to this number add movement speed. Every stack above adds attack speed.
+		# Default: 5
+		# Range: 1 ~ 50
+		sugarRushAttackSpeedStacks = 5
+		#High Sugar Rush stacks also increase attack speed.
+		sugarRushAttackSpeed = true
+
+	[Effects."Completionist Banner Effect"]
+		#The Completionist Banner grants Resistance to players nearby.
+		bannerGiveEffect = true
+		#Radius in blocks in which the Completionist Banner grants Resistance.
+		# Default: 8
+		# Range: 1 ~ 32
+		bannerEffectRadius = 8
+		#Resistance level of the Completionist Banner. 0 = Resistance I.
+		# Default: 1
+		# Range: 0 ~ 4
+		bannerEffectAmplifier = 1
+
+#Info tooltips, Baker Station and tools. Info tooltips only affect your own screen.
+[Misc]
+	#Shows the thank-you tooltip on the Completionist Banner.
+	bannerShowTooltip = true
+	#Shows an info tooltip when looking at the Baker Station or the dough on it.
+	showBakerStationInfo = true
+	#Shows an info tooltip when looking at the Jam Pot.
+	showJamPotInfo = true
+	#Shows what lies on the Wall, Cake and Cupcake Display, the Tray and the Cake Stand and what is in the Bread Box.
+	showDisplayInfo = true
+	#Info tooltips only show while wearing Dungarees from Farm & Charm.
+	needDungarees = false
+	#Blocks of this mod are animated. Without animations every step finishes instantly.
+	animations = true
+	#Dough can be kneaded flat with empty hands.
+	enableKneading = true
+	#Kneading dough plays an animation. Without it the dough is flattened instantly.
+	kneadingAnimation = true
+	#Clicks it takes to knead dough flat with empty hands.
+	# Default: 8
+	# Range: 1 ~ 50
+	kneadPresses = 8
+	#Clicks it takes to flatten dough with a Rolling Pin.
+	# Default: 5
+	# Range: 1 ~ 50
+	rollingPinPresses = 5
+	#Ticks it takes to cut dough with a knife.
+	# Default: 10
+	# Range: 1 ~ 400
+	knifeDuration = 10
+	#Ticks it takes jam to spread over cakes, cupcakes and cookies.
+	# Default: 16
+	# Range: 1 ~ 400
+	jamDuration = 16
+	#Attacks per second of the Bread Knife. Changes need a game restart.
+	# Default: 2.0
+	# Range: 0.1 ~ 4.0
+	knifeAttackSpeed = 2.0
+	#Attacks per second of the Rolling Pin. Changes need a game restart.
+	# Default: 1.2
+	# Range: 0.1 ~ 4.0
+	rollingPinAttackSpeed = 1.2
+
+#Hunger, saturation and effect duration in ticks of the food items. Changes need a game restart.
+[Food]
+	# Default: 5
+	# Range: 0 ~ 20
+	cakeDoughNutrition = 5
+	# Default: 0.6
+	# Range: 0.0 ~ 10.0
+	cakeDoughSaturation = 0.6
+	# Default: 5
+	# Range: 0 ~ 20
+	sweetDoughNutrition = 5
+	# Default: 0.6
+	# Range: 0.0 ~ 10.0
+	sweetDoughSaturation = 0.6
+	# Default: 5
+	# Range: 0 ~ 20
+	croissantNutrition = 5
+	# Default: 0.6
+	# Range: 0.0 ~ 10.0
+	croissantSaturation = 0.6
+	# Default: 900
+	# Range: 0 ~ 72000
+	croissantEffectDuration = 900
+	# Default: 5
+	# Range: 0 ~ 20
+	crustyBreadNutrition = 5
+	# Default: 1.2
+	# Range: 0.0 ~ 10.0
+	crustyBreadSaturation = 1.2
+	# Default: 4800
+	# Range: 0 ~ 72000
+	crustyBreadEffectDuration = 4800
+	# Default: 5
+	# Range: 0 ~ 20
+	breadNutrition = 5
+	# Default: 1.2
+	# Range: 0.0 ~ 10.0
+	breadSaturation = 1.2
+	# Default: 4200
+	# Range: 0 ~ 72000
+	breadEffectDuration = 4200
+	# Default: 5
+	# Range: 0 ~ 20
+	baguetteNutrition = 5
+	# Default: 1.2
+	# Range: 0.0 ~ 10.0
+	baguetteSaturation = 1.2
+	# Default: 4200
+	# Range: 0 ~ 72000
+	baguetteEffectDuration = 4200
+	# Default: 3
+	# Range: 0 ~ 20
+	toastNutrition = 3
+	# Default: 0.8
+	# Range: 0.0 ~ 10.0
+	toastSaturation = 0.8
+	# Default: 5400
+	# Range: 0 ~ 72000
+	toastEffectDuration = 5400
+	# Default: 5
+	# Range: 0 ~ 20
+	braidedBreadNutrition = 5
+	# Default: 1.2
+	# Range: 0.0 ~ 10.0
+	braidedBreadSaturation = 1.2
+	# Default: 4200
+	# Range: 0 ~ 72000
+	braidedBreadEffectDuration = 4200
+	# Default: 7
+	# Range: 0 ~ 20
+	sandwichNutrition = 7
+	# Default: 0.7
+	# Range: 0.0 ~ 10.0
+	sandwichSaturation = 0.7
+	# Default: 1500
+	# Range: 0 ~ 72000
+	sandwichEffectDuration = 1500
+	# Default: 8
+	# Range: 0 ~ 20
+	vegetableSandwichNutrition = 8
+	# Default: 0.6
+	# Range: 0.0 ~ 10.0
+	vegetableSandwichSaturation = 0.6
+	# Default: 1800
+	# Range: 0 ~ 72000
+	vegetableSandwichEffectDuration = 1800
+	# Default: 6
+	# Range: 0 ~ 20
+	grilledSalmonSandwichNutrition = 6
+	# Default: 0.8
+	# Range: 0.0 ~ 10.0
+	grilledSalmonSandwichSaturation = 0.8
+	# Default: 1200
+	# Range: 0 ~ 72000
+	grilledSalmonSandwichEffectDuration = 1200
+	# Default: 7
+	# Range: 0 ~ 20
+	grilledBaconSandwichNutrition = 7
+	# Default: 0.7
+	# Range: 0.0 ~ 10.0
+	grilledBaconSandwichSaturation = 0.7
+	# Default: 1200
+	# Range: 0 ~ 72000
+	grilledBaconSandwichEffectDuration = 1200
+	# Default: 5
+	# Range: 0 ~ 20
+	breadWithJamNutrition = 5
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	breadWithJamSaturation = 0.5
+	# Default: 400
+	# Range: 0 ~ 72000
+	breadWithJamEffectDuration = 400
+	# Default: 5
+	# Range: 0 ~ 20
+	strawberryCakeSliceNutrition = 5
+	# Default: 0.7
+	# Range: 0.0 ~ 10.0
+	strawberryCakeSliceSaturation = 0.7
+	# Default: 600
+	# Range: 0 ~ 72000
+	strawberryCakeSliceEffectDuration = 600
+	# Default: 5
+	# Range: 0 ~ 20
+	sweetberryCakeSliceNutrition = 5
+	# Default: 0.7
+	# Range: 0.0 ~ 10.0
+	sweetberryCakeSliceSaturation = 0.7
+	# Default: 600
+	# Range: 0 ~ 72000
+	sweetberryCakeSliceEffectDuration = 600
+	# Default: 5
+	# Range: 0 ~ 20
+	chocolateCakeSliceNutrition = 5
+	# Default: 0.7
+	# Range: 0.0 ~ 10.0
+	chocolateCakeSliceSaturation = 0.7
+	# Default: 600
+	# Range: 0 ~ 72000
+	chocolateCakeSliceEffectDuration = 600
+	# Default: 5
+	# Range: 0 ~ 20
+	chocolateGateauSliceNutrition = 5
+	# Default: 0.7
+	# Range: 0.0 ~ 10.0
+	chocolateGateauSliceSaturation = 0.7
+	# Default: 600
+	# Range: 0 ~ 72000
+	chocolateGateauSliceEffectDuration = 600
+	# Default: 5
+	# Range: 0 ~ 20
+	bundtCakeSliceNutrition = 5
+	# Default: 0.7
+	# Range: 0.0 ~ 10.0
+	bundtCakeSliceSaturation = 0.7
+	# Default: 600
+	# Range: 0 ~ 72000
+	bundtCakeSliceEffectDuration = 600
+	# Default: 5
+	# Range: 0 ~ 20
+	linzerTartSliceNutrition = 5
+	# Default: 0.7
+	# Range: 0.0 ~ 10.0
+	linzerTartSliceSaturation = 0.7
+	# Default: 600
+	# Range: 0 ~ 72000
+	linzerTartSliceEffectDuration = 600
+	# Default: 5
+	# Range: 0 ~ 20
+	applePieSliceNutrition = 5
+	# Default: 0.7
+	# Range: 0.0 ~ 10.0
+	applePieSliceSaturation = 0.7
+	# Default: 600
+	# Range: 0 ~ 72000
+	applePieSliceEffectDuration = 600
+	# Default: 5
+	# Range: 0 ~ 20
+	glowberryPieSliceNutrition = 5
+	# Default: 0.7
+	# Range: 0.0 ~ 10.0
+	glowberryPieSliceSaturation = 0.7
+	# Default: 600
+	# Range: 0 ~ 72000
+	glowberryPieSliceEffectDuration = 600
+	# Default: 5
+	# Range: 0 ~ 20
+	chocolateTartSliceNutrition = 5
+	# Default: 0.7
+	# Range: 0.0 ~ 10.0
+	chocolateTartSliceSaturation = 0.7
+	# Default: 600
+	# Range: 0 ~ 72000
+	chocolateTartSliceEffectDuration = 600
+	# Default: 5
+	# Range: 0 ~ 20
+	puddingSliceNutrition = 5
+	# Default: 0.7
+	# Range: 0.0 ~ 10.0
+	puddingSliceSaturation = 0.7
+	# Default: 600
+	# Range: 0 ~ 72000
+	puddingSliceEffectDuration = 600
+	# Default: 3
+	# Range: 0 ~ 20
+	strawberryGlazedCookieNutrition = 3
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	strawberryGlazedCookieSaturation = 0.5
+	# Default: 400
+	# Range: 0 ~ 72000
+	strawberryGlazedCookieEffectDuration = 400
+	# Default: 3
+	# Range: 0 ~ 20
+	sweetberryGlazedCookieNutrition = 3
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	sweetberryGlazedCookieSaturation = 0.5
+	# Default: 400
+	# Range: 0 ~ 72000
+	sweetberryGlazedCookieEffectDuration = 400
+	# Default: 3
+	# Range: 0 ~ 20
+	chocolateGlazedCookieNutrition = 3
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	chocolateGlazedCookieSaturation = 0.5
+	# Default: 400
+	# Range: 0 ~ 72000
+	chocolateGlazedCookieEffectDuration = 400
+	# Default: 3
+	# Range: 0 ~ 20
+	strawberryCupcakeNutrition = 3
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	strawberryCupcakeSaturation = 0.5
+	# Default: 400
+	# Range: 0 ~ 72000
+	strawberryCupcakeEffectDuration = 400
+	# Default: 3
+	# Range: 0 ~ 20
+	sweetberryCupcakeNutrition = 3
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	sweetberryCupcakeSaturation = 0.5
+	# Default: 400
+	# Range: 0 ~ 72000
+	sweetberryCupcakeEffectDuration = 400
+	# Default: 3
+	# Range: 0 ~ 20
+	appleCupcakeNutrition = 3
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	appleCupcakeSaturation = 0.5
+	# Default: 400
+	# Range: 0 ~ 72000
+	appleCupcakeEffectDuration = 400
+	# Default: 3
+	# Range: 0 ~ 20
+	cornetNutrition = 3
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	cornetSaturation = 0.5
+	# Default: 400
+	# Range: 0 ~ 72000
+	cornetEffectDuration = 400
+	# Default: 3
+	# Range: 0 ~ 20
+	jamRollNutrition = 3
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	jamRollSaturation = 0.5
+	# Default: 400
+	# Range: 0 ~ 72000
+	jamRollEffectDuration = 400
+	# Default: 5
+	# Range: 0 ~ 20
+	bunNutrition = 5
+	# Default: 1.2
+	# Range: 0.0 ~ 10.0
+	bunSaturation = 1.2
+	# Default: 2800
+	# Range: 0 ~ 72000
+	bunEffectDuration = 2800
+	# Default: 5
+	# Range: 0 ~ 20
+	waffleNutrition = 5
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	waffleSaturation = 0.5
+	# Default: 800
+	# Range: 0 ~ 72000
+	waffleEffectDuration = 800
+	# Default: 2
+	# Range: 0 ~ 20
+	chocolateTruffleNutrition = 2
+	# Default: 0.4
+	# Range: 0.0 ~ 10.0
+	chocolateTruffleSaturation = 0.4
+	# Default: 200
+	# Range: 0 ~ 72000
+	chocolateTruffleEffectDuration = 200
+	# Default: 6
+	# Range: 0 ~ 20
+	misslilituBiscuitNutrition = 6
+	# Default: 0.6
+	# Range: 0.0 ~ 10.0
+	misslilituBiscuitSaturation = 0.6
+	# Default: 900
+	# Range: 0 ~ 72000
+	misslilituBiscuitEffectDuration = 900

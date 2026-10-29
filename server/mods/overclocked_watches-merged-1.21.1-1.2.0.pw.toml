@@ -1,0 +1,8 @@
+name = "overclocked_watches-merged-1.21.1-1.2.0.jar"
+filename = "overclocked_watches-merged-1.21.1-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Uk12PwL9/versions/OlChQuWt/overclocked_watches-merged-1.21.1-1.2.0.jar"
+hash-format = "sha1"
+hash = "ce51d1b1b568bfc224ada427a29df5567bd6b229"

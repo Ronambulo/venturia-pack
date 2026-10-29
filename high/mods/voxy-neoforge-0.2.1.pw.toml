@@ -1,0 +1,8 @@
+name = "voxy-neoforge-0.2.1.jar"
+filename = "voxy-neoforge-0.2.1.jar"
+side = "client"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/7231be810eb8c800754a426751498c1f93380cbb.jar"
+hash-format = "sha1"
+hash = "7231be810eb8c800754a426751498c1f93380cbb"

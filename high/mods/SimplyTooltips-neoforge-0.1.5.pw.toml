@@ -1,0 +1,8 @@
+name = "SimplyTooltips-neoforge-0.1.5.jar"
+filename = "SimplyTooltips-neoforge-0.1.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6avVoBVB/versions/Zb6dytvm/SimplyTooltips-neoforge-0.1.5.jar"
+hash-format = "sha1"
+hash = "6227453d5b628b1009d6ec516a0da5b588849744"

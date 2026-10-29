@@ -1,0 +1,30 @@
+# Whether watches are allowed to advance the day-night cycle. RELOADABLE WITH /reload
+day_night_cycle_allowed = "true"
+# Whether time advances gradually over multiple ticks instead of instantly. RELOADABLE WITH /reload
+use_long_time_delta = "true"
+# Ticks of time advanced per server tick while use_long_time_delta is enabled. RELOADABLE WITH /reload
+long_time_delta = "100"
+# Max durability of the golden watch. RELOADABLE WITH /reload
+golden_watch_durability = "100"
+# Number of charges the golden watch holds before it must recharge. RELOADABLE WITH /reload
+golden_watch_charges = "1"
+# Cooldown, in minutes, before the golden watch can be used again. RELOADABLE WITH /reload
+golden_watch_cooldown_minutes = "20"
+# Ticks of time advanced per use of the golden watch. RELOADABLE WITH /reload
+golden_time_advancement_ticks = "12000"
+# Max durability of the diamond watch. RELOADABLE WITH /reload
+diamond_watch_durability = "300"
+# Number of charges the diamond watch holds before it must recharge. RELOADABLE WITH /reload
+diamond_watch_charges = "3"
+# Cooldown, in minutes, before the diamond watch can be used again. RELOADABLE WITH /reload
+diamond_watch_cooldown_minutes = "10"
+# Ticks of time advanced per use of the diamond watch. RELOADABLE WITH /reload
+diamond_time_advancement_ticks = "12000"
+# Max durability of the netherite watch. RELOADABLE WITH /reload
+netherite_watch_durability = "500"
+# Number of charges the netherite watch holds before it must recharge. RELOADABLE WITH /reload
+netherite_watch_charges = "5"
+# Cooldown, in minutes, before the netherite watch can be used again. RELOADABLE WITH /reload
+netherite_watch_cooldown_minutes = "5"
+# Ticks of time advanced per use of the netherite watch. RELOADABLE WITH /reload
+netherite_time_advancement_ticks = "12000"

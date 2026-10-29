@@ -1,0 +1,8 @@
+name = "aeronauticshotairfix-1.1.1.jar"
+filename = "aeronauticshotairfix-1.1.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Qhi65c7K/versions/8ka8XR8j/aeronauticshotairfix-1.1.1.jar"
+hash-format = "sha1"
+hash = "03aea7e35d77d192661dc1bcbf21d389480d84cc"

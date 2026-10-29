@@ -1,0 +1,8 @@
+name = "limitedchunks-1.21-4.1.jar"
+filename = "limitedchunks-1.21-4.1.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/ef1ce5f6ac3d3a23cc4349c8a1a912032120955e.jar"
+hash-format = "sha1"
+hash = "ef1ce5f6ac3d3a23cc4349c8a1a912032120955e"

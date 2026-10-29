@@ -1,0 +1,8 @@
+name = "Health Bars Reforged v1.1.zip"
+filename = "Health Bars Reforged v1.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZjGdVCFb/versions/siJtKr5p/Health%20Bars%20Reforged%20v1.1.zip"
+hash-format = "sha1"
+hash = "6d5bebcb4900affe54bf42b6cd2dafeb9473c54e"

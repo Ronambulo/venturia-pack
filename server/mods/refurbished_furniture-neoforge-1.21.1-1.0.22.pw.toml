@@ -1,0 +1,8 @@
+name = "refurbished_furniture-neoforge-1.21.1-1.0.22.jar"
+filename = "refurbished_furniture-neoforge-1.21.1-1.0.22.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/6c209e6b755ff26218efd55aedf2dea49183d29b.jar"
+hash-format = "sha1"
+hash = "6c209e6b755ff26218efd55aedf2dea49183d29b"

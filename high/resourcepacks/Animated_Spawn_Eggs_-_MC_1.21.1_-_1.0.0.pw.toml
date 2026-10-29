@@ -1,0 +1,8 @@
+name = "Animated Spawn Eggs - MC 1.21.1 - 1.0.0.zip"
+filename = "Animated Spawn Eggs - MC 1.21.1 - 1.0.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/H1XEid4k/versions/RguiRVhI/Animated%20Spawn%20Eggs%20-%20MC%201.21.1%20-%201.0.0.zip"
+hash-format = "sha1"
+hash = "21d8539ca2b09c08f8fa50bf80f4bafc93c84df6"

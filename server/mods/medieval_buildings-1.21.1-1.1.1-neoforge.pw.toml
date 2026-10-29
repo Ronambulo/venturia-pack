@@ -1,0 +1,8 @@
+name = "medieval_buildings-1.21.1-1.1.1-neoforge.jar"
+filename = "medieval_buildings-1.21.1-1.1.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sc9lpPiU/versions/kZ7HAN7p/medieval_buildings-1.21.1-1.1.1-neoforge.jar"
+hash-format = "sha1"
+hash = "0a2214e95eb318ad64b3b3faf2cad036459ffc17"

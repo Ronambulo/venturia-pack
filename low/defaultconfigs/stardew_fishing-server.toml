@@ -1,0 +1,9 @@
+# Venturia: el minijuego alarga cada captura, así que los peces pican antes (x0.75).
+#The multiplier that is applied to the time it takes for a fish to bite after casting your rod.
+biteTimeMultiplier = 0.75
+#The chance for finding a treasure chest each time you play the fishing minigame.
+treasureChestChance = 0.12
+#The chance that a treasure chest found in the fishing minigame is a golden chest.
+goldenChestChance = 0.1
+#The chance that any fish that bites is a legendary fish.
+legendaryFishChance = 0.01

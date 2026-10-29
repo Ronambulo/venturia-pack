@@ -1,0 +1,8 @@
+name = "epicpowerbracelets-neoforge-1.21-1.1.1.jar"
+filename = "epicpowerbracelets-neoforge-1.21-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FaAx7QQX/versions/xIlGRjWS/epicpowerbracelets-neoforge-1.21-1.1.1.jar"
+hash-format = "sha1"
+hash = "34afc014fcc008b442d7d8f6beaf081f33dfe6d8"

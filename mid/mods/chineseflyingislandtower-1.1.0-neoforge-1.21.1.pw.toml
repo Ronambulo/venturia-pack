@@ -1,0 +1,8 @@
+name = "chineseflyingislandtower-1.1.0-neoforge-1.21.1.jar"
+filename = "chineseflyingislandtower-1.1.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NVz9DXUE/versions/jM8I7XB1/chineseflyingislandtower-1.1.0-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "59f3ec20db9e1319bd84b89eeb605b10c70b1a1c"

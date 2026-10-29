@@ -1,0 +1,28 @@
+[features]
+	#Whether wallpaper made from light emitting blocks (glowstone, sea lantern, ...) lights the world.
+	emissiveLighting = true
+	#Whether sneak + right click two corners fills a rectangular area at once,
+	#both with the wallpaper item and with a block held over existing wallpaper.
+	multiPlacement = true
+	#Whether sneaking with the scraper removes all connected wallpaper at once.
+	veinMineScraper = true
+	#Whether logs, pillars and directional blocks can be rotated after being applied as wallpaper.
+	blockRotation = true
+
+[limits]
+	#Maximum number of blocks a single multi placement can cover.
+	# Default: 400
+	# Range: 1 ~ 100000
+	maxMultiPlaceArea = 400
+	#Maximum number of wallpapers a single scraper vein mine can remove.
+	# Default: 64
+	# Range: 1 ~ 100000
+	maxVeinMineBlocks = 64
+	#How long a multi-placement corner selection stays active before expiring.
+	# Default: 30
+	# Range: 1 ~ 3600
+	selectionTimeoutSeconds = 30
+	#Whether placing wallpaper consumes items from the player's inventory (survival only).
+	consumeItems = true
+	#Whether scraping wallpaper returns the wallpaper/block item to the player (survival only).
+	returnItemsOnRemove = true

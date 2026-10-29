@@ -1,0 +1,8 @@
+name = "letsdo-brewery-neoforge-2.1.12.jar"
+filename = "letsdo-brewery-neoforge-2.1.12.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/b7NV2plI/versions/y9ZpG5jE/letsdo-brewery-neoforge-2.1.12.jar"
+hash-format = "sha1"
+hash = "ae8b8fe4874d2e8cb3964f612da5e435c7e8937f"

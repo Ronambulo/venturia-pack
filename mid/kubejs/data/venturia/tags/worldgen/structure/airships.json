@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "shellbound_for_airship:airship", "required": false },
+    { "id": "shellbound_for_airship:airship_ship1", "required": false },
+    { "id": "shellbound_for_airship:airship_ship2", "required": false },
+    { "id": "shellbound_for_airship:airship_ship3", "required": false },
+    { "id": "shellbound_for_airship:airship_ship4", "required": false },
+    { "id": "shellbound_for_airship:airship_ship5", "required": false },
+    { "id": "shellbound_for_airship:airship_ship6", "required": false },
+    { "id": "shellbound_for_airship:airship_ship7", "required": false },
+    { "id": "shellbound_for_airship:airship_ship8", "required": false },
+    { "id": "shellbound_for_airship:airship_ship9", "required": false },
+    { "id": "shellbound_for_airship:airship_ship10", "required": false },
+    { "id": "sky_tiger_air_ballon:sky_tiger_air_ballon", "required": false }
+  ]
+}

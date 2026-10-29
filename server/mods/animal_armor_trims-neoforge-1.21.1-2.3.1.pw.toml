@@ -1,0 +1,8 @@
+name = "animal_armor_trims-neoforge-1.21.1-2.3.1.jar"
+filename = "animal_armor_trims-neoforge-1.21.1-2.3.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YmFaSpcI/versions/6xMuW50v/animal_armor_trims-neoforge-1.21.1-2.3.1.jar"
+hash-format = "sha1"
+hash = "f7dcfb5714e43da26173f40c4b2e347d4ecfa72a"

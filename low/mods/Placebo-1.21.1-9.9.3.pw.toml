@@ -1,0 +1,8 @@
+name = "Placebo-1.21.1-9.9.3.jar"
+filename = "Placebo-1.21.1-9.9.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tCkE8p2N/versions/h326cnw1/Placebo-1.21.1-9.9.3.jar"
+hash-format = "sha1"
+hash = "37b1cf95c23a72caafc5d5c9671bbf1fa62bee14"

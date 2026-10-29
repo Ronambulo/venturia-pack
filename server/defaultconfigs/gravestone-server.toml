@@ -1,0 +1,2 @@
+# Gravestone: solo el dueño (y los admins) puede romper su tumba
+only_owners_can_break = true

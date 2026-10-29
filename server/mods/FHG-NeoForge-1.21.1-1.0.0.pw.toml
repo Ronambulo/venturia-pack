@@ -1,0 +1,8 @@
+name = "FHG-NeoForge-1.21.1-1.0.0.jar"
+filename = "FHG-NeoForge-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9Ae5gWms/versions/JhOhv9Ug/FHG-NeoForge-1.21.1-1.0.0.jar"
+hash-format = "sha1"
+hash = "d323215f0011fce28f5efbbadcba27a5ae906b5a"

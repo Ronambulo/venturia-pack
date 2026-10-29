@@ -1,0 +1,67 @@
+{
+	id: "316B43B9DD43AC76"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			count: 6
+			id: "30C460D164D4727B"
+			item: {
+				count: 1
+				id: "minecraft:honeycomb"
+			}
+			weight: 30.0f
+		}
+		{
+			count: 4
+			id: "2175B71793FAC957"
+			item: {
+				count: 1
+				id: "minecraft:honey_bottle"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 2
+			id: "7DFB086DCD369266"
+			item: {
+				count: 1
+				id: "minecraft:honey_block"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "3E1AA92A5DA102D1"
+			item: {
+				count: 1
+				id: "minecraft:beehive"
+			}
+			weight: 12.0f
+		}
+		{
+			count: 8
+			id: "1150847BE3B020E3"
+			item: {
+				count: 1
+				id: "minecraft:candle"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "4712FFBF9CB35256"
+			item: {
+				count: 1
+				id: "minecraft:bee_spawn_egg"
+			}
+			weight: 7.0f
+		}
+		{
+			id: "10AE7CFF93535F02"
+			item: {
+				count: 1
+				id: "minecraft:bee_nest"
+			}
+			weight: 3.0f
+		}
+	]
+}

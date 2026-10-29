@@ -1,0 +1,8 @@
+name = "FarmersStructures-1.0.6-1.21.1_neoforge.jar"
+filename = "FarmersStructures-1.0.6-1.21.1_neoforge.jar"
+side = "both"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/94262398153d7ca5dc9ffb93e49acdbad85af223.jar"
+hash-format = "sha1"
+hash = "94262398153d7ca5dc9ffb93e49acdbad85af223"

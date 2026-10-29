@@ -1,0 +1,8 @@
+name = "BEB-NeoForge-1.21-6.0.0.jar"
+filename = "BEB-NeoForge-1.21-6.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pcqEicMM/versions/XeLhIDWZ/BEB-NeoForge-1.21-6.0.0.jar"
+hash-format = "sha1"
+hash = "4a1828c61a420b3ef1b759b9cbe595de5c85a48e"

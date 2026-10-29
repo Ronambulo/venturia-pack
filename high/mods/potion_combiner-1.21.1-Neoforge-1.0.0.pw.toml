@@ -1,0 +1,8 @@
+name = "potion_combiner-1.21.1-Neoforge-1.0.0.jar"
+filename = "potion_combiner-1.21.1-Neoforge-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gCV2e3CO/versions/3GqOkJFR/potion_blending-1.21.1-Neoforge-1.0.1.jar"
+hash-format = "sha1"
+hash = "b6ab277f2b12430a63ca1b3f74303e542928a2c2"

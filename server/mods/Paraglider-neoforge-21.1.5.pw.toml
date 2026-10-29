@@ -1,0 +1,8 @@
+name = "Paraglider-neoforge-21.1.5.jar"
+filename = "Paraglider-neoforge-21.1.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/esqWA0aQ/versions/tkTruHIA/Paraglider-neoforge-21.1.5.jar"
+hash-format = "sha1"
+hash = "39043f24e897fade07a138bb8d60bfe08d8103b1"

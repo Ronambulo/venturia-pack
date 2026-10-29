@@ -1,0 +1,94 @@
+{
+	id: "1D7F289678762BF7"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			count: 64
+			id: "30150C6709FA93A9"
+			item: {
+				count: 1
+				id: "minecraft:torch"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 32
+			id: "44111A92E158B0FC"
+			item: {
+				count: 1
+				id: "minecraft:arrow"
+			}
+			weight: 18.0f
+		}
+		{
+			count: 16
+			id: "321D9AB32B8D0168"
+			item: {
+				count: 1
+				id: "minecraft:cooked_beef"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 4
+			id: "098CAA8EA7A36090"
+			item: {
+				count: 1
+				id: "minecraft:map"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "25826C17D835CA05"
+			item: {
+				count: 1
+				id: "minecraft:compass"
+			}
+			weight: 9.0f
+		}
+		{
+			count: 4
+			id: "30CFA0A7642D803A"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "5E829EA36BDB8159"
+			item: {
+				count: 1
+				id: "minecraft:spyglass"
+			}
+			weight: 7.0f
+		}
+		{
+			id: "23683715259FEA03"
+			item: {
+				count: 1
+				id: "minecraft:saddle"
+			}
+			weight: 6.0f
+		}
+		{
+			count: 2
+			id: "1082670088C081FE"
+			item: {
+				count: 1
+				id: "minecraft:name_tag"
+			}
+			weight: 4.0f
+		}
+		{
+			id: "5CF40BEB718522C1"
+			item: {
+				count: 1
+				id: "minecraft:recovery_compass"
+			}
+			weight: 2.0f
+		}
+		{ id: "717C83E69DCA9456", item: { count: 1, id: "minecraft:totem_of_undying" } }
+	]
+}

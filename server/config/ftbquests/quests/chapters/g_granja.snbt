@@ -1,0 +1,267 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "g_granja"
+	group: "094E0F2FCF1D26FE"
+	icon: {
+		id: "create:mechanical_harvester"
+	}
+	id: "396BF83F2CAA7E30"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28EA2861CD8155A0"]
+			icon: {
+				id: "create:mechanical_harvester"
+			}
+			id: "47B85A490650DAAD"
+			shape: "hexagon"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47B85A490650DAAD"]
+			icon: {
+				id: "create:mechanical_harvester"
+			}
+			id: "3D4481A2961C7CF8"
+			rewards: [{
+				count: 32
+				id: "7A7BA57315E9698C"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "7173A992690CC78E"
+				item: { count: 1, id: "create:mechanical_harvester" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D4481A2961C7CF8"]
+			icon: {
+				id: "sliceanddice:sprinkler"
+			}
+			id: "0353B5C50174FF04"
+			rewards: [{
+				id: "04DB28ADBCF3AC99"
+				type: "xp"
+				xp: 300
+			}]
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					icon: {
+						id: "sliceanddice:sprinkler"
+					}
+					id: "40A24BFAE3409EFC"
+					item: { components: { "ftbfiltersystem:filter": "or(item(sliceanddice:sprinkler)item(sliceanddice:floor_sprinkler))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "2DAEAA0EBA61187A"
+					item: { count: 1, id: "sliceanddice:slicer" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0353B5C50174FF04"]
+			icon: {
+				id: "cookingforblockheads:cooking_table"
+			}
+			id: "5EA106090933E7B4"
+			rewards: [{
+				id: "560F999C5901A839"
+				item: {
+					count: 1
+					id: "cookingforblockheads:recipe_book"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5B3D0A8DFDF68E5F"
+					item: { count: 1, id: "cookingforblockheads:cooking_table" }
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:missing_item": "cookingforblockheads:fridge"
+						}
+						id: "ftbquests:missing_item"
+					}
+					id: "18C31B2A3288A02E"
+					item: { components: { "ftbfiltersystem:filter": "or(item(cookingforblockheads:fridge)item(cookingforblockheads:counter)item(cookingforblockheads:cabinet))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["47B85A490650DAAD"]
+			icon: {
+				id: "vinery:red_grape"
+			}
+			id: "2D2DE4F2592D85E4"
+			rewards: [{
+				id: "78475998ED0211A8"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					count: 4L
+					icon: {
+						id: "vinery:red_grape_seeds"
+					}
+					id: "25711816F7264EDC"
+					item: { components: { "ftbfiltersystem:filter": "or(item(vinery:red_grape_seeds)item(vinery:white_grape_seeds))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "vinery:grapevine_pot"
+					}
+					id: "42192217DE7CAFAC"
+					item: { components: { "ftbfiltersystem:filter": "or(item(vinery:grapevine_pot)item(vinery:apple_press))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D2DE4F2592D85E4"]
+			icon: {
+				id: "vinery:fermentation_barrel"
+			}
+			id: "04551CB613938B11"
+			rewards: [{
+				id: "736139E2FD0FC96E"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "4F012EB8E15898C6"
+					item: { count: 1, id: "vinery:fermentation_barrel" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "vinery:red_wine"
+					}
+					id: "27301D5F0E177235"
+					item: { components: { "ftbfiltersystem:filter": "or(item(vinery:red_wine)item(vinery:noir_wine)item(vinery:cherry_wine)item(vinery:apple_wine)item(vinery:mead)item(vinery:glowing_wine)item(vinery:chorus_wine))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47B85A490650DAAD"]
+			icon: {
+				id: "aquaculture:iron_fishing_rod"
+			}
+			id: "2B73CBDCF1051503"
+			rewards: [{
+				count: 16
+				id: "493237BFD3DEFEBF"
+				item: {
+					count: 1
+					id: "aquaculture:worm"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					icon: {
+						id: "aquaculture:iron_fishing_rod"
+					}
+					id: "2408C12D630B12BB"
+					item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:iron_fishing_rod)item(aquaculture:gold_fishing_rod)item(aquaculture:diamond_fishing_rod)item(aquaculture:neptunium_fishing_rod))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "aquaculture:wooden_fillet_knife"
+					}
+					id: "38365BF851FD4FE5"
+					item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:wooden_fillet_knife)item(aquaculture:stone_fillet_knife)item(aquaculture:iron_fillet_knife)item(aquaculture:gold_fillet_knife)item(aquaculture:diamond_fillet_knife)item(aquaculture:neptunium_fillet_knife))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2B73CBDCF1051503"]
+			icon: {
+				id: "wildernature:bounty_board"
+			}
+			id: "34CF7B0FC5CBCF8C"
+			optional: true
+			rewards: [{
+				id: "1202DF421A99A9C8"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "131C8F6F311B6179"
+				item: { count: 1, id: "wildernature:bounty_board" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5EA106090933E7B4"
+				"04551CB613938B11"
+				"2B73CBDCF1051503"
+			]
+			icon: {
+				id: "farmersdelight:honey_glazed_ham"
+			}
+			id: "5B56DACDCE315FA2"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					count: 2
+					id: "6ED489AA513DB6F8"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "06184F1C955C88B5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

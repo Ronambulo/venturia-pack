@@ -1,0 +1,8 @@
+name = "cable_facades-1.21.1-NeoForge-2.1.4.jar"
+filename = "cable_facades-1.21.1-NeoForge-2.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/twipgzWx/versions/XWCAtdzJ/cable_facades-1.21.1-NeoForge-2.1.4.jar"
+hash-format = "sha1"
+hash = "ab793d3c2dbb5a492f2bee15d75f3a45011c4578"

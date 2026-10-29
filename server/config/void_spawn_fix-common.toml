@@ -1,0 +1,19 @@
+#If true, cancels mob spawn attempts at or below the world's minimum build height, 
+#stopping mobs from ever spawning in the void.
+preventVoidSpawns = true
+#Extra blocks above the world floor that are still treated as void for spawn prevention.
+# Default: 0
+# Range: 0 ~ 64
+voidSpawnYBuffer = 0
+#If true, mobs that end up falling below the world floor (e.g. from broken world generation) 
+#are removed instead of falling forever.
+rescueFallingMobs = true
+#How many blocks below the world floor a mob is allowed to fall before being removed.
+# Default: 4
+# Range: 0 ~ 256
+voidRescueYBuffer = 4
+#How many blocks to scan downward from a mob's spawn position looking for solid ground. 
+#If nothing is found within this range, the spawn is treated as void and cancelled.
+# Default: 48
+# Range: 0 ~ 384
+voidScanDepth = 48

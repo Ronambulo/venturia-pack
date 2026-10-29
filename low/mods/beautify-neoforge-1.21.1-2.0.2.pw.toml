@@ -1,0 +1,8 @@
+name = "beautify-neoforge-1.21.1-2.0.2.jar"
+filename = "beautify-neoforge-1.21.1-2.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9BPuv4vL/versions/xVfv1ket/beautify-neoforge-1.21.1-2.0.2.jar"
+hash-format = "sha1"
+hash = "936dc981f243c4606376ba7d6f03798e0b5a6871"

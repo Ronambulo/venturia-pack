@@ -1,0 +1,8 @@
+name = "ars_creo-1.21.1-5.4.0.jar"
+filename = "ars_creo-1.21.1-5.4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fZ324GMc/versions/LqOllHms/ars_creo-1.21.1-5.4.0.jar"
+hash-format = "sha1"
+hash = "22a6afd4fbe76354acc9c1ba076c89a94d120d94"

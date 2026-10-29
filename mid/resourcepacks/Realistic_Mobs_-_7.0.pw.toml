@@ -1,0 +1,8 @@
+name = "Realistic Mobs - 7.0.zip"
+filename = "Realistic Mobs - 7.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/2UUuOFSy/versions/bPcwg4B0/Realistic%20Mobs%20-%207.0.zip"
+hash-format = "sha1"
+hash = "70ae56859861ca97b2597e4f7ea62806adcaa272"

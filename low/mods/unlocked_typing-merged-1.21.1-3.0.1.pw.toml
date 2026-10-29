@@ -1,0 +1,8 @@
+name = "unlocked_typing-merged-1.21.1-3.0.1.jar"
+filename = "unlocked_typing-merged-1.21.1-3.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Mi8k2ip4/versions/BltzaQX7/unlocked_typing-merged-1.21.1-3.0.1.jar"
+hash-format = "sha1"
+hash = "fdb45d6c84f8c18666251144be562e1598c5c2fc"

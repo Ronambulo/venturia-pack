@@ -1,0 +1,8 @@
+name = "servercore-neoforge-1.5.19+1.21.1.jar"
+filename = "servercore-neoforge-1.5.19+1.21.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/4WWQxlQP/versions/6N9hXiRa/servercore-neoforge-1.5.19%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "62ce692654e09271b5c55cbb3a1ef7606d067132"

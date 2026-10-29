@@ -1,0 +1,8 @@
+name = "3D Ores - MC 1.21.1 - 1.0.1.zip"
+filename = "3D Ores - MC 1.21.1 - 1.0.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/rYGgbogi/versions/7bQWQ5yR/3D%20Ores%20-%20MC%201.21.1%20-%201.0.1.zip"
+hash-format = "sha1"
+hash = "6be9ffaf1e5f5b3f8a1391a7451c22fc039f3dd5"

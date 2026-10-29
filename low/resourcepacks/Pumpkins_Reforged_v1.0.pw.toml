@@ -1,0 +1,8 @@
+name = "Pumpkins Reforged v1.0.zip"
+filename = "Pumpkins Reforged v1.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Yp9QJbmM/versions/HDic8UQU/Pumpkins%20Reforged%20v1.0.zip"
+hash-format = "sha1"
+hash = "ffb09fa8c78f1c34302146fc3f8bb233a34e59f0"

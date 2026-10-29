@@ -1,0 +1,8 @@
+name = "clickadv-1.21-3.8.jar"
+filename = "clickadv-1.21-3.8.jar"
+side = "client"
+
+[download]
+url = "https://ronambulo.github.io/venturia-pack/blobs/1aeae5774513fdc82fa52d544edcd72b26c498b8.jar"
+hash-format = "sha1"
+hash = "1aeae5774513fdc82fa52d544edcd72b26c498b8"

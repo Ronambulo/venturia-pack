@@ -1,0 +1,8 @@
+name = "zombie_variants-neoforge-1.0.3-1.21.1.jar"
+filename = "zombie_variants-neoforge-1.0.3-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/b9aFBeGb/versions/mr853QE1/zombie_variants-neoforge-1.0.3-1.21.1.jar"
+hash-format = "sha1"
+hash = "562169cee10df0335e4925aafa0e70e7e636a0c7"

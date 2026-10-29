@@ -1,0 +1,581 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mundos"
+	group: "034687D5B1FA5FDB"
+	icon: {
+		id: "minecraft:filled_map"
+	}
+	id: "408C50034B9BF00F"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5ED560445C6D6799"]
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			id: "4FF954A42E352AFE"
+			rewards: [{
+				count: 8
+				id: "143BA88381300237"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "5A036EB65CEE064B"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4FF954A42E352AFE"]
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "70BB81F024D02FF5"
+			rewards: [{
+				count: 32
+				id: "6F318D5ADF208783"
+				item: {
+					count: 1
+					id: "minecraft:firework_rocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+				id: "2E1EB3A99F9D8C06"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5ED560445C6D6799"]
+			icon: {
+				id: "aether:aether_portal_frame"
+			}
+			id: "278C20F5AC575784"
+			rewards: [{
+				count: 8
+				id: "56B98AB6BD94F66C"
+				item: {
+					count: 1
+					id: "aether:ambrosium_shard"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "aether:enter_aether"
+				criterion: ""
+				id: "4CD08622C5B047B9"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["278C20F5AC575784"]
+			icon: {
+				id: "aether:zanite_gemstone"
+			}
+			id: "5695D5E7D789ABB5"
+			rewards: [{
+				count: 8
+				id: "52D62EA0EAEE5079"
+				item: {
+					count: 1
+					id: "aether:zanite_gemstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "aether:bronze_dungeon"
+				criterion: ""
+				id: "5AC6748D61948AC0"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5695D5E7D789ABB5"]
+			icon: {
+				id: "aether:life_shard"
+			}
+			id: "203E2ED0347A333C"
+			optional: true
+			rewards: [{
+				id: "056D6E28E3F62222"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "aether:silver_dungeon"
+				criterion: ""
+				id: "1DB59BB3303CB11F"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["203E2ED0347A333C"]
+			icon: {
+				id: "aether:enchanted_gravitite"
+			}
+			id: "121641E8CB8D7703"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "58086A6DA13E882C"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "aether:gold_dungeon"
+				criterion: ""
+				id: "588B1C25809C9BE4"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["5695D5E7D789ABB5"]
+			icon: {
+				id: "deep_aether:skyjade"
+			}
+			id: "1BD082C5D8310BAE"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "78E3F029B07F7CBA"
+				item: {
+					count: 1
+					id: "deep_aether:skyjade"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "deep_aether:brass_dungeon"
+				criterion: ""
+				id: "2E9F88C7116A7C04"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["5ED560445C6D6799"]
+			icon: {
+				id: "undergarden:catalyst"
+			}
+			id: "7E21363C9834BD8B"
+			rewards: [{
+				count: 16
+				id: "0825BC2CBF1B4BCE"
+				item: {
+					count: 1
+					id: "undergarden:shard_torch"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "undergarden:undergarden/enter_undergarden"
+				criterion: ""
+				id: "52DA4FAC087A835A"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E21363C9834BD8B"]
+			icon: {
+				id: "undergarden:forgotten_ingot"
+			}
+			id: "109B9ADBCA77F96F"
+			rewards: [{
+				count: 8
+				id: "020B52450F8E9DF8"
+				item: {
+					count: 1
+					id: "undergarden:cloggrum_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "undergarden:undergarden/kill_forgotten_guardian"
+				criterion: ""
+				id: "3C421FF21CF855D8"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E21363C9834BD8B"]
+			icon: {
+				id: "undergarden:shard_torch"
+			}
+			id: "436A82486D34223C"
+			optional: true
+			rewards: [{
+				id: "20559C0C8B5C81CB"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "undergarden:undergarden/enter_depths"
+				criterion: ""
+				id: "621AA2A9F03A968B"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5ED560445C6D6799"]
+			icon: {
+				id: "eternal_starlight:orb_of_prophecy"
+			}
+			id: "1552996587689843"
+			rewards: [{
+				id: "4CB8DD497808D59B"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "eternal_starlight:enter_starlight"
+				criterion: ""
+				id: "3B69CF69BEEB04B1"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1552996587689843"]
+			icon: {
+				id: "eternal_starlight:golem_steel_ingot"
+			}
+			id: "159014FC5FAAC5EF"
+			rewards: [{
+				count: 4
+				id: "7D61C24672AE3A2B"
+				item: {
+					count: 1
+					id: "eternal_starlight:golem_steel_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "eternal_starlight:kill_golem"
+				criterion: ""
+				id: "3360CECB2BA819A2"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["159014FC5FAAC5EF"]
+			icon: {
+				id: "eternal_starlight:seeking_eye"
+			}
+			id: "1F8DFA58AE1D3F2D"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "446B27D3D96A7DAB"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "eternal_starlight:kill_lunar_monstrosity"
+				criterion: ""
+				id: "26199FD8ABB77CDE"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5ED560445C6D6799"]
+			icon: {
+				id: "deeperdarker:heart_of_the_deep"
+			}
+			id: "070BE855F905B216"
+			rewards: [{
+				id: "45F8E1FE841EACE0"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "deeperdarker:main/enter_otherside"
+				criterion: ""
+				id: "20B46CB66DF8DB7E"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["070BE855F905B216"]
+			icon: {
+				id: "deeperdarker:reinforced_echo_shard"
+			}
+			id: "4A31CB2E98205D4E"
+			rewards: [{
+				count: 2
+				id: "351E6FC6B5AEE79F"
+				item: {
+					count: 1
+					id: "deeperdarker:reinforced_echo_shard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_temple"
+				criterion: ""
+				id: "4F16024C4DCFD63F"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A31CB2E98205D4E"]
+			icon: {
+				id: "deeperdarker:warden_carapace"
+			}
+			id: "79A0D007FE6BCA59"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "405CEEC43C96C349"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "deeperdarker:main/warden_armor"
+				criterion: ""
+				id: "2393177628D8B2BF"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5ED560445C6D6799"]
+			icon: {
+				id: "minecraft:bee_nest"
+			}
+			id: "74E5518C1A62B2B2"
+			rewards: [{
+				count: 8
+				id: "0699F3EAD7645933"
+				item: {
+					count: 1
+					id: "the_bumblezone:bee_bread"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "the_bumblezone:teleportation/teleport_to_bumblezone_pearl"
+				criterion: ""
+				id: "14DB8C57543407DC"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["74E5518C1A62B2B2"]
+			icon: {
+				id: "minecraft:honeycomb"
+			}
+			id: "0D28302C9154B3AD"
+			rewards: [{
+				id: "7065A5B70B568F7B"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				advancement: "the_bumblezone:beehemoth/tamed_beehemoth"
+				criterion: ""
+				id: "7146F0A39AF9945C"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0D28302C9154B3AD"]
+			icon: {
+				id: "the_bumblezone:honey_compass"
+			}
+			id: "7B38D1DC3E5F9F26"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "7221BC05F93872B3"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/journeys_end"
+				criterion: ""
+				id: "6B58467D95FB08B5"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"70BB81F024D02FF5"
+				"5695D5E7D789ABB5"
+				"109B9ADBCA77F96F"
+				"159014FC5FAAC5EF"
+				"4A31CB2E98205D4E"
+				"0D28302C9154B3AD"
+			]
+			icon: {
+				id: "minecraft:filled_map"
+			}
+			id: "52B24325F3A10E48"
+			min_required_dependencies: 4
+			rewards: [
+				{
+					count: 4
+					id: "47434F096BB2E71D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2A1DCEE041CCF3DC"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ED560445C6D6799"]
+			icon: {
+				id: "minecraft:compass"
+			}
+			id: "386EA5FD5FBBA0E8"
+			invisible: true
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "4059FE9A51B447B5"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "27B32BD70465D181"
+					item: {
+						count: 1
+						id: "waystones:warp_scroll"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "1BFDB4BE1F84E5B0"
+					type: "dimension"
+				}
+				{
+					dimension: "minecraft:the_end"
+					id: "750A933462389827"
+					type: "dimension"
+				}
+				{
+					dimension: "aether:the_aether"
+					id: "151D25F0AD73E8AB"
+					type: "dimension"
+				}
+				{
+					dimension: "undergarden:undergarden"
+					id: "00731E8913F34C8F"
+					type: "dimension"
+				}
+				{
+					dimension: "eternal_starlight:starlight"
+					id: "3DD8C8F9535F807D"
+					type: "dimension"
+				}
+				{
+					dimension: "deeperdarker:otherside"
+					id: "482E0053FDA2A1E7"
+					type: "dimension"
+				}
+				{
+					dimension: "the_bumblezone:the_bumblezone"
+					id: "1F30E7E0403194B7"
+					type: "dimension"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+	]
+}

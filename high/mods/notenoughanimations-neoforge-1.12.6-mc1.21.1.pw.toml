@@ -1,0 +1,8 @@
+name = "notenoughanimations-neoforge-1.12.6-mc1.21.1.jar"
+filename = "notenoughanimations-neoforge-1.12.6-mc1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/MPCX6s5C/versions/VCuMsK45/notenoughanimations-neoforge-1.12.6-mc1.21.1.jar"
+hash-format = "sha1"
+hash = "2098ae4965ebefb2dc8d5aec42a7d5282414fddc"

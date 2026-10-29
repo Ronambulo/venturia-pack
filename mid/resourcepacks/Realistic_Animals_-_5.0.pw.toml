@@ -1,0 +1,8 @@
+name = "Realistic Animals - 5.0.zip"
+filename = "Realistic Animals - 5.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/IpILXlDC/versions/70Iq86D9/Realistic%20Animals%20-%205.0.zip"
+hash-format = "sha1"
+hash = "6667460945c4aa62d67604ea57f33278fb97e2f5"

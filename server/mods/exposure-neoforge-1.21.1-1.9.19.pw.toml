@@ -1,0 +1,8 @@
+name = "exposure-neoforge-1.21.1-1.9.19.jar"
+filename = "exposure-neoforge-1.21.1-1.9.19.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hB899VmG/versions/iBvaR6AK/exposure-neoforge-1.21.1-1.9.19.jar"
+hash-format = "sha1"
+hash = "181d328a0328523fa99dd310937c40d917e91029"

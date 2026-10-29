@@ -1,0 +1,8 @@
+name = "sky_whale_ship-neoforge-1.21.1.jar"
+filename = "sky_whale_ship-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Uiq88Vjc/versions/a6Zub3tW/sky_whale_ship-neoforge-1.21.1.jar"
+hash-format = "sha1"
+hash = "6e2cba680535a5900b83fa4a4dd9f332141a36b9"

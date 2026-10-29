@@ -1,0 +1,8 @@
+name = "particular-1.21.1-NeoForge-1.5.7.jar"
+filename = "particular-1.21.1-NeoForge-1.5.7.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/pYFUU6cq/versions/WyRBAcBf/particular-1.21.1-NeoForge-1.5.7.jar"
+hash-format = "sha1"
+hash = "d6d33e8233481ad8fc6f8c351f52783ed431a800"

@@ -1,0 +1,8 @@
+name = "Realistic Woods - 1.1.zip"
+filename = "Realistic Woods - 1.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/4Tjpn35e/versions/bvNIJ6vm/Realistic%20Woods%20-%201.1.zip"
+hash-format = "sha1"
+hash = "e784546e3f17b8c241f2cb001b64621b9fa90620"
