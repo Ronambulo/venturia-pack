@@ -3,6 +3,6 @@ filename = "lootintegrations-1.21.1-4.7.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/ba601fe630f444d974838bfd80a185a0e3e0309c.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/ba601fe630f444d974838bfd80a185a0e3e0309c.jar"
 hash-format = "sha1"
 hash = "ba601fe630f444d974838bfd80a185a0e3e0309c"

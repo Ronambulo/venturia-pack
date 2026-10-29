@@ -3,6 +3,6 @@ filename = "ftb-teams-neoforge-2101.1.11.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/62b65f752d0326edd13244e58d5f2aec035da4e9.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/62b65f752d0326edd13244e58d5f2aec035da4e9.jar"
 hash-format = "sha1"
 hash = "62b65f752d0326edd13244e58d5f2aec035da4e9"

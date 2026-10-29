@@ -3,6 +3,6 @@ filename = "cupboard-1.21.1-4.2.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/6c2d786a161f49470dad92b2edaefdac38a1e79b.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/6c2d786a161f49470dad92b2edaefdac38a1e79b.jar"
 hash-format = "sha1"
 hash = "6c2d786a161f49470dad92b2edaefdac38a1e79b"

@@ -3,6 +3,6 @@ filename = "CreateAeronauticsCopycatWing-1.21.1-1.0.4.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/2ee7e21782e8daabd5246921da8d19a6960468e3.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/2ee7e21782e8daabd5246921da8d19a6960468e3.jar"
 hash-format = "sha1"
 hash = "2ee7e21782e8daabd5246921da8d19a6960468e3"

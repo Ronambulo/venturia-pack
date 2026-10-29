@@ -3,6 +3,6 @@ filename = "GlitchCore-neoforge-1.21.1-2.1.0.2.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/a31c3f36330f19aa538add3d727782a62c9c30ad.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/a31c3f36330f19aa538add3d727782a62c9c30ad.jar"
 hash-format = "sha1"
 hash = "a31c3f36330f19aa538add3d727782a62c9c30ad"

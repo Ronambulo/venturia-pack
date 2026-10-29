@@ -3,6 +3,6 @@ filename = "jearchaeology-1.21.1-1.2.0.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/385e4937144b20c6cbf103945a73066f8dc1bc74.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/385e4937144b20c6cbf103945a73066f8dc1bc74.jar"
 hash-format = "sha1"
 hash = "385e4937144b20c6cbf103945a73066f8dc1bc74"

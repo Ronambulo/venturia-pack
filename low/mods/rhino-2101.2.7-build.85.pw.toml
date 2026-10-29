@@ -3,6 +3,6 @@ filename = "rhino-2101.2.7-build.85.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/370598a1d2321c8a705ce539eb970375f20150c3.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/370598a1d2321c8a705ce539eb970375f20150c3.jar"
 hash-format = "sha1"
 hash = "370598a1d2321c8a705ce539eb970375f20150c3"

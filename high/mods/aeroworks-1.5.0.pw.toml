@@ -3,6 +3,6 @@ filename = "aeroworks-1.5.0.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/a14ff1c30f3c824b36ee6e2e711a47fd537a5c5f.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/a14ff1c30f3c824b36ee6e2e711a47fd537a5c5f.jar"
 hash-format = "sha1"
 hash = "a14ff1c30f3c824b36ee6e2e711a47fd537a5c5f"

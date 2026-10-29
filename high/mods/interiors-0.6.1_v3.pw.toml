@@ -3,6 +3,6 @@ filename = "interiors-0.6.1 v3.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/1c1cca4888ca30e12e6dee53f466ffa8af4ab796.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/1c1cca4888ca30e12e6dee53f466ffa8af4ab796.jar"
 hash-format = "sha1"
 hash = "1c1cca4888ca30e12e6dee53f466ffa8af4ab796"

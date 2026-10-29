@@ -3,6 +3,6 @@ filename = "FluxNetworks-1.21.1-8.0.0.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/183342f454428084748f2784c8efd748664a9f9c.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/183342f454428084748f2784c8efd748664a9f9c.jar"
 hash-format = "sha1"
 hash = "183342f454428084748f2784c8efd748664a9f9c"

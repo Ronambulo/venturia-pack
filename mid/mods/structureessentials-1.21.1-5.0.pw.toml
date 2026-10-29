@@ -3,6 +3,6 @@ filename = "structureessentials-1.21.1-5.0.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/5c059c2cb2ad8c43e1384b0939bf258801aadfea.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/5c059c2cb2ad8c43e1384b0939bf258801aadfea.jar"
 hash-format = "sha1"
 hash = "5c059c2cb2ad8c43e1384b0939bf258801aadfea"

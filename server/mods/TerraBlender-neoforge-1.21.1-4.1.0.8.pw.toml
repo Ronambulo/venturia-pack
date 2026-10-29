@@ -3,6 +3,6 @@ filename = "TerraBlender-neoforge-1.21.1-4.1.0.8.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/2016eed89eac0eb0510d2190c3b0b80bf4346191.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/2016eed89eac0eb0510d2190c3b0b80bf4346191.jar"
 hash-format = "sha1"
 hash = "2016eed89eac0eb0510d2190c3b0b80bf4346191"

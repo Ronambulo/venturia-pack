@@ -3,6 +3,6 @@ filename = "shellbound_for_airship-1.0.0-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/4b4eda51698af682da9d8c05a7bba4fd1e1bc298.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/4b4eda51698af682da9d8c05a7bba4fd1e1bc298.jar"
 hash-format = "sha1"
 hash = "4b4eda51698af682da9d8c05a7bba4fd1e1bc298"

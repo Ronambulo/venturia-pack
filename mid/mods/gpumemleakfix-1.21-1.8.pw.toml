@@ -3,6 +3,6 @@ filename = "gpumemleakfix-1.21-1.8.jar"
 side = "client"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/1894d2f0dd0c275aea0f1a6265ebd5715569c208.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/1894d2f0dd0c275aea0f1a6265ebd5715569c208.jar"
 hash-format = "sha1"
 hash = "1894d2f0dd0c275aea0f1a6265ebd5715569c208"

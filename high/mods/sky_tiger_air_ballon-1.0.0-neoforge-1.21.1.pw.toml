@@ -3,6 +3,6 @@ filename = "sky_tiger_air_ballon-1.0.0-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/de9e84e2b58fbb3fe4823f06a6cdd224deb4b9d1.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/de9e84e2b58fbb3fe4823f06a6cdd224deb4b9d1.jar"
 hash-format = "sha1"
 hash = "de9e84e2b58fbb3fe4823f06a6cdd224deb4b9d1"

@@ -3,6 +3,6 @@ filename = "sophisticatedbackpacks-1.21.1-3.26.7.2182.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/f77fb56e14382145124f8ca040dd13e89b38f23e.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/f77fb56e14382145124f8ca040dd13e89b38f23e.jar"
 hash-format = "sha1"
 hash = "f77fb56e14382145124f8ca040dd13e89b38f23e"

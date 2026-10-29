@@ -3,6 +3,6 @@ filename = "BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/6a12e1a249d074fb18f07d1f141b80ca2885e2be.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/6a12e1a249d074fb18f07d1f141b80ca2885e2be.jar"
 hash-format = "sha1"
 hash = "6a12e1a249d074fb18f07d1f141b80ca2885e2be"

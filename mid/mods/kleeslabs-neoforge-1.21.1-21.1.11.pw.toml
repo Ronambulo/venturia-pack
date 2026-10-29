@@ -3,6 +3,6 @@ filename = "kleeslabs-neoforge-1.21.1-21.1.11.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/6b357c38c09620d7494da94a03470d5fbb4eade6.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/6b357c38c09620d7494da94a03470d5fbb4eade6.jar"
 hash-format = "sha1"
 hash = "6b357c38c09620d7494da94a03470d5fbb4eade6"

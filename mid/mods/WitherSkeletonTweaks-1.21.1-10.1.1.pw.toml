@@ -3,6 +3,6 @@ filename = "WitherSkeletonTweaks-1.21.1-10.1.1.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/eda07efc2f5e47492abe205295b182c219c6199f.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/eda07efc2f5e47492abe205295b182c219c6199f.jar"
 hash-format = "sha1"
 hash = "eda07efc2f5e47492abe205295b182c219c6199f"

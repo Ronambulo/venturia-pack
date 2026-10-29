@@ -3,6 +3,6 @@ filename = "aether_protect_your_moa-1.21.1-1.0.0-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/9e82d2739b197ae80333cede547083ef1ba056a8.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/9e82d2739b197ae80333cede547083ef1ba056a8.jar"
 hash-format = "sha1"
 hash = "9e82d2739b197ae80333cede547083ef1ba056a8"

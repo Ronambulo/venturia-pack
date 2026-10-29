@@ -3,6 +3,6 @@ filename = "kubejs-neoforge-2101.7.2-build.377.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/150c5d6efc09b969ac350ea205128dff832e0850.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/150c5d6efc09b969ac350ea205128dff832e0850.jar"
 hash-format = "sha1"
 hash = "150c5d6efc09b969ac350ea205128dff832e0850"

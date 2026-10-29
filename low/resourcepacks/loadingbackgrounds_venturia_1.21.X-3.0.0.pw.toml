@@ -3,6 +3,6 @@ filename = "loadingbackgrounds_venturia_1.21.X-3.0.0.zip"
 side = "client"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/04e1830b2acf0ffb8d57f56c2087082bb98317f2.zip"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/04e1830b2acf0ffb8d57f56c2087082bb98317f2.zip"
 hash-format = "sha1"
 hash = "04e1830b2acf0ffb8d57f56c2087082bb98317f2"

@@ -3,6 +3,6 @@ filename = "recipeessentials-1.21.1-4.7.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/77c1796d445683b237b7391fe277388cd2ea0ee7.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/77c1796d445683b237b7391fe277388cd2ea0ee7.jar"
 hash-format = "sha1"
 hash = "77c1796d445683b237b7391fe277388cd2ea0ee7"

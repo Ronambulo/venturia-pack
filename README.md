@@ -1,7 +1,7 @@
 # Venturia — auto-actualización
 
 Packs [packwiz](https://packwiz.infra.link/) generados con `config/ftbquests_build/mk_packwiz.py` a partir de los `.mrpack`.
-Se sirven con GitHub Pages: `https://ronambulo.github.io/venturia-pack/<tier>/pack.toml` (`high`, `mid`, `low`, `server`).
+Se sirven desde raw.githubusercontent (GitHub Pages no vale: el dominio de Ronambulo.github.io apunta a Vercel): `https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/<tier>/pack.toml` (`high`, `mid`, `low`, `server`).
 
 ## Jugadores (Modrinth App, una sola vez)
 
@@ -20,7 +20,7 @@ Se sirven con GitHub Pages: `https://ronambulo.github.io/venturia-pack/<tier>/pa
 TYPE=NEOFORGE
 VERSION=1.21.1
 NEOFORGE_VERSION=21.1.256
-PACKWIZ_URL=https://ronambulo.github.io/venturia-pack/server/pack.toml
+PACKWIZ_URL=https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/server/pack.toml
 ```
 
 Se actualiza al reiniciar. Si cambia la versión de NeoForge hay que cambiarla a mano (packwiz no instala el loader),

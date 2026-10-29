@@ -3,6 +3,6 @@ filename = "configured-neoforge-1.21.1-2.6.3.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/e977d86eec39d49295df4e2c4265d6710ae065e8.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/e977d86eec39d49295df4e2c4265d6710ae065e8.jar"
 hash-format = "sha1"
 hash = "e977d86eec39d49295df4e2c4265d6710ae065e8"

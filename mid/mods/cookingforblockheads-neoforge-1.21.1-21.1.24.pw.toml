@@ -3,6 +3,6 @@ filename = "cookingforblockheads-neoforge-1.21.1-21.1.24.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/ddc2b4d7b2d5cc48283c251d39aa03897318be7f.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/ddc2b4d7b2d5cc48283c251d39aa03897318be7f.jar"
 hash-format = "sha1"
 hash = "ddc2b4d7b2d5cc48283c251d39aa03897318be7f"

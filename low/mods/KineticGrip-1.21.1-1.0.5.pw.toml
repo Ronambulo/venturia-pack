@@ -3,6 +3,6 @@ filename = "KineticGrip-1.21.1-1.0.5.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/c3363b8e398ea87f548547aaccb4739f0226a75c.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/c3363b8e398ea87f548547aaccb4739f0226a75c.jar"
 hash-format = "sha1"
 hash = "c3363b8e398ea87f548547aaccb4739f0226a75c"

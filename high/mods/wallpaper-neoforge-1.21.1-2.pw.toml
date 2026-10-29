@@ -3,6 +3,6 @@ filename = "wallpaper-neoforge-1.21.1-2.jar"
 side = "both"
 
 [download]
-url = "https://ronambulo.github.io/venturia-pack/blobs/ff1c4e975d84149558e186b7b0ad453616eafc39.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/ff1c4e975d84149558e186b7b0ad453616eafc39.jar"
 hash-format = "sha1"
 hash = "ff1c4e975d84149558e186b7b0ad453616eafc39"
