@@ -17,6 +17,10 @@ file = "config/InventoryHUD/curios.json"
 hash = "f2fb0f9c4bd092dcc07b24c64632a977aad6902e6613ba1d3f757115e5a97eff"
 
 [[files]]
+file = "config/MouseTweaks.cfg"
+hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
+
+[[files]]
 file = "config/NoChatReports/NCR-Client.json"
 hash = "edfe78d985fe67dce28104f3d87673e94c89134144451c291ecedcd2e2c3b480"
 
