@@ -9,7 +9,7 @@ Se sirven desde raw.githubusercontent (GitHub Pages no vale: el dominio de Ronam
 2. En la instancia: **Ajustes → Launch hooks → Pre-launch** escribe:
 
    ```
-   cmd /c venturia-update.bat
+   cmd /c .\venturia-update.bat
    ```
 
 3. Listo: cada vez que le des a Jugar se descargan solo los cambios. Sin conexión se juega igual.
