@@ -1,12 +1,12 @@
 name = "Venturia (Server)"
 author = "Ronam"
-version = "test2"
+version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "c75aa79ec33b300c7a012ff80304828a60de28f6501023f00bbb0af9ad88b4ea"
+hash = "c276d4833ea738b6db78460aa4ce3f2023e08470e6a22eb2827c254bf7613a12"
 
 [versions]
 minecraft = "1.21.1"
