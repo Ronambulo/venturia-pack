@@ -405,6 +405,13 @@ function hudState(p) {
     h.auc = { tier: AUC_TIERS[a.tier].name, item: crate ? 'minecraft:chest' : lot.item, count: crate ? (lot.rolls || 1) : (lot.count || 1), name: crate ? crate.name : '',
       left: a.end - now, bid: a.bid ? a.bid.amount : 0, bidder: a.bid ? a.bid.player : '', mine: !!(a.bid && a.bid.player == name), min: minBid(a) }
   }
+  // para la vitrina y el tablón de pujas de la casa de subastas
+  if (feat('subasta')) h.aucs = S.aucs.map((a, t) => {
+    if (!a) return null
+    let lot = a.lot, crate = lot.crate ? (CRATES[lot.crate] || { name: lot.crate }) : null
+    return { tier: AUC_TIERS[t].name, item: crate ? 'minecraft:chest' : lot.item, count: crate ? (lot.rolls || 1) : (lot.count || 1),
+      name: crate ? crate.name : '', left: a.end - now, min: minBid(a), top: aucTop(a) }
+  })
   return h
 }
 function sendHud(p) {
@@ -560,9 +567,10 @@ function markSeen(p, login) {
 }
 
 // ================================================================ subasta y encargos
-// Subasta semanal: un lote (objeto raro o caja de la tienda); se puja con /retos pujar <spurs>, el dinero se
-// cobra al pujar (de todas las monedas del inventario, con cambio) y se devuelve si te superan. Cierra el
-// sábado a las 20:00 (hora de España). El dinero ganador desaparece.
+// Subasta semanal: un lote (objeto raro o caja de la tienda). Solo se puja en persona, desde la vitrina del lote
+// en la casa de subastas (bloque venturiaretos:vitrina_subasta); F9 solo la enseña. El dinero se cobra al pujar
+// (de todas las monedas del inventario, con cambio) y se devuelve si te superan. Cierra el sábado a las 20:00
+// (hora de España). El dinero ganador desaparece. a.hist guarda todas las pujas para el top 3 del tablón.
 // Encargos: tablón diario (00:00 hora de España) con 2 fáciles, 2 medios y 1 difícil. Cada equipo puede
 // cumplir cada encargo una vez al día con /retos entregar <n>. Lo farmeable (farm: true) pide más cada semana.
 
@@ -826,6 +834,18 @@ function lotCmds(lot) {
   }
   return cmds
 }
+// Las 3 mejores pujas, una por jugador (su más alta). Solo la primera tiene el dinero retenido.
+function aucTop(a) {
+  let best = {}
+  ;(a.hist || []).forEach(b => { if (!best[b.p] || b.a > best[b.p]) best[b.p] = b.a })
+  if (a.bid && !best[a.bid.player]) best[a.bid.player] = a.bid.amount
+  return Object.keys(best).map(k => ({ p: k, a: best[k] })).sort((x, y) => y.a - x.a).slice(0, 3)
+}
+// ¿Ha abierto el jugador la vitrina de ese lote y sigue a su lado? (lo controla el mod venturiaretos)
+function atVitrina(p, lote) {
+  let rn = retosNet()
+  try { return !!(rn && rn.atVitrina(p, lote - 1)) } catch (e) { return false }
+}
 function minBid(a) {
   return a.bid ? Math.max(a.bid.amount + 1, Math.ceil(a.bid.amount * (1 + BID_STEP))) : a.lot.price
 }
@@ -837,7 +857,7 @@ function startAuction(server, t) {
   S.aucN = (S.aucN || 0) + 1
   let a = S.aucs[t] = { n: S.aucN, tier: t, lotIdx: idx, lot: LOTS[idx], end: nextWeekday20(Date.now(), AUC_TIERS[t].dow), bid: null }
   announce(server, [line('§e[Retos] §bSubasta ' + AUC_TIERS[t].name.toLowerCase() + ' n.º ' + a.n + ': ', lotText(a.lot),
-    ' §7- puja inicial §f' + fmtCoins(a.lot.price) + '§7. Cierra el ' + AUC_TIERS[t].day + ' a las 20:00. §8/retos subasta')], false)
+    ' §7- puja inicial §f' + fmtCoins(a.lot.price) + '§7. Cierra el ' + AUC_TIERS[t].day + ' a las 20:00. §8Se puja en la casa de subastas.')], false)
 }
 function closeAuction(server, t) {
   let a = S.aucs[t]
@@ -862,6 +882,7 @@ function bid(p, lote, amount) {
   if (!feat('subasta')) return featOff('subasta')
   let t = lote - 1, a = S.aucs[t]
   if (!a) return ['§cEse lote no existe: usa 1 (barata), 2 (media) o 3 (lujo).']
+  if (!atVitrina(p, lote)) return ['§cSolo se puja en persona: ve a la casa de subastas y usa la vitrina del lote.']
   let name = String(p.username)
   let need = minBid(a)
   if (amount < need) return ['§cLa puja mínima ahora es §f' + fmtCoins(need) + '§c.']
@@ -877,8 +898,9 @@ function bid(p, lote, amount) {
       if (op) toast(op, '§cTe han superado en la subasta', '§f' + name + ' §7puja §f' + coinShort(amount), aucIcon(a))
     }
   }
-  if (!takeCoins(p, amount)) { a.bid = null; save(server); return ['§cNo se pudo cobrar la puja.'] }
+  if (!takeCoins(p, amount)) { a.bid = null; a.hist = []; save(server); return ['§cNo se pudo cobrar la puja.'] }
   a.bid = { player: name, amount: amount }
+  a.hist = (a.hist || []).concat([{ p: name, a: amount }])
   save(server)
   server.players.forEach(q => sendHud(q))
   announce(server, [line('§e[Retos] §a' + name + ' §bpuja §f' + fmtCoins(amount) + ' §bpor ', lotText(a.lot))], false)
@@ -893,7 +915,7 @@ function linesSubasta() {
       '§7Puja mínima: §f' + fmtCoins(minBid(a)) + '§7. Cierra en §f' + timeLeft(a.end - Date.now()) + ' §7(' + AUC_TIERS[t].day + ' 20:00).')
   })
   if (!out.length) return ['§7Todavía no hay subasta.']
-  out.push('§8/retos pujar <lote 1-3> <spurs>: se cobra de tus monedas con cambio. 1 bevel = 8, sprocket = 16, cog = 64, crown = 512.')
+  out.push('§8Se puja en persona, en la vitrina del lote de la casa de subastas' + (S.aucHouse ? ' (' + S.aucHouse + ')' : '') + '.')
   return out
 }
 
@@ -1340,7 +1362,7 @@ function aucRefund(server, t, why) {
   giveCmds(server, b.player, coinCmds(b.amount))
   let q = onlinePlayer(server, b.player)
   if (q) q.tell(Text.of('§e[Retos] §7La subasta ' + why + ': se te devuelve tu puja (' + fmtCoins(b.amount) + '§7).'))
-  a.bid = null
+  a.bid = null; a.hist = []
 }
 function aucManual(server, lote, item, count, price, hours) {
   let t = lote - 1
@@ -1537,8 +1559,9 @@ function uiState(p, msgLines) {
     return { t: t + 1, tier: AUC_TIERS[t].name, day: AUC_TIERS[t].day, n: a.n, item: crate ? 'minecraft:chest' : lot.item, count: lot.count || 1,
       crate: !!crate, name: crate ? crate.name : '', rolls: lot.rolls || 0, preview: preview, left: a.end - now,
       bid: a.bid ? a.bid.amount : 0, bidder: a.bid ? a.bid.player : '', mine: !!(a.bid && a.bid.player == name), min: minBid(a),
-      price: lot.price, manual: !!a.manual }
+      price: lot.price, manual: !!a.manual, top: aucTop(a) }
   })
+  st.aucHouse = S.aucHouse || ''
   if (S.enc) st.enc = { left: nextMidnight() - now, list: S.enc.list.map((o, i) => ({ tier: o.tier, item: o.item, qty: o.qty,
     pay: specSpurs(orderPay(o)), season: o.season || null, done: (S.enc.done[i] || []).indexOf(team.id) >= 0 })) }
   if (S.bnt) {
@@ -1908,7 +1931,7 @@ function summaryLines(server) {
     '§fCarreras: §e' + done + '/' + RACES.length + ' §7con ganador  §8(/retos carreras)',
     '§fCooperativos: §e' + COOP.length + ' §7metas  §8(/retos cooperativos)',
     '§fSemanal: §e' + (S.week ? weeklyFor(S.week.id).name : '-') + '  §8(/retos semanal)',
-    '§fSubastas: §e' + S.aucs.filter(a => a).map(a => AUC_TIERS[a.tier].name.toLowerCase() + ' ' + timeLeft(a.end - Date.now())).join(', ') + '  §8(/retos subasta)',
+    '§fSubastas: §e' + S.aucs.filter(a => a).map(a => AUC_TIERS[a.tier].name.toLowerCase() + ' ' + timeLeft(a.end - Date.now())).join(', ') + '  §8(se puja en la casa de subastas)',
     '§fEncargos: §e' + (S.enc ? S.enc.list.length : 0) + ' §7hoy  §8(/retos encargos)',
     '§fRecompensas: §e' + (S.bnt ? S.bnt.list.length : 0) + ' §7hoy  §8(/retos recompensas)',
     '§fContratos entre equipos: §7ahora en la tienda §8(F10)']
@@ -1945,11 +1968,26 @@ ServerEvents.commandRegistry(event => {
         return 1
       })
       .then(Commands.literal('sync').executes(ctx => { let p = playerOf(ctx); if (p) sendUI(p, false, []); return 1 }))
-      .then(Commands.literal('pujar').then(intArg(event, 'spurs', 1).executes(ctx => {
+      .then(Commands.literal('pujar').then(intArg(event, 'lote', 1).then(intArg(event, 'spurs', 1).executes(ctx => {
         let p = playerOf(ctx)
         if (!p) return 0
-        let r = bid(p, getInt(ctx, 'spurs'))
+        let r = bid(p, getInt(ctx, 'lote'), getInt(ctx, 'spurs'))
         if (!sendUI(p, false, r)) send(ctx, r)
+        return 1
+      }))))
+      // la vitrina de la casa de subastas (VitrinaBlock) abre el panel de puja de su lote
+      .then(Commands.literal('vitrina').then(intArg(event, 'lote', 1).executes(ctx => {
+        let p = playerOf(ctx), lote = getInt(ctx, 'lote')
+        if (!p) return 0
+        load(p.server)
+        if (!feat('subasta')) return send(ctx, featOff('subasta'))
+        if (!atVitrina(p, lote)) return send(ctx, ['§cUsa la vitrina de la casa de subastas para pujar.'])
+        let pos = ''
+        try { pos = String(retosNet().vitrinaPos(p)) } catch (e) { }
+        if (pos && S.aucHouse != pos) { S.aucHouse = pos; save(p.server) }
+        let st = uiState(p, [])
+        st.vitrina = lote
+        try { retosNet().send(p, true, JSON.stringify(st)) } catch (e) { return send(ctx, linesSubasta()) }
         return 1
       })))
       .then(Commands.literal('entregar').then(intArg(event, 'n', 1).executes(ctx => {

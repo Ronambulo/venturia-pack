@@ -55309,18 +55309,6 @@
     "maxWaterDepth": 85,
     "implosionChance": 0.25540897
   },
-  "venturiaretos:tablon_retos": {
-    "maxWaterDepth": 171,
-    "implosionChance": 0.05
-  },
-  "venturiatienda:cofre_cajas": {
-    "maxWaterDepth": 171,
-    "implosionChance": 0.05
-  },
-  "venturiatienda:puesto_tienda": {
-    "maxWaterDepth": 171,
-    "implosionChance": 0.05
-  },
   "sliceanddice:fertilizer": {
     "maxWaterDepth": 100,
     "implosionChance": 0.05
@@ -60320,6 +60308,26 @@
   "undergarden:wigglewood_wood": {
     "maxWaterDepth": 41,
     "implosionChance": 0.39013878
+  },
+  "venturiaretos:tablon_pujas": {
+    "maxWaterDepth": 171,
+    "implosionChance": 0.05
+  },
+  "venturiaretos:tablon_retos": {
+    "maxWaterDepth": 171,
+    "implosionChance": 0.05
+  },
+  "venturiaretos:vitrina_subasta": {
+    "maxWaterDepth": 30,
+    "implosionChance": 0.05
+  },
+  "venturiatienda:cofre_cajas": {
+    "maxWaterDepth": 171,
+    "implosionChance": 0.05
+  },
+  "venturiatienda:puesto_tienda": {
+    "maxWaterDepth": 171,
+    "implosionChance": 0.05
   },
   "vinery:acacia_lattice": {
     "maxWaterDepth": 44,

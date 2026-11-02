@@ -845,20 +845,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_5u.cfe"
-hash = "7d0da9d2436b954eae368a7050d8659bef425167209d3b068d02f842ac82a7cb"
+file = "config/ars_nouveau/search_index/_5v.cfe"
+hash = "8a15a141f8f2edb414f45f66102a26dd5874a15bfbdfb0cb4738853c7d333b10"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_5u.cfs"
-hash = "364c8d9ad6c0a98adfe348e5028c6c6a72ed13a0d773204c7246cfe542900bb3"
+file = "config/ars_nouveau/search_index/_5v.cfs"
+hash = "b7ce90eece48131f45e065f85375f3d91984eaba41d38366baabba2643ca3712"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_5u.si"
-hash = "dfc69a9ca9cc9e3e9c0baeb7530fd476866197228b9866bfee497335ee922a92"
+file = "config/ars_nouveau/search_index/_5v.si"
+hash = "6ccbe692c60670557513c60819b28d3300e2c9cdee84b9aa84acd540ac24f0e5"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_5v"
-hash = "344fe74cf012198b8c9ab6739ba221cede2d1f6b49f0aabe19b4f76b7aa49f26"
+file = "config/ars_nouveau/search_index/segments_5w"
+hash = "dfeed064892846d292b1866c97b9a89a91024b3cad5c75b1a9692f47a9024e6f"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -2754,7 +2754,7 @@ hash = "a4e7d2d6bac537024dda0a613d6edfbb114cb4971e692e010cf5a43cb743e675"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "b837e26503ffb5e70341f2e8c8be2088fd1f4bf77f9e65b95280cf449026ba5e"
+hash = "02e175f2c3c6aa31517bf552d6bd0fcbab077bb13283b2947aa464aea1d5cc50"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -2830,7 +2830,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/fm_venturia.txt"
-hash = "36e998c9e7f57afad487cf356038b6384cd074184ce2dd7adeb4ba5d5ae68def"
+hash = "50571727c0b862c6ccd7b75e383dbe3d1dde72794355769204232805020d0cab"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -3026,7 +3026,7 @@ hash = "0eefc2096f0091520a34ead12c2c66e2e94440dcf3fae699c2f9d2c61c1a78e1"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "a467f23ea1ff2ad19b68ef69cbead510a920b416fb6b0b9d9b0469637ce45f06"
+hash = "6824972022f0dda9e5af45c1425461ba19ebdcbf9848c2e36d515fb0b43c2c02"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -3058,7 +3058,7 @@ hash = "2a7fe6a3f78e246212926f014bc627c07838a0dc7e535f4556a3fa5db4c90b95"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act3.snbt"
-hash = "cbc60ee4ea1e69d1c7dea36efbf3683befec7defe7268fd255d1300b783391db"
+hash = "76c94292e62372cf79988942211e9cefde7fe0df679283fabd5ba5a1614f2608"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act4.snbt"
@@ -3285,6 +3285,14 @@ file = "config/immersive_furniture.json"
 hash = "426a85cc978fcb25800cf8730e8f0913bd772dfb197248bc9e819e3585608a7a"
 
 [[files]]
+file = "config/immersive_paintings/client_config.toml"
+hash = "e3e18aa2387d5cd18357bb0bd29454bd1f0ae384bebdef882a535423e59c2636"
+
+[[files]]
+file = "config/immersive_paintings/common_config.toml"
+hash = "9d7c4ca80c498cb8fd4c30577bb75fd4f2787480cdfdad276e70871a94f96b8f"
+
+[[files]]
 file = "config/immersiveui.yaml"
 hash = "2abb8702e36e2745284cb4337508d9e2305ff7bf1d6eebe23bf05de75b3acff6"
 
@@ -3306,7 +3314,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "71baf4fe786bc1bd7ac8930c9b71954c233a7155f3b0fbf90fbc5cca0743c62c"
+hash = "b6a0c4e1d2a17428b90c9d5f28dd2b17f0856c55540713ce377fef6301b24ad8"
 preserve = true
 
 [[files]]
@@ -3375,7 +3383,7 @@ hash = "2e5119684366f75bc8a6df871381c6094a812cadd0d5ed0547405b5f1353f9e1"
 
 [[files]]
 file = "config/jei/client/ingredient-list-mod-sort-order.ini"
-hash = "479ceb1b4bd6a8f0e4f4e8577f7048bfbf9d35d97384874c608fa91b8666992f"
+hash = "777e3d93ff936d161e8813c8b0387800232fbdb111fae2bf0ff914e9c0e4c7f6"
 
 [[files]]
 file = "config/jei/client/ingredient-list-type-sort-order.ini"
@@ -4065,7 +4073,7 @@ hash = "54826c1ce55156e6a3d19a22949d733668806c7ed4a77218cc1d26bb6c5fa7bd"
 
 [[files]]
 file = "config/submarine_hull.json"
-hash = "79aaa8199088fd03cc46d3d9c9f80515f4aa2aa60e4c5d5be343e0ca2617e659"
+hash = "4ab90db30e4e0b5287989c231c088af129f8757ab73478f6f6527a8894d4f941"
 
 [[files]]
 file = "config/subtle_effects/blocks.toml"
@@ -4225,7 +4233,7 @@ hash = "1f09ddeb7043f4c0517dcb353ca4a808576c2cddde277c1bbbf9bf52235383bf"
 
 [[files]]
 file = "config/venturia-version.txt"
-hash = "9fd28642d3aca191e5c7fc2383cfd6fabb2aac8743f029dabb8989ac584e31bc"
+hash = "f5e5c9534532840fcd45bb002e69ed85c61dba2753450e26b448b7df1481e24d"
 
 [[files]]
 file = "config/venturia_aracnofobia.txt"
@@ -4623,7 +4631,7 @@ hash = "584f8a3349d70d020a967d77938cca7a5942b1b965b4ce3e311eb91a72313d22"
 
 [[files]]
 file = "kubejs/server_scripts/retos.js"
-hash = "20eb6a1b5dc1162474e111245b08ab476b51e0fa900d2c4fcf51a863c6c4b1f6"
+hash = "e82a39e5637ce368dc9efe14d0403013bfe5d0f21feda3850dbd40fffaf2acf4"
 
 [[files]]
 file = "kubejs/server_scripts/tps.js"
@@ -5202,7 +5210,7 @@ metafile = true
 
 [[files]]
 file = "mods/_Ronam_venturiaretos-1.0.0.pw.toml"
-hash = "8e7a4a559d1c406abbbf162fbd18f24c84ad53b48a692c939ad6f89c8d66c359"
+hash = "c72d22c733a14d86d082f600a327d61a3162ddbac4a5056dfad2862377e6c2a7"
 metafile = true
 
 [[files]]
