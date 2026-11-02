@@ -502,7 +502,7 @@ element {
 
 element {
   interactable = true
-  source = v1.0.3
+  source = v1.0.4
   source_mode = direct
   shadow = true
   enable_scrolling = false

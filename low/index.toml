@@ -2830,7 +2830,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/fm_venturia.txt"
-hash = "50571727c0b862c6ccd7b75e383dbe3d1dde72794355769204232805020d0cab"
+hash = "9f28006512ec670c14bb029fa5c247adeb63aef6ad2b0862cbdb2861e46f2a00"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -4233,7 +4233,7 @@ hash = "1f09ddeb7043f4c0517dcb353ca4a808576c2cddde277c1bbbf9bf52235383bf"
 
 [[files]]
 file = "config/venturia-version.txt"
-hash = "f5e5c9534532840fcd45bb002e69ed85c61dba2753450e26b448b7df1481e24d"
+hash = "d1b77b88f4b9f675a900e4143ac768a21218623cfe1703ca43162388c3271bd6"
 
 [[files]]
 file = "config/venturia_aracnofobia.txt"
@@ -6526,6 +6526,11 @@ metafile = true
 [[files]]
 file = "mods/veinmining-neoforge-5.0.0-beta.2_1.21.pw.toml"
 hash = "b72158f563eb5eb66f5f79e65f80c7e1dbab0a8de3375030a82b58684634fabc"
+metafile = true
+
+[[files]]
+file = "mods/voicechat-neoforge-1.21.1-2.6.27.pw.toml"
+hash = "0dda45359591ef6e37f876b85beffae2c47d730d562c57056e0f95155fd42ea0"
 metafile = true
 
 [[files]]
