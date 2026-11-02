@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","generated/fragmentum_layer","mod_resources","moonlight:merged_pack","tinyskeletons:dynamically_copied_skeleton_textures","mod/eternal_starlight:resourcepacks/starlight_3d_mace","eatinganimations_compat","aeronauticshotairfix:hot_air_fix","file/loadingbackgrounds_venturia_1.21.X-3.0.0.zip","file/[Ronam] Venturia GUI.zip"]
+resourcePacks:["vanilla","fabric","generated/fragmentum_layer","mod_resources","moonlight:merged_pack","tinyskeletons:dynamically_copied_skeleton_textures","mod/eternal_starlight:resourcepacks/starlight_3d_mace","eatinganimations_compat","aeronauticshotairfix:hot_air_fix","file/loadingbackgrounds_venturia_1.21.X-3.0.0.zip","file/bushy-leaves-1-6-5.zip","file/[Ronam] Venturia GUI.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

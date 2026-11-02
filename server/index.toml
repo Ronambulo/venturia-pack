@@ -2606,7 +2606,7 @@ hash = "216cba34f4b7bb6f75ac414c98bea3ec02765adaa369f3d681c3b01ee62faaf5"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
-hash = "c360db3802d2de3ec07bc8cc343543121d7d762b65bb52d8ea2e70732cb25f9d"
+hash = "0df51925ecaa515356c9438aaba26d99e0ee963aab1c71a36bcce340147f2d9b"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
@@ -2614,7 +2614,7 @@ hash = "8c07f369d0ec2d6d74ace1501c05d4b29820c1de4d238181df546fa7673c7c99"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "ee5663d57a01b057dee97c801512190bb58858609682fdbafd37efc118c5be7f"
+hash = "1ac8b15286185fcd03602b569ff932920b03841dd91a842e292e30623ab0897b"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -4105,7 +4105,7 @@ hash = "1f09ddeb7043f4c0517dcb353ca4a808576c2cddde277c1bbbf9bf52235383bf"
 
 [[files]]
 file = "config/venturia-version.txt"
-hash = "44e161e4495cac2cf7858043e9e6418e9579f0ddcfae826f9a372622968ce066"
+hash = "9fd28642d3aca191e5c7fc2383cfd6fabb2aac8743f029dabb8989ac584e31bc"
 
 [[files]]
 file = "config/venturia_aracnofobia.txt"
@@ -5666,8 +5666,8 @@ hash = "eb52b618069bf61dae7cfba52feb3a738529423d1dd8e1c7f6a5edd42581be16"
 metafile = true
 
 [[files]]
-file = "mods/fzzy_config-0.7.7_1.21_neoforge.pw.toml"
-hash = "bea7b0667324eba86666331c5899b4138020960c8de013c325f1ae4e1f162ba8"
+file = "mods/fzzy_config-0.7.7_fix1_1.21_neoforge.pw.toml"
+hash = "56f3735190c973674db21153e9a8898b9a064c8c1c5c48448ccb734b9835859f"
 metafile = true
 
 [[files]]
@@ -5728,6 +5728,11 @@ metafile = true
 [[files]]
 file = "mods/immersive_furniture-neoforge-0.3.3_1.21.1.pw.toml"
 hash = "0dcb47e920d4be71ad4a77e583b83220af5ac8776e438481f615ee5e2af09c80"
+metafile = true
+
+[[files]]
+file = "mods/immersive_paintings-neoforge-1.21.1-0.8.0.pw.toml"
+hash = "6e0f5db92720263db414594f465d2ef86686ae8294d252370878f0c4317ba124"
 metafile = true
 
 [[files]]

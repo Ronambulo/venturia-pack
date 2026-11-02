@@ -1,0 +1,8 @@
+name = "bushy-leaves-1-6-5.zip"
+filename = "bushy-leaves-1-6-5.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/XSSmFELw/versions/Nx48HzUJ/bushy-leaves-1-6-5.zip"
+hash-format = "sha1"
+hash = "65bf56acef3b53441422fe4b342783cef0cc1628"

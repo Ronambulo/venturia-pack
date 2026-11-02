@@ -1,0 +1,8 @@
+name = "fzzy_config-0.7.7+fix1+1.21+neoforge.jar"
+filename = "fzzy_config-0.7.7+fix1+1.21+neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hYykXjDp/versions/jRuOkBAG/fzzy_config-0.7.7%2Bfix1%2B1.21%2Bneoforge.jar"
+hash-format = "sha1"
+hash = "aa04a2ddbce2f50b21d667d2f3e589f9e043e472"
