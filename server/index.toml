@@ -2606,7 +2606,7 @@ hash = "216cba34f4b7bb6f75ac414c98bea3ec02765adaa369f3d681c3b01ee62faaf5"
 
 [[files]]
 file = "config/defaultoptions-common.toml"
-hash = "0df51925ecaa515356c9438aaba26d99e0ee963aab1c71a36bcce340147f2d9b"
+hash = "a96169c6cad7c9c6d0c68a23242bcea0a940656a4a3136555785953716a6ebc2"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
@@ -2614,7 +2614,7 @@ hash = "8c07f369d0ec2d6d74ace1501c05d4b29820c1de4d238181df546fa7673c7c99"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "1ac8b15286185fcd03602b569ff932920b03841dd91a842e292e30623ab0897b"
+hash = "a379e263105b232594c72163fe206335496b9c694bfaa08bacf3cf29f1400f4a"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -4113,7 +4113,7 @@ hash = "1f09ddeb7043f4c0517dcb353ca4a808576c2cddde277c1bbbf9bf52235383bf"
 
 [[files]]
 file = "config/venturia-version.txt"
-hash = "8c54bfab7f1ae9bd1a7148eae41e7b0a8f4ad3726e0cac70f823a2d45db9e60c"
+hash = "51c18dc8694861beb47a67894e61044864214435389f6d3a274704d9566ff96c"
 
 [[files]]
 file = "config/venturia_aracnofobia.txt"
@@ -5080,7 +5080,7 @@ metafile = true
 
 [[files]]
 file = "mods/_Ronam_venturiaretos-1.0.0.pw.toml"
-hash = "c72d22c733a14d86d082f600a327d61a3162ddbac4a5056dfad2862377e6c2a7"
+hash = "bd2d4232165a6747d45e0cfe97f96509e0cdcd36e1bc13944d9446b10d3d66dd"
 metafile = true
 
 [[files]]
