@@ -1,6 +1,7 @@
 // Zona segura del spawn (la isla inicial). La protección de bloques la da FTB Chunks con un equipo de servidor;
 // esto añade lo que FTB Chunks no hace: sin mobs hostiles dentro de la zona y aldeanos invulnerables.
 // PvP y matar animales siguen permitidos. En creativo se puede construir y editar todo (ver zsCreativo).
+// Los yunques de la zona no se desgastan al usarlos.
 // Admin: /zonaspawn set <radio>  (centro = donde estás)  |  /zonaspawn quitar  |  /zonaspawn
 const ZsComponent = Java.loadClass('net.minecraft.network.chat.Component')
 const ZsInt = Java.loadClass('com.mojang.brigadier.arguments.IntegerArgumentType')
@@ -8,6 +9,8 @@ const ZsAABB = Java.loadClass('net.minecraft.world.phys.AABB')
 const ZsVillager = Java.loadClass('net.minecraft.world.entity.npc.AbstractVillager')
 const ZsEnemy = Java.loadClass('net.minecraft.world.entity.monster.Enemy')
 const ZsFTBChunks = Java.loadClass('dev.ftb.mods.ftbchunks.api.FTBChunksAPI')
+const ZsAnvilRepair = Java.loadClass('net.neoforged.neoforge.event.entity.player.AnvilRepairEvent')
+const ZsPriority = Java.loadClass('net.neoforged.bus.api.EventPriority')
 const ZS_TAG = 'venturia_zona_spawn'
 let ZONA = null // {dim, x, z, r}
 
@@ -120,6 +123,14 @@ BlockEvents.rightClicked(event => {
   // se reenvía el inventario para borrar ese objeto fantasma
   p.inventoryMenu.sendAllDataToRemote()
   event.cancel()
+})
+
+// yunques del spawn: sin la probabilidad de desgastarse al coger el resultado (Easy Anvils la pone al 5 % en el mismo
+// evento, por eso va con prioridad LOWEST, para ejecutarse después). El evento no trae la posición del yunque, así que
+// se mira la del jugador (está a menos de 5 bloques del yunque que usa).
+NativeEvents.onEvent(ZsPriority.LOWEST, ZsAnvilRepair, event => {
+  let p = event.getEntity()
+  if (ZONA && !p.level.isClientSide() && zsInside(p)) event.setBreakChance(0)
 })
 
 ServerEvents.commandRegistry(event => {

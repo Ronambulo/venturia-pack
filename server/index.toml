@@ -4527,7 +4527,7 @@ hash = "f1f4c29be67514f98672a036097de9eeecdd30dcff1f97f8ebcc90e2cc8ed024"
 
 [[files]]
 file = "kubejs/server_scripts/zona_spawn.js"
-hash = "c195b448ddeedd2bfecbf4fb0108bfa5db55d397722a7f9d8d67f3a476ebd0f8"
+hash = "cde23af4c3a3bea20f1a340133c3dd81788a60a39557380d7bb6eef388b384b8"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
