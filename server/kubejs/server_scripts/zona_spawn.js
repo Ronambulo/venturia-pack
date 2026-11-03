@@ -63,15 +63,21 @@ ServerEvents.tick(event => {
   if (ZONA && event.server.getTickCount() % 40 == 0) zsSweep(event.server, ZONA)
 })
 
-// decoración que se coge con clic derecho (jarras, botellas y comida de Let's Do Brewery): con block_interact_mode
-// público FTB Chunks deja cogerla, pero block_edit_mode privado no deja volver a ponerla. Dentro de la zona solo los
-// OP o en creativo. Añade aquí otros bloques que se cojan o se coman al usarlos.
-const ZS_NO_COGER = /^brewery:(beer_|whiskey_|dumplings|fried_chicken|half_chicken|mashed_potatoes|pork_knuckle|potato_salad|gingerbread)/
+// decoración que se coge o se come con clic derecho (bebidas, jarras, posavasos, comida en plato, tartas, macetas...):
+// con block_interact_mode público FTB Chunks deja cogerla, pero block_edit_mode privado no deja volver a ponerla.
+// Dentro de la zona solo se puede en creativo (también los OP en supervivencia quedan bloqueados).
+// Añade aquí otros bloques que se cojan o se coman al usarlos.
+const ZS_NO_COGER = new RegExp('^(' + [
+  'brewery:(beer_|whiskey_|dumplings|fried_chicken|half_chicken|mashed_potatoes|pork_knuckle|potato_salad|gingerbread)',
+  'brewinandchewin:(?!keg|heating_cask|ice_crate|fiery_fondue_pot)', // todo menos las estaciones de trabajo
+  'farmersdelight:(.*_pie$|.*_block$|sweet_berry_cheesecake)',
+  'minecraft:(cake|.*candle_cake|potted_|chiseled_bookshelf|jukebox|decorated_pot)'
+].join('|') + ')')
 
 BlockEvents.rightClicked(event => {
   if (!ZONA || !ZS_NO_COGER.test(String(event.block.id))) return
   let p = event.player
-  if (p.isCreative() || p.hasPermissions(2)) return
+  if (p.isCreative()) return
   let b = event.block
   if (zsDim(event.level) != ZONA.dim || Math.abs(b.x + 0.5 - ZONA.x) > ZONA.r || Math.abs(b.z + 0.5 - ZONA.z) > ZONA.r) return
   p.setStatusMessage(Text.red('Esto es decoración del spawn: no se puede coger.'))
