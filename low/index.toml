@@ -2830,7 +2830,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/fm_venturia.txt"
-hash = "d2d2d68ed40b1128627b3b1a04a28eefbd2bfe8e35fb2c761a4b52eb1808d44b"
+hash = "55581767faabbc2ddc0529786e865d6ea216409c84d083d60674fe3b88d20ef9"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -4233,7 +4233,7 @@ hash = "1f09ddeb7043f4c0517dcb353ca4a808576c2cddde277c1bbbf9bf52235383bf"
 
 [[files]]
 file = "config/venturia-version.txt"
-hash = "51c18dc8694861beb47a67894e61044864214435389f6d3a274704d9566ff96c"
+hash = "6d6b9230dd8b8aac527f8929b7c2fc1fa0365deccca856216de979d6f5c6a6fe"
 
 [[files]]
 file = "config/venturia_aracnofobia.txt"
@@ -4647,7 +4647,7 @@ hash = "f1f4c29be67514f98672a036097de9eeecdd30dcff1f97f8ebcc90e2cc8ed024"
 
 [[files]]
 file = "kubejs/server_scripts/zona_spawn.js"
-hash = "d87047ffe568258682fb9779c323a091d48a884e57905ad5f8a52c9d6023c2cd"
+hash = "ecc56f8afe6417810728a250b638dbe8ab23cdca09169e429d273da4807b1420"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

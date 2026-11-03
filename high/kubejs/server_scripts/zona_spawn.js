@@ -56,6 +56,21 @@ ServerEvents.tick(event => {
   if (ZONA && event.server.getTickCount() % 40 == 0) zsSweep(event.server, ZONA)
 })
 
+// decoración que se coge con clic derecho (jarras, botellas y comida de Let's Do Brewery): con block_interact_mode
+// público FTB Chunks deja cogerla, pero block_edit_mode privado no deja volver a ponerla. Dentro de la zona solo los
+// OP o en creativo. Añade aquí otros bloques que se cojan o se coman al usarlos.
+const ZS_NO_COGER = /^brewery:(beer_|whiskey_|dumplings|fried_chicken|half_chicken|mashed_potatoes|pork_knuckle|potato_salad|gingerbread)/
+
+BlockEvents.rightClicked(event => {
+  if (!ZONA || !ZS_NO_COGER.test(String(event.block.id))) return
+  let p = event.player
+  if (p.isCreative() || p.hasPermissions(2)) return
+  let b = event.block
+  if (zsDim(event.level) != ZONA.dim || Math.abs(b.x + 0.5 - ZONA.x) > ZONA.r || Math.abs(b.z + 0.5 - ZONA.z) > ZONA.r) return
+  p.setStatusMessage(Text.red('Esto es decoración del spawn: no se puede coger.'))
+  event.cancel()
+})
+
 ServerEvents.commandRegistry(event => {
   const Commands = event.commands
   let msg = (ctx, t) => ctx.source.sendSystemMessage(ZsComponent.literal(t))
