@@ -82,6 +82,7 @@ const ZS_NO_COGER = new RegExp('^(' + [
   'wildernature:truffle_bag',
   '[a-z0-9_]+:potted_', // macetas de cualquier mod: se saca la planta
   'minecraft:flower_pot$', // maceta vacía: la planta que se meta ya no se podría sacar
+  '[a-z0-9_]+:[a-z0-9_]*_sign$', 'supplementaries:way_sign_wall', // carteles (también colgantes): editarlos, teñirlos o encerarlos
   'minecraft:(cake|.*candle_cake|chiseled_bookshelf|jukebox|decorated_pot)'
 ].join('|') + ')')
 
@@ -91,7 +92,7 @@ BlockEvents.rightClicked(event => {
   if (p.isCreative()) return
   let b = event.block
   if (zsDim(event.level) != ZONA.dim || Math.abs(b.x + 0.5 - ZONA.x) > ZONA.r || Math.abs(b.z + 0.5 - ZONA.z) > ZONA.r) return
-  p.setStatusMessage(Text.red('Esto es decoración del spawn: no se puede coger.'))
+  p.setStatusMessage(Text.red('Esto es decoración del spawn: no se puede coger ni cambiar.'))
   // algunos bloques (macetas de vanilla) ya dan el objeto en el cliente antes de que el servidor cancele:
   // se reenvía el inventario para borrar ese objeto fantasma
   p.inventoryMenu.sendAllDataToRemote()

@@ -4113,7 +4113,7 @@ hash = "1f09ddeb7043f4c0517dcb353ca4a808576c2cddde277c1bbbf9bf52235383bf"
 
 [[files]]
 file = "config/venturia-version.txt"
-hash = "2df2bd7011e87351e2e3e296ddb7f2520270a76160f95b2d64b337167294f28c"
+hash = "00251bee1d03f658c2324926785a996dd040dff16bf993b2c520a20edbba72c8"
 
 [[files]]
 file = "config/venturia_aracnofobia.txt"
@@ -4527,7 +4527,7 @@ hash = "f1f4c29be67514f98672a036097de9eeecdd30dcff1f97f8ebcc90e2cc8ed024"
 
 [[files]]
 file = "kubejs/server_scripts/zona_spawn.js"
-hash = "fe2ec3656f3cb67a07721d01a3030a30881fb967cf1900616604c6d77d663846"
+hash = "401ecf01839baf351f5700a2dba6314bb01ae0feb30ddbcfe8002acb6966bd20"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
