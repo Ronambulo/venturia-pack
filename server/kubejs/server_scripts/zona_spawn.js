@@ -81,6 +81,7 @@ const ZS_NO_COGER = new RegExp('^(' + [
   'farm_and_charm:(.*_block$|.*_tea$|.*_bag$|tool_rack|window_sill|cutting_board)',
   'wildernature:truffle_bag',
   '[a-z0-9_]+:potted_', // macetas de cualquier mod: se saca la planta
+  'minecraft:flower_pot$', // maceta vacía: la planta que se meta ya no se podría sacar
   'minecraft:(cake|.*candle_cake|chiseled_bookshelf|jukebox|decorated_pot)'
 ].join('|') + ')')
 
