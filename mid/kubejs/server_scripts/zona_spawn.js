@@ -14,7 +14,14 @@ function zsLoad(server) {
   ZONA = s ? JSON.parse(s) : null
 }
 
-function zsDim(level) { return String(level.dimension().location()) }
+// en KubeJS level.dimension es una propiedad (el id de la dimensión), no el método dimension() de Minecraft
+function zsDim(level) {
+  let d = level.dimension
+  if (typeof d == 'function') d = level.dimension()
+  return String(d && d.location ? d.location() : d)
+}
+
+function zsNum(o, k) { return Number(typeof o[k] == 'function' ? o[k]() : o[k]) }
 
 function zsInside(entity) {
   if (!ZONA || zsDim(entity.level) != ZONA.dim) return false
@@ -83,7 +90,7 @@ ServerEvents.commandRegistry(event => {
     .then(Commands.literal('set').then(Commands.argument('radio', ZsInt.integer(1, 2000)).executes(ctx => {
       let pos = ctx.source.getPosition()
       if (ZONA) { let old = ZONA; ZONA = { dim: old.dim, x: old.x, z: old.z, r: -1 }; zsSweep(ctx.source.server, old) }
-      ZONA = { dim: zsDim(ctx.source.getLevel()), x: pos.x(), z: pos.z(), r: ZsInt.getInteger(ctx, 'radio') }
+      ZONA = { dim: zsDim(ctx.source.getLevel()), x: zsNum(pos, 'x'), z: zsNum(pos, 'z'), r: ZsInt.getInteger(ctx, 'radio') }
       ctx.source.server.persistentData.putString(ZS_TAG, JSON.stringify(ZONA))
       msg(ctx, 'Zona del spawn: centro ' + Math.floor(ZONA.x) + ', ' + Math.floor(ZONA.z) + ', radio ' + ZONA.r +
         ' bloques. Sin mobs hostiles y con aldeanos invulnerables.')
