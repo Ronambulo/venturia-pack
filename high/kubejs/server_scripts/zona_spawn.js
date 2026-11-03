@@ -92,6 +92,9 @@ BlockEvents.rightClicked(event => {
   let b = event.block
   if (zsDim(event.level) != ZONA.dim || Math.abs(b.x + 0.5 - ZONA.x) > ZONA.r || Math.abs(b.z + 0.5 - ZONA.z) > ZONA.r) return
   p.setStatusMessage(Text.red('Esto es decoración del spawn: no se puede coger.'))
+  // algunos bloques (macetas de vanilla) ya dan el objeto en el cliente antes de que el servidor cancele:
+  // se reenvía el inventario para borrar ese objeto fantasma
+  p.inventoryMenu.sendAllDataToRemote()
   event.cancel()
 })
 
