@@ -17,11 +17,13 @@
 				id: "minecraft:ender_eye"
 			}
 			id: "5ED560445C6D6799"
-			rewards: [{
+			rewards: [
+			{
 				id: "33D8F4FBD6AFC178"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			shape: "hexagon"
 			size: 2.5d
 			x: 0.0d
@@ -36,15 +38,14 @@
 				id: "creatingspace:rocket_controls"
 			}
 			id: "1F34A7D65AB8CF32"
-			rewards: [{
+			rewards: [
+			{
 				count: 2
 				id: "566D8F833115470B"
-				item: {
-					count: 1
-					id: "numismatics:cog"
-				}
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
-			}]
+			}
+			]
 			shape: "diamond"
 			size: 1.5d
 			x: 4.0d
@@ -59,15 +60,14 @@
 				id: "minecraft:filled_map"
 			}
 			id: "432718D7E34CB49F"
-			rewards: [{
+			rewards: [
+			{
 				count: 2
 				id: "3C3B410E03904988"
-				item: {
-					count: 1
-					id: "numismatics:cog"
-				}
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
-			}]
+			}
+			]
 			shape: "diamond"
 			size: 1.5d
 			x: 4.0d
@@ -82,15 +82,14 @@
 				id: "minecraft:netherite_sword"
 			}
 			id: "554A49B8466C40C9"
-			rewards: [{
+			rewards: [
+			{
 				count: 2
 				id: "19BCEE52B4CAE718"
-				item: {
-					count: 1
-					id: "numismatics:cog"
-				}
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
-			}]
+			}
+			]
 			shape: "diamond"
 			size: 1.5d
 			x: 4.0d
@@ -108,45 +107,33 @@
 			id: "208BA0CCECE1EEFB"
 			invisible: true
 			rewards: [
-				{
-					count: 2
-					id: "774ADFF8BF51D321"
-					item: {
-						count: 1
-						id: "numismatics:crown"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "092241F02F5FEF95"
-					item: {
-						count: 1
-						id: "minecraft:netherite_ingot"
-					}
-					type: "item"
-				}
-				{
-					id: "73542B64C95003A7"
-					item: {
-						count: 1
-						id: "minecraft:elytra"
-					}
-					type: "item"
-				}
-				{
-					id: "6C620E2D60C88D20"
-					item: {
-						count: 1
-						id: "minecraft:dragon_egg"
-					}
-					type: "item"
-				}
-				{
-					id: "5DCEB5CC41E122F3"
-					type: "xp_levels"
-					xp_levels: 30
-				}
+			{
+				count: 2
+				id: "774ADFF8BF51D321"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}
+			{
+				count: 4
+				id: "092241F02F5FEF95"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}
+			{
+				id: "73542B64C95003A7"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}
+			{
+				id: "6C620E2D60C88D20"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}
+			{
+				id: "5DCEB5CC41E122F3"
+				type: "xp_levels"
+				xp_levels: 30
+			}
 			]
 			shape: "octagon"
 			size: 3.0d

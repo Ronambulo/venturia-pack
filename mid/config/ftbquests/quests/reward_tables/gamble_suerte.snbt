@@ -1,7 +1,7 @@
 {
 	id: "283834967AD9ACDF"
 	loot_size: 1
-	order_index: 7
+	order_index: 20
 	rewards: [
 		{
 			id: "154C5C859DFE68B6"
@@ -65,7 +65,14 @@
 			}
 			weight: 1.5f
 		}
-		{ id: "659602AE981579A8", item: { count: 1, id: "minecraft:blaze_spawn_egg" } }
+		{
+			id: "659602AE981579A8"
+			item: {
+				count: 1
+				id: "minecraft:blaze_spawn_egg"
+			}
+			weight: 1.0f
+		}
 		{
 			count: 2
 			id: "0A59D0E0E292C15D"

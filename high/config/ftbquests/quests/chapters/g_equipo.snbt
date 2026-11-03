@@ -8,7 +8,7 @@
 	}
 	id: "3211EF35C26D8866"
 	images: [ ]
-	order_index: 7
+	order_index: 17
 	quest_links: [ ]
 	quests: [
 		{
@@ -28,15 +28,15 @@
 				id: "simplyswords:iron_katana"
 			}
 			id: "4056DA965E5BAFA7"
-			rewards: [{
+			rewards: [
+			{
 				id: "263A2A42E1B027FB"
 				type: "xp"
 				xp: 200
-			}]
+			}
+			]
 			tasks: [{
-				icon: {
-					id: "simplyswords:iron_longsword"
-				}
+				icon: { count: 1, id: "simplyswords:iron_longsword" }
 				id: "7A95EAC571D77197"
 				item: { components: { "ftbfiltersystem:filter": "or(item(simplyswords:iron_longsword)item(simplyswords:iron_katana)item(simplyswords:iron_scythe)item(simplyswords:iron_greataxe)item(simplyswords:iron_greathammer)item(simplyswords:iron_halberd)item(simplyswords:iron_spear)item(simplyswords:iron_claymore)item(simplyswords:iron_rapier)item(simplyswords:iron_glaive)item(simplyswords:iron_twinblade)item(simplyswords:iron_cutlass)item(simplyswords:iron_sai)item(simplyswords:iron_chakram)item(simplyswords:iron_warglaive))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -50,11 +50,13 @@
 				id: "artifacts:flame_pendant"
 			}
 			id: "0783F012A2CA07D0"
-			rewards: [{
+			rewards: [
+			{
 				id: "013B1B9822F2D05C"
 				type: "xp"
 				xp: 300
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "artifacts:amateur_archaeologist"
 				criterion: ""
@@ -71,16 +73,16 @@
 			}
 			id: "485183EACC3E7CC7"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "74D5529BDD728679"
 				type: "xp"
 				xp: 500
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
-				icon: {
-					id: "advancednetherite:netherite_iron_ingot"
-				}
+				icon: { count: 1, id: "advancednetherite:netherite_iron_ingot" }
 				id: "04B56648420DF62B"
 				item: { components: { "ftbfiltersystem:filter": "or(item(advancednetherite:netherite_iron_ingot)item(advancednetherite:netherite_gold_ingot)item(advancednetherite:netherite_emerald_ingot)item(advancednetherite:netherite_diamond_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -95,16 +97,16 @@
 			}
 			id: "2AB73D516195139E"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "22A2899280B069AD"
 				type: "xp"
 				xp: 300
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
-				icon: {
-					id: "gateways:gate_pearl"
-				}
+				icon: { count: 1, id: "gateways:gate_pearl" }
 				id: "247F827023FEE3DA"
 				item: { components: { "ftbfiltersystem:filter": "or(item(gateways:gate_pearl)item(gateways:gate_pearl_med)item(gateways:gate_pearl_large))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -125,20 +127,17 @@
 			id: "78F4CF887E01B1D7"
 			min_required_dependencies: 2
 			rewards: [
-				{
-					count: 2
-					id: "1C8F58DCF52F8A66"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
-				}
-				{
-					id: "1E214A0D0A9C391F"
-					type: "xp_levels"
-					xp_levels: 10
-				}
+			{
+				count: 2
+				id: "1C8F58DCF52F8A66"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}
+			{
+				id: "1E214A0D0A9C391F"
+				type: "xp_levels"
+				xp_levels: 10
+			}
 			]
 			shape: "hexagon"
 			size: 2.0d

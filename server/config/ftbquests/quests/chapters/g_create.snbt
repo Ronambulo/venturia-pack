@@ -8,7 +8,7 @@
 	}
 	id: "4F849D89B012EE49"
 	images: [ ]
-	order_index: 0
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -38,11 +38,13 @@
 				id: "create:andesite_alloy"
 			}
 			id: "24B52CF18F461627"
-			rewards: [{
+			rewards: [
+			{
 				id: "6AE6CAB90CB95F4A"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:andesite_alloy"
 				criterion: ""
@@ -58,30 +60,32 @@
 				id: "create:large_cogwheel"
 			}
 			id: "009D4C2103250A25"
-			rewards: [{
+			rewards: [
+			{
 				id: "444498974DFCDCAE"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			tasks: [
-				{
-					count: 8L
-					id: "3017AF41B0B29403"
-					item: { count: 1, id: "create:shaft" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "4E37C0498E4D6E07"
-					item: { count: 1, id: "create:cogwheel" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "0AA162CBC52A336E"
-					item: { count: 1, id: "create:large_cogwheel" }
-					type: "item"
-				}
+			{
+				count: 8L
+				id: "3017AF41B0B29403"
+				item: { count: 1, id: "create:shaft" }
+				type: "item"
+			}
+			{
+				count: 8L
+				id: "4E37C0498E4D6E07"
+				item: { count: 1, id: "create:cogwheel" }
+				type: "item"
+			}
+			{
+				count: 2L
+				id: "0AA162CBC52A336E"
+				item: { count: 1, id: "create:large_cogwheel" }
+				type: "item"
+			}
 			]
 			x: 4.75d
 			y: -8.75d
@@ -92,19 +96,16 @@
 				id: "create:windmill_bearing"
 			}
 			id: "64ABB6DC173F07E7"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
 				id: "6236DC7C8F34A8AC"
-				item: {
-					count: 1
-					id: "create:white_sail"
-				}
+				item: { count: 1, id: "create:white_sail" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
-				icon: {
-					id: "create:water_wheel"
-				}
+				icon: { count: 1, id: "create:water_wheel" }
 				id: "40B175A08A8921D9"
 				item: { components: { "ftbfiltersystem:filter": "or(item(create:hand_crank)item(create:water_wheel)item(create:large_water_wheel)item(create:windmill_bearing))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -118,11 +119,13 @@
 				id: "create:goggles"
 			}
 			id: "394CE07DA32DD133"
-			rewards: [{
+			rewards: [
+			{
 				id: "7C77BEB185E82F15"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:wrench_goggles"
 				criterion: ""
@@ -138,11 +141,13 @@
 				id: "create:white_sail"
 			}
 			id: "65E81114757DDBBD"
-			rewards: [{
+			rewards: [
+			{
 				id: "52AE2273C0ECFA35"
 				type: "xp"
 				xp: 150
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:windmill"
 				criterion: ""
@@ -158,33 +163,35 @@
 				id: "create:gearbox"
 			}
 			id: "76344B2CFF48263B"
-			rewards: [{
+			rewards: [
+			{
 				id: "3132D35D4BECD7DF"
 				type: "xp"
 				xp: 150
-			}]
+			}
+			]
 			tasks: [
-				{
-					advancement: "create:shifting_gears"
-					criterion: ""
-					id: "6182D44646A172DD"
-					type: "advancement"
-				}
-				{
-					id: "2ECC68B91E05BB12"
-					item: { count: 1, id: "create:gearbox" }
-					type: "item"
-				}
-				{
-					id: "7846031AE15F72ED"
-					item: { count: 1, id: "create:clutch" }
-					type: "item"
-				}
-				{
-					id: "3D53ECF7C0F49F4C"
-					item: { count: 1, id: "create:gearshift" }
-					type: "item"
-				}
+			{
+				advancement: "create:shifting_gears"
+				criterion: ""
+				id: "6182D44646A172DD"
+				type: "advancement"
+			}
+			{
+				id: "2ECC68B91E05BB12"
+				item: { count: 1, id: "create:gearbox" }
+				type: "item"
+			}
+			{
+				id: "7846031AE15F72ED"
+				item: { count: 1, id: "create:clutch" }
+				type: "item"
+			}
+			{
+				id: "3D53ECF7C0F49F4C"
+				item: { count: 1, id: "create:gearshift" }
+				type: "item"
+			}
 			]
 			x: 13.75d
 			y: -8.75d
@@ -195,11 +202,13 @@
 				id: "create:stressometer"
 			}
 			id: "72ED082A06CFCF14"
-			rewards: [{
+			rewards: [
+			{
 				id: "5013DC08E44BCBDB"
 				type: "xp"
 				xp: 150
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:stressometer"
 				criterion: ""
@@ -225,28 +234,27 @@
 				id: "create:iron_sheet"
 			}
 			id: "119C48CE338DD1D0"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
 				id: "3B95E1F9233244A0"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
+				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [
-				{
-					advancement: "create:mechanical_press"
-					criterion: ""
-					id: "5D442EE9A06B1A45"
-					type: "advancement"
-				}
-				{
-					count: 8L
-					id: "6AB3E05076DD2B72"
-					item: { count: 1, id: "create:iron_sheet" }
-					type: "item"
-				}
+			{
+				advancement: "create:mechanical_press"
+				criterion: ""
+				id: "5D442EE9A06B1A45"
+				type: "advancement"
+			}
+			{
+				count: 8L
+				id: "6AB3E05076DD2B72"
+				item: { count: 1, id: "create:iron_sheet" }
+				type: "item"
+			}
 			]
 			x: 2.5d
 			y: -6.25d
@@ -257,11 +265,13 @@
 				id: "create:millstone"
 			}
 			id: "50C69046688A8D9C"
-			rewards: [{
+			rewards: [
+			{
 				id: "3F33E855568F4398"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:millstone"
 				criterion: ""
@@ -277,24 +287,26 @@
 				id: "create:encased_fan"
 			}
 			id: "29A2E475036472DB"
-			rewards: [{
+			rewards: [
+			{
 				id: "7491DC0A791F3AF1"
 				type: "xp"
 				xp: 150
-			}]
+			}
+			]
 			tasks: [
-				{
-					advancement: "create:encased_fan"
-					criterion: ""
-					id: "33D5F880F53CD341"
-					type: "advancement"
-				}
-				{
-					advancement: "create:fan_processing"
-					criterion: ""
-					id: "11C99728A65BFC3A"
-					type: "advancement"
-				}
+			{
+				advancement: "create:encased_fan"
+				criterion: ""
+				id: "33D5F880F53CD341"
+				type: "advancement"
+			}
+			{
+				advancement: "create:fan_processing"
+				criterion: ""
+				id: "11C99728A65BFC3A"
+				type: "advancement"
+			}
 			]
 			x: 7.0d
 			y: -6.25d
@@ -306,15 +318,14 @@
 			}
 			id: "7A0FF9B34E80DD3B"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				count: 32
 				id: "4240F3DF85F57050"
-				item: {
-					count: 1
-					id: "minecraft:gravel"
-				}
+				item: { count: 1, id: "minecraft:gravel" }
 				type: "item"
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				count: 32L
@@ -331,11 +342,13 @@
 				id: "create:crushing_wheel"
 			}
 			id: "632E8C1D0A99104C"
-			rewards: [{
+			rewards: [
+			{
 				id: "7527CCA742482293"
 				type: "xp_levels"
 				xp_levels: 3
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:crushing_wheel"
 				criterion: ""
@@ -351,11 +364,13 @@
 				id: "create:mechanical_mixer"
 			}
 			id: "25EBA2EA58E9406E"
-			rewards: [{
+			rewards: [
+			{
 				id: "10FB142D38BFFB37"
 				type: "xp"
 				xp: 150
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:mechanical_mixer"
 				criterion: ""
@@ -371,11 +386,13 @@
 				id: "create:basin"
 			}
 			id: "2D94CB4CA328BBDE"
-			rewards: [{
+			rewards: [
+			{
 				id: "7928B8DF1F263420"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:compacting"
 				criterion: ""
@@ -391,15 +408,14 @@
 				id: "create:mechanical_saw"
 			}
 			id: "1AA2EF572BE17592"
-			rewards: [{
+			rewards: [
+			{
 				count: 16
 				id: "032318A76210DAC5"
-				item: {
-					count: 1
-					id: "minecraft:oak_log"
-				}
+				item: { count: 1, id: "minecraft:oak_log" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:saw_processing"
 				criterion: ""
@@ -425,15 +441,14 @@
 				id: "create:belt_connector"
 			}
 			id: "5C99F0CA1539289D"
-			rewards: [{
+			rewards: [
+			{
 				count: 16
 				id: "0250073F942A920A"
-				item: {
-					count: 1
-					id: "minecraft:dried_kelp"
-				}
+				item: { count: 1, id: "minecraft:dried_kelp" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:belt"
 				criterion: ""
@@ -449,24 +464,26 @@
 				id: "create:andesite_funnel"
 			}
 			id: "65D01E309EAB4A72"
-			rewards: [{
+			rewards: [
+			{
 				id: "068EF763CFD86554"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			tasks: [
-				{
-					advancement: "create:funnel"
-					criterion: ""
-					id: "341512C7EA9F2C49"
-					type: "advancement"
-				}
-				{
-					count: 2L
-					id: "41693A3088BBDC8E"
-					item: { count: 1, id: "create:andesite_tunnel" }
-					type: "item"
-				}
+			{
+				advancement: "create:funnel"
+				criterion: ""
+				id: "341512C7EA9F2C49"
+				type: "advancement"
+			}
+			{
+				count: 2L
+				id: "41693A3088BBDC8E"
+				item: { count: 1, id: "create:andesite_tunnel" }
+				type: "item"
+			}
 			]
 			x: 4.75d
 			y: -3.75d
@@ -477,11 +494,13 @@
 				id: "create:chute"
 			}
 			id: "46BB26902EE4B9B8"
-			rewards: [{
+			rewards: [
+			{
 				id: "155327E091D7E1BB"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:chute"
 				criterion: ""
@@ -498,11 +517,13 @@
 			}
 			id: "29D8D2AF304725D8"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "7AF9271259436B9B"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "61B32B1950944D9B"
@@ -518,11 +539,13 @@
 				id: "create:item_vault"
 			}
 			id: "4BFCE667CE1BD047"
-			rewards: [{
+			rewards: [
+			{
 				id: "7A082EC2084BBD5C"
 				type: "xp"
 				xp: 150
-			}]
+			}
+			]
 			tasks: [{
 				count: 4L
 				id: "352A152138FAAD18"
@@ -538,11 +561,13 @@
 				id: "create:mechanical_arm"
 			}
 			id: "16F9CA592834A6C9"
-			rewards: [{
+			rewards: [
+			{
 				id: "38513A9FF9F29C11"
 				type: "xp_levels"
 				xp_levels: 3
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:mechanical_arm"
 				criterion: ""
@@ -559,11 +584,13 @@
 			}
 			id: "2CD0DD12167EB5F3"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "1DBCEE68A4AD5151"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				count: 2L
@@ -590,24 +617,26 @@
 				id: "create:mechanical_pump"
 			}
 			id: "0CC8FAC6AB0FBBCB"
-			rewards: [{
+			rewards: [
+			{
 				id: "48C453B19FDE5CA1"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			tasks: [
-				{
-					advancement: "create:mechanical_pump_0"
-					criterion: ""
-					id: "1598E7C59E728C30"
-					type: "advancement"
-				}
-				{
-					count: 16L
-					id: "65FA5D1E53B401DE"
-					item: { count: 1, id: "create:fluid_pipe" }
-					type: "item"
-				}
+			{
+				advancement: "create:mechanical_pump_0"
+				criterion: ""
+				id: "1598E7C59E728C30"
+				type: "advancement"
+			}
+			{
+				count: 16L
+				id: "65FA5D1E53B401DE"
+				item: { count: 1, id: "create:fluid_pipe" }
+				type: "item"
+			}
 			]
 			x: 2.5d
 			y: -1.25d
@@ -618,11 +647,13 @@
 				id: "create:fluid_tank"
 			}
 			id: "4F6183EBC1503093"
-			rewards: [{
+			rewards: [
+			{
 				id: "1644D2AEB4C5112F"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			tasks: [{
 				count: 4L
 				id: "166C13B980084FBB"
@@ -638,28 +669,27 @@
 				id: "create:spout"
 			}
 			id: "5A8EA87824A0C3F9"
-			rewards: [{
+			rewards: [
+			{
 				count: 16
 				id: "705DFDB1EBDD8597"
-				item: {
-					count: 1
-					id: "minecraft:glass_bottle"
-				}
+				item: { count: 1, id: "minecraft:glass_bottle" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [
-				{
-					advancement: "create:spout"
-					criterion: ""
-					id: "6D51ACD260F1A9C4"
-					type: "advancement"
-				}
-				{
-					advancement: "create:drain"
-					criterion: ""
-					id: "5509C9B1B527809A"
-					type: "advancement"
-				}
+			{
+				advancement: "create:spout"
+				criterion: ""
+				id: "6D51ACD260F1A9C4"
+				type: "advancement"
+			}
+			{
+				advancement: "create:drain"
+				criterion: ""
+				id: "5509C9B1B527809A"
+				type: "advancement"
+			}
 			]
 			x: 7.0d
 			y: -1.25d
@@ -670,15 +700,14 @@
 				id: "create:blaze_burner"
 			}
 			id: "2F93F9624619E62B"
-			rewards: [{
+			rewards: [
+			{
 				count: 32
 				id: "2017F012E654567A"
-				item: {
-					count: 1
-					id: "minecraft:coal"
-				}
+				item: { count: 1, id: "minecraft:coal" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:burner"
 				criterion: ""
@@ -694,11 +723,13 @@
 				id: "create:steam_engine"
 			}
 			id: "14E30993AE25D770"
-			rewards: [{
+			rewards: [
+			{
 				id: "0632C33F28A2B68B"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "create:steam_engine"
@@ -716,11 +747,13 @@
 			}
 			id: "15B4A16AB8E572D1"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "11B7C7A65802798E"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "create:steam_whistle"
@@ -738,11 +771,13 @@
 			}
 			id: "472247D02E5CB298"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "22A5EE70C5F8576E"
 				type: "xp"
 				xp: 150
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "create:hose_pulley"
@@ -769,15 +804,14 @@
 				id: "create:super_glue"
 			}
 			id: "49803733F3CD7855"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
 				id: "2B11DC9AD0F3793F"
-				item: {
-					count: 1
-					id: "minecraft:slime_ball"
-				}
+				item: { count: 1, id: "minecraft:slime_ball" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:super_glue"
 				criterion: ""
@@ -793,15 +827,15 @@
 				id: "create:mechanical_bearing"
 			}
 			id: "0B24115BEC7A1ECA"
-			rewards: [{
+			rewards: [
+			{
 				id: "74B0FA28B9B13C4E"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			tasks: [{
-				icon: {
-					id: "create:mechanical_bearing"
-				}
+				icon: { count: 1, id: "create:mechanical_bearing" }
 				id: "0BC56352E87141FD"
 				item: { components: { "ftbfiltersystem:filter": "or(item(create:mechanical_piston)item(create:sticky_mechanical_piston)item(create:mechanical_bearing)item(create:rope_pulley)item(create:gantry_carriage))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -815,11 +849,13 @@
 				id: "create:mechanical_drill"
 			}
 			id: "26BEB7FE91252E85"
-			rewards: [{
+			rewards: [
+			{
 				id: "2A9156F0FACA6408"
 				type: "xp_levels"
 				xp_levels: 3
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:contraption_actors"
 				criterion: ""
@@ -835,11 +871,13 @@
 				id: "create:portable_storage_interface"
 			}
 			id: "713DDE502AA18225"
-			rewards: [{
+			rewards: [
+			{
 				id: "519E56C6C3D9111D"
 				type: "xp"
 				xp: 150
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:portable_storage_interface"
 				criterion: ""
@@ -855,11 +893,13 @@
 				id: "create:deployer"
 			}
 			id: "49185DD16CA699A7"
-			rewards: [{
+			rewards: [
+			{
 				id: "01889EF3BD88F26B"
 				type: "xp"
 				xp: 150
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:deployer"
 				criterion: ""
@@ -876,11 +916,13 @@
 			}
 			id: "1416DB9852500292"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "3F5712266F700F6B"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "4D7383B7BA1FEB7B"
@@ -909,29 +951,28 @@
 				id: "create:brass_ingot"
 			}
 			id: "504D851EDBB8AD5E"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
 				id: "1A21E7692B9396B0"
-				item: {
-					count: 1
-					id: "create:zinc_ingot"
-				}
+				item: { count: 1, id: "create:zinc_ingot" }
 				type: "item"
-			}]
+			}
+			]
 			size: 1.5d
 			tasks: [
-				{
-					advancement: "create:brass"
-					criterion: ""
-					id: "5E2BC85C5F47294C"
-					type: "advancement"
-				}
-				{
-					count: 4L
-					id: "11671C9FE3126A0E"
-					item: { count: 1, id: "create:brass_casing" }
-					type: "item"
-				}
+			{
+				advancement: "create:brass"
+				criterion: ""
+				id: "5E2BC85C5F47294C"
+				type: "advancement"
+			}
+			{
+				count: 4L
+				id: "11671C9FE3126A0E"
+				item: { count: 1, id: "create:brass_casing" }
+				type: "item"
+			}
 			]
 			x: 2.5d
 			y: 3.75d
@@ -942,11 +983,13 @@
 				id: "create:precision_mechanism"
 			}
 			id: "304565ED8822ECC7"
-			rewards: [{
+			rewards: [
+			{
 				id: "4D0211A57E0C5915"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:precision_mechanism"
 				criterion: ""
@@ -962,11 +1005,13 @@
 				id: "create:mechanical_crafter"
 			}
 			id: "2739E92E561EBBD7"
-			rewards: [{
+			rewards: [
+			{
 				id: "22FE88EC28B185C5"
 				type: "xp"
 				xp: 200
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:mechanical_crafter"
 				criterion: ""
@@ -982,26 +1027,25 @@
 				id: "create:schematicannon"
 			}
 			id: "28F0DF7B7D466487"
-			rewards: [{
+			rewards: [
+			{
 				count: 16
 				id: "371968D42507BE75"
-				item: {
-					count: 1
-					id: "minecraft:gunpowder"
-				}
+				item: { count: 1, id: "minecraft:gunpowder" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [
-				{
-					id: "43FF0041E2782BFD"
-					item: { count: 1, id: "create:schematicannon" }
-					type: "item"
-				}
-				{
-					id: "39898399CA0E2139"
-					item: { count: 1, id: "create:schematic_and_quill" }
-					type: "item"
-				}
+			{
+				id: "43FF0041E2782BFD"
+				item: { count: 1, id: "create:schematicannon" }
+				type: "item"
+			}
+			{
+				id: "39898399CA0E2139"
+				item: { count: 1, id: "create:schematic_and_quill" }
+				type: "item"
+			}
 			]
 			x: 9.25d
 			y: 3.75d
@@ -1012,24 +1056,26 @@
 				id: "create:copper_backtank"
 			}
 			id: "49D710EFE734761D"
-			rewards: [{
+			rewards: [
+			{
 				id: "463037BF7E50F0F4"
 				type: "xp"
 				xp: 200
-			}]
+			}
+			]
 			tasks: [
-				{
-					advancement: "create:backtank"
-					criterion: ""
-					id: "61D04F465A6EE469"
-					type: "advancement"
-				}
-				{
-					advancement: "create:diving_suit"
-					criterion: ""
-					id: "7039A5FC0B7A587A"
-					type: "advancement"
-				}
+			{
+				advancement: "create:backtank"
+				criterion: ""
+				id: "61D04F465A6EE469"
+				type: "advancement"
+			}
+			{
+				advancement: "create:diving_suit"
+				criterion: ""
+				id: "7039A5FC0B7A587A"
+				type: "advancement"
+			}
 			]
 			x: 11.5d
 			y: 3.75d
@@ -1041,20 +1087,17 @@
 			}
 			id: "7614BD675D38D7D9"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				count: 16
 				id: "6FD3F20CDEC04BF9"
-				item: {
-					count: 1
-					id: "minecraft:baked_potato"
-				}
+				item: { count: 1, id: "minecraft:baked_potato" }
 				type: "item"
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
-				icon: {
-					id: "create:potato_cannon"
-				}
+				icon: { count: 1, id: "create:potato_cannon" }
 				id: "29A58EA0FE6C99F3"
 				item: { components: { "ftbfiltersystem:filter": "or(item(create:potato_cannon)item(create:extendo_grip))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
@@ -1069,11 +1112,13 @@
 			}
 			id: "095DC98A6181730B"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "6FD64B375F209581"
 				type: "xp"
 				xp: 150
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "create:speed_controller"
@@ -1100,28 +1145,27 @@
 				id: "create:track"
 			}
 			id: "62711AAB88F5AEB3"
-			rewards: [{
+			rewards: [
+			{
 				count: 16
 				id: "57754553A692F22D"
-				item: {
-					count: 1
-					id: "create:andesite_alloy"
-				}
+				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [
-				{
-					advancement: "create:track_0"
-					criterion: ""
-					id: "448F1F76B5541855"
-					type: "advancement"
-				}
-				{
-					count: 32L
-					id: "529F958E6EE8717A"
-					item: { count: 1, id: "create:track" }
-					type: "item"
-				}
+			{
+				advancement: "create:track_0"
+				criterion: ""
+				id: "448F1F76B5541855"
+				type: "advancement"
+			}
+			{
+				count: 32L
+				id: "529F958E6EE8717A"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}
 			]
 			x: 2.5d
 			y: 6.25d
@@ -1132,24 +1176,26 @@
 				id: "create:railway_casing"
 			}
 			id: "51461CF974AA8F01"
-			rewards: [{
+			rewards: [
+			{
 				id: "2C4ED811D669DE77"
 				type: "xp"
 				xp: 150
-			}]
+			}
+			]
 			tasks: [
-				{
-					advancement: "create:sturdy_sheet"
-					criterion: ""
-					id: "6135DE11F208AC31"
-					type: "advancement"
-				}
-				{
-					advancement: "create:train_casing_00"
-					criterion: ""
-					id: "712D142F192AEFEA"
-					type: "advancement"
-				}
+			{
+				advancement: "create:sturdy_sheet"
+				criterion: ""
+				id: "6135DE11F208AC31"
+				type: "advancement"
+			}
+			{
+				advancement: "create:train_casing_00"
+				criterion: ""
+				id: "712D142F192AEFEA"
+				type: "advancement"
+			}
 			]
 			x: 4.75d
 			y: 6.25d
@@ -1160,11 +1206,13 @@
 				id: "create:track_station"
 			}
 			id: "74B66E53A78CE4DD"
-			rewards: [{
+			rewards: [
+			{
 				id: "2F7F26D49D5D4C80"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "create:train"
@@ -1181,11 +1229,13 @@
 				id: "create:track_signal"
 			}
 			id: "03E71049A0C6B386"
-			rewards: [{
+			rewards: [
+			{
 				id: "33235B46B4FA1AAB"
 				type: "xp"
 				xp: 150
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:track_signal"
 				criterion: ""
@@ -1201,11 +1251,13 @@
 				id: "create:schedule"
 			}
 			id: "4F9A6C146AEC9E1B"
-			rewards: [{
+			rewards: [
+			{
 				id: "51EA4D064931476C"
 				type: "xp"
 				xp: 200
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:conductor"
 				criterion: ""
@@ -1222,11 +1274,13 @@
 			}
 			id: "1B14B97CFB20ABB2"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "4B12237183F0F540"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "78E6043CF10DA49F"
@@ -1252,28 +1306,27 @@
 				id: "create:cardboard"
 			}
 			id: "5124ED32DA0EBD6A"
-			rewards: [{
+			rewards: [
+			{
 				count: 32
 				id: "113F1B615637EB1B"
-				item: {
-					count: 1
-					id: "minecraft:sugar_cane"
-				}
+				item: { count: 1, id: "minecraft:sugar_cane" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [
-				{
-					advancement: "create:cardboard"
-					criterion: ""
-					id: "1E876563F2CB9C1D"
-					type: "advancement"
-				}
-				{
-					count: 16L
-					id: "03EC047874D8071D"
-					item: { count: 1, id: "create:cardboard" }
-					type: "item"
-				}
+			{
+				advancement: "create:cardboard"
+				criterion: ""
+				id: "1E876563F2CB9C1D"
+				type: "advancement"
+			}
+			{
+				count: 16L
+				id: "03EC047874D8071D"
+				item: { count: 1, id: "create:cardboard" }
+				type: "item"
+			}
 			]
 			x: 2.5d
 			y: 8.75d
@@ -1284,15 +1337,14 @@
 				id: "create:packager"
 			}
 			id: "510865169DD5E627"
-			rewards: [{
+			rewards: [
+			{
 				count: 4
 				id: "7BC8CA2898549DFA"
-				item: {
-					count: 1
-					id: "create:cardboard_block"
-				}
+				item: { count: 1, id: "create:cardboard_block" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "create:packager"
 				criterion: ""
@@ -1308,36 +1360,33 @@
 				id: "create:package_frogport"
 			}
 			id: "774F845CCC28E854"
-			rewards: [{
+			rewards: [
+			{
 				count: 4
 				id: "7D3E98F02E218E15"
-				item: {
-					count: 1
-					id: "create:large_cogwheel"
-				}
+				item: { count: 1, id: "create:large_cogwheel" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [
-				{
-					advancement: "create:frogport"
-					criterion: ""
-					id: "710A44093BFCAAD2"
-					type: "advancement"
-				}
-				{
-					count: 4L
-					id: "46F221E558663046"
-					item: { count: 1, id: "create:chain_conveyor" }
-					type: "item"
-				}
-				{
-					icon: {
-						id: "create:white_postbox"
-					}
-					id: "2A3C5610D6C6A156"
-					item: { components: { "ftbfiltersystem:filter": "item_tag(create:postboxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
+			{
+				advancement: "create:frogport"
+				criterion: ""
+				id: "710A44093BFCAAD2"
+				type: "advancement"
+			}
+			{
+				count: 4L
+				id: "46F221E558663046"
+				item: { count: 1, id: "create:chain_conveyor" }
+				type: "item"
+			}
+			{
+				icon: { count: 1, id: "create:white_postbox" }
+				id: "2A3C5610D6C6A156"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(create:postboxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}
 			]
 			x: 7.0d
 			y: 8.75d
@@ -1348,25 +1397,27 @@
 				id: "create:stock_ticker"
 			}
 			id: "384F9751B53F8009"
-			rewards: [{
+			rewards: [
+			{
 				id: "4C03D8492E518911"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			size: 1.5d
 			tasks: [
-				{
-					count: 2L
-					id: "2505BD0ACB91E778"
-					item: { count: 1, id: "create:stock_link" }
-					type: "item"
-				}
-				{
-					advancement: "create:stock_ticker"
-					criterion: ""
-					id: "651D771AD38900A8"
-					type: "advancement"
-				}
+			{
+				count: 2L
+				id: "2505BD0ACB91E778"
+				item: { count: 1, id: "create:stock_link" }
+				type: "item"
+			}
+			{
+				advancement: "create:stock_ticker"
+				criterion: ""
+				id: "651D771AD38900A8"
+				type: "advancement"
+			}
 			]
 			x: 9.25d
 			y: 8.75d
@@ -1377,24 +1428,26 @@
 				id: "create:factory_gauge"
 			}
 			id: "34DF1D52355C3B6A"
-			rewards: [{
+			rewards: [
+			{
 				id: "20E08FBCFE28170C"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			size: 1.5d
 			tasks: [
-				{
-					advancement: "create:factory_gauge"
-					criterion: ""
-					id: "67C0400CA339C8E9"
-					type: "advancement"
-				}
-				{
-					id: "2A2E9A4317E6B9FF"
-					item: { count: 1, id: "create:redstone_requester" }
-					type: "item"
-				}
+			{
+				advancement: "create:factory_gauge"
+				criterion: ""
+				id: "67C0400CA339C8E9"
+				type: "advancement"
+			}
+			{
+				id: "2A2E9A4317E6B9FF"
+				item: { count: 1, id: "create:redstone_requester" }
+				type: "item"
+			}
 			]
 			x: 11.5d
 			y: 8.75d
@@ -1406,11 +1459,13 @@
 			}
 			id: "5ACA6C8ED82C3F99"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "34092167CFC6E728"
 				type: "xp"
 				xp: 200
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "create:table_cloth_shop"
@@ -1428,25 +1483,27 @@
 			}
 			id: "68B78F073AA1CF7F"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "07064E9110D4CA35"
 				type: "xp"
 				xp: 150
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [
-				{
-					advancement: "create:display_link"
-					criterion: ""
-					id: "0CF2C42DD530F1A6"
-					type: "advancement"
-				}
-				{
-					advancement: "create:display_board_0"
-					criterion: ""
-					id: "38C060A36CA1B86D"
-					type: "advancement"
-				}
+			{
+				advancement: "create:display_link"
+				criterion: ""
+				id: "0CF2C42DD530F1A6"
+				type: "advancement"
+			}
+			{
+				advancement: "create:display_board_0"
+				criterion: ""
+				id: "38C060A36CA1B86D"
+				type: "advancement"
+			}
 			]
 			x: 16.0d
 			y: 8.75d
@@ -1468,20 +1525,17 @@
 			id: "3892D7900D917299"
 			min_required_dependencies: 6
 			rewards: [
-				{
-					count: 2
-					id: "78A3F311BDDC5A13"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
-				}
-				{
-					id: "4426FA37F2D294C8"
-					type: "xp_levels"
-					xp_levels: 10
-				}
+			{
+				count: 2
+				id: "78A3F311BDDC5A13"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}
+			{
+				id: "4426FA37F2D294C8"
+				type: "xp_levels"
+				xp_levels: 10
+			}
 			]
 			shape: "hexagon"
 			size: 2.0d

@@ -8,7 +8,7 @@
 	}
 	id: "36891B9D5F6246B8"
 	images: [ ]
-	order_index: 0
+	order_index: 23
 	quest_links: [ ]
 	quests: [
 		{
@@ -18,33 +18,24 @@
 			}
 			id: "52463D848D47AFA2"
 			rewards: [
-				{
-					count: 2
-					id: "4A9199386F87DDCD"
-					item: {
-						count: 1
-						id: "numismatics:sprocket"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "4BB3DED082FDBD3D"
-					item: {
-						count: 1
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "4807322954B4BD48"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
+			{
+				count: 2
+				id: "4A9199386F87DDCD"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}
+			{
+				count: 3
+				id: "4BB3DED082FDBD3D"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}
+			{
+				count: 8
+				id: "4807322954B4BD48"
+				item: { count: 1, id: "numismatics:spur" }
+				type: "item"
+			}
 			]
 			shape: "hexagon"
 			size: 2.0d

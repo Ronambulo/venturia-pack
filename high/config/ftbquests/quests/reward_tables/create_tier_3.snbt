@@ -1,7 +1,7 @@
 {
 	id: "7F7779F90B210F0F"
 	loot_size: 1
-	order_index: 5
+	order_index: 10
 	rewards: [
 		{ id: "68D4A7E210B07651", item: { count: 1, id: "createaddition:alternator" } }
 		{ id: "2D70D3BB254A8033", item: { count: 1, id: "createaddition:electric_motor" } }

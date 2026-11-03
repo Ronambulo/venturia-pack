@@ -16,15 +16,14 @@
 				id: "minecraft:feather"
 			}
 			id: "5540EF081B5F2733"
-			rewards: [{
+			rewards: [
+			{
 				count: 16
 				id: "3F88D0AC1EFB09A0"
-				item: {
-					count: 1
-					id: "minecraft:torch"
-				}
+				item: { count: 1, id: "minecraft:torch" }
 				type: "item"
-			}]
+			}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -41,11 +40,13 @@
 			}
 			id: "213DCF7573A0B2CD"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "0521A1C879E2B8FB"
 				type: "xp"
 				xp: 30
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "4E4381C5FF50CD1A"
@@ -60,11 +61,13 @@
 				id: "minecraft:white_banner"
 			}
 			id: "404EFCF45B5F2ABA"
-			rewards: [{
+			rewards: [
+			{
 				id: "164F8B445CA6415F"
 				type: "xp"
 				xp: 20
-			}]
+			}
+			]
 			tasks: [{
 				id: "50CF82A70D2A8BD7"
 				type: "checkmark"
@@ -79,11 +82,13 @@
 			}
 			id: "16813950CCA11CBD"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "4587C4729513E8F2"
 				type: "xp"
 				xp: 30
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "537BEDDB020B27A5"
@@ -98,14 +103,13 @@
 				id: "minecraft:grass_block"
 			}
 			id: "15D8FD9A113B8146"
-			rewards: [{
+			rewards: [
+			{
 				id: "560754CF912686FF"
-				item: {
-					count: 1
-					id: "minecraft:spyglass"
-				}
+				item: { count: 1, id: "minecraft:spyglass" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				id: "5E4B383F2C5E519F"
 				type: "checkmark"
@@ -119,11 +123,13 @@
 				id: "minecraft:oak_sign"
 			}
 			id: "3C9E0393FDD81FAA"
-			rewards: [{
+			rewards: [
+			{
 				id: "443D0E5B30468988"
 				type: "xp"
 				xp: 20
-			}]
+			}
+			]
 			tasks: [{
 				id: "3D46219C7E228781"
 				type: "checkmark"
@@ -137,15 +143,14 @@
 				id: "minecraft:red_bed"
 			}
 			id: "56EECF8FDA165AD7"
-			rewards: [{
+			rewards: [
+			{
 				count: 4
 				id: "7DB919C9B05C5A64"
-				item: {
-					count: 1
-					id: "minecraft:lantern"
-				}
+				item: { count: 1, id: "minecraft:lantern" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "minecraft:adventure/sleep_in_bed"
 				criterion: ""
@@ -161,15 +166,14 @@
 				id: "minecraft:stone_pickaxe"
 			}
 			id: "27BE51BDFE1EA032"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
 				id: "5417C93CF1C6C199"
-				item: {
-					count: 1
-					id: "minecraft:coal"
-				}
+				item: { count: 1, id: "minecraft:coal" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "minecraft:story/upgrade_tools"
 				criterion: ""
@@ -185,14 +189,13 @@
 				id: "minecraft:iron_ingot"
 			}
 			id: "7ADA10F83050FDC2"
-			rewards: [{
+			rewards: [
+			{
 				id: "580AAEFC5B959A13"
-				item: {
-					count: 1
-					id: "minecraft:bucket"
-				}
+				item: { count: 1, id: "minecraft:bucket" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "minecraft:story/smelt_iron"
 				criterion: ""
@@ -208,15 +211,14 @@
 				id: "sophisticatedbackpacks:backpack"
 			}
 			id: "06DF498FFA6EC752"
-			rewards: [{
+			rewards: [
+			{
 				count: 4
 				id: "4FF7898FB0C85AF3"
-				item: {
-					count: 1
-					id: "minecraft:leather"
-				}
+				item: { count: 1, id: "minecraft:leather" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				id: "6F3DED20714B2EFB"
 				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
@@ -232,44 +234,35 @@
 			}
 			id: "409DE6BDCDA344B8"
 			rewards: [
-				{
-					count: 4
-					id: "2EB0F6DD6A20E3E9"
-					item: {
-						count: 1
-						id: "farmersdelight:cabbage_seeds"
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "4EBB5529E71E7900"
-					item: {
-						count: 1
-						id: "farmersdelight:tomato_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "5103571A9990E113"
-					item: {
-						count: 1
-						id: "minecraft:chicken_spawn_egg"
-					}
-					type: "item"
-				}
+			{
+				count: 4
+				id: "2EB0F6DD6A20E3E9"
+				item: { count: 1, id: "farmersdelight:cabbage_seeds" }
+				type: "item"
+			}
+			{
+				count: 4
+				id: "4EBB5529E71E7900"
+				item: { count: 1, id: "farmersdelight:tomato_seeds" }
+				type: "item"
+			}
+			{
+				id: "5103571A9990E113"
+				item: { count: 1, id: "minecraft:chicken_spawn_egg" }
+				type: "item"
+			}
 			]
 			tasks: [
-				{
-					id: "570863E54C5D81DB"
-					item: { count: 1, id: "farmersdelight:flint_knife" }
-					type: "item"
-				}
-				{
-					id: "46D6035CDBEE898A"
-					item: { count: 1, id: "farmersdelight:cooking_pot" }
-					type: "item"
-				}
+			{
+				id: "570863E54C5D81DB"
+				item: { count: 1, id: "farmersdelight:flint_knife" }
+				type: "item"
+			}
+			{
+				id: "46D6035CDBEE898A"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}
 			]
 			x: 6.5d
 			y: -1.5d
@@ -280,14 +273,13 @@
 				id: "paraglider:paraglider"
 			}
 			id: "2539033B4A1BCAE3"
-			rewards: [{
+			rewards: [
+			{
 				id: "0BF25629E645CC1C"
-				item: {
-					count: 1
-					id: "paraglider:stamina_vessel"
-				}
+				item: { count: 1, id: "paraglider:stamina_vessel" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				id: "6B44B5DCF2B15C3E"
 				item: { count: 1, id: "paraglider:paraglider" }
@@ -302,15 +294,14 @@
 				id: "mcwbridges:rope_oak_bridge"
 			}
 			id: "74AF691B53716A2C"
-			rewards: [{
+			rewards: [
+			{
 				count: 128
 				id: "666BA1C0CD05F0D3"
-				item: {
-					count: 1
-					id: "supplementaries:rope"
-				}
+				item: { count: 1, id: "supplementaries:rope" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				id: "5BBC7DEE18D11185"
 				type: "checkmark"
@@ -324,11 +315,13 @@
 				id: "minecraft:compass"
 			}
 			id: "6645553906ACA097"
-			rewards: [{
+			rewards: [
+			{
 				id: "47BA14745DEB0DEB"
 				type: "xp"
 				xp: 30
-			}]
+			}
+			]
 			tasks: [{
 				id: "30D4FD0D68DBBF1C"
 				type: "checkmark"
@@ -342,15 +335,14 @@
 				id: "waystones:waystone"
 			}
 			id: "592B7CA7523663CE"
-			rewards: [{
+			rewards: [
+			{
 				count: 2
 				id: "163E876E9840AB13"
-				item: {
-					count: 1
-					id: "waystones:warp_scroll"
-				}
+				item: { count: 1, id: "waystones:warp_scroll" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				id: "0A44F0E57C159F7B"
 				type: "checkmark"
@@ -365,11 +357,13 @@
 			}
 			id: "566AEE27B0187A85"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "06299942F7BC1CFA"
 				type: "xp"
 				xp: 50
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "4FADC3B504EB1B19"
@@ -392,20 +386,17 @@
 			}
 			id: "28EA2861CD8155A0"
 			rewards: [
-				{
-					count: 4
-					id: "5F7CD4381C2CACA9"
-					item: {
-						count: 1
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-				{
-					id: "4F94676A53B48FD9"
-					type: "xp_levels"
-					xp_levels: 5
-				}
+			{
+				count: 4
+				id: "5F7CD4381C2CACA9"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}
+			{
+				id: "4F94676A53B48FD9"
+				type: "xp_levels"
+				xp_levels: 5
+			}
 			]
 			shape: "hexagon"
 			size: 2.0d

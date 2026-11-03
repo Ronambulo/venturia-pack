@@ -1,7 +1,7 @@
 {
 	id: "43D8DE120B36F01C"
 	loot_size: 1
-	order_index: 10
+	order_index: 23
 	rewards: [
 		{
 			count: 8
@@ -91,6 +91,7 @@
 				count: 1
 				id: "cookscollection:lemon_sapling"
 			}
+			weight: 1.0f
 		}
 	]
 }

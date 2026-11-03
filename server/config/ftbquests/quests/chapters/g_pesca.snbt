@@ -1,0 +1,731 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "g_pesca"
+	group: "094E0F2FCF1D26FE"
+	icon: {
+		id: "aquaculture:iron_fishing_rod"
+	}
+	id: "11C04345464B9669"
+	images: [ ]
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28EA2861CD8155A0"]
+			icon: {
+				id: "aquaculture:iron_fishing_rod"
+			}
+			id: "6C36754499E5884A"
+			shape: "hexagon"
+			size: 2.0d
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C36754499E5884A"]
+			icon: {
+				id: "aquaculture:tackle_box"
+			}
+			id: "7EC50A9BC81F12FB"
+			shape: "rsquare"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7EC50A9BC81F12FB"]
+			icon: {
+				id: "aquaculture:iron_fishing_rod"
+			}
+			id: "5C584DFFC9B24FD9"
+			rewards: [
+			{
+				count: 16
+				id: "36CA9E80AA2B4BFE"
+				item: { count: 1, id: "aquaculture:worm" }
+				type: "item"
+			}
+			]
+			tasks: [{
+				icon: { count: 1, id: "aquaculture:iron_fishing_rod" }
+				id: "104A2B4FFCC73E4F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:iron_fishing_rod)item(aquaculture:gold_fishing_rod)item(aquaculture:diamond_fishing_rod)item(aquaculture:neptunium_fishing_rod))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3F764E3737F62B67"]
+			icon: {
+				id: "aquaculture:gold_hook"
+			}
+			id: "182793E827A95F99"
+			rewards: [
+			{
+				id: "5C4EC98CA2A0FA46"
+				type: "xp"
+				xp: 200
+			}
+			]
+			tasks: [{
+				icon: { count: 1, id: "aquaculture:iron_hook" }
+				id: "42A40052873C381A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:iron_hook)item(aquaculture:gold_hook)item(aquaculture:diamond_hook)item(aquaculture:light_hook)item(aquaculture:heavy_hook)item(aquaculture:double_hook)item(aquaculture:redstone_hook)item(aquaculture:note_hook)item(aquaculture:glowstone_hook)item(aquaculture:quartz_hook)item(aquaculture:soul_sand_hook)item(aquaculture:obsidian_hook)item(aquaculture:double_obsidian_hook)item(aquaculture:obsidian_note_hook)item(aquaculture:nether_star_hook))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3F764E3737F62B67"]
+			icon: {
+				id: "aquaculture:worm_farm"
+			}
+			id: "0F71EE5E58BAE045"
+			rewards: [
+			{
+				count: 32
+				id: "3368C2D3F145BCE5"
+				item: { count: 1, id: "aquaculture:worm" }
+				type: "item"
+			}
+			]
+			tasks: [{
+				id: "4F056470FAA4F37F"
+				item: { count: 1, id: "aquaculture:worm_farm" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: -5.0d
+		}
+		{
+			dependencies: ["182793E827A95F99"]
+			icon: {
+				id: "aquaculture:fishing_line"
+			}
+			id: "61DF39C5A8931BD3"
+			optional: true
+			rewards: [
+			{
+				id: "5EAD27C22DC1D2AF"
+				type: "xp"
+				xp: 100
+			}
+			]
+			shape: "gear"
+			tasks: [
+			{
+				id: "233ED1978F639931"
+				item: { count: 1, id: "aquaculture:fishing_line" }
+				type: "item"
+			}
+			{
+				id: "44B9B77F1A50D9F0"
+				item: { count: 1, id: "aquaculture:bobber" }
+				type: "item"
+			}
+			]
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5C584DFFC9B24FD9"]
+			icon: {
+				id: "aquaculture:tackle_box"
+			}
+			id: "3F764E3737F62B67"
+			rewards: [
+			{
+				id: "4FC6F2545E7DE651"
+				type: "xp"
+				xp: 200
+			}
+			]
+			tasks: [{
+				id: "1470F6B6268535A9"
+				item: { count: 1, id: "aquaculture:tackle_box" }
+				type: "item"
+			}]
+			x: 4.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6C36754499E5884A"]
+			icon: {
+				id: "minecraft:fishing_rod"
+			}
+			id: "6A30B7AF92769AF0"
+			shape: "rsquare"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A30B7AF92769AF0"]
+			icon: {
+				id: "aquaculture:perch"
+			}
+			id: "3BCF4D76978AB3C0"
+			rewards: [
+			{
+				id: "1C9AC8672794A70D"
+				type: "xp"
+				xp: 200
+			}
+			]
+			tasks: [{
+				count: 5L
+				icon: { count: 1, id: "aquaculture:perch" }
+				id: "0622F85DFD70CD48"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:foods/raw_fish)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BCF4D76978AB3C0"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "1AFE13C944901448"
+			rewards: [
+			{
+				id: "669E24AF2E703C01"
+				type: "xp"
+				xp: 150
+			}
+			]
+			tasks: [{
+				id: "36E0B8ED5CF6C770"
+				type: "checkmark"
+			}]
+			x: 4.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1AFE13C944901448"]
+			icon: {
+				id: "stardew_fishing:cork_bobber"
+			}
+			id: "7D57FB8E66A522FE"
+			rewards: [
+			{
+				id: "60C5FB58A56F6ABE"
+				type: "xp"
+				xp: 250
+			}
+			]
+			tasks: [{
+				icon: { count: 1, id: "stardew_fishing:cork_bobber" }
+				id: "7861AFE4F143DADF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(stardew_fishing:cork_bobber)item(stardew_fishing:trap_bobber)item(stardew_fishing:sonar_bobber)item(stardew_fishing:treasure_bobber)item(stardew_fishing:quality_bobber))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BCF4D76978AB3C0"]
+			icon: {
+				id: "aquaculture:bluegill"
+			}
+			id: "294C27EFE4B3FD8A"
+			optional: true
+			rewards: [
+			{
+				count: 32
+				id: "24C59BC857C14399"
+				item: { count: 1, id: "aquaculture:worm" }
+				type: "item"
+			}
+			]
+			shape: "gear"
+			tasks: [{
+				count: 32L
+				icon: { count: 1, id: "aquaculture:bluegill" }
+				id: "310F470A141242DF"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(c:foods/raw_fish)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C36754499E5884A"]
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "25F627D74C094A88"
+			shape: "rsquare"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25F627D74C094A88"]
+			icon: {
+				id: "aquaculture:smallmouth_bass"
+			}
+			id: "62FBBDFA1D44BDE1"
+			rewards: [
+			{
+				id: "773D920C5767CB39"
+				type: "xp"
+				xp: 150
+			}
+			]
+			tasks: [{
+				icon: { count: 1, id: "aquaculture:perch" }
+				id: "2F4F8C9A31813415"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:perch)item(aquaculture:bluegill)item(aquaculture:minnow)item(aquaculture:carp)item(aquaculture:brown_trout)item(aquaculture:smallmouth_bass)item(aquaculture:gar)item(aquaculture:muskellunge)item(aquaculture:catfish)item(aquaculture:rainbow_trout))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62FBBDFA1D44BDE1"]
+			icon: {
+				id: "aquaculture:tuna"
+			}
+			id: "0ACB00746D4E9A0D"
+			rewards: [
+			{
+				id: "05F3DBE3DF3CBDAC"
+				type: "xp"
+				xp: 150
+			}
+			]
+			tasks: [{
+				icon: { count: 1, id: "aquaculture:jellyfish" }
+				id: "1D7191FA80A895A0"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:jellyfish)item(aquaculture:red_grouper)item(aquaculture:tuna)item(aquaculture:atlantic_herring)item(aquaculture:atlantic_halibut))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0ACB00746D4E9A0D"]
+			icon: {
+				id: "aquaculture:atlantic_cod"
+			}
+			id: "0040EF0F72EBCA9A"
+			rewards: [
+			{
+				id: "1EBFC16A023B5890"
+				type: "xp"
+				xp: 200
+			}
+			]
+			tasks: [{
+				icon: { count: 1, id: "aquaculture:atlantic_cod" }
+				id: "758825F268C8CFBB"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:atlantic_cod)item(aquaculture:blackfish)item(aquaculture:pacific_halibut)item(aquaculture:pollock)item(aquaculture:pink_salmon))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62FBBDFA1D44BDE1"]
+			icon: {
+				id: "aquaculture:synodontis"
+			}
+			id: "06BE80D68FD4D21E"
+			rewards: [
+			{
+				id: "16EA20648429445D"
+				type: "xp"
+				xp: 200
+			}
+			]
+			tasks: [{
+				icon: { count: 1, id: "aquaculture:synodontis" }
+				id: "072A25F1050275E5"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:synodontis)item(aquaculture:boulti)item(aquaculture:bayad)item(aquaculture:capitaine))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06BE80D68FD4D21E"]
+			icon: {
+				id: "aquaculture:piranha"
+			}
+			id: "6149B4013CD8E9E0"
+			rewards: [
+			{
+				id: "270E787336F6E214"
+				type: "xp"
+				xp: 200
+			}
+			]
+			tasks: [{
+				icon: { count: 1, id: "aquaculture:piranha" }
+				id: "487B4E10CF0983CA"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:piranha)item(aquaculture:tambaqui)item(aquaculture:arapaima)item(aquaculture:arrau_turtle))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62FBBDFA1D44BDE1"]
+			icon: {
+				id: "aquaculture:box_turtle"
+			}
+			id: "2607CD0B094C3CF6"
+			optional: true
+			rewards: [
+			{
+				id: "0C8F95DBB38C385F"
+				type: "xp"
+				xp: 150
+			}
+			]
+			shape: "gear"
+			tasks: [{
+				icon: { count: 1, id: "aquaculture:leech" }
+				id: "0C0032C14B4A7AF7"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:leech)item(aquaculture:box_turtle))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 13.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0040EF0F72EBCA9A"]
+			icon: {
+				id: "aquaculture:red_shrooma"
+			}
+			id: "7AFB45ACD847A306"
+			optional: true
+			rewards: [
+			{
+				id: "3DA88B97E36E93DC"
+				type: "xp"
+				xp: 250
+			}
+			]
+			shape: "gear"
+			tasks: [{
+				icon: { count: 1, id: "aquaculture:red_shrooma" }
+				id: "6FF29A9C24342003"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:red_shrooma)item(aquaculture:brown_shrooma))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C36754499E5884A"]
+			icon: {
+				id: "stardew_fishing:golden_snook"
+			}
+			id: "3920110C17F5225B"
+			shape: "rsquare"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3920110C17F5225B"]
+			icon: {
+				id: "stardew_fishing:goliath_grouper"
+			}
+			id: "203E5135FBC9E286"
+			optional: true
+			rewards: [
+			{
+				id: "74DB7F89E5DB6B00"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}
+			]
+			tasks: [{
+				icon: { count: 1, id: "stardew_fishing:storm_tarpon" }
+				id: "364D234F53FD0D07"
+				item: { components: { "ftbfiltersystem:filter": "or(item(stardew_fishing:storm_tarpon)item(stardew_fishing:goliath_grouper))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3920110C17F5225B"]
+			icon: {
+				id: "stardew_fishing:cyclops_mahimahi"
+			}
+			id: "407693C108FBDCAB"
+			optional: true
+			rewards: [
+			{
+				id: "226843EC14B89731"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}
+			]
+			tasks: [{
+				icon: { count: 1, id: "stardew_fishing:cyclops_mahimahi" }
+				id: "7901F42C81E9AB06"
+				item: { components: { "ftbfiltersystem:filter": "or(item(stardew_fishing:cyclops_mahimahi)item(stardew_fishing:blazing_oarfish))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3920110C17F5225B"]
+			icon: {
+				id: "stardew_fishing:crystalline_snakehead"
+			}
+			id: "440BA0D80458597E"
+			optional: true
+			rewards: [
+			{
+				id: "376DCE8FA01FC22F"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}
+			]
+			tasks: [{
+				icon: { count: 1, id: "stardew_fishing:crystalline_snakehead" }
+				id: "4C3CE4F059990820"
+				item: { components: { "ftbfiltersystem:filter": "or(item(stardew_fishing:crystalline_snakehead)item(stardew_fishing:demon_gar))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3920110C17F5225B"]
+			icon: {
+				id: "stardew_fishing:chromatic_arapaima"
+			}
+			id: "789E8F265163E632"
+			optional: true
+			rewards: [
+			{
+				id: "2B9EBEA622AA56E9"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}
+			]
+			tasks: [{
+				icon: { count: 1, id: "stardew_fishing:chromatic_arapaima" }
+				id: "55132225256FDEFA"
+				item: { components: { "ftbfiltersystem:filter": "or(item(stardew_fishing:chromatic_arapaima)item(stardew_fishing:vampire_payara))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3920110C17F5225B"]
+			icon: {
+				id: "stardew_fishing:sabretoothed_tigerfish"
+			}
+			id: "73D6FAC664C0F2DB"
+			optional: true
+			rewards: [
+			{
+				id: "26281D3E546657BE"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}
+			]
+			tasks: [{
+				icon: { count: 1, id: "stardew_fishing:golden_snook" }
+				id: "1110CD3B49C524A9"
+				item: { components: { "ftbfiltersystem:filter": "or(item(stardew_fishing:golden_snook)item(stardew_fishing:sabretoothed_tigerfish))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3920110C17F5225B"]
+			icon: {
+				id: "stardew_fishing:fish_display"
+			}
+			id: "070D9EE3C877F00C"
+			optional: true
+			rewards: [
+			{
+				id: "356A3136651082CD"
+				type: "xp"
+				xp: 200
+			}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "03B0B8D9EC98E6C3"
+				item: { count: 1, id: "stardew_fishing:fish_display" }
+				type: "item"
+			}]
+			x: 13.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C36754499E5884A"]
+			icon: {
+				id: "aquaculture:fish_fillet_raw"
+			}
+			id: "04CA679DD8FB6BDE"
+			shape: "rsquare"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04CA679DD8FB6BDE"]
+			icon: {
+				id: "aquaculture:iron_fillet_knife"
+			}
+			id: "6000CBF9E234FFF2"
+			rewards: [
+			{
+				id: "18D0A2F1AEFEBDD0"
+				type: "xp"
+				xp: 200
+			}
+			]
+			tasks: [
+			{
+				icon: { count: 1, id: "aquaculture:wooden_fillet_knife" }
+				id: "7E5F1924C2FAEC03"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:wooden_fillet_knife)item(aquaculture:stone_fillet_knife)item(aquaculture:iron_fillet_knife)item(aquaculture:gold_fillet_knife)item(aquaculture:diamond_fillet_knife)item(aquaculture:neptunium_fillet_knife))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}
+			{
+				icon: { count: 1, id: "aquaculture:fish_fillet_cooked" }
+				id: "3132D2F84482519D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:fish_fillet_cooked)item(aquaculture:sushi))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6000CBF9E234FFF2"]
+			icon: {
+				id: "aquaculture:lockbox"
+			}
+			id: "3EB4E65F4461122D"
+			optional: true
+			rewards: [
+			{
+				id: "78CF419FC0CF6488"
+				type: "xp"
+				xp: 150
+			}
+			]
+			shape: "gear"
+			tasks: [{
+				icon: { count: 1, id: "aquaculture:box" }
+				id: "12F191ABE53EAC58"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:box)item(aquaculture:lockbox)item(aquaculture:treasure_chest))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6000CBF9E234FFF2"]
+			icon: {
+				id: "aquaculture:neptunium_ingot"
+			}
+			id: "56F80573670F6D15"
+			rewards: [
+			{
+				id: "5622E169B8FCF9FC"
+				type: "xp_levels"
+				xp_levels: 5
+			}
+			]
+			tasks: [{
+				icon: { count: 1, id: "aquaculture:neptunium_ingot" }
+				id: "322C320665734CB3"
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:neptunium_ingot)item(aquaculture:neptunium_nugget))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04CA679DD8FB6BDE"]
+			icon: {
+				id: "numismatics:spur"
+			}
+			id: "0DCEE55547680099"
+			rewards: [
+			{
+				id: "7D6B4976DDFA8606"
+				type: "xp"
+				xp: 100
+			}
+			]
+			tasks: [{
+				id: "3A72270DFFF1CFED"
+				type: "checkmark"
+			}]
+			x: 9.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0DCEE55547680099"]
+			icon: {
+				id: "aquaculture:oak_fish_mount"
+			}
+			id: "57F40D7B3AC437B5"
+			optional: true
+			rewards: [
+			{
+				id: "4C557D285D40FFCB"
+				type: "xp"
+				xp: 150
+			}
+			]
+			shape: "gear"
+			tasks: [{
+				icon: { count: 1, id: "aquaculture:oak_fish_mount" }
+				id: "5C55E1B1EA52323A"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(aquaculture:fish_mount)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3F764E3737F62B67"
+				"7D57FB8E66A522FE"
+				"6149B4013CD8E9E0"
+				"56F80573670F6D15"
+			]
+			icon: {
+				id: "stardew_fishing:storm_tarpon"
+			}
+			id: "1BAEB57BB7815785"
+			min_required_dependencies: 3
+			rewards: [
+			{
+				count: 2
+				id: "1C2B83055D108AB9"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}
+			{
+				id: "7CADAB30054D5690"
+				type: "xp_levels"
+				xp_levels: 10
+			}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			x: 18.75d
+			y: 0.0d
+		}
+	]
+}

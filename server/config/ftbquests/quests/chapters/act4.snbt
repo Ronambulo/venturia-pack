@@ -17,15 +17,14 @@
 				id: "create:zinc_ingot"
 			}
 			id: "28BF09D6BB21470D"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
 				id: "0EFBFAE6FE14BF25"
-				item: {
-					count: 1
-					id: "create:zinc_ingot"
-				}
+				item: { count: 1, id: "create:zinc_ingot" }
 				type: "item"
-			}]
+			}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -43,15 +42,14 @@
 				id: "create:blaze_burner"
 			}
 			id: "0F2D34730E8A3A3E"
-			rewards: [{
+			rewards: [
+			{
 				count: 32
 				id: "5BB15E838AF36B10"
-				item: {
-					count: 1
-					id: "minecraft:charcoal"
-				}
+				item: { count: 1, id: "minecraft:charcoal" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				id: "157CD48A95CA1724"
 				item: { count: 1, id: "create:blaze_burner" }
@@ -69,15 +67,14 @@
 				id: "create:brass_ingot"
 			}
 			id: "0758F6F59FE9848A"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
 				id: "4077764017E8E99A"
-				item: {
-					count: 1
-					id: "create:brass_ingot"
-				}
+				item: { count: 1, id: "create:brass_ingot" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				count: 16L
 				id: "7D8CA0B94AC8F30E"
@@ -93,28 +90,27 @@
 				id: "create:electron_tube"
 			}
 			id: "1BBE6A8E549DAE46"
-			rewards: [{
+			rewards: [
+			{
 				count: 4
 				id: "7A9D40BFC509D313"
-				item: {
-					count: 1
-					id: "create:polished_rose_quartz"
-				}
+				item: { count: 1, id: "create:polished_rose_quartz" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [
-				{
-					count: 4L
-					id: "7AC5D6E457B52A30"
-					item: { count: 1, id: "create:brass_casing" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "255188B808A7968F"
-					item: { count: 1, id: "create:electron_tube" }
-					type: "item"
-				}
+			{
+				count: 4L
+				id: "7AC5D6E457B52A30"
+				item: { count: 1, id: "create:brass_casing" }
+				type: "item"
+			}
+			{
+				count: 4L
+				id: "255188B808A7968F"
+				item: { count: 1, id: "create:electron_tube" }
+				type: "item"
+			}
 			]
 			x: 7.5d
 			y: -1.5d
@@ -125,27 +121,26 @@
 				id: "create:precision_mechanism"
 			}
 			id: "7FBB5B5E716E972E"
-			rewards: [{
+			rewards: [
+			{
 				count: 8
 				id: "79B0C8D4489A26F5"
-				item: {
-					count: 1
-					id: "create:golden_sheet"
-				}
+				item: { count: 1, id: "create:golden_sheet" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [
-				{
-					id: "670126DE916AB118"
-					item: { count: 1, id: "create:deployer" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "0E527F3244322CE9"
-					item: { count: 1, id: "create:precision_mechanism" }
-					type: "item"
-				}
+			{
+				id: "670126DE916AB118"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}
+			{
+				count: 4L
+				id: "0E527F3244322CE9"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}
 			]
 			x: 10.0d
 			y: 0.0d
@@ -156,27 +151,26 @@
 				id: "aeronautics:propeller_bearing"
 			}
 			id: "1AA03306ED85A926"
-			rewards: [{
+			rewards: [
+			{
 				count: 16
 				id: "0EA1F049AD0A16B3"
-				item: {
-					count: 1
-					id: "create:white_sail"
-				}
+				item: { count: 1, id: "create:white_sail" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [
-				{
-					id: "1C3AAADF8B743001"
-					item: { count: 1, id: "aeronautics:propeller_bearing" }
-					type: "item"
-				}
-				{
-					advancement: "aeronautics:in_thrust_we_trust"
-					criterion: ""
-					id: "35044F8C8ECD5842"
-					type: "advancement"
-				}
+			{
+				id: "1C3AAADF8B743001"
+				item: { count: 1, id: "aeronautics:propeller_bearing" }
+				type: "item"
+			}
+			{
+				advancement: "aeronautics:in_thrust_we_trust"
+				criterion: ""
+				id: "35044F8C8ECD5842"
+				type: "advancement"
+			}
 			]
 			x: 7.5d
 			y: 1.5d
@@ -187,11 +181,13 @@
 				id: "simulated:throttle_lever"
 			}
 			id: "116DF2B933627BCD"
-			rewards: [{
+			rewards: [
+			{
 				id: "55D6334B24575699"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			tasks: [{
 				id: "36DD0D1D539E1D11"
 				item: { count: 1, id: "simulated:throttle_lever" }
@@ -207,11 +203,13 @@
 			}
 			id: "40410D3B4A2B83A1"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "5678F8F5FA4D8F86"
 				type: "xp"
 				xp: 100
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "simulated:thataway"
@@ -229,14 +227,13 @@
 			}
 			id: "78894F1C81796BA4"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "23279773C26B13CC"
-				item: {
-					count: 1
-					id: "minecraft:name_tag"
-				}
+				item: { count: 1, id: "minecraft:name_tag" }
 				type: "item"
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "simulated:i_declare_thee"
@@ -254,11 +251,13 @@
 			}
 			id: "6A2AE24E05CE8EA3"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "611213767E0AC527"
 				type: "xp"
 				xp: 150
-			}]
+			}
+			]
 			tasks: [{
 				id: "1A2AC6C24814BF86"
 				item: { count: 1, id: "aeroclaims:claim_block" }
@@ -274,14 +273,13 @@
 			}
 			id: "3B375A633ADFEAEA"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "61FCEFEDEFF92AE2"
-				item: {
-					count: 1
-					id: "create:brass_hand"
-				}
+				item: { count: 1, id: "create:brass_hand" }
 				type: "item"
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				id: "52A437B4FE26CC5B"
@@ -298,15 +296,14 @@
 			}
 			id: "1641C57B8137C96E"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				count: 32
 				id: "065CD354E50490DE"
-				item: {
-					count: 1
-					id: "supplementaries:rope"
-				}
+				item: { count: 1, id: "supplementaries:rope" }
 				type: "item"
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "simulated:learning_the_ropes"
@@ -327,20 +324,17 @@
 			}
 			id: "568C062B517D5E83"
 			rewards: [
-				{
-					count: 16
-					id: "522FF8D89F8EB57C"
-					item: {
-						count: 1
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-				{
-					id: "057EA6C5416B4C89"
-					type: "xp_levels"
-					xp_levels: 5
-				}
+			{
+				count: 16
+				id: "522FF8D89F8EB57C"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}
+			{
+				id: "057EA6C5416B4C89"
+				type: "xp_levels"
+				xp_levels: 5
+			}
 			]
 			shape: "hexagon"
 			size: 2.0d

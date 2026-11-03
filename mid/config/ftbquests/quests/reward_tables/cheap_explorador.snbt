@@ -1,7 +1,7 @@
 {
 	id: "1D7F289678762BF7"
 	loot_size: 1
-	order_index: 18
+	order_index: 31
 	rewards: [
 		{
 			count: 64
@@ -89,6 +89,13 @@
 			}
 			weight: 2.0f
 		}
-		{ id: "717C83E69DCA9456", item: { count: 1, id: "minecraft:totem_of_undying" } }
+		{
+			id: "717C83E69DCA9456"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			weight: 1.0f
+		}
 	]
 }

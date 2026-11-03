@@ -8,7 +8,7 @@
 	}
 	id: "14B702F388260FC4"
 	images: [ ]
-	order_index: 3
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -78,11 +78,13 @@
 				id: "minecraft:white_wool"
 			}
 			id: "3BB750716F72879C"
-			rewards: [{
+			rewards: [
+			{
 				id: "5E285D0230BE02AE"
 				type: "xp"
 				xp: 200
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_small_blimp"
 				criterion: ""
@@ -98,11 +100,13 @@
 				id: "minecraft:phantom_membrane"
 			}
 			id: "7977BCE6903215E2"
-			rewards: [{
+			rewards: [
+			{
 				id: "38AC98AE76634FEF"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_heavenly_rider"
 				criterion: ""
@@ -118,11 +122,13 @@
 				id: "minecraft:feather"
 			}
 			id: "088A762A22F25E24"
-			rewards: [{
+			rewards: [
+			{
 				id: "77C03E9863DFFF96"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_heavenly_challenger"
 				criterion: ""
@@ -138,14 +144,13 @@
 				id: "minecraft:elytra"
 			}
 			id: "0D0807FB1E9C7C4D"
-			rewards: [{
+			rewards: [
+			{
 				id: "62C6F7E3A7265D01"
-				item: {
-					count: 1
-					id: "numismatics:cog"
-				}
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_heavenly_conqueror"
 				criterion: ""
@@ -161,11 +166,13 @@
 				id: "minecraft:lantern"
 			}
 			id: "04C6DAE7870FC8F4"
-			rewards: [{
+			rewards: [
+			{
 				id: "3F6CC151E1333D6C"
 				type: "xp"
 				xp: 200
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_lighthouse"
 				criterion: ""
@@ -181,11 +188,13 @@
 				id: "minecraft:crossbow"
 			}
 			id: "2D4E391B89F121B8"
-			rewards: [{
+			rewards: [
+			{
 				id: "4EA88D521B04C458"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_illager_corsair_or_illager_galley"
 				criterion: ""
@@ -201,11 +210,13 @@
 				id: "minecraft:oak_boat"
 			}
 			id: "03FF585F485B4337"
-			rewards: [{
+			rewards: [
+			{
 				id: "7D9F2A841ADCA9B3"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_undead_pirate_ship"
 				criterion: ""
@@ -221,14 +232,13 @@
 				id: "minecraft:trident"
 			}
 			id: "7F5B4F1DA93A0C7A"
-			rewards: [{
+			rewards: [
+			{
 				id: "01675229ECF0D31C"
-				item: {
-					count: 1
-					id: "numismatics:cog"
-				}
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_typhon"
 				criterion: ""
@@ -244,11 +254,13 @@
 				id: "minecraft:bow"
 			}
 			id: "79AA9CCE674227F6"
-			rewards: [{
+			rewards: [
+			{
 				id: "661206B009BE2053"
 				type: "xp"
 				xp: 200
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_bandit_towers"
 				criterion: ""
@@ -264,11 +276,13 @@
 				id: "minecraft:feather"
 			}
 			id: "7BDDAB7EEC93C230"
-			rewards: [{
+			rewards: [
+			{
 				id: "71EAFFC2CFA82C65"
 				type: "xp"
 				xp: 200
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_aviary"
 				criterion: ""
@@ -284,11 +298,13 @@
 				id: "minecraft:iron_axe"
 			}
 			id: "60942A7383F810DD"
-			rewards: [{
+			rewards: [
+			{
 				id: "64CB7D6779D54169"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_illager_fort"
 				criterion: ""
@@ -304,11 +320,13 @@
 				id: "minecraft:mossy_cobblestone"
 			}
 			id: "17F6B2BA1ED16A11"
-			rewards: [{
+			rewards: [
+			{
 				id: "0A45E7753FC49DEE"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_infested_temple"
 				criterion: ""
@@ -325,11 +343,13 @@
 			}
 			id: "3F1B7232E1900A21"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "0F772ED9A4525757"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "dungeons_arise:find_monastery"
@@ -346,11 +366,13 @@
 				id: "minecraft:iron_pickaxe"
 			}
 			id: "79FD492912671FA2"
-			rewards: [{
+			rewards: [
+			{
 				id: "0D60F8567F1A61CA"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_scorched_mines"
 				criterion: ""
@@ -366,11 +388,13 @@
 				id: "minecraft:blast_furnace"
 			}
 			id: "08C52A2DF315F05E"
-			rewards: [{
+			rewards: [
+			{
 				id: "723F49F6F0996F85"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_foundry"
 				criterion: ""
@@ -386,14 +410,13 @@
 				id: "minecraft:piston"
 			}
 			id: "47FB52CD4CEC5B84"
-			rewards: [{
+			rewards: [
+			{
 				id: "0391735DCC369F3F"
-				item: {
-					count: 1
-					id: "numismatics:cog"
-				}
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_mechanical_nest"
 				criterion: ""
@@ -409,14 +432,13 @@
 				id: "minecraft:stone_bricks"
 			}
 			id: "75D81E3926E74D90"
-			rewards: [{
+			rewards: [
+			{
 				id: "0240F75AE6DF911C"
-				item: {
-					count: 1
-					id: "numismatics:cog"
-				}
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_keep_kayra"
 				criterion: ""
@@ -432,14 +454,13 @@
 				id: "minecraft:gold_block"
 			}
 			id: "2BD6D8D7EEDE10F3"
-			rewards: [{
+			rewards: [
+			{
 				id: "3FC1809D91D602DA"
-				item: {
-					count: 1
-					id: "numismatics:cog"
-				}
+				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
-			}]
+			}
+			]
 			tasks: [{
 				advancement: "dungeons_arise:find_shiraz_palace"
 				criterion: ""
@@ -456,11 +477,13 @@
 			}
 			id: "399440F5E7FDC829"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "53E604E790669334"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "dungeons_arise:find_plague_asylum"
@@ -478,11 +501,13 @@
 			}
 			id: "32FA532DA609B3C2"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "4A868851F2ED59FC"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "dungeons_arise:find_coliseum"
@@ -500,11 +525,13 @@
 			}
 			id: "1A67EF9BA98D0AE4"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "4458CEAEE9274038"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "dungeons_arise:find_mushroom_mines"
@@ -522,11 +549,13 @@
 			}
 			id: "0731B2DF20F4E5CE"
 			optional: true
-			rewards: [{
+			rewards: [
+			{
 				id: "15194C1275FBCB41"
 				type: "xp_levels"
 				xp_levels: 5
-			}]
+			}
+			]
 			shape: "gear"
 			tasks: [{
 				advancement: "dungeons_arise:find_mining_complex"
@@ -568,20 +597,17 @@
 			id: "20A0688BA2707FCB"
 			min_required_dependencies: 8
 			rewards: [
-				{
-					count: 3
-					id: "62F46334C16DFB8D"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
-				}
-				{
-					id: "4F6A77B49B40764A"
-					type: "xp_levels"
-					xp_levels: 10
-				}
+			{
+				count: 3
+				id: "62F46334C16DFB8D"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}
+			{
+				id: "4F6A77B49B40764A"
+				type: "xp_levels"
+				xp_levels: 10
+			}
 			]
 			shape: "hexagon"
 			size: 2.5d

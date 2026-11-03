@@ -1,7 +1,7 @@
 {
 	id: "753B52AA8DFEA73F"
 	loot_size: 1
-	order_index: 6
+	order_index: 12
 	rewards: [
 		{ id: "33AF4FB46E7C9FAC", item: { count: 1, id: "createbigcannons:filled_autocannon_cartridge" } }
 		{ id: "0FA259781BE2129C", item: { count: 1, id: "createbigcannons:machine_gun_round" } }

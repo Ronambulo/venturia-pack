@@ -3,6 +3,8 @@
 	chapter.005A702ACB613863.title: "Magia"
 	chapter.06DE5A59EF33292E.chapter_subtitle: ["Tu primera aeronave"]
 	chapter.06DE5A59EF33292E.title: "Acto 3 · Despegue"
+	chapter.11C04345464B9669.chapter_subtitle: ["Aquaculture y el minijuego de Stardew Fishing"]
+	chapter.11C04345464B9669.title: "Pesca"
 	chapter.14B702F388260FC4.chapter_subtitle: ["Las estructuras de When Dungeons Arise"]
 	chapter.14B702F388260FC4.title: "Mazmorras"
 	chapter.1CDB6B929E1877D9.chapter_subtitle: ["Cañones, radar, misiles y escudos"]
@@ -59,6 +61,9 @@
 	quest.00382426A1CDD882.quest_desc: ["Fabrica un generador de Powah de cualquier nivel."]
 	quest.00382426A1CDD882.quest_subtitle: "Energía sin girar nada"
 	quest.00382426A1CDD882.title: "Generadores Powah"
+	quest.0040EF0F72EBCA9A.quest_desc: ["En océanos y playas frías: &ebacalao atlántico&r, &eblackfish&r, &ehalibut del Pacífico&r, &epollock&r y &esalmón rosado&r."]
+	quest.0040EF0F72EBCA9A.quest_subtitle: "Océanos y playas heladas"
+	quest.0040EF0F72EBCA9A.title: "Aguas frías"
 	quest.009D4C2103250A25.quest_desc: ["Los &eejes&r llevan la rotación en línea recta y los &eengranajes&r a los lados. Un engranaje grande con uno pequeño cambia la velocidad: &ex2&r o &e/2&r."]
 	quest.009D4C2103250A25.quest_subtitle: "Llevar la rotación"
 	quest.009D4C2103250A25.title: "Ejes y engranajes"
@@ -110,6 +115,9 @@
 	quest.04C6DAE7870FC8F4.quest_desc: ["Un &efaro&r en lo alto de un acantilado de la costa."]
 	quest.04C6DAE7870FC8F4.quest_subtitle: "En la costa"
 	quest.04C6DAE7870FC8F4.title: "El faro"
+	quest.04CA679DD8FB6BDE.quest_desc: ["Pescar da comida, materiales, el mejor metal del mar y dinero."]
+	quest.04CA679DD8FB6BDE.quest_subtitle: "Filetes, neptunio y monedas"
+	quest.04CA679DD8FB6BDE.title: "Sacarle partido"
 	quest.0542494712F5987E.quest_desc: ["Rotación, electricidad y mineral sin fin: vuestra isla es una central."]
 	quest.0542494712F5987E.quest_subtitle: "Fin de la guía"
 	quest.0542494712F5987E.title: "Ingeniero eléctrico"
@@ -125,6 +133,9 @@
 	]
 	quest.06B5CA38877D69CF.quest_subtitle: "Mineral infinito"
 	quest.06B5CA38877D69CF.title: "Minería de vetas"
+	quest.06BE80D68FD4D21E.quest_desc: ["En el agua de biomas secos (desierto, sabana, badlands): &esynodontis&r, &eboulti&r, &ebayad&r y &ecapitaine&r."]
+	quest.06BE80D68FD4D21E.quest_subtitle: "Desierto, sabana, badlands"
+	quest.06BE80D68FD4D21E.title: "Tierras secas"
 	quest.06DF498FFA6EC752.quest_desc: [
 		"Una &eMochila&r (Sophisticated Backpacks) es un cofre que llevas a la espalda: cofre, cuero y cuerda."
 		""
@@ -138,6 +149,9 @@
 	quest.070BE855F905B216.quest_desc: ["Más allá de las ciudades antiguas. Mata a un &eWarden&r para conseguir el &eCorazón de las profundidades&r y úsalo en el marco del portal de una &eciudad antigua&r."]
 	quest.070BE855F905B216.quest_subtitle: "Deeper and Darker"
 	quest.070BE855F905B216.title: "El Otherside"
+	quest.070D9EE3C877F00C.quest_desc: ["Pon un pez en el &eexpositor&r con clic derecho. Ideal para el legendario que te costó una tarde."]
+	quest.070D9EE3C877F00C.quest_subtitle: "Para presumir"
+	quest.070D9EE3C877F00C.title: "Expositor de peces"
 	quest.0731B2DF20F4E5CE.quest_desc: ["Un &ecomplejo minero&r con raíles bajo tierra."]
 	quest.0731B2DF20F4E5CE.quest_subtitle: "Raíles y vagonetas"
 	quest.0731B2DF20F4E5CE.title: "Complejo minero"
@@ -203,6 +217,13 @@
 	quest.0A2EBBD514E79298.quest_desc: ["Prepara un plato de restaurante."]
 	quest.0A2EBBD514E79298.quest_subtitle: "Para el equipo"
 	quest.0A2EBBD514E79298.title: "Cena de gala"
+	quest.0ACB00746D4E9A0D.quest_desc: [
+		"En cualquier océano o playa: &emedusa&r, &emero rojo&r y &eatún&r."
+		""
+		"Si no es cálido, también &earenque&r y &ehalibut atlántico&r."
+	]
+	quest.0ACB00746D4E9A0D.quest_subtitle: "Océanos y playas"
+	quest.0ACB00746D4E9A0D.title: "Mar abierto"
 	quest.0B1B829FE93BBDF7.quest_desc: [
 		"Esta guía es &eopcional&r. Create funciona con &erotación&r, pero muchos mods usan &eenergía eléctrica (FE)&r: propulsores iónicos, escudos, cargadores..."
 		""
@@ -255,6 +276,13 @@
 	quest.0D4A7647E58524EE.quest_desc: ["Barcos y fortalezas que &eflotan&r. Con la nave podéis abordarlas en el aire."]
 	quest.0D4A7647E58524EE.quest_subtitle: "Estructuras voladoras"
 	quest.0D4A7647E58524EE.title: "El cielo"
+	quest.0DCEE55547680099.quest_desc: [
+		"En la sección de comida de la &eTienda&r (F10):"
+		"- &e64 peces crudos&r: 8 spurs (cada 30 min)."
+		"- &eUn pez legendario&r: 128 spurs (cada 2 h)."
+	]
+	quest.0DCEE55547680099.quest_subtitle: "Tienda (F10)"
+	quest.0DCEE55547680099.title: "Vender pescado"
 	quest.0DF22BF6A6900FF8.quest_desc: [
 		"Esta guía es &eopcional&r: objetos prácticos para el día a día."
 		""
@@ -292,6 +320,9 @@
 	quest.0F4CBF9CDADD7A06.quest_desc: ["Con el modificador de redstone, el generador solo funciona cuando recibe señal."]
 	quest.0F4CBF9CDADD7A06.quest_subtitle: "Encender y apagar"
 	quest.0F4CBF9CDADD7A06.title: "Generador con interruptor"
+	quest.0F71EE5E58BAE045.quest_desc: ["Con &ecebo&r los peces pican antes. Los &egusanos&r salen de la &egranja de gusanos&r: échale restos que se puedan compostar."]
+	quest.0F71EE5E58BAE045.quest_subtitle: "Gusanos"
+	quest.0F71EE5E58BAE045.title: "Cebo"
 	quest.1054E9ADB360DDE4.quest_desc: [
 		"La &ePirámide maldita&r está en el &edesierto&r. El Remanente invoca tormentas de arena: no os quedéis quietos."
 		""
@@ -486,6 +517,17 @@
 	quest.17F6B2BA1ED16A11.quest_desc: ["Un &etemplo&r de la jungla lleno de arañas y lepismas."]
 	quest.17F6B2BA1ED16A11.quest_subtitle: "Bichos por todas partes"
 	quest.17F6B2BA1ED16A11.title: "Templo infestado"
+	quest.182793E827A95F99.quest_desc: [
+		"- &eHierro&r, &ecuarzo&r, &ediamante&r: gastan menos la caña."
+		"- &eOro&r, &epiedra luminosa&r: más suerte."
+		"- &eDoble&r: a veces sacas dos cosas."
+		"- &eRedstone&r, &earena de almas&r: más tiempo para recoger."
+		"- &eNota&r: suena cuando se acerca un pez."
+		"- &eLigero&r / &epesado&r: lanzas más lejos o más cerca."
+		"- &eEstrella del Nether&r: el mejor, suerte y casi no gasta."
+	]
+	quest.182793E827A95F99.quest_subtitle: "Cada uno hace una cosa"
+	quest.182793E827A95F99.title: "Anzuelos"
 	quest.18F4EC266F9B3027.quest_desc: [
 		"&eCreate Radar&r: un &eRodamiento de radar&r con &eplatos de radar&r gira y detecta naves y criaturas. El &eMonitor&r las enseña, y el &eControlador de red&r une todo."
 		""
@@ -529,12 +571,22 @@
 	quest.1ADBA513264E055E.quest_desc: ["El &eStarbuncle&r lleva objetos de un cofre a otro. Con la &evarita de dominio&r le dices de dónde coger y dónde dejar."]
 	quest.1ADBA513264E055E.quest_subtitle: "El repartidor"
 	quest.1ADBA513264E055E.title: "Starbuncle"
+	quest.1AFE13C944901448.quest_desc: [
+		"A veces aparece un &ecofre&r en la barra (12 % de las veces). Mantenlo dentro de la zona verde hasta que se llene y sacarás el pez y el tesoro."
+		""
+		"Uno de cada diez es &edorado&r. Dan minerales, flotadores y otras cosas útiles."
+	]
+	quest.1AFE13C944901448.quest_subtitle: "Un cofre en la barra"
+	quest.1AFE13C944901448.title: "Tesoros"
 	quest.1B0D2C835A683587.quest_desc: ["El &ególem de amatista&r cuida las geodas: hace crecer los cristales y los recoge."]
 	quest.1B0D2C835A683587.quest_subtitle: "Minero de geodas"
 	quest.1B0D2C835A683587.title: "Gólem de amatista"
 	quest.1B14B97CFB20ABB2.quest_desc: ["El &eobservador de vía&r da señal de redstone cuando pasa un tren. Ideal para abrir puertas o activar máquinas."]
 	quest.1B14B97CFB20ABB2.quest_subtitle: "Detectar trenes"
 	quest.1B14B97CFB20ABB2.title: "Observador de vía"
+	quest.1BAEB57BB7815785.quest_desc: ["Cañas con anzuelo, mil biomas pescados y algún legendario en la pared."]
+	quest.1BAEB57BB7815785.quest_subtitle: "Fin de la guía"
+	quest.1BAEB57BB7815785.title: "Lobo de mar"
 	quest.1BBE6A8E549DAE46.quest_desc: [
 		"El &eRevestimiento de latón&r (madera desnuda y latón) es la base de las máquinas listas."
 		""
@@ -596,6 +648,9 @@
 	quest.203E2ED0347A333C.quest_desc: ["En los templos de plata manda la &eValquiria Reina&r."]
 	quest.203E2ED0347A333C.quest_subtitle: "La Valquiria Reina"
 	quest.203E2ED0347A333C.title: "Mazmorra de plata"
+	quest.203E5135FBC9E286.quest_desc: ["En océanos normales y fríos y en las playas: &eStorm Tarpon&r y &eGoliath Grouper&r."]
+	quest.203E5135FBC9E286.quest_subtitle: "Océanos normales y fríos"
+	quest.203E5135FBC9E286.title: "Leyendas del océano"
 	quest.208BA0CCECE1EEFB.quest_desc: [
 		"El espacio, todos los mundos y los peores jefes. No queda nada que se os resista."
 		""
@@ -656,9 +711,19 @@
 	quest.25EBA2EA58E9406E.quest_desc: ["La &emezcladora mecánica&r sobre una &ecuenca&r mezcla ingredientes. Con calor (&equemador de blaze&r debajo) hace aleaciones como el &elatón&r."]
 	quest.25EBA2EA58E9406E.quest_subtitle: "Recetas sin forma"
 	quest.25EBA2EA58E9406E.title: "Mezcladora"
+	quest.25F627D74C094A88.quest_desc: [
+		"El pez que sale depende del &ebioma donde cae el anzuelo&r (mira F3). Para cada misión vale cualquiera de los peces de ese grupo."
+		""
+		"El bacalao, el salmón, el pez globo y el pez tropical de siempre pueden salir en cualquier sitio."
+	]
+	quest.25F627D74C094A88.quest_subtitle: "Cada agua, sus peces"
+	quest.25F627D74C094A88.title: "Biomas"
 	quest.25FCD2A5A85FC69C.quest_desc: ["Has matado a todos los jefes de Block Factory's Bosses."]
 	quest.25FCD2A5A85FC69C.quest_subtitle: "Secreto"
 	quest.25FCD2A5A85FC69C.title: "Exterminador"
+	quest.2607CD0B094C3CF6.quest_desc: ["En el pantano: &esanguijuelas&r y la &etortuga de caja&r, además de los peces de agua dulce."]
+	quest.2607CD0B094C3CF6.quest_subtitle: "Aguas turbias"
+	quest.2607CD0B094C3CF6.title: "Pantano"
 	quest.26A87886A454C93F.quest_desc: ["Panadería, restaurante y bebidas: vuestra base ya es el mejor sitio para comer del mundo."]
 	quest.26A87886A454C93F.quest_subtitle: "Fin de la cocina"
 	quest.26A87886A454C93F.title: "Gran chef"
@@ -739,6 +804,9 @@
 	quest.2905D4B378D97E50.quest_desc: ["Encuentra un &epuesto subterráneo&r en Marte."]
 	quest.2905D4B378D97E50.quest_subtitle: "Puesto subterráneo"
 	quest.2905D4B378D97E50.title: "Bajo la arena roja"
+	quest.294C27EFE4B3FD8A.quest_desc: ["Cuantos más peces, más fácil se hace. Los &eRetos&r (F9) tienen días y semanas de pesca con recompensa."]
+	quest.294C27EFE4B3FD8A.quest_subtitle: "Práctica"
+	quest.294C27EFE4B3FD8A.title: "Pescador constante"
 	quest.29A2E475036472DB.quest_desc: [
 		"El &eventilador&r empuja aire. Delante de él, los objetos tirados al suelo o en cinta se procesan según lo que haya en medio:"
 		"- &eLava o fuego&r: fundir.  - &eAgua&r: lavar.  - &eFuego de alma&r: ahumar."
@@ -784,7 +852,7 @@
 	quest.2B73CBDCF1051503.quest_desc: [
 		"Con &eAquaculture&r hay decenas de peces según el bioma. Las cañas mejores admiten &eanzuelos&r, sedal y cebo (&egusanos&r de la tierra)."
 		""
-		"El &ecuchillo de filetear&r convierte peces en filetes, y en el fondo del mar está el &eneptunio&r."
+		"Todo lo de la pesca (biomas, minijuego, legendarios, neptunio) está en la guía de &ePesca&r."
 	]
 	quest.2B73CBDCF1051503.quest_subtitle: "Aquaculture"
 	quest.2B73CBDCF1051503.title: "Pesca"
@@ -991,6 +1059,15 @@
 	quest.3892D7900D917299.quest_desc: ["Del primer engranaje a una fábrica que funciona sola. Ya dominas Create."]
 	quest.3892D7900D917299.quest_subtitle: "Fin de la guía"
 	quest.3892D7900D917299.title: "Ingeniero de Create"
+	quest.3920110C17F5225B.quest_desc: [
+		"Cada pez que pica tiene un &e1 %&r de ser &elegendario&r (algo más con suerte). Son los más difíciles del minijuego."
+		""
+		"Cuál sale depende del bioma. En llanuras, bosques y demás biomas normales &eno salen&r."
+		""
+		"La &eTienda&r los compra a buen precio."
+	]
+	quest.3920110C17F5225B.quest_subtitle: "Uno de cada cien"
+	quest.3920110C17F5225B.title: "Legendarios"
 	quest.394CE07DA32DD133.quest_desc: ["Las &egafas de ingeniero&r enseñan la velocidad y el estrés de cada bloque. La &ellave inglesa&r gira y quita piezas al instante."]
 	quest.394CE07DA32DD133.quest_subtitle: "Ver lo que pasa"
 	quest.394CE07DA32DD133.title: "Gafas y llave"
@@ -1016,6 +1093,15 @@
 	quest.3BB750716F72879C.quest_desc: ["Pequeños &edirigibles&r flotan sobre las llanuras. Con la nave podéis abordarlos en el aire."]
 	quest.3BB750716F72879C.quest_subtitle: "Un globo a la deriva"
 	quest.3BB750716F72879C.title: "Pequeño dirigible"
+	quest.3BCF4D76978AB3C0.quest_desc: [
+		"Cada pez se mueve a su manera:"
+		"- &eFáciles&r: perca, carpa, arenque, salmón rosado, bacalao."
+		"- &eDifíciles&r: atún, halibut, arapaima, capitaine, piraña, bagre."
+		""
+		"Si no se escapa ni un momento del verde es una &ecaptura perfecta&r."
+	]
+	quest.3BCF4D76978AB3C0.quest_subtitle: "Que no se escape"
+	quest.3BCF4D76978AB3C0.title: "Primera captura"
 	quest.3C056F646925AEF2.quest_desc: ["El último nivel. Solo para quien lo tenga todo."]
 	quest.3C056F646925AEF2.quest_subtitle: "Lo más alto"
 	quest.3C056F646925AEF2.title: "Pináculo"
@@ -1067,9 +1153,19 @@
 	]
 	quest.3E9D24DB12A58084.quest_subtitle: "Más presión"
 	quest.3E9D24DB12A58084.title: "Acero"
+	quest.3EB4E65F4461122D.quest_desc: ["La basura también vale: las &elatas&r se funden en pepitas de hierro, las &espinas&r dan polvo de hueso, la &emedusa&r da slime y las &ecajas&r y &ecajas fuertes&r llevan botín."]
+	quest.3EB4E65F4461122D.quest_subtitle: "Nada se tira"
+	quest.3EB4E65F4461122D.title: "Basura útil"
 	quest.3F1B7232E1900A21.quest_desc: ["Un &emonasterio&r en lo alto de las montañas."]
 	quest.3F1B7232E1900A21.quest_subtitle: "Silencio en la montaña"
 	quest.3F1B7232E1900A21.title: "El monasterio"
+	quest.3F764E3737F62B67.quest_desc: [
+		"Pon la caña en el hueco de la &ecaja de aparejos&r y verás sus cuatro huecos: &eanzuelo&r, &ecebo&r, &esedal&r y &eflotador&r. Ahí se cambian."
+		""
+		"El resto de la caja sirve para guardar tus aparejos."
+	]
+	quest.3F764E3737F62B67.quest_subtitle: "El taller del pescador"
+	quest.3F764E3737F62B67.title: "Caja de aparejos"
 	quest.3F995CE0A0354D2B.quest_desc: ["El &eDepósito de comercio&r comercia con el aldeano que tiene delante: mete el pago por una cinta y saca lo que vende. Perfecto para granjas de aldeanos."]
 	quest.3F995CE0A0354D2B.quest_subtitle: "Aldeanos automáticos"
 	quest.3F995CE0A0354D2B.title: "Depósito de comercio"
@@ -1104,6 +1200,9 @@
 	]
 	quest.4056DA965E5BAFA7.quest_subtitle: "Simply Swords"
 	quest.4056DA965E5BAFA7.title: "Armas nuevas"
+	quest.407693C108FBDCAB.quest_desc: ["En océanos cálidos y templados: &eCyclops Mahimahi&r y &eBlazing Oarfish&r."]
+	quest.407693C108FBDCAB.quest_subtitle: "Océanos cálidos y templados"
+	quest.407693C108FBDCAB.title: "Leyendas cálidas"
 	quest.409DE6BDCDA344B8.quest_desc: [
 		"&eFarmer's Delight&r convierte la comida en algo que merece la pena: platos que llenan mucho y dan efectos útiles."
 		""
@@ -1139,6 +1238,9 @@
 	]
 	quest.438B149B7DF76938.quest_subtitle: "La arena ardiente"
 	quest.438B149B7DF76938.title: "Ignis"
+	quest.440BA0D80458597E.quest_desc: ["En los ríos: &eCrystalline Snakehead&r y &eDemon Gar&r."]
+	quest.440BA0D80458597E.quest_subtitle: "Ríos"
+	quest.440BA0D80458597E.title: "Leyendas del río"
 	quest.44300F6CD8F19409.quest_desc: ["Has estado en la órbita de la &eLuna&r y en la de &eMarte&r. Hay quien viaja solo por las vistas."]
 	quest.44300F6CD8F19409.quest_subtitle: "Secreto"
 	quest.44300F6CD8F19409.title: "Turista orbital"
@@ -1525,6 +1627,13 @@
 	quest.56F6CC3FF0925949.quest_desc: ["Faros, barcos y fuertes en el &eocéano&r. Llevad respiración acuática por si acaso."]
 	quest.56F6CC3FF0925949.quest_subtitle: "Costas y océanos"
 	quest.56F6CC3FF0925949.title: "El mar"
+	quest.56F80573670F6D15.quest_desc: [
+		"Muy de vez en cuando sale el &eBotín de Neptuno&r: un cofre con &eneptunio&r."
+		""
+		"Con él haces herramientas y armadura para el agua (respirar, nadar rápido, ver bajo el agua), la mejor caña y el mejor cuchillo."
+	]
+	quest.56F80573670F6D15.quest_subtitle: "El tesoro de Neptuno"
+	quest.56F80573670F6D15.title: "Neptunio"
 	quest.57D208313B2413BE.quest_desc: [
 		"Sin aire no se respira. El &etraje espacial básico&r: casco, pantalones y botas de tela espacial (lámina de cobre con ensamblaje), y de pecho la &ebombona de oxígeno de cobre&r."
 		""
@@ -1532,6 +1641,9 @@
 	]
 	quest.57D208313B2413BE.quest_subtitle: "Respirar fuera"
 	quest.57D208313B2413BE.title: "Traje espacial"
+	quest.57F40D7B3AC437B5.quest_desc: ["Los &esoportes para peces&r cuelgan cualquier pez de Aquaculture en la pared, como un trofeo."]
+	quest.57F40D7B3AC437B5.quest_subtitle: "Pez en la pared"
+	quest.57F40D7B3AC437B5.title: "Trofeos"
 	quest.585B59AEDDF30DFE.quest_desc: [
 		"La &eMuela&r muele lo que le eches por arriba: trigo en harina, flores en tinte... y &eadoquín en grava&r."
 		""
@@ -1599,6 +1711,13 @@
 	]
 	quest.5BE1D909D7578660.quest_subtitle: "Magia grande"
 	quest.5BE1D909D7578660.title: "Rituales"
+	quest.5C584DFFC9B24FD9.quest_desc: [
+		"La caña de madera de siempre funciona, pero las de Aquaculture duran más y llevan accesorios."
+		""
+		"La de &eneptunio&r además hace que los peces piquen antes. Los encantamientos &eAtracción&r y &eSuerte marina&r también sirven."
+	]
+	quest.5C584DFFC9B24FD9.quest_subtitle: "Hierro, oro, diamante, neptunio"
+	quest.5C584DFFC9B24FD9.title: "Una caña mejor"
 	quest.5C99F0CA1539289D.quest_desc: ["Usa la &ecinta mecánica&r entre dos ejes para unirlos. Lleva objetos y también rotación."]
 	quest.5C99F0CA1539289D.quest_subtitle: "Lo primero de toda fábrica"
 	quest.5C99F0CA1539289D.title: "Cinta mecánica"
@@ -1671,6 +1790,9 @@
 	]
 	quest.5FFB737514851303.quest_subtitle: "La fábrica antigua"
 	quest.5FFB737514851303.title: "El Heraldo"
+	quest.6000CBF9E234FFF2.quest_desc: ["Pon el &ecuchillo de filetear&r y un pez en la mesa de crafteo: sacas &efiletes&r y el cuchillo se queda. Cocinados llenan bien, y un filete crudo con &ehierba marina&r es &esushi&r."]
+	quest.6000CBF9E234FFF2.quest_subtitle: "Cuchillo de filetear"
+	quest.6000CBF9E234FFF2.title: "Filetes"
 	quest.604969AD51F08667.quest_desc: ["Vuela sobre los &eacantilados de la costa&r. Sus colmillos dan pociones de veneno."]
 	quest.604969AD51F08667.quest_subtitle: "Serpiente marina"
 	quest.604969AD51F08667.title: "La Naga"
@@ -1700,12 +1822,18 @@
 	quest.611F93120B6E8306.quest_desc: ["Equipo con afijos, gemas perfectas y encantamientos de nivel 60: estáis listos para cualquier cosa."]
 	quest.611F93120B6E8306.quest_subtitle: "Fin de la guía"
 	quest.611F93120B6E8306.title: "Bien equipado"
+	quest.6149B4013CD8E9E0.quest_desc: ["En la jungla: &epiraña&r, &etambaqui&r, &earapaima&r y la &etortuga arrau&r."]
+	quest.6149B4013CD8E9E0.quest_subtitle: "Aguas tropicales"
+	quest.6149B4013CD8E9E0.title: "Jungla"
 	quest.6168B6E6233D98FF.quest_desc: ["El &eServo mecánico&r gira a un ángulo según la fuerza de la redstone, y el &eServo paso a paso&r avanza a saltos. Ideales para alerones, compuertas o tren de aterrizaje."]
 	quest.6168B6E6233D98FF.quest_subtitle: "Ángulos exactos"
 	quest.6168B6E6233D98FF.title: "Servos"
 	quest.61D40C8098C03A0A.quest_desc: ["Mochila llena, waystones en cada isla y un tótem en el bolsillo: el vacío ya no da tanto miedo."]
 	quest.61D40C8098C03A0A.quest_subtitle: "Fin de la guía"
 	quest.61D40C8098C03A0A.title: "Bien preparado"
+	quest.61DF39C5A8931BD3.quest_desc: ["El &esedal&r y el &eflotador&r de Aquaculture se pueden &eteñir&r. Son estética: para ayudar en el minijuego usa los &eflotadores de Stardew&r (fila 2)."]
+	quest.61DF39C5A8931BD3.quest_subtitle: "A tu gusto"
+	quest.61DF39C5A8931BD3.title: "Sedal y flotador"
 	quest.61FA72B8FB0ED175.quest_desc: ["Prensas, molinos, trituradoras, ventiladores y mezcladoras: así se hacen la mayoría de materiales de Create."]
 	quest.61FA72B8FB0ED175.quest_subtitle: "Máquinas que transforman"
 	quest.61FA72B8FB0ED175.title: "Procesado"
@@ -1715,6 +1843,13 @@
 	quest.62711AAB88F5AEB3.quest_desc: ["Las &evías&r se ponen a mano o en curva: clic en una vía y luego en otro punto para unirlas."]
 	quest.62711AAB88F5AEB3.quest_subtitle: "Tender raíles"
 	quest.62711AAB88F5AEB3.title: "Vías de tren"
+	quest.62FBBDFA1D44BDE1.quest_desc: [
+		"En ríos, lagos y charcas de tierra (llanuras, bosques, taiga...): &eperca&r, &ebluegill&r, &eminnow&r, &ecarpa&r, &etrucha marrón&r, &eblack bass&r, &egar&r, &emuskellunge&r y &ebagre&r."
+		""
+		"En ríos fríos también la &etrucha arcoíris&r."
+	]
+	quest.62FBBDFA1D44BDE1.quest_subtitle: "Agua dulce"
+	quest.62FBBDFA1D44BDE1.title: "Ríos y lagos"
 	quest.62FEA76F186F6719.quest_desc: [
 		"El cañón del Acto 5 fue solo el principio. Esta guía (&eopcional&r) explica la artillería en serio:"
 		""
@@ -1851,6 +1986,13 @@
 	]
 	quest.6A2AE24E05CE8EA3.quest_subtitle: "aeroclaims"
 	quest.6A2AE24E05CE8EA3.title: "Protege tu nave"
+	quest.6A30B7AF92769AF0.quest_desc: [
+		"Cuando pica un pez se abre una barra vertical. &eMantén pulsado clic derecho&r para subir la zona verde y suéltalo para que baje (la tecla se cambia en Controles: «Minijuego de pesca: recoger»)."
+		""
+		"Mientras el pez esté dentro de la zona verde, el medidor de la derecha se llena. Si se vacía, el pez se escapa."
+	]
+	quest.6A30B7AF92769AF0.quest_subtitle: "Stardew Fishing"
+	quest.6A30B7AF92769AF0.title: "Minijuego"
 	quest.6A694E2A1D485A38.quest_desc: ["Encanta cualquier objeto a nivel &e30&r."]
 	quest.6A694E2A1D485A38.quest_subtitle: "Lo básico"
 	quest.6A694E2A1D485A38.title: "Encantar a nivel 30"
@@ -1895,6 +2037,18 @@
 	]
 	quest.6C0E52C3F2040D0D.quest_subtitle: "Moldes de levitita"
 	quest.6C0E52C3F2040D0D.title: "Cristalizar"
+	quest.6C36754499E5884A.quest_desc: [
+		"Esta guía es &eopcional&r. Aquí pescar es mucho más que bacalao:"
+		""
+		"- &eAquaculture&r: decenas de peces que cambian con el &ebioma&r, cañas con anzuelos y cebo, y el &eneptunio&r."
+		"- &eStardew Fishing&r: cada pez que pica abre un &eminijuego&r. Pueden salir tesoros y peces legendarios."
+		""
+		"1. Equipo  2. Minijuego  3. Biomas  4. Legendarios  5. Sacarle partido"
+		""
+		"Se puede pescar en cualquier agua, también en el &espawn&r."
+	]
+	quest.6C36754499E5884A.quest_subtitle: "Lo que esconde el agua"
+	quest.6C36754499E5884A.title: "Pesca"
 	quest.6C5DF1AF3FDE863C.quest_desc: [
 		"Algunas piezas no se fabrican en la mesa: pasan varias veces por una cadena de máquinas. Esto es el &eensamblaje secuencial&r."
 		""
@@ -2020,6 +2174,9 @@
 	quest.736E7B074B2F3AD3.quest_desc: ["El &ePropulsor iónico&r no gasta combustible: funciona con &eenergía (FE)&r. Mira la guía de &eEnergía&r."]
 	quest.736E7B074B2F3AD3.quest_subtitle: "Empuje eléctrico"
 	quest.736E7B074B2F3AD3.title: "Propulsor iónico"
+	quest.73D6FAC664C0F2DB.quest_desc: ["En el agua de desiertos, sabanas y badlands: &eGolden Snook&r y &eSabre-toothed Tigerfish&r."]
+	quest.73D6FAC664C0F2DB.quest_subtitle: "Desierto, sabana, badlands"
+	quest.73D6FAC664C0F2DB.title: "Leyendas del desierto"
 	quest.7473A4E054730D55.quest_desc: ["Haz un &epastel&r o una &etarta&r entera. Se ponen en la mesa y cada uno come una porción."]
 	quest.7473A4E054730D55.quest_subtitle: "Algo dulce"
 	quest.7473A4E054730D55.title: "Pastelería"
@@ -2115,6 +2272,9 @@
 	quest.78894F1C81796BA4.quest_desc: ["Pon una &ePlaca de nombre&r en tu nave y escríbele un nombre. Así la reconocerás en la lista de aeroclaims y en el mapa."]
 	quest.78894F1C81796BA4.quest_subtitle: "Toda nave tiene nombre"
 	quest.78894F1C81796BA4.title: "Bautizo"
+	quest.789E8F265163E632.quest_desc: ["En el agua de la jungla: &eChromatic Arapaima&r y &eVampire Payara&r."]
+	quest.789E8F265163E632.quest_subtitle: "Junglas"
+	quest.789E8F265163E632.title: "Leyendas de la jungla"
 	quest.78F4CF887E01B1D7.quest_desc: ["Armas nuevas, artefactos y oleadas superadas: listos para salir a explorar."]
 	quest.78F4CF887E01B1D7.quest_subtitle: "Fin de la guía"
 	quest.78F4CF887E01B1D7.title: "Aventurero"
@@ -2167,6 +2327,9 @@
 	quest.7AF219F8B33A08C7.quest_desc: ["El &eLibro de aprendiz&r da más maná, más huecos de hechizo y glifos de nivel 2. Se fabrica en el &eaparato de encantamiento&r."]
 	quest.7AF219F8B33A08C7.quest_subtitle: "Más poder"
 	quest.7AF219F8B33A08C7.title: "Libro de aprendiz"
+	quest.7AFB45ACD847A306.quest_desc: ["En los campos de champiñones salen los &eshroomas&r rojo y marrón."]
+	quest.7AFB45ACD847A306.quest_subtitle: "Peces seta"
+	quest.7AFB45ACD847A306.title: "Isla champiñón"
 	quest.7B34AE555D3ABB92.quest_desc: [
 		"La &eBobina Tesla&r carga objetos que pasan por debajo en un depósito, y convierte oro en &eelectro&r."
 		""
@@ -2193,6 +2356,19 @@
 	quest.7D0E5814D8BF371A.quest_desc: ["Los &eflotadores&r mantienen un barco en la superficie. Las &evelas&r empujan con el viento (la &eveleta&r te dice de dónde sopla) y necesitan un &etimón&r a popa. El &eancla&r lo para."]
 	quest.7D0E5814D8BF371A.quest_subtitle: "Navegar con el viento"
 	quest.7D0E5814D8BF371A.title: "Barco de vela"
+	quest.7D57FB8E66A522FE.quest_desc: [
+		"En una caña de Aquaculture van en el hueco de &eflotador&r de la caja de aparejos. En la caña normal, coge el flotador y haz &eclic derecho con él sobre la caña&r en el inventario."
+		""
+		"- &eCorcho&r: la zona verde es más grande."
+		"- &eTrampa&r: el pez se escapa más despacio."
+		"- &eSónar&r: ves qué pez ha picado."
+		"- &eTesoro&r: más tesoros y no pierdes el pez mientras lo coges."
+		"- &eCalidad&r: mucha más experiencia."
+		""
+		"Se fabrican o salen en los tesoros. Se gastan con el uso."
+	]
+	quest.7D57FB8E66A522FE.quest_subtitle: "Ayudas para el minijuego"
+	quest.7D57FB8E66A522FE.title: "Flotadores"
 	quest.7D6E0507EEC38CEA.quest_desc: [
 		"Esta guía es &eopcional&r. Con &eArs Nouveau&r creas tus propios hechizos con &eglifos&r y usas la &efuente&r (source), la energía mágica, para máquinas, criaturas y rituales."
 		""
@@ -2231,6 +2407,9 @@
 	quest.7E800611BC65DD1F.quest_desc: ["El &ePuesto de mando&r de Aeroworks lleva &emódulos&r: volante, cuernos, joystick, pedales, palancas de gas... Cada uno manda redstone que puedes unir a timones y motores."]
 	quest.7E800611BC65DD1F.quest_subtitle: "Volantes y palancas"
 	quest.7E800611BC65DD1F.title: "Cabina de mando"
+	quest.7EC50A9BC81F12FB.quest_desc: ["Las cañas de Aquaculture llevan &eanzuelo&r, &ecebo&r, &esedal&r y &eflotador&r. Se los pones en la &ecaja de aparejos&r."]
+	quest.7EC50A9BC81F12FB.quest_subtitle: "Caña, anzuelo y cebo"
+	quest.7EC50A9BC81F12FB.title: "Equipo"
 	quest.7EFEB93D7A443220.quest_desc: [
 		"Una nave que flota sola, hélices que no vuelcan y un timón: ya mandas en el cielo."
 		""
@@ -2296,22 +2475,28 @@
 	task.052B36845E6A6786.title: "Encuentra la Arena ardiente"
 	task.055A6977C704A736.title: "Un cierre de autocañón"
 	task.06221D07D0690254.title: "Consigue levitita nacarada"
+	task.0622F85DFD70CD48.title: "5 peces crudos"
 	task.068E8CED633336A7.title: "Mata al Gusano de arena"
 	task.06BBD4D5DFF3D358.title: "Un fogón de Candlelight"
 	task.06D26C87D430AB51.title: "Consigue un Ensamblador de físicas"
 	task.07144E83088F25B2.title: "Un tomo"
 	task.07196FB29B3C30F0.title: "Mata al dragón de la torre"
+	task.072A25F1050275E5.title: "Un pez de tierras secas"
 	task.0816761118524CC0.title: "Un cilindro hidráulico o una junta universal"
 	task.09A90DB053CF8101.title: "Conecta dos piezas con cuerda"
 	task.09BB769B9E9B424E.title: "4 proyectiles explosivos de cualquier tipo"
 	task.0A44F0E57C159F7B.title: "He activado una waystone"
 	task.0A7EDB4617B0ADBD.title: "Una cerveza"
 	task.0BC56352E87141FD.title: "Un pistón, rodamiento, polea o pórtico"
+	task.0C0032C14B4A7AF7.title: "Algo del pantano"
 	task.0DAD91BB6778A6E2.title: "Un panel solar, hornalla, termogenerador o magmator"
 	task.0E1A506D9CD3F699.title: "16 lingotes de hierro fundido o bronce"
 	task.0EAFE48B9A634C51.title: "Desbloquea el nivel Ascenso"
+	task.104A2B4FFCC73E4F.title: "Una caña de Aquaculture"
 	task.10AD04C9187E3FD8.title: "Un plato de Candlelight"
+	task.1110CD3B49C524A9.title: "Un legendario de tierras secas"
 	task.123D018F3391AADF.title: "Llega a una torre, castillo o templo del cielo"
+	task.12F191ABE53EAC58.title: "Una caja, caja fuerte o cofre"
 	task.13844EC3071E433F.title: "Gira un timón"
 	task.14DB8C57543407DC.title: "Entra con una perla de ender"
 	task.151D25F0AD73E8AB.title: "El Aether"
@@ -2324,6 +2509,7 @@
 	task.18C31B2A3288A02E.title: "Una nevera, encimera o armario"
 	task.1BFDB4BE1F84E5B0.title: "El Nether"
 	task.1CEAEFFA21EA94A0.title: "36 bloques de reactor"
+	task.1D7191FA80A895A0.title: "Un pez de mar"
 	task.1D913B502BBC4CC1.title: "Un enlace de fuente"
 	task.1DB59BB3303CB11F.title: "Vence la mazmorra de plata"
 	task.1DB78703CFA71697.title: "Mata al Leviatán"
@@ -2357,10 +2543,14 @@
 	task.2E247BC7F36F175E.title: "Encuentra: Minas abrasadas"
 	task.2E6B04710D05E417.title: "Mata a todos los jefes"
 	task.2E9F88C7116A7C04.title: "Vence la mazmorra de latón"
+	task.2F4F8C9A31813415.title: "Un pez de agua dulce"
 	task.30405B901658FC0F.title: "Una mesa de bolsillo"
 	task.30D4FD0D68DBBF1C.title: "He marcado mi base"
+	task.310F470A141242DF.title: "32 peces crudos"
+	task.3132D2F84482519D.title: "Filete cocinado o sushi"
 	task.31703B9336107509.title: "Encuentra: Jinete celestial"
 	task.31CFB2B8BBE0D59E.title: "Encuentra una ballena del cielo"
+	task.322C320665734CB3.title: "Neptunio"
 	task.3303469A6771FABC.title: "Encuentra: La fundición"
 	task.3360CECB2BA819A2.title: "Mata al Gólem Estelar"
 	task.3455EC19139B6F31.title: "Un propulsor vectorial"
@@ -2369,7 +2559,9 @@
 	task.358395E9A4C2315C.title: "Fabrica un núcleo de grieta"
 	task.35ACAF8D96C06D54.title: "Pisa la Luna"
 	task.3612BCE13C27764E.title: "Funde hierro"
+	task.364D234F53FD0D07.title: "Un legendario del océano"
 	task.369D54DFD7C75807.title: "Una bobina Tesla o un cargador inalámbrico"
+	task.36E0B8ED5CF6C770.title: "Entendido"
 	task.377628081D118367.title: "Encuentra: Conquistador celestial"
 	task.3808CDD0164F8DA3.title: "Un ingrediente del cielo"
 	task.38365BF851FD4FE5.title: "Un cuchillo de filetear"
@@ -2377,6 +2569,7 @@
 	task.3A5A8A7D44D506AB.title: "Un pastel o tarta"
 	task.3A62F858F41EEFDB.title: "Fabrica un mecanismo de precisión"
 	task.3A6A29B2EF0F5F56.title: "Encuentra la Ciudadela en ruinas"
+	task.3A72270DFFF1CFED.title: "Entendido"
 	task.3B69CF69BEEB04B1.title: "Entra en Eternal Starlight"
 	task.3BC3F2DCF7317EFA.title: "Mata a todos los jefes de Cataclysm"
 	task.3BE240E2F2C34087.title: "Dispara una verdura con él"
@@ -2394,6 +2587,7 @@
 	task.40A24BFAE3409EFC.title: "2 aspersores"
 	task.40B175A08A8921D9.title: "Una fuente de rotación"
 	task.42192217DE7CAFAC.title: "Una maceta de vid o una prensa"
+	task.42A40052873C381A.title: "Un anzuelo"
 	task.42A77530E5DFFC14.title: "Mata al Guardián del End"
 	task.4374FD942972526B.title: "Mata al Heraldo"
 	task.439721A3685CA73A.title: "Mata a Scylla"
@@ -2405,10 +2599,12 @@
 	task.46AD67C698D35DFA.title: "Una espoleta"
 	task.47FF44FED3F82797.title: "Acopla dos conectores"
 	task.482E0053FDA2A1E7.title: "El Otherside"
+	task.487B4E10CF0983CA.title: "Un pez de la jungla"
 	task.488671E73EBCF9CD.title: "Encuentra: Retador celestial"
 	task.49D7C52612BB7F7D.title: "Una recámara o un cañón de hierro fundido"
 	task.4ADDB6FDDB378BBC.title: "Desbloquea el nivel Cumbre"
 	task.4B9538D1677ED510.title: "Órbita de Marte"
+	task.4C3CE4F059990820.title: "Un legendario de río"
 	task.4CD08622C5B047B9.title: "Entra en el Aether"
 	task.4D28AE646F701B2F.title: "Queso, pizza o una bebida del barril"
 	task.4D653BE3F17D60DD.title: "Encuentra: Palacio de Shiraz"
@@ -2431,6 +2627,7 @@
 	task.538781E5B2ACEA45.title: "Encuentra: Barco illager"
 	task.54335A56CBA0268D.title: "Mata al Wroughtnaut Ferroso"
 	task.544D922577AC11DA.title: "Mata al Remanente antiguo"
+	task.55132225256FDEFA.title: "Un legendario de la jungla"
 	task.555ECEC4F942BB36.title: "Un plato del mar"
 	task.55A108E24024AE22.title: "4 estanterías infernales o marinas"
 	task.56FDBC208107AC49.title: "Una pieza de armadura de tecnomante/artífice o la fábrica de bolsillo"
@@ -2446,6 +2643,7 @@
 	task.5B73E95BFE4E87F8.title: "Encuentra: Fuerte illager"
 	task.5B7B2F358BC08398.title: "Ponle nombre a tu nave"
 	task.5BBC7DEE18D11185.title: "He cruzado a otra isla"
+	task.5C55E1B1EA52323A.title: "Un soporte para peces"
 	task.5C716D32E959BB97.title: "Mata a una Naga"
 	task.5CE5894E3685425C.title: "Desbloquea el nivel Pináculo"
 	task.5D20D6F59D7D780B.title: "Un cargador de chunks"
@@ -2475,6 +2673,7 @@
 	task.6EF8AECCE347968C.title: "Encuentra: Torres de bandidos"
 	task.6F15E60CD742FE48.title: "Una estantería infusionada"
 	task.6F4F7241A4E28ED0.title: "Encuentra la Acrópolis"
+	task.6FF29A9C24342003.title: "Un shrooma"
 	task.702B3CEC752E1FE4.title: "Un ingrediente del mundo"
 	task.70C1901AFAEA5BBD.title: "Duerme en una cama"
 	task.7146F0A39AF9945C.title: "Domestica un Beehemoth"
@@ -2486,6 +2685,7 @@
 	task.74DD38A05AD0C525.title: "Un licuador de aire o un electrolizador"
 	task.74F3DC9070AC1F83.title: "4 esencias"
 	task.750A933462389827.title: "El End"
+	task.758825F268C8CFBB.title: "Un pez de agua fría"
 	task.75DCAB24E7F21CCF.title: "Salta 2000 bloques de una vez"
 	task.76313DACF333344C.title: "Encuentra: El aviario"
 	task.7650D71B0F383A7B.title: "Un anillo, amuleto o cinturón"
@@ -2493,6 +2693,8 @@
 	task.7780ACF7084FF7EA.title: "Encuentra: Templo infestado"
 	task.77F70DAB48BAB5C4.title: "Un whisky"
 	task.7859ADD4D682E4BD.title: "Un pan de panadería"
+	task.7861AFE4F143DADF.title: "Un flotador"
+	task.7901F42C81E9AB06.title: "Un legendario de aguas cálidas"
 	task.79EBEAAE9A55745B.title: "Encuentra el puesto avanzado abandonado"
 	task.7A95EAC571D77197.title: "Un arma de hierro de Simply Swords"
 	task.7B041EA4ACE8A9A6.title: "Una tablilla de ritual"
@@ -2504,6 +2706,7 @@
 	task.7DE101B3F6B563EA.title: "Un rodamiento de molino o una rueda hidráulica"
 	task.7DE6666C7FF48E39.title: "Un estuche de gemas"
 	task.7E1F2ABDD0EF0965.title: "Encuentra: Barco pirata maldito"
+	task.7E5F1924C2FAEC03.title: "Un cuchillo de filetear"
 	task.7F5184E6BBEA7EFF.title: "Un volante, cuernos o joystick"
 	task.7FA25C417C1D9854.title: "Una bomba de balancín o un controlador de destilación"
 }

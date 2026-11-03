@@ -1,7 +1,7 @@
 {
 	id: "6E23656918CD6DE6"
 	loot_size: 1
-	order_index: 14
+	order_index: 27
 	rewards: [
 		{
 			id: "5733E2B8658DC42A"
@@ -91,6 +91,13 @@
 			}
 			weight: 2.0f
 		}
-		{ id: "02BD62775C5713CF", item: { count: 1, id: "minecraft:axolotl_spawn_egg" } }
+		{
+			id: "02BD62775C5713CF"
+			item: {
+				count: 1
+				id: "minecraft:axolotl_spawn_egg"
+			}
+			weight: 1.0f
+		}
 	]
 }
