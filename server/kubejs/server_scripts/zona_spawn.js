@@ -63,7 +63,7 @@ ServerEvents.tick(event => {
   if (ZONA && event.server.getTickCount() % 40 == 0) zsSweep(event.server, ZONA)
 })
 
-// decoración que se coge o se come con clic derecho (bebidas, jarras, posavasos, comida en plato, tartas, macetas...):
+// decoración que se coge o se come con clic derecho (bebidas, jarras, posavasos, vinos, comida en plato, tartas, macetas...):
 // con block_interact_mode público FTB Chunks deja cogerla, pero block_edit_mode privado no deja volver a ponerla.
 // Dentro de la zona solo se puede en creativo (también los OP en supervivencia quedan bloqueados).
 // Añade aquí otros bloques que se cojan o se coman al usarlos.
@@ -71,7 +71,15 @@ const ZS_NO_COGER = new RegExp('^(' + [
   'brewery:(beer_|whiskey_|dumplings|fried_chicken|half_chicken|mashed_potatoes|pork_knuckle|potato_salad|gingerbread)',
   'brewinandchewin:(?!keg|heating_cask|ice_crate|fiery_fondue_pot)', // todo menos las estaciones de trabajo
   'farmersdelight:(.*_pie$|.*_block$|sweet_berry_cheesecake)',
-  'minecraft:(cake|.*candle_cake|potted_|chiseled_bookshelf|jukebox|decorated_pot)'
+  // Let's Do: vinos y botelleros, tartas y expositores, platos, cócteles, tés, sacos y estantes
+  'vinery:(.*_wine_rack_|.*_wine$|wine_bottle|wine_box|eiswein|mead|.*cider|.*juice|creepers_crush|villagers_fright|jo_special_mixture|bottle_mojang_noir|.*_bag$|.*_shelf$)',
+  'bakery:(.*_block$|.*_cake$|.*_tart$|.*_jam$|apple_pie|chocolate_gateau|pudding|.*display$|cake_stand|tray|breadbox|bread_crate|jar|chocolate_box)',
+  'candlelight:(.*_block$|.*_shelf$|table_set|wine_glass|chocolate_box)',
+  'beachparty:(.*_cocktail$|message_in_a_bottle)',
+  'farm_and_charm:(.*_block$|.*_tea$|.*_bag$|tool_rack|window_sill|cutting_board)',
+  'wildernature:truffle_bag',
+  '[a-z0-9_]+:potted_', // macetas de cualquier mod: se saca la planta
+  'minecraft:(cake|.*candle_cake|chiseled_bookshelf|jukebox|decorated_pot)'
 ].join('|') + ')')
 
 BlockEvents.rightClicked(event => {
