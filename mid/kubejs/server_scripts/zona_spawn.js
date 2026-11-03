@@ -6,6 +6,7 @@ const ZsComponent = Java.loadClass('net.minecraft.network.chat.Component')
 const ZsInt = Java.loadClass('com.mojang.brigadier.arguments.IntegerArgumentType')
 const ZsAABB = Java.loadClass('net.minecraft.world.phys.AABB')
 const ZsVillager = Java.loadClass('net.minecraft.world.entity.npc.AbstractVillager')
+const ZsEnemy = Java.loadClass('net.minecraft.world.entity.monster.Enemy')
 const ZS_TAG = 'venturia_zona_spawn'
 let ZONA = null // {dim, x, z, r}
 
@@ -28,8 +29,9 @@ function zsInside(entity) {
   return Math.abs(entity.x - ZONA.x) <= ZONA.r && Math.abs(entity.z - ZONA.z) <= ZONA.r
 }
 
+// en KubeJS entity.getType() devuelve el id como texto, no el EntityType: se usa la interfaz Enemy de los mobs hostiles
 function zsHostile(entity) {
-  return entity.isLiving() && !entity.isPlayer() && !entity.getType().getCategory().isFriendly()
+  return entity instanceof ZsEnemy
 }
 
 ServerEvents.loaded(event => zsLoad(event.server))
