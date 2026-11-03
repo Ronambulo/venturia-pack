@@ -3408,7 +3408,7 @@ hash = "0c84264c3b910e99d71837464c9584759cc2a53f3ad782cddd2b7907a6af00c4"
 
 [[files]]
 file = "config/modern_industrialization-server.toml"
-hash = "bc867676192f4fd6b19769a7b0d21fd6a01b4f2d979ffadc451a0e9a2bb83a85"
+hash = "ff2eb674bc86021df8a0b5d0ea1b17ec6a68f6248f2412fc6b2a981437175cc5"
 
 [[files]]
 file = "config/modern_industrialization-startup.toml"
@@ -4113,7 +4113,7 @@ hash = "1f09ddeb7043f4c0517dcb353ca4a808576c2cddde277c1bbbf9bf52235383bf"
 
 [[files]]
 file = "config/venturia-version.txt"
-hash = "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8"
+hash = "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989"
 
 [[files]]
 file = "config/venturia_aracnofobia.txt"
@@ -4527,7 +4527,7 @@ hash = "f1f4c29be67514f98672a036097de9eeecdd30dcff1f97f8ebcc90e2cc8ed024"
 
 [[files]]
 file = "kubejs/server_scripts/zona_spawn.js"
-hash = "401ecf01839baf351f5700a2dba6314bb01ae0feb30ddbcfe8002acb6966bd20"
+hash = "c195b448ddeedd2bfecbf4fb0108bfa5db55d397722a7f9d8d67f3a476ebd0f8"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

@@ -9,7 +9,7 @@ baseItemPipeTransfer = 16
 #Grant guidebook the first time a player joins the server.
 spawnWithGuideBook = true
 #Grant guidebook when a player respawns after death.
-respawnWithGuideBook = true
+respawnWithGuideBook = false
 #How much steam should be produced per mb of water that is boiled.
 # Default: 16
 # Range: 1 ~ 1000

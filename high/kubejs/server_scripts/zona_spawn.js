@@ -1,12 +1,13 @@
 // Zona segura del spawn (la isla inicial). La protección de bloques la da FTB Chunks con un equipo de servidor;
 // esto añade lo que FTB Chunks no hace: sin mobs hostiles dentro de la zona y aldeanos invulnerables.
-// PvP y matar animales siguen permitidos.
+// PvP y matar animales siguen permitidos. En creativo se puede construir y editar todo (ver zsCreativo).
 // Admin: /zonaspawn set <radio>  (centro = donde estás)  |  /zonaspawn quitar  |  /zonaspawn
 const ZsComponent = Java.loadClass('net.minecraft.network.chat.Component')
 const ZsInt = Java.loadClass('com.mojang.brigadier.arguments.IntegerArgumentType')
 const ZsAABB = Java.loadClass('net.minecraft.world.phys.AABB')
 const ZsVillager = Java.loadClass('net.minecraft.world.entity.npc.AbstractVillager')
 const ZsEnemy = Java.loadClass('net.minecraft.world.entity.monster.Enemy')
+const ZsFTBChunks = Java.loadClass('dev.ftb.mods.ftbchunks.api.FTBChunksAPI')
 const ZS_TAG = 'venturia_zona_spawn'
 let ZONA = null // {dim, x, z, r}
 
@@ -61,8 +62,30 @@ function zsSweep(server, z) {
   })
 }
 
+// en creativo se salta la protección de FTB Chunks (la misma que /ftbchunks admin bypass_protection), así se puede
+// construir y editar el spawn; al salir de creativo se quita. Solo se quita si la puso este script (etiqueta en el jugador),
+// para no tocar el bypass que un admin se haya puesto a mano.
+const ZS_BYPASS = 'venturia_bypass_creativo'
+function zsCreativo(server) {
+  let api = ZsFTBChunks.api()
+  if (!api.isManagerLoaded()) return
+  let mgr = api.getManager()
+  server.getPlayerList().getPlayers().forEach(p => {
+    let creativo = p.isCreative()
+    let puesto = p.getTags().contains(ZS_BYPASS)
+    if (creativo && !puesto) {
+      if (!mgr.getBypassProtection(p.getUUID())) { mgr.setBypassProtection(p.getUUID(), true); p.addTag(ZS_BYPASS) }
+    } else if (!creativo && puesto) {
+      mgr.setBypassProtection(p.getUUID(), false)
+      p.removeTag(ZS_BYPASS)
+    }
+  })
+}
+
 ServerEvents.tick(event => {
-  if (ZONA && event.server.getTickCount() % 40 == 0) zsSweep(event.server, ZONA)
+  let t = event.server.getTickCount()
+  if (ZONA && t % 40 == 0) zsSweep(event.server, ZONA)
+  if (t % 20 == 10) zsCreativo(event.server)
 })
 
 // decoración que se coge o se come con clic derecho (bebidas, jarras, posavasos, vinos, comida en plato, tartas, macetas...):
