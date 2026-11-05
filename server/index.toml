@@ -1446,7 +1446,7 @@ hash = "2aaddecfae4c0360da8fc3c50f5b9de1174af364adc2ef9dd88e300a9c228a3b"
 
 [[files]]
 file = "config/automessage-client.json"
-hash = "eeddf850c9afe39746598b4813a5a460c1850f39c0dfb88dd3beb11d918f2c4d"
+hash = "d72032789ab2d500afb387e70f1a24242e2fd2901283c705eda0b637ab46417f"
 
 [[files]]
 file = "config/automessage-server.json"
@@ -3392,7 +3392,7 @@ preserve = true
 
 [[files]]
 file = "config/messages/client_messages.json"
-hash = "a9d0fbc99453922f2b956394d9a42466967650d92bf676ec6548e537eeebbfe6"
+hash = "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
 
 [[files]]
 file = "config/messages/server_messages.json"
