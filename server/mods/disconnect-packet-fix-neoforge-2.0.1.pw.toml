@@ -1,0 +1,8 @@
+name = "disconnect-packet-fix-neoforge-2.0.1.jar"
+filename = "disconnect-packet-fix-neoforge-2.0.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/rd9rKuJT/versions/yjTKEIL5/disconnect-packet-fix-neoforge-2.0.1.jar"
+hash-format = "sha1"
+hash = "3b80e1d4be245787eecf811ff87a2afffbedc886"

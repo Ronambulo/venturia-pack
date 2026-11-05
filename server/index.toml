@@ -1673,6 +1673,10 @@ file = "config/bridgingmod.json"
 hash = "2f3b312ba9110f5af338d362b35f09c442c01cc4cb9187da9626de7cc10e2d01"
 
 [[files]]
+file = "config/c2me.toml"
+hash = "7d4f4cc6ec8c8c9085d73b3cbb2ec4dc9c44af505f8f255319c6fab91a74baf4"
+
+[[files]]
 file = "config/cable_facades-common.toml"
 hash = "bd77c76879bfd3b99f7b35d98c3b2e538edda29908ef4875e1ed5defd6c747ce"
 
@@ -3724,7 +3728,7 @@ hash = "28c10040d4ee870c713fe4d16cc32efeb9be1d69c20f3b70c9a540a548d1186d"
 
 [[files]]
 file = "config/servercore/optimizations.yml"
-hash = "63ba7034fdf1f45f1b40798d3212f8d838f7c299fbe5795075fbafe1e2265192"
+hash = "a0a0b7eedb6fe234761aa0b4cbebec2fb9ef5fa89afd0d69ee028ce38c483268"
 
 [[files]]
 file = "config/shield_generators-common.toml"
@@ -3792,7 +3796,7 @@ hash = "8c17330d9f9804cd1540b0f442c7f7b7d1dbd3ccb3e22f6c4af222753ffd49ac"
 
 [[files]]
 file = "config/smoothchunk.json"
-hash = "5f85b2c857c2561cf720745f724d20befce7bb58732083259a798263c0af99f2"
+hash = "419f95ffcbe6850d45bb2ac3c0c10b82a6132bb7b78b22a69f86e67ed4719784"
 
 [[files]]
 file = "config/snowundertrees-common.toml"
@@ -4117,7 +4121,7 @@ hash = "1f09ddeb7043f4c0517dcb353ca4a808576c2cddde277c1bbbf9bf52235383bf"
 
 [[files]]
 file = "config/venturia-version.txt"
-hash = "cc52f678848b814373757b460383bf61960e4943c203735adde0a350b3e50989"
+hash = "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
 
 [[files]]
 file = "config/venturia_aracnofobia.txt"
@@ -5283,6 +5287,11 @@ hash = "94fe53324c7953e262b5574a6595b7841ace0567e5c213adeda2b810f99a6880"
 metafile = true
 
 [[files]]
+file = "mods/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.124.pw.toml"
+hash = "660c25d64c49676ccc0612bc1d68fe3fb6f91955eec8f0a41ee664e6e117ebb2"
+metafile = true
+
+[[files]]
 file = "mods/cable_facades-1.21.1-NeoForge-2.1.4.pw.toml"
 hash = "493513c09132103bacf73ba5dc77c0bc639b43e075726c355dda4e4ef72e1d15"
 metafile = true
@@ -5535,6 +5544,11 @@ metafile = true
 [[files]]
 file = "mods/default_skill_trees-1.1.pw.toml"
 hash = "1084c5f0890413127433d972ba35d987efa19511669ba9f751a6b6ecd7425779"
+metafile = true
+
+[[files]]
+file = "mods/disconnect-packet-fix-neoforge-2.0.1.pw.toml"
+hash = "fb7a545dce43f81efacb498cb6da0a7e4f216d7d3489f1c881507d172cea4c1c"
 metafile = true
 
 [[files]]
@@ -6033,6 +6047,11 @@ hash = "eebe01a989ece553148f05291c45cdfa48c5e69c982ca4937a27fb73bf332e5b"
 metafile = true
 
 [[files]]
+file = "mods/noisium-neoforge-2.7.0_mc1.21-1.21.1.pw.toml"
+hash = "ae80275bbb1520cfdd0137088d0e6d8de62783030c32fd3b4612a564cc17fe0e"
+metafile = true
+
+[[files]]
 file = "mods/nyfsspiders-neoforge-1.21.1-3.0.2.pw.toml"
 hash = "c38b84b1d01362504f2a2e22e44fea1850093b1c0fedd60b3fae4f05d2d14571"
 metafile = true
@@ -6050,6 +6069,11 @@ metafile = true
 [[files]]
 file = "mods/owo-lib-neoforge-0.12.15.5-beta.1_1.21.pw.toml"
 hash = "74eebc715ec62e8a03118cfe379b9ba5083c11a6501ab44ba466c84f0c4e3e83"
+metafile = true
+
+[[files]]
+file = "mods/packetfixer-3.3.1-1.20.5-1.21.X-merged.pw.toml"
+hash = "67cd08c668eac89a2935e30a1223ebe855b16a197300462a94a2c4966b8c9ce2"
 metafile = true
 
 [[files]]
