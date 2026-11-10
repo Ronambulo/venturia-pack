@@ -341,10 +341,6 @@ file = "config/adfinders/Targets/ytech.cfg"
 hash = "dd95f21901ae686edb14a6586f844b03c79c2239122613ec23be49859f0f5778"
 
 [[files]]
-file = "config/adorable_eggs.json5"
-hash = "41d12ba455727af17992a85ff9d9d5e0dc6e7ec6e4d3c990f37dbfa46d820b53"
-
-[[files]]
 file = "config/advancednetherite-client.toml"
 hash = "f8c07c75bb06a3cca5c10a7bca924e96c2aa273b679f9cc1fa961ac50001977b"
 
@@ -2934,11 +2930,11 @@ hash = "d7c50915cc782780fa9cfce1ad2c1808fa64a37679e148faa9b8957f65d10944"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act1.snbt"
-hash = "a098fb76770a1b0e3d5a4d5a01cfa93bec9aa482483159f1dda48ebb53065838"
+hash = "3602a3262ed3008c0c5adca943ccc16ea0de0a69fe9347041791f8e12afa7d92"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act2.snbt"
-hash = "f88624d3a0a9b1306366c72f4915cb1ad5431aced3bcd7932e89f9302997072c"
+hash = "d317794e9b169443532b1f765f7d5464a16d153fe11e84e4d20c3a6f64555410"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act3.snbt"
@@ -2946,19 +2942,19 @@ hash = "c90f12cc6f5414626d4a9d4e2a6fe15a0e70c75ca4e49ae1ba1c33ee2188a174"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act4.snbt"
-hash = "6b2688b9fba88cdf894708b8c1d31f0962f954b9d9a51f6a9321a7d85f34b9e4"
+hash = "eb2c900fe1ad90e460c94fe547cd9fbcd74ebed3a2891dcc6376e04fadd336bb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act5.snbt"
-hash = "57d379eb495403e60f73253dde14725ac474ee926cb8dcd2063fb7ed77199a7f"
+hash = "0043c968f837bc13df3202a87a84655b9d3622fefb7d46a3637fdd09717c5ac9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/act6.snbt"
-hash = "21797c4bb9d83a09129d4ba044bdff0c5d3704f2de835bc8c4c4359f9e4be662"
+hash = "5d35b09aaef8918958762ffcc61a79b1aa1b859f5efe4c448d33b3df48930110"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/espacio.snbt"
-hash = "6c87e190b084c28a14f2c8bf57f44fe24ceb6b926c4a3a1a172dd46d9df833cc"
+hash = "9020cc6a6dab9820271bf7aa430e9324a942ce2b5689002783896bcbf8e183bc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/g_apotheosis.snbt"
@@ -3014,15 +3010,15 @@ hash = "35fcab0cd147c612fe36424659abf543d51397d54a841b39c6eaf263813893b5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/jefes.snbt"
-hash = "67cf280b98b85211c06346e62fa0bbf909f10e67d691db3672c000f23d5c1b3a"
+hash = "43c90f01685711efec628e0397070942c6eb4bc821013460fa7a7acc5bd168d7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mazmorras.snbt"
-hash = "a67fd6eb0d93a83fe693ce3e53264349f6d8ccf9220c862097054103051eaa48"
+hash = "6f4e66e05da352a47fe562941c93d2056d72bf93980214aea23e0e37e07abc36"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mundos.snbt"
-hash = "536f845f89dd3257c14f49314afbeeadde23efb59a9415a1d00982e91a81fe38"
+hash = "454fd59cb5c721739e1cfd4917a711b5887e1d2bba8b1e10e6163595f02c0528"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/shop.snbt"
@@ -3034,11 +3030,11 @@ hash = "91f706b09bc16ce969eaf86493232d163e78aa6c2160cc114af21ee6d9710843"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "fb52542f458d182b67fe93bbd3698710e7bdcddc92858776efae9278996db13c"
+hash = "b1d9997060ded30c92e09434df25cf3764615cc383774a4eab344bd3958bcde4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/es_es.snbt"
-hash = "fb52542f458d182b67fe93bbd3698710e7bdcddc92858776efae9278996db13c"
+hash = "b1d9997060ded30c92e09434df25cf3764615cc383774a4eab344bd3958bcde4"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/aero1.snbt"
@@ -3728,7 +3724,7 @@ hash = "28c10040d4ee870c713fe4d16cc32efeb9be1d69c20f3b70c9a540a548d1186d"
 
 [[files]]
 file = "config/servercore/optimizations.yml"
-hash = "a0a0b7eedb6fe234761aa0b4cbebec2fb9ef5fa89afd0d69ee028ce38c483268"
+hash = "d98d2fcfa1696b4f4374351618b45e621ef420d37d56d22f47ce7f3d9fc7af52"
 
 [[files]]
 file = "config/shield_generators-common.toml"
@@ -3797,10 +3793,6 @@ hash = "8c17330d9f9804cd1540b0f442c7f7b7d1dbd3ccb3e22f6c4af222753ffd49ac"
 [[files]]
 file = "config/smoothchunk.json"
 hash = "419f95ffcbe6850d45bb2ac3c0c10b82a6132bb7b78b22a69f86e67ed4719784"
-
-[[files]]
-file = "config/snowundertrees-common.toml"
-hash = "a2ae12b7afaa50dc684bca952bc81afef46cc83fa43579627a092ed0173b2064"
 
 [[files]]
 file = "config/sodium-fingerprint.json"
@@ -4121,7 +4113,7 @@ hash = "1f09ddeb7043f4c0517dcb353ca4a808576c2cddde277c1bbbf9bf52235383bf"
 
 [[files]]
 file = "config/venturia-version.txt"
-hash = "59854984853104df5c353e2f681a15fc7924742f9a2e468c29af248dce45ce03"
+hash = "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8"
 
 [[files]]
 file = "config/venturia_aracnofobia.txt"
@@ -4133,7 +4125,7 @@ hash = "efcd06c029945899980d1852e5d69681984d8d52437edc1a79bb5918d1fa2b34"
 
 [[files]]
 file = "config/venturiatienda/tienda.json"
-hash = "8db381a199d84c68c33a044e0b31c20538f9c02fa60c68bd66b6901c7d042075"
+hash = "fa9fb84a1a85de0abf6f1875cdcfa8255868e4acb4570a41b3ae9b1f92dc3506"
 
 [[files]]
 file = "config/vinery.toml"
@@ -4235,7 +4227,7 @@ hash = "7f1e58be2cf7db18181869804bb09823ee93a4ea863d560036e8a05954bcf806"
 
 [[files]]
 file = "defaultconfigs/ftbchunks-world.snbt"
-hash = "32ca7e987e9ded3b06e08ee43e5878eb2eb62321a15939517dc3de94fda6dd70"
+hash = "c742efbfb83f9c46a11bbe128a7e961de64f3298c7fedd9e3ed228a370e51abe"
 
 [[files]]
 file = "defaultconfigs/gravestone-server.toml"
@@ -4510,6 +4502,10 @@ file = "kubejs/data/voidtotem/loot_table/chests/void_totem_loot.json"
 hash = "3e92eaba33a8c7fb36b9b4fecac1bc205c3d761e6f1798a90a3cb30ded3d9e83"
 
 [[files]]
+file = "kubejs/server_scripts/claims_publicos.js"
+hash = "8c6b750355813fd4017cd3d689af543c4cc9e5d7b5895786d16716272188100c"
+
+[[files]]
 file = "kubejs/server_scripts/main.js"
 hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 
@@ -4519,7 +4515,7 @@ hash = "584f8a3349d70d020a967d77938cca7a5942b1b965b4ce3e311eb91a72313d22"
 
 [[files]]
 file = "kubejs/server_scripts/retos.js"
-hash = "e82a39e5637ce368dc9efe14d0403013bfe5d0f21feda3850dbd40fffaf2acf4"
+hash = "4749dd852cb90e1d82dd28a2a4aba50e03bdbb8ba33ac63fb091438f334d5fad"
 
 [[files]]
 file = "kubejs/server_scripts/tps.js"
@@ -4634,11 +4630,6 @@ metafile = true
 [[files]]
 file = "mods/BrewinAndChewin-neoforge-4.5.0_1.21.1.pw.toml"
 hash = "30e69fbc8c9248c63de0d4e3d115985dfa199de5abf51880da34b32fe6f5c4ea"
-metafile = true
-
-[[files]]
-file = "mods/CerbonsAPI-NeoForge-1.21-1.3.0.pw.toml"
-hash = "fe8a6be3cbdfa133ef7f514ac7b6b6bbbc245b298857817d837900e1804f146a"
 metafile = true
 
 [[files]]
@@ -5088,12 +5079,12 @@ metafile = true
 
 [[files]]
 file = "mods/_Ronam_venturiaretos-1.0.0.pw.toml"
-hash = "dbb945fef548e792a0d5aa44ed81a0af7c5c49f7624e31630814767cf6a674f4"
+hash = "37e15c21c9d8b61d3ac5e7da2eeb353092708fba4e1ceaa8a408f98691182f4a"
 metafile = true
 
 [[files]]
 file = "mods/_Ronam_venturiatienda-1.0.0.pw.toml"
-hash = "cb9c1a421f84f6c84f06141eed8fb75a0b74ac1da4656e587d271964b2d368ad"
+hash = "8af129bc5415cda3b5587f2ce9b39811c50d4f1bfb16e493ffb4208b6de66966"
 metafile = true
 
 [[files]]
@@ -5109,11 +5100,6 @@ metafile = true
 [[files]]
 file = "mods/addonslib-neoforge-1.21.1-1.14.pw.toml"
 hash = "5aada8bc70d126844dae9a1802a24ac91b285f05ad34d7276d2f205f75f9f24a"
-metafile = true
-
-[[files]]
-file = "mods/adorable_eggs-NeoForge-1.21.1-1.0.3.pw.toml"
-hash = "77cf530274f3d23ecd8af7e7ba0540aef7278077cae876c670fcda7df71a25ac"
 metafile = true
 
 [[files]]
@@ -6229,11 +6215,6 @@ metafile = true
 [[files]]
 file = "mods/smoothchunk-1.21-4.1.pw.toml"
 hash = "fd080325b5fe7c816cc6f406d432b7ddbb45d9bc90b86a0fbc9723e6cdbbaf84"
-metafile = true
-
-[[files]]
-file = "mods/snowundertrees-1.21.1-1.5.1.pw.toml"
-hash = "16a8e3596710801c7028a9f9f11a32a764bfe25399721d97480f23a95b2e224d"
 metafile = true
 
 [[files]]

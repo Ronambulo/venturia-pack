@@ -48,6 +48,10 @@
 			]
 			shape: "diamond"
 			size: 1.5d
+			tasks: [{
+				id: "0387E1641BB0F15E"
+				type: "checkmark"
+			}]
 			x: 4.0d
 			y: -3.0d
 		}
@@ -70,6 +74,10 @@
 			]
 			shape: "diamond"
 			size: 1.5d
+			tasks: [{
+				id: "3392E47442F466B9"
+				type: "checkmark"
+			}]
 			x: 4.0d
 			y: 0.0d
 		}
@@ -92,6 +100,10 @@
 			]
 			shape: "diamond"
 			size: 1.5d
+			tasks: [{
+				id: "5E03CABFE3C746C2"
+				type: "checkmark"
+			}]
 			x: 4.0d
 			y: 3.0d
 		}
@@ -137,6 +149,10 @@
 			]
 			shape: "octagon"
 			size: 3.0d
+			tasks: [{
+				id: "168C101529911CF9"
+				type: "checkmark"
+			}]
 			x: 8.0d
 			y: 0.0d
 		}

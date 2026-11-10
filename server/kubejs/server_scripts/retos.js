@@ -3,12 +3,12 @@
 //  - Metas cooperativas: contadores de todo el servidor por niveles; cada nivel paga a quien aportó.
 //  - Reto semanal: al azar sin repetir hasta agotar la lista (cambia el lunes a las 00:00 UTC). Al cerrar
 //    se premia el top 3; quien llega al mínimo del reto cobra un premio de participación al momento.
-//  - Subasta semanal (cierra el sábado 20:00, hora de España) y tablón diario de encargos.
-//  - Cazarrecompensas: 3 recompensas diarias por equipo (se renuevan con los encargos).
+//  - Subasta semanal (cierra el sábado 20:00, hora de España) y tablón diario de encargos (individual).
+//  - Cazarrecompensas: 3 recompensas diarias por jugador (se renuevan con los encargos).
 //  - Los contratos entre equipos están en la tienda (mod venturiatienda, F10); aquí solo se devuelven los antiguos.
 //  - Funciones: el admin activa o desactiva cada parte (pestaña Admin · Funciones). Carreras empieza desactivada.
 //  - HUD y avisos: cada 5 s se manda un resumen al mod para el HUD; toasts al superarte en la subasta y al cumplir
-//    tu equipo una recompensa o un encargo.
+//    una recompensa o un encargo.
 //  - Equipos: la pestaña Equipo del mod crea y administra equipos de FTB Teams (/retos ui equipo ...).
 //  - Interfaz: el mod venturiaretos (tecla F9, botón del inventario, tablón de retos) pide /retos ui y recibe el
 //    estado en JSON; sin el mod todo sigue funcionando por chat (/retos texto).
@@ -91,8 +91,8 @@ function emptyState() { return { races: {}, coop: {}, week: null, pending: {}, a
 const FEATS = [
   { id: 'semanal', name: 'Reto semanal', desc: 'Un reto por semana con premios al top 3.', def: true },
   { id: 'subasta', name: 'Subasta', desc: 'Tres subastas por semana (cierran miércoles, viernes y sábado a las 20:00).', def: true },
-  { id: 'encargos', name: 'Encargos del día', desc: 'Tablón diario de encargos por equipo.', def: true },
-  { id: 'recompensas', name: 'Recompensas del día', desc: '3 recompensas diarias por equipo.', def: true },
+  { id: 'encargos', name: 'Encargos del día', desc: 'Tablón diario de encargos; cada jugador cumple cada uno.', def: true },
+  { id: 'recompensas', name: 'Recompensas del día', desc: '3 recompensas diarias por jugador.', def: true },
   { id: 'carreras', name: 'Carreras', desc: 'Los 3 primeros equipos en lograr un hito.', def: false },
   { id: 'metas', name: 'Metas cooperativas', desc: 'Contadores de todo el servidor por niveles.', def: true },
   { id: 'eventos', name: 'Eventos', desc: 'Eventos que crea el admin a mano.', def: true }]
@@ -143,6 +143,8 @@ function drawWeekly(avoid) {
   return S.bag.splice(Math.floor(Math.random() * S.bag.length), 1)[0]
 }
 
+// Encargos y recompensas del día son individuales: su progreso va por jugador, no por equipo.
+function dailyOf(player) { return { id: 'p:' + player.username, name: String(player.username) } }
 function teamOf(player) {
   try {
     let opt = FTBTeamsAPI.api().getManager().getTeamForPlayer(player)
@@ -382,7 +384,7 @@ function checkStats(server) {
 // ---------------------------------------------------------------- HUD y avisos (mod venturiaretos)
 // Cada 5 s se manda a cada jugador un resumen pequeño (reto semanal, recompensas del día y subasta) que el mod
 // pinta en pantalla; el jugador elige qué partes ve. Los toasts avisan de que te superan en la subasta y de
-// recompensas o encargos cumplidos por tu equipo.
+// recompensas o encargos que cumples.
 function hudState(p) {
   let now = Date.now(), name = String(p.username), team = teamOf(p), h = {}
   if (S.week && feat('semanal')) {
@@ -393,7 +395,7 @@ function hudState(p) {
       paid: !!(S.week.paid && S.week.paid[name]), pos: pos + 1, score: pos >= 0 ? rank[pos].score : 0, teams: rank.length }
   }
   if (S.bnt && feat('recompensas')) {
-    let prog = S.bnt.prog[team.id] || [0, 0, 0], done = S.bnt.done[team.id] || []
+    let prog = S.bnt.prog[dailyOf(p).id] || [0, 0, 0], done = S.bnt.done[dailyOf(p).id] || []
     h.bnt = { left: nextMidnight() - now, list: S.bnt.list.map((id, i) => {
       let b = bountyFor(id) || { name: id, icon: 'minecraft:barrier', goal: 1 }
       return { name: b.name, icon: b.icon, prog: prog[i] || 0, goal: b.goal, done: !!done[i], tier: BOUNTY_TIERS[i] }
@@ -572,6 +574,7 @@ function markSeen(p, login) {
 // (de todas las monedas del inventario, con cambio) y se devuelve si te superan. Cierra el sábado a las 20:00
 // (hora de España). El dinero ganador desaparece. a.hist guarda todas las pujas para el top 3 del tablón.
 // Encargos: tablón diario (00:00 hora de España) con 2 fáciles, 2 medios y 1 difícil. Cada equipo puede
+// Cada jugador puede
 // cumplir cada encargo una vez al día con /retos entregar <n>. Lo farmeable (farm: true) pide más cada semana.
 
 // <cajas> (lo genera config/ftbquests_build/book.py a partir de reward_tables: no editar a mano)
@@ -973,26 +976,26 @@ function deliver(p, n) {
   checkOrders(server)
   let o = S.enc.list[n - 1]
   if (!o) return ['§cEse encargo no existe: usa un número del 1 al ' + S.enc.list.length + '.']
-  let team = teamOf(p), name = String(p.username)
+  let me = dailyOf(p), name = String(p.username)
   let done = S.enc.done[n - 1] || (S.enc.done[n - 1] = [])
-  if (done.indexOf(team.id) >= 0) return ['§cTu equipo ya ha cumplido este encargo hoy.']
+  if (done.indexOf(me.id) >= 0) return ['§cYa has cumplido este encargo hoy.']
   let have = countItem(p, o.item)
   if (have < o.qty) return [line('§cTe faltan §f' + (o.qty - have) + '§c de ', itemName(o.item), '§c (llevas ' + have + '/' + o.qty + ').')]
   takeItem(p, o.item, o.qty)
-  done.push(team.id)
+  done.push(me.id)
   giveCmds(server, name, [coinCmd(orderPay(o))])
   eco('encargos', specSpurs(orderPay(o)))
   save(server)
-  toastTeam(server, team.id, '§aEncargo cumplido', '§f' + o.qty + 'x {item} §7· ' + name + ' cobra ' + specShort(orderPay(o)), o.item)
-  if (o.tier == 'dificil') announce(server, [line('§e[Retos] §bEl equipo ', teamText(team.id, team.name), ' §bha cumplido el encargo difícil del día: ', itemName(o.item, o.qty))], false)
+  toast(p, '§aEncargo cumplido', '§f' + o.qty + 'x {item} §7· cobras ' + specShort(orderPay(o)), o.item)
+  if (o.tier == 'dificil') announce(server, [line('§e[Retos] §a' + name + ' §bha cumplido el encargo difícil del día: ', itemName(o.item, o.qty))], false)
   return [line('§aEncargo cumplido: ', itemName(o.item, o.qty), '§a. Cobras §f' + orderPay(o).replace('numismatics:', '') + '§a.')]
 }
 function linesEncargos(p) {
-  let team = p ? teamOf(p) : null
+  let me = p ? dailyOf(p) : null
   let next = (madridDay(Date.now()) + 1) * DAY_MS
-  let out = ['§6=== Encargos del día ===', '§7Se renuevan en §f' + timeLeft(next - madridOffset(next) - Date.now()) + '§7. Cada equipo puede cumplir cada uno una vez.']
+  let out = ['§6=== Encargos del día ===', '§7Se renuevan en §f' + timeLeft(next - madridOffset(next) - Date.now()) + '§7. Cada jugador puede cumplir cada uno una vez.']
   S.enc.list.forEach((o, i) => {
-    let mine = team && (S.enc.done[i] || []).indexOf(team.id) >= 0
+    let mine = me && (S.enc.done[i] || []).indexOf(me.id) >= 0
     let have = p ? countItem(p, o.item) : 0
     out.push(line('§f' + (i + 1) + '. ' + orderLabel(o) + ' ', itemName(o.item, o.qty),
       ' §7→ §f' + orderPay(o).replace('numismatics:', '') + (mine ? ' §a(hecho)' : p ? ' §8(llevas ' + have + ')' : '')))
@@ -1002,8 +1005,8 @@ function linesEncargos(p) {
 }
 
 // ================================================================ cazarrecompensas
-// 3 recompensas al día (fácil, media, difícil) que se renuevan con los encargos. El progreso es por equipo y
-// cobra quien la termina. Tipos: kill (entidad, '*' = cualquier monstruo, 'boss' = jefe) con condición opcional
+// 3 recompensas al día (fácil, media, difícil) que se renuevan con los encargos. El progreso es por jugador
+// (cada uno hace las suyas). Tipos: kill (entidad, '*' = cualquier monstruo, 'boss' = jefe) con condición opcional
 // (arco, noche, elytra, nether), fish (peces pescados), dim (entrar en una dimensión) y struct (estar dentro de
 // una estructura o etiqueta de estructuras; lo comprueba el mod venturiaretos).
 const BOUNTIES = {
@@ -1065,22 +1068,22 @@ function checkBounties(server) {
   let day = madridDay(Date.now())
   if (!S.bnt || S.bnt.day != day) { newBounties(day); save(server) }
 }
-// Suma n a la recompensa i del equipo del jugador; si llega a la meta, paga al jugador y lo anuncia.
+// Suma n a la recompensa i del jugador; si llega a la meta, paga al jugador y lo anuncia.
 function bountyAdd(server, p, i, n) {
   if (!feat('recompensas')) return
   let b = bountyFor(S.bnt.list[i])
   if (!b) return
-  let team = teamOf(p), name = String(p.username)
-  let done = S.bnt.done[team.id] || (S.bnt.done[team.id] = [false, false, false])
+  let me = dailyOf(p), team = teamOf(p), name = String(p.username)
+  let done = S.bnt.done[me.id] || (S.bnt.done[me.id] = [false, false, false])
   if (done[i]) return
-  let prog = S.bnt.prog[team.id] || (S.bnt.prog[team.id] = [0, 0, 0])
+  let prog = S.bnt.prog[me.id] || (S.bnt.prog[me.id] = [0, 0, 0])
   prog[i] = Math.min(b.goal, prog[i] + n)
   if (prog[i] >= b.goal) {
     done[i] = true
     let tier = BOUNTY_TIERS[i]
     giveCmds(server, name, [coinCmd(BOUNTY_PAY[tier])])
     eco('recompensas', specSpurs(BOUNTY_PAY[tier]))
-    toastTeam(server, team.id, '§aRecompensa cumplida', '§f' + b.name + ' §7· ' + name + ' cobra ' + specShort(BOUNTY_PAY[tier]), b.icon)
+    toast(p, '§aRecompensa cumplida', '§f' + b.name + ' §7· cobras ' + specShort(BOUNTY_PAY[tier]), b.icon)
     announce(server, [line('§e[Retos] §a' + name + ' §b(', teamText(team.id, team.name), '§b) cumple la recompensa ' + ORDER_LABEL[tier] +
       ' §f' + b.name + '§b y cobra §f' + BOUNTY_PAY[tier].replace('numismatics:', '') + '§b.')], tier == 'dificil')
   }
@@ -1141,8 +1144,7 @@ function checkBountyPlayers(server) {
         else if (cur > last) bountyAdd(server, p, i, cur - last)
         return
       }
-      let team = teamOf(p)
-      if ((S.bnt.done[team.id] || [])[i]) return
+      if ((S.bnt.done[dailyOf(p).id] || [])[i]) return
       if (b.dim && String(p.level.getDimension()) == b.dim) bountyAdd(server, p, i, 1)
       if (b.struct) {
         let rn = retosNet()
@@ -1157,13 +1159,13 @@ function checkBountyPlayers(server) {
 }
 function nextMidnight() { let next = (madridDay(Date.now()) + 1) * DAY_MS; return next - madridOffset(next) }
 function linesRecompensas(p) {
-  let team = p ? teamOf(p) : null
-  let out = ['§6=== Recompensas del día ===', '§7Para tu equipo; cobra quien la termina. Se renuevan en §f' + timeLeft(nextMidnight() - Date.now()) + '§7.']
+  let me = p ? dailyOf(p) : null
+  let out = ['§6=== Recompensas del día ===', '§7Cada jugador hace las suyas. Se renuevan en §f' + timeLeft(nextMidnight() - Date.now()) + '§7.']
   S.bnt.list.forEach((id, i) => {
     let b = bountyFor(id)
     if (!b) return
-    let prog = team ? (S.bnt.prog[team.id] || [0, 0, 0])[i] : 0
-    let done = team && (S.bnt.done[team.id] || [])[i]
+    let prog = me ? (S.bnt.prog[me.id] || [0, 0, 0])[i] : 0
+    let done = me && (S.bnt.done[me.id] || [])[i]
     out.push('§f' + (i + 1) + '. ' + ORDER_LABEL[BOUNTY_TIERS[i]] + ' §f' + b.name + ' §7- ' + b.desc + ' §7→ §f' +
       BOUNTY_PAY[BOUNTY_TIERS[i]].replace('numismatics:', '') + (done ? ' §a(hecha)' : ' §8(' + prog + '/' + b.goal + ')'))
   })
@@ -1563,9 +1565,9 @@ function uiState(p, msgLines) {
   })
   st.aucHouse = S.aucHouse || ''
   if (S.enc) st.enc = { left: nextMidnight() - now, list: S.enc.list.map((o, i) => ({ tier: o.tier, item: o.item, qty: o.qty,
-    pay: specSpurs(orderPay(o)), season: o.season || null, done: (S.enc.done[i] || []).indexOf(team.id) >= 0 })) }
+    pay: specSpurs(orderPay(o)), season: o.season || null, done: (S.enc.done[i] || []).indexOf(dailyOf(p).id) >= 0 })) }
   if (S.bnt) {
-    let prog = S.bnt.prog[team.id] || [0, 0, 0], done = S.bnt.done[team.id] || []
+    let prog = S.bnt.prog[dailyOf(p).id] || [0, 0, 0], done = S.bnt.done[dailyOf(p).id] || []
     st.bnt = { left: nextMidnight() - now, list: S.bnt.list.map((id, i) => {
       let b = bountyFor(id) || { name: id, desc: '', icon: 'minecraft:barrier', goal: 1 }
       return { name: b.name, desc: b.desc, icon: b.icon, prog: prog[i] || 0, goal: b.goal, pay: specSpurs(BOUNTY_PAY[BOUNTY_TIERS[i]]),

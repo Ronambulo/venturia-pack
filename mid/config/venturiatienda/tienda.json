@@ -411,7 +411,7 @@
       "seccion": "nivel1",
       "tipo": "caja",
       "caja": "create_base_tier_1",
-      "precio": 32
+      "precio": 40
     },
     {
       "id": "s47",
@@ -607,21 +607,21 @@
       "seccion": "nivel2",
       "tipo": "caja",
       "caja": "create_tier_1",
-      "precio": 64
+      "precio": 80
     },
     {
       "id": "s67",
       "seccion": "nivel2",
       "tipo": "caja",
       "caja": "aero1",
-      "precio": 64
+      "precio": 80
     },
     {
       "id": "s68",
       "seccion": "nivel2",
       "tipo": "caja",
       "caja": "create_cannon_cartidge",
-      "precio": 64
+      "precio": 80
     },
     {
       "id": "s69",
@@ -793,28 +793,28 @@
       "seccion": "nivel3",
       "tipo": "caja",
       "caja": "create_tier_2",
-      "precio": 192
+      "precio": 240
     },
     {
       "id": "s86",
       "seccion": "nivel3",
       "tipo": "caja",
       "caja": "create_tier_3",
-      "precio": 512
+      "precio": 640
     },
     {
       "id": "s87",
       "seccion": "nivel3",
       "tipo": "caja",
       "caja": "aero2",
-      "precio": 192
+      "precio": 240
     },
     {
       "id": "apuesta1",
       "seccion": "nivel1",
       "tipo": "caja",
       "caja": "gamble_suerte",
-      "precio": 16,
+      "precio": 20,
       "nombre": "Caja de la suerte"
     },
     {
@@ -822,7 +822,7 @@
       "seccion": "nivel2",
       "tipo": "caja",
       "caja": "gamble_apostador",
-      "precio": 64,
+      "precio": 80,
       "nombre": "Caja del apostador"
     },
     {
@@ -830,7 +830,7 @@
       "seccion": "nivel3",
       "tipo": "caja",
       "caja": "gamble_todo_o_nada",
-      "precio": 512,
+      "precio": 640,
       "nombre": "Caja todo o nada"
     },
     {
@@ -1123,63 +1123,63 @@
       "seccion": "baratas",
       "tipo": "caja",
       "caja": "cheap_brotes",
-      "precio": 4
+      "precio": 5
     },
     {
       "id": "c02",
       "seccion": "baratas",
       "tipo": "caja",
       "caja": "cheap_granja",
-      "precio": 8
+      "precio": 10
     },
     {
       "id": "c03",
       "seccion": "baratas",
       "tipo": "caja",
       "caja": "cheap_comida",
-      "precio": 4
+      "precio": 5
     },
     {
       "id": "c04",
       "seccion": "baratas",
       "tipo": "caja",
       "caja": "cheap_semillas",
-      "precio": 8
+      "precio": 10
     },
     {
       "id": "c05",
       "seccion": "baratas",
       "tipo": "caja",
       "caja": "cheap_mascotas",
-      "precio": 16
+      "precio": 20
     },
     {
       "id": "c06",
       "seccion": "baratas",
       "tipo": "caja",
       "caja": "cheap_cultivos",
-      "precio": 4
+      "precio": 5
     },
     {
       "id": "c07",
       "seccion": "baratas",
       "tipo": "caja",
       "caja": "cheap_abejas",
-      "precio": 8
+      "precio": 10
     },
     {
       "id": "c08",
       "seccion": "baratas",
       "tipo": "caja",
       "caja": "cheap_combustible",
-      "precio": 8
+      "precio": 10
     },
     {
       "id": "c09",
       "seccion": "baratas",
       "tipo": "caja",
       "caja": "cheap_explorador",
-      "precio": 8
+      "precio": 10
     }
   ],
   "cajas": {

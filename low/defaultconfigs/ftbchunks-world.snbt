@@ -1,9 +1,14 @@
-# Venturia (PvP en claims ya viene activado por defecto): 500 chunks reclamados y 20 cargados por jugador
+# Venturia (PvP en claims ya viene activado por defecto): 500 chunks reclamados y 20 cargados por jugador.
+# En los claims de jugadores cualquiera puede poner y quitar bloques (kubejs/server_scripts/claims_publicos.js lo
+# mantiene así en los equipos existentes); la interacción (cofres, puertas...) sigue siendo de aliados.
 {
 	claiming: {
 		max_claimed_chunks: 500
 	}
 	force_loading: {
 		max_force_loaded_chunks: 20
+	}
+	team_prop_defaults: {
+		def_block_edit: "public"
 	}
 }

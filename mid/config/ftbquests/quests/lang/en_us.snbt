@@ -485,15 +485,15 @@
 		""
 		"&eSubastas&r (&e/retos subasta&r): tres a la semana, una barata (cierra el &amiércoles&r), una media (&aviernes&r) y una de lujo (&asábado&r), siempre a las 20:00 (hora de España). Puja con &e/retos pujar <lote 1-3> <spurs>&r o desde F9; se cobra de tus monedas con cambio y, si te superan, te lo devuelven."
 		""
-		"&eEncargos del día&r (&e/retos encargos&r): 2 fáciles, 2 medios y 1 difícil, renovados cada medianoche. Llévalos en el inventario y usa &e/retos entregar <n>&r. Lo farmeable pide más cada semana."
+		"&eEncargos del día&r (&e/retos encargos&r): 2 fáciles, 2 medios y 1 difícil, renovados cada medianoche. Llévalos en el inventario y usa &e/retos entregar <n>&r. Son &aindividuales&r: cada jugador puede cumplir cada uno una vez. Lo farmeable pide más cada semana."
 		""
-		"&eRecompensas del día&r (&e/retos recompensas&r): 3 encargos de caza para tu equipo (fácil, media y difícil): matar ciertos monstruos, pescar, visitar estructuras o dimensiones, cazar con arco, de noche o planeando... El progreso es del equipo y cobra quien la termina. Se renuevan a medianoche."
+		"&eRecompensas del día&r (&e/retos recompensas&r): 3 encargos de caza (fácil, media y difícil): matar ciertos monstruos, pescar, visitar estructuras o dimensiones, cazar con arco, de noche o planeando... Son &aindividuales&r: cada jugador hace y cobra las suyas. Se renuevan a medianoche."
 		""
 		"&eContratos entre equipos&r (&e/retos contratos&r): pide a otros equipos una cantidad de un objeto (arrástralo desde JEI al hueco) y deja el pago en depósito. Quien lo entregue entero cobra. Máximo 3 por equipo, caducan a los 7 días (se devuelve el pago) y publicar cuesta un 5 % de comisión."
 		""
 		"&eEquipo&r: crea tu equipo, invita y acepta invitaciones, asciende oficiales, cambia nombre, color y descripción, añade aliados o únete a un equipo abierto de la lista. Todo es de FTB Teams, así que el libro y las protecciones se comparten con tu equipo."
 		""
-		"&eHUD&r: en las pestañas Reto semanal, Subasta y Recompensas del día hay un botón &eHUD&r para verlas en pantalla, arriba a la izquierda, mientras juegas. &eAlt + U&r oculta o muestra todo el HUD. Además salta un aviso si te superan en la subasta o si tu equipo cumple una recompensa o un encargo."
+		"&eHUD&r: en las pestañas Reto semanal, Subasta y Recompensas del día hay un botón &eHUD&r para verlas en pantalla, arriba a la izquierda, mientras juegas. &eAlt + U&r oculta o muestra todo el HUD. Además salta un aviso si te superan en la subasta o cuando cumples una recompensa o un encargo."
 		""
 		"Si ganas algo estando desconectado, lo recibes al entrar."
 	]
@@ -636,7 +636,7 @@
 	]
 	quest.1EE3C47BA4708D14.quest_subtitle: "Let's Do Farm \\& Charm"
 	quest.1EE3C47BA4708D14.title: "Cocina de granja"
-	quest.1F34A7D65AB8CF32.quest_desc: ["Se completa al terminar el capítulo &bEl espacio&r."]
+	quest.1F34A7D65AB8CF32.quest_desc: ["Márcala al terminar el capítulo &bEl espacio&r."]
 	quest.1F34A7D65AB8CF32.quest_subtitle: "Pisa Venus"
 	quest.1F34A7D65AB8CF32.title: "Meta: el espacio"
 	quest.1F38AB9F3AAA70C7.quest_desc: ["El equipo que sueltan monstruos y cofres puede salir con &erareza&r (común, poco común, raro, épico, mítico) y &eafijos&r: bonus de daño, vida, velocidad... Pasa el ratón por encima para verlos."]
@@ -1219,7 +1219,7 @@
 	quest.432619FF98709255.quest_desc: ["A veces aparecen versiones &emutantes&r de zombis, esqueletos, creepers y endermans. Consigue uno de sus trofeos."]
 	quest.432619FF98709255.quest_subtitle: "Bichos enormes"
 	quest.432619FF98709255.title: "Mutantes"
-	quest.432718D7E34CB49F.quest_desc: ["Se completa al terminar el capítulo &aOtros mundos&r."]
+	quest.432718D7E34CB49F.quest_desc: ["Márcala al terminar el capítulo &aOtros mundos&r."]
 	quest.432718D7E34CB49F.quest_subtitle: "Explorador"
 	quest.432718D7E34CB49F.title: "Meta: otros mundos"
 	quest.434C5F2E7F537D18.quest_desc: ["Algunas piezas tienen &ehuecos&r. Cada gema da un bonus distinto según dónde se ponga (arma, armadura, herramienta...)."]
@@ -1505,7 +1505,7 @@
 		""
 		"&lQué hay dentro&r"
 		"- &eComprar&r y &eVender&r: elige la oferta y pulsa el botón; las monedas se cogen y se dan solas, con cambio."
-		"- &eCajas&r: pasa el ratón por encima para ver qué trae cada una y con qué probabilidad."
+		"- &eCajas&r: pasa el ratón por encima para ver qué trae cada una y con qué probabilidad. &cSolo se abren junto al cofre de cajas del spawn&r."
 		"- &eCambio&r: parte y junta monedas."
 		"- &eMercado&r: lo que ponen a la venta otros jugadores. Pon lo tuyo en &eMis ventas&r: te pagan aunque no estés conectado."
 		""
@@ -1581,7 +1581,7 @@
 	]
 	quest.5540EF081B5F2733.quest_subtitle: "Lee esto antes de saltar"
 	quest.5540EF081B5F2733.title: "Bienvenido al cielo"
-	quest.554A49B8466C40C9.quest_desc: ["Se completa al terminar el capítulo &cCazadores&r."]
+	quest.554A49B8466C40C9.quest_desc: ["Márcala al terminar el capítulo &cCazadores&r."]
 	quest.554A49B8466C40C9.quest_subtitle: "Jefes caídos"
 	quest.554A49B8466C40C9.title: "Meta: cazadores"
 	quest.5586D211E8EA1883.quest_desc: ["No eres el primero en volar. Busca &eaeronaves y globos abandonados&r: suelen tener cofres con piezas útiles."]
@@ -2469,6 +2469,7 @@
 	task.021F9635EB35F29A.title: "Llega a Venus"
 	task.0277F84329C867E8.title: "Algo de Cook's Collection"
 	task.034AFAD5EC712AB4.title: "He hecho una travesía larga y he vuelto"
+	task.0387E1641BB0F15E.title: "He terminado el espacio"
 	task.03CA5BFF174B846C.title: "Inspecciona un artefacto con el diagrama"
 	task.04B56648420DF62B.title: "Un lingote de netherita mejorada"
 	task.04D663AE6452B15B.title: "Una waystone"
@@ -2487,8 +2488,11 @@
 	task.09BB769B9E9B424E.title: "4 proyectiles explosivos de cualquier tipo"
 	task.0A44F0E57C159F7B.title: "He activado una waystone"
 	task.0A7EDB4617B0ADBD.title: "Una cerveza"
+	task.0AC29C01BDFB5CEF.title: "He terminado el acto 4"
 	task.0BC56352E87141FD.title: "Un pistón, rodamiento, polea o pórtico"
+	task.0BD6757822DAD4D0.title: "He terminado el acto 1"
 	task.0C0032C14B4A7AF7.title: "Algo del pantano"
+	task.0C168BE5752989B0.title: "He terminado mazmorras"
 	task.0DAD91BB6778A6E2.title: "Un panel solar, hornalla, termogenerador o magmator"
 	task.0E1A506D9CD3F699.title: "16 lingotes de hierro fundido o bronce"
 	task.0EAFE48B9A634C51.title: "Desbloquea el nivel Ascenso"
@@ -2504,6 +2508,7 @@
 	task.15E552CB1C8A75E1.title: "Mata un phantom con el cañón montado"
 	task.15E70700F4AD7FEA.title: "Apunta la mesa de navegación a más de 5000 bloques"
 	task.16244BA363CF115B.title: "Mata a Maledictus"
+	task.168C101529911CF9.title: "He terminado la historia"
 	task.174A622E63E7FE8A.title: "Una caldera de bronce, martillo de forja, horno de coque u otra máquina de bronce"
 	task.1857A58D125FC9A1.title: "Supera el portal de Frontera"
 	task.18C31B2A3288A02E.title: "Una nevera, encimera o armario"
@@ -2524,6 +2529,7 @@
 	task.2393177628D8B2BF.title: "Consigue armadura de warden"
 	task.2408C12D630B12BB.title: "Una caña de Aquaculture"
 	task.247F827023FEE3DA.title: "Una perla de portal"
+	task.249C734531DCEE5E.title: "He terminado otros mundos"
 	task.24F58A27F0C19B7B.title: "Agarra y gira un timón"
 	task.25711816F7264EDC.title: "4 semillas de uva"
 	task.25DBF58E0CE61A1B.title: "Un arma o varita mágica"
@@ -2545,6 +2551,7 @@
 	task.2E9F88C7116A7C04.title: "Vence la mazmorra de latón"
 	task.2F4F8C9A31813415.title: "Un pez de agua dulce"
 	task.30405B901658FC0F.title: "Una mesa de bolsillo"
+	task.30917600E2B07300.title: "He terminado el acto 5"
 	task.30D4FD0D68DBBF1C.title: "He marcado mi base"
 	task.310F470A141242DF.title: "32 peces crudos"
 	task.3132D2F84482519D.title: "Filete cocinado o sushi"
@@ -2553,6 +2560,7 @@
 	task.322C320665734CB3.title: "Neptunio"
 	task.3303469A6771FABC.title: "Encuentra: La fundición"
 	task.3360CECB2BA819A2.title: "Mata al Gólem Estelar"
+	task.3392E47442F466B9.title: "He terminado otros mundos"
 	task.3455EC19139B6F31.title: "Un propulsor vectorial"
 	task.35044F8C8ECD5842.title: "Monta un rodamiento de hélice"
 	task.353E62558C50BAB9.title: "Encuentra una aeronave abandonada"
@@ -2583,6 +2591,7 @@
 	task.3E21BD22181EC9D2.title: "Enciende el motor"
 	task.3E3DF33C2720DA50.title: "Construye un motor de grieta"
 	task.3FED5A68EF66FE93.title: "Un rodamiento giroscópico o una hélice inteligente"
+	task.3FF53A4299217BD3.title: "He terminado el acto 2"
 	task.3FFF71286C525146.title: "Un plato del End"
 	task.40A24BFAE3409EFC.title: "2 aspersores"
 	task.40B175A08A8921D9.title: "Una fuente de rotación"
@@ -2649,6 +2658,7 @@
 	task.5D20D6F59D7D780B.title: "Un cargador de chunks"
 	task.5D30DB2A90247962.title: "Llega a la órbita de la Tierra"
 	task.5D866CD6C4F1DFC8.title: "Encuentra: Asilo de la peste"
+	task.5E03CABFE3C746C2.title: "He terminado cazadores"
 	task.5E48BFC0FC7E6EE5.title: "4 de algodón pólvora o nitropólvora"
 	task.5E4B383F2C5E519F.title: "He elegido isla"
 	task.5E5275CF8914CF2B.title: "Fabrica un pico de piedra"
@@ -2666,6 +2676,7 @@
 	task.685BE30992E52FC8.title: "Coloca una mesa de navegación"
 	task.69246C03F7E841F0.title: "Encuentra: Complejo minero"
 	task.69C57D42BBA87E10.title: "Encuentra: El faro"
+	task.6AA6C1E288BB19F6.title: "He terminado el espacio"
 	task.6B4F59586CEA329E.title: "Desbloquea el nivel Frontera"
 	task.6B58467D95FB08B5.title: "Cumple todos los deseos de la reina"
 	task.6BBD8FB5B94C3885.title: "Un taladro"
@@ -2686,6 +2697,7 @@
 	task.74F3DC9070AC1F83.title: "4 esencias"
 	task.750A933462389827.title: "El End"
 	task.758825F268C8CFBB.title: "Un pez de agua fría"
+	task.75C5CEDA840FAB82.title: "He terminado cazadores"
 	task.75DCAB24E7F21CCF.title: "Salta 2000 bloques de una vez"
 	task.76313DACF333344C.title: "Encuentra: El aviario"
 	task.7650D71B0F383A7B.title: "Un anillo, amuleto o cinturón"

@@ -1,12 +1,12 @@
 name = "Venturia (High)"
 author = "Ronam"
-version = "1.0.0"
+version = "1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "0a8edf4b041bfc8a36cb5f11bb7f48efe84fac5dc77f8f8caaae516169286828"
+hash = "10b4baca933d724fb0598a97e9c7f03be51572b2a840b34a0e1e6fe665f0d529"
 
 [versions]
 minecraft = "1.21.1"

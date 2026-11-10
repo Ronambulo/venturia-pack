@@ -338,6 +338,10 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
+			tasks: [{
+				id: "0AC29C01BDFB5CEF"
+				type: "checkmark"
+			}]
 			x: 15.0d
 			y: 0.0d
 		}
