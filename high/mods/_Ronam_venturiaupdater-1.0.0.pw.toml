@@ -3,6 +3,6 @@ filename = "[Ronam]venturiaupdater-1.0.0.jar"
 side = "client"
 
 [download]
-url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/b384cdfcae12df0fc5395487ab2cb0801e6934d2.jar"
+url = "https://raw.githubusercontent.com/Ronambulo/venturia-pack/main/blobs/aaa49787560a931690794ad0238cb152a1369376.jar"
 hash-format = "sha1"
-hash = "b384cdfcae12df0fc5395487ab2cb0801e6934d2"
+hash = "aaa49787560a931690794ad0238cb152a1369376"
