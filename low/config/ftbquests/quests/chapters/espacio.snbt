@@ -62,7 +62,7 @@
 		{
 			dependencies: ["163249402B930F75"]
 			icon: {
-				id: "creatingspace:liquid_oxygen_bucket"
+				id: "creatingspace:cryogenic_tank"
 			}
 			id: "025088ED5226218B"
 			rewards: [
@@ -82,13 +82,7 @@
 			}
 			{
 				id: "66CF61228BC9D2E8"
-				item: { count: 1, id: "creatingspace:liquid_oxygen_bucket" }
-				type: "item"
-			}
-			{
-				icon: { count: 1, id: "creatingspace:liquid_hydrogen_bucket" }
-				id: "3D49857CD608B233"
-				item: { components: { "ftbfiltersystem:filter": "or(item(creatingspace:liquid_hydrogen_bucket)item(creatingspace:liquid_methane_bucket))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { count: 1, id: "creatingspace:cryogenic_tank" }
 				type: "item"
 			}
 			]
@@ -305,9 +299,8 @@
 			optional: true
 			rewards: [
 			{
-				count: 2
 				id: "0A7B4E7B8EDF231A"
-				item: { count: 1, id: "creatingspace:liquid_oxygen_bucket" }
+				item: { count: 1, id: "creatingspace:cryogenic_tank" }
 				type: "item"
 			}
 			]

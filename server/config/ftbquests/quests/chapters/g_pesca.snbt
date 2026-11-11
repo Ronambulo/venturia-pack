@@ -71,7 +71,7 @@
 			tasks: [{
 				icon: { count: 1, id: "aquaculture:iron_hook" }
 				id: "42A40052873C381A"
-				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:iron_hook)item(aquaculture:gold_hook)item(aquaculture:diamond_hook)item(aquaculture:light_hook)item(aquaculture:heavy_hook)item(aquaculture:double_hook)item(aquaculture:redstone_hook)item(aquaculture:note_hook)item(aquaculture:glowstone_hook)item(aquaculture:quartz_hook)item(aquaculture:soul_sand_hook)item(aquaculture:obsidian_hook)item(aquaculture:double_obsidian_hook)item(aquaculture:obsidian_note_hook)item(aquaculture:nether_star_hook))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:iron_hook)item(aquaculture:gold_hook)item(aquaculture:diamond_hook)item(aquaculture:light_hook)item(aquaculture:heavy_hook)item(aquaculture:double_hook)item(aquaculture:redstone_hook)item(aquaculture:note_hook)item(aquaculture:nether_star_hook))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 7.0d

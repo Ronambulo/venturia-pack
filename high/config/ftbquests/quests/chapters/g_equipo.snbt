@@ -108,7 +108,7 @@
 			tasks: [{
 				icon: { count: 1, id: "gateways:gate_pearl" }
 				id: "247F827023FEE3DA"
-				item: { components: { "ftbfiltersystem:filter": "or(item(gateways:gate_pearl)item(gateways:gate_pearl_med)item(gateways:gate_pearl_large))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(gateways:gate_pearl))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 7.5d

@@ -882,9 +882,6 @@
 	]
 	quest.2BFD2302B3116F92.quest_subtitle: "Herramientas de forja"
 	quest.2BFD2302B3116F92.title: "Sellos"
-	quest.2C22F01AA0F88774.quest_desc: ["Además de seguir rutas, el &eTranspondedor avanzado&r saca por redstone hacia dónde quiere ir la nave (subir, norte/sur, este/oeste) y cuándo atraca. Úsalo para mover propulsores o abrir compuertas."]
-	quest.2C22F01AA0F88774.quest_subtitle: "Para ingenieros"
-	quest.2C22F01AA0F88774.title: "Transpondedor avanzado"
 	quest.2CB728030B6F71A3.quest_desc: ["Pon &ecuerda&r encima de una tomatera: crecerá hacia arriba y dará mucho más."]
 	quest.2CB728030B6F71A3.quest_subtitle: "Hacia arriba"
 	quest.2CB728030B6F71A3.title: "Tomates en cuerda"
@@ -1748,7 +1745,7 @@
 	quest.5DE78993A18FC04F.quest_desc: ["Las &ealas&r dan sustentación cuando la nave avanza. Hornéalas para tener &ealas templadas&r, o córtalas en &ealas copycat&r para darles la forma que quieras."]
 	quest.5DE78993A18FC04F.quest_subtitle: "Sustentación"
 	quest.5DE78993A18FC04F.title: "Alas"
-	quest.5E4372D709CD5803.quest_desc: ["La &ellave rúnica&r configura las máquinas de Ars Technica igual que la llave inglesa de Create."]
+	quest.5E4372D709CD5803.quest_desc: ["La &ellave rúnica&r configura las máquinas de Ars Technica igual que la llave inglesa de Create.", "", "Pon una &eLlave inglesa&r de Create en el &eAparato de encantamiento&r con un &elingote de oro&r, un &eMecanismo de precisión calibrado&r y &eEsencia de manipulación&r (500 de fuente)."]
 	quest.5E4372D709CD5803.quest_subtitle: "Ajustar máquinas mágicas"
 	quest.5E4372D709CD5803.title: "Llave rúnica"
 	quest.5E4A9B454D85D4F0.quest_desc: ["&e6 jefes&r han caído ante vosotros. Nada en este mundo os da miedo."]
@@ -2585,7 +2582,6 @@
 	task.3C3D688BD19929BF.title: "2 propulsores"
 	task.3C421FF21CF855D8.title: "Mata al Guardián Olvidado"
 	task.3D46219C7E228781.title: "He reclamado mi isla"
-	task.3D49857CD608B233.title: "Un cubo de hidrógeno o metano líquido"
 	task.3DA9216A80B80712.title: "Un fogón o una hoguera"
 	task.3DD8C8F9535F807D.title: "Eternal Starlight"
 	task.3E21BD22181EC9D2.title: "Enciende el motor"

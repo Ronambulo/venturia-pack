@@ -472,7 +472,7 @@
 			tasks: [{
 				icon: { count: 1, id: "mynethersdelight:nether_bricks_stove" }
 				id: "672FC094365BFEC1"
-				item: { components: { "ftbfiltersystem:filter": "or(item(mynethersdelight:nether_bricks_stove)item(mynethersdelight:blazier)item(mynethersdelight:blackstone_cooking_pot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(mynethersdelight:nether_bricks_stove)item(mynethersdelight:nether_bricks_soul_stove)item(mynethersdelight:blazier))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 2.5d

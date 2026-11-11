@@ -2830,7 +2830,7 @@ hash = "9f0ada5a7f0193d2d717d1c1736f545f5235c2597213731493b97488617ebbf2"
 
 [[files]]
 file = "config/fancymenu/customization/fm_venturia.txt"
-hash = "8d0e42bc5a8672af0df98b8f5491926cd00647c42d88fef1ad8a1f15f99e2b14"
+hash = "99330aeb95c1bb4ed5a8d8b393bf286e32428cc287724509f51320139d5e1ca5"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -3074,7 +3074,7 @@ hash = "5d35b09aaef8918958762ffcc61a79b1aa1b859f5efe4c448d33b3df48930110"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/espacio.snbt"
-hash = "9020cc6a6dab9820271bf7aa430e9324a942ce2b5689002783896bcbf8e183bc"
+hash = "e4a4182bafc204a263117b748d8a58efec7067a4d0495b5cbe0ea2542ca0cdfe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/g_apotheosis.snbt"
@@ -3086,7 +3086,7 @@ hash = "792dc9301d7f21f97548b2e803cea040c7199abb7348e7b584439f811e4942c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/g_cocina.snbt"
-hash = "40691779396f7eabe9afb5fef4d359411ac1c0fc4ba74995a5b19ae31ab21ae5"
+hash = "d325c292dafcfef60fffb1c930857c56434013366cfe2fe41b12e655b91df50a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/g_create.snbt"
@@ -3098,23 +3098,23 @@ hash = "5a07aead20ce773b12ea93889e29aa2c6016490d09b2d14320bd09be256dfd6b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/g_equipo.snbt"
-hash = "b90fbf7e4d168bbf06fa4ece3139a19ed09af60f76f86a918be8daa23e463827"
+hash = "2b638e154699a8a1a72e29d84bddc14c604b614a371943779db03e3a4eb557c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/g_farmers.snbt"
-hash = "8ed13d1a5b1986375db4dabf0c673d78d1304c7e6668c81c7f14fdcc437e570b"
+hash = "016ac5d46cbac2596b8e5d2ff55c36cb12d3c9f3e0fc062084ed9638ea4d138a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/g_granja.snbt"
-hash = "fb82431bf5c0fb892eebfebcaf8c8b69d9ca4e8474292e4b594af23799cd7eea"
+hash = "fd1ca2fca9346233cd4a495c72a51f404869fc3f0abda7cfa8da8531b4b0305c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/g_logistica.snbt"
-hash = "9af7be075e068a9b2b69dd3a53aa95986cc1ebb40ab10bb5d20b9d266c8d761d"
+hash = "2c2953842f19d7d8816a743aceadc3861be19604898154d33c153acc118c7b1e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/g_magia.snbt"
-hash = "f726b58854e93fba287493a8e5c9e774a3c0debf8f630bb512175a35657c28e3"
+hash = "eddc9471b1459ba0db1452a581a13423b57b2adefeb2e22d5415341ed23a4780"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/g_naves.snbt"
@@ -3122,7 +3122,7 @@ hash = "ee70a730e5bf43e65e3471c99dcaf7255f2b01ffd9e04d168ea6a723d4ba0f39"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/g_pesca.snbt"
-hash = "778e851eb71b8b51d15ddb17cbeb87ba4da951b2f2565457ca33124360d0ccfb"
+hash = "75575ce563b429d2f386f62a0d3a1a53e566f041ad81b7078fc554f91bc1455f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/g_utilidades.snbt"
@@ -3150,11 +3150,11 @@ hash = "91f706b09bc16ce969eaf86493232d163e78aa6c2160cc114af21ee6d9710843"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "b1d9997060ded30c92e09434df25cf3764615cc383774a4eab344bd3958bcde4"
+hash = "aeeedba97fb5fb91dd4a1f2409356ce5b59045857c3a474d19efaf287303baf1"
 
 [[files]]
 file = "config/ftbquests/quests/lang/es_es.snbt"
-hash = "b1d9997060ded30c92e09434df25cf3764615cc383774a4eab344bd3958bcde4"
+hash = "aeeedba97fb5fb91dd4a1f2409356ce5b59045857c3a474d19efaf287303baf1"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/aero1.snbt"
@@ -4225,7 +4225,7 @@ hash = "1f09ddeb7043f4c0517dcb353ca4a808576c2cddde277c1bbbf9bf52235383bf"
 
 [[files]]
 file = "config/venturia-version.txt"
-hash = "5dae0c0a5ed3cdaa78704e25bb38d72c31018311e933283d06ed4f93360bfc6c"
+hash = "2bde3ae39f59ee21201f87089cf7d215cf58ea437711e3d8e3e65fbc3078c798"
 
 [[files]]
 file = "config/venturia_aracnofobia.txt"
@@ -4237,7 +4237,7 @@ hash = "efcd06c029945899980d1852e5d69681984d8d52437edc1a79bb5918d1fa2b34"
 
 [[files]]
 file = "config/venturiatienda/tienda.json"
-hash = "fa9fb84a1a85de0abf6f1875cdcfa8255868e4acb4570a41b3ae9b1f92dc3506"
+hash = "5d013fd5f1042219c885ed0d850a21afa80fc2a39fe42cae5eb69b877af52230"
 
 [[files]]
 file = "config/vinery.toml"
@@ -4624,6 +4624,10 @@ hash = "dae099ae3be7f033c0c190ee8c3b023b42f6b235d9d0591be5926e8435dbd67f"
 [[files]]
 file = "kubejs/server_scripts/no_banks.js"
 hash = "584f8a3349d70d020a967d77938cca7a5942b1b965b4ce3e311eb91a72313d22"
+
+[[files]]
+file = "kubejs/server_scripts/recetas_fix.js"
+hash = "ab77b28a9b7b3abe96ef823cdfad056a4b4e6cce772db76b7ce728f73d4582e8"
 
 [[files]]
 file = "kubejs/server_scripts/retos.js"
@@ -5166,7 +5170,7 @@ metafile = true
 
 [[files]]
 file = "mods/_Ronam_venturiaretos-1.0.0.pw.toml"
-hash = "37e15c21c9d8b61d3ac5e7da2eeb353092708fba4e1ceaa8a408f98691182f4a"
+hash = "b718a1dc545fa160a33b64c8d34cb71b103e6235fb2d55b8bbb321ff2f0fc938"
 metafile = true
 
 [[files]]
@@ -5417,6 +5421,11 @@ metafile = true
 [[files]]
 file = "mods/chineseflyingislandtower-1.1.0-neoforge-1.21.1.pw.toml"
 hash = "9793d0c15f1693ab7241c6949c680838909d7837768eaa2bba8b738c6ae904d3"
+metafile = true
+
+[[files]]
+file = "mods/chipped-neoforge-1.21.1-4.0.2.pw.toml"
+hash = "4e2cfaa334e0f274d723a15bd8b7b7fd633bfc4066209da0265e9a47a3fa503d"
 metafile = true
 
 [[files]]

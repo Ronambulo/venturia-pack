@@ -797,7 +797,8 @@
 		{
 			dependencies: ["41065267FB59AE0D"]
 			icon: {
-				id: "ars_technica:runic_spanner"
+				components: { "ars_technica:runic_wrench": 1b }
+				id: "create:wrench"
 			}
 			id: "5E4372D709CD5803"
 			optional: true
@@ -810,10 +811,10 @@
 			]
 			shape: "gear"
 			tasks: [{
-				advancement: "ars_nouveau:runic_spanner"
-				criterion: ""
 				id: "4DB88923B353F974"
-				type: "advancement"
+				item: { components: { "ars_technica:runic_wrench": 1b }, count: 1, id: "create:wrench" }
+				match_components: "fuzzy"
+				type: "item"
 			}]
 			x: 11.5d
 			y: 6.0d

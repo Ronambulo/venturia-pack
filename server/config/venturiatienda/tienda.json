@@ -1678,9 +1678,114 @@
       "tiradas": 1,
       "filas": [
         {
-          "objeto": "createaddition:alternator",
+          "objeto": "create:precision_mechanism",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:precision_mechanism",
+          "cantidad": 8,
+          "peso": 0.5
+        },
+        {
+          "objeto": "create:mechanical_arm",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:mechanical_crafter",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:deployer",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:rotation_speed_controller",
           "cantidad": 1,
           "peso": 1.0
+        },
+        {
+          "objeto": "create:sequenced_gearshift",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:smart_chute",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:portable_storage_interface",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:display_link",
+          "cantidad": 2,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:display_board",
+          "cantidad": 8,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:electron_tube",
+          "cantidad": 8,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:sturdy_sheet",
+          "cantidad": 8,
+          "peso": 0.8
+        },
+        {
+          "objeto": "create:factory_gauge",
+          "cantidad": 4,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:repackager",
+          "cantidad": 1,
+          "peso": 1.0
+        },
+        {
+          "objeto": "create:linked_controller",
+          "cantidad": 1,
+          "peso": 0.8
+        },
+        {
+          "objeto": "create:steam_engine",
+          "cantidad": 2,
+          "peso": 0.8
+        },
+        {
+          "objeto": "create:blaze_burner",
+          "cantidad": 1,
+          "peso": 0.8
+        },
+        {
+          "objeto": "create:crushing_wheel",
+          "cantidad": 2,
+          "peso": 0.6
+        },
+        {
+          "objeto": "create:extendo_grip",
+          "cantidad": 1,
+          "peso": 0.5
+        },
+        {
+          "objeto": "create:potato_cannon",
+          "cantidad": 1,
+          "peso": 0.5
+        },
+        {
+          "objeto": "create:wand_of_symmetry",
+          "cantidad": 1,
+          "peso": 0.3
         },
         {
           "objeto": "createaddition:electric_motor",
@@ -1688,9 +1793,29 @@
           "peso": 1.0
         },
         {
-          "objeto": "minecraft:netherite_ingot",
-          "cantidad": 4,
-          "peso": 1.0
+          "objeto": "createaddition:alternator",
+          "cantidad": 2,
+          "peso": 0.8
+        },
+        {
+          "objeto": "createaddition:modular_accumulator",
+          "cantidad": 2,
+          "peso": 0.8
+        },
+        {
+          "objeto": "createaddition:tesla_coil",
+          "cantidad": 1,
+          "peso": 0.6
+        },
+        {
+          "objeto": "create:brass_ingot",
+          "cantidad": 64,
+          "peso": 0.3
+        },
+        {
+          "objeto": "create:brass_block",
+          "cantidad": 16,
+          "peso": 0.15
         }
       ],
       "estilo": "oro"

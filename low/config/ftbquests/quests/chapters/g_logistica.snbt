@@ -98,29 +98,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5BADA7CD4DA2D045"]
-			icon: {
-				id: "create_aeronautics_automated_logistics:advanced_transponder"
-			}
-			id: "2C22F01AA0F88774"
-			optional: true
-			rewards: [
-			{
-				id: "19633D0CABDA0D3C"
-				type: "xp"
-				xp: 200
-			}
-			]
-			shape: "gear"
-			tasks: [{
-				id: "3E99F383B8BDAD90"
-				item: { count: 1, id: "create_aeronautics_automated_logistics:advanced_transponder" }
-				type: "item"
-			}]
-			x: 5.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["2DDD77CCFEE53729"]
 			icon: {
 				id: "create_hypertube:hypertube_entrance"

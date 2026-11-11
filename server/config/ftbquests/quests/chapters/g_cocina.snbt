@@ -96,7 +96,7 @@
 			{
 				icon: { count: 1, id: "bakery:baguette" }
 				id: "7859ADD4D682E4BD"
-				item: { components: { "ftbfiltersystem:filter": "or(item(bakery:baguette)item(bakery:croissant)item(bakery:braided_bread)item(bakery:crusty_bread)item(bakery:bun)item(bakery:toast)item(bakery:milk_bread))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(bakery:baguette)item(bakery:croissant)item(bakery:braided_bread)item(bakery:crusty_bread)item(bakery:bun)item(bakery:toast))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}
 			]
